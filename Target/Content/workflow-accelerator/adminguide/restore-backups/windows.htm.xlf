@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="windows.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="windows.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">6</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-title"
+        phase-name="pretrans"><source>Windows</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Windows</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Windows</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Windows</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Windows</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Windows</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The mongorestore.exe can be found in your MongoDB installation
+directory:
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$MONGO_HOME\bin\mongorestore.exe<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. If you
+followed the instructions in this guide to setup the database, you can
+execute the following command on the command line:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The mongorestore.exe can be found in your MongoDB installation directory: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$MONGO_HOME\bin\mongorestore.exe<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If you followed the instructions in this guide to setup the database, you can execute the following command on the command line:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Die Datei mongorestore.exe kann im MongoDB Installationsverzeichnis, also unter <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$MONGO_HOME\\bin\\mongorestore.exe<ept
+              id="1">&lt;/kbd&gt;</ept> gefunden werden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Falls Sie der Installationsbeschreibung in diesem Handbuch gefolgt sind, lässt sich das Backup wie folgt einspielen:</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Replace the user credentials with the ones you have chosen during
+the setup and the directory with the one where you store your
+backups.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Replace the user credentials with the ones you have chosen during the setup and the directory with the one where you store your backups.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Der Ort der MongoDB-Installation muss gegebenenfalls angepasst werden. Der Parameter –u beschreibt den Nutzernamen, der Parameter –p das Passwort.Passen Sie zudem den Pfad zu Ihrem Backup an.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

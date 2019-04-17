@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="intro.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="intro.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">7</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Installation</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Installation</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Installation</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The following chapter provides step-by-step instructions on how to
+install Signavio Process Manager. You need to have the ZIP archive
+available that contains Signavio Process Manager's installation files,
+as well as a license file.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The following chapter provides step-by-step instructions on how to install Signavio Process Manager.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You need to have the ZIP archive available that contains Signavio Process Manager's installation files, as well as a license file.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Dieses Kapitel beschreibt die Installation des Signavio Process Managers.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Voraussetzung ist, dass Sie über die Installationsdateien des Signavio Process Managers als ZIP-Archiv sowie Ihre Lizenzdatei verfügen.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In the installation instructions, the term
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    is used in command line statements to denote the path to the Apache
+Tomcat instance which should point to the directory above the
+    <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>bin<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    and
+    <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>webapps<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    directories and which runs
+the Signavio Process Manager web application. To be able run the
+commands right away after copying &amp; pasting them, you can set a
+corresponding environment variable.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In the installation instructions, the term <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> is used in command line statements to denote the path to the Apache Tomcat instance which should point to the directory above the <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>bin<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>webapps<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> directories and which runs the Signavio Process Manager web application.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">To be able run the commands right away after copying &amp; pasting them, you can set a corresponding environment variable.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

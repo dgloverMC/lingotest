@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+    <Variable Comment="" Name="CompanyName" EvaluatedDefinition="Signavio GmbH">砻קยด1ตว融</Variable>
+    <Variable Comment="" Name="PhoneNumber" EvaluatedDefinition="030 / 856 21 54 - 21">砻קยด2ตว融</Variable>
+    <Variable Name="Home" Comment="" EvaluatedDefinition="signavio.com">砻קยด3ตว融</Variable>
+    <Variable Name="StreetAddress" Comment="" EvaluatedDefinition="Kurfürstenstraße 111">砻קยด4ตว融</Variable>
+    <Variable Name="CityStateZip" Comment="" EvaluatedDefinition="10787 Berlin">砻קยด5ตว融</Variable>
+    <Variable Name="Mail" Comment="" EvaluatedDefinition="support@signavio.com">砻קยด6ตว融</Variable>
+    <Variable Name="Twitter" Comment="" EvaluatedDefinition="http://www.twitter.com/signavio">砻קยด7ตว融</Variable>
+    <Variable Name="Youtube" Comment="" EvaluatedDefinition="http://www.youtube.com/signavio">砻קยด8ตว融</Variable>
+    <Variable Name="Copyright" Comment="" EvaluatedDefinition="© Copyright 2019, Signavio GmbH">砻קยด9ตว融</Variable>
+</CatapultVariableSet>

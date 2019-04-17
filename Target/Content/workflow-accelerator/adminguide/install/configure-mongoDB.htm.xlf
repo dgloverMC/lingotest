@@ -1,0 +1,1252 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="in-progress">
+  <file
+    xml:space="preserve"
+    original="configure-mongoDB.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="configure-mongoDB.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">119</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Configuring MongoDB</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configuring MongoDB</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">MongoDB konfigurieren</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In order to run MongoDB properly, some configuration options have to
+be defined. The easiest solution is to create a configuration file and
+link this configuration file when starting MongoDB with the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>--config<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   option. The MongoDB configuration uses the
+   <bpt
+            id="2"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://yaml.org" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    YAML
+   <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>
+   format, you can use an online
+checker like
+   <bpt
+            id="3"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://www.yamllint.com/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    YAML Lint
+   <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>
+   to verify
+that your configuration file has the proper format.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In order to run MongoDB properly, some configuration options have to be defined.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The easiest solution is to create a configuration file and link this configuration file when starting MongoDB with the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>--config<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> option.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The MongoDB configuration uses the <bpt
+              id="2"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://yaml.org" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> YAML <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> format, you can use an online checker like <bpt
+              id="3"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://www.yamllint.com/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> YAML Lint <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> to verify that your configuration file has the proper format.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Um MongoDB ordnungsgemäß auszuführen, müssen einige Konfigurationseinstellungen gesetzt werden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Der einfachste Weg die Konfiguration vorzunehmen, ist eine Konfigurationsdatei zu erstellen und diese beim Starten von MongoDB über die <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>--config<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> Option zu verlinken.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Die MongoDB Konfiguration nutzt das <bpt
+              id="2"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://yaml.org" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> YAML <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>- Format.Sie können einen Online Checker wie <bpt
+              id="3"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://www.yamllint.com/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> YAML Lint <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> verwenden, um das Format Ihrer Konfigurationsdatei zu überprüfen.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you installed MongoDB under Windows using the method in the last
+section, you have already copied the predefined configuration file and
+adjusted the values for <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>dbPath<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>systemLog path<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   to your system. Then your configuration file already
+contains all necessary values.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you installed MongoDB under Windows using the method in the last section, you have already copied the predefined configuration file and adjusted the values for <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>dbPath<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>systemLog path<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> to your system.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Then your configuration file already contains all necessary values.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="75"
+            MadCap:diff="ContentChanged" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /></target><alt-trans
+          match-quality="75"
+          origin="previous-version"><seg-source>If you installed MongoDB under Windows using the method in the last section, you have already copied the predefined configuration file and adjusted the values for <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>dbPath<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>systemLog path<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> to your system. Then your configuration file already contains all necessary values.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Falls Sie MongoDB unter Windows wie oben beschrieben installiert haben, haben Sie bereits eine Konfigurationsdatei erstellt und die Werte für  <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>dbPath<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> und <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>systemLog path<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>angepasst, sodass sie die richtigen Werte enthält.</target></alt-trans></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you installed MongoDB under Linux using <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>apt-get<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>,
+e.g. by following the instructions in the last section, there should be
+a <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/etc/mongod.conf<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   configuration file. Edit this
+configuration file. The <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>dbPath<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>systemLog path<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   properties should already be defined. We recommend
+that you set the <bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>logAppend<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> property to <bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>true<ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and the <bpt
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>authorization<ept
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> property to <bpt
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>enabled<ept
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you installed MongoDB under Linux using <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>apt-get<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, e.g. by following the instructions in the last section, there should be a <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/etc/mongod.conf<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> configuration file.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Edit this configuration file.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>dbPath<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>systemLog path<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> properties should already be defined.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">We recommend that you set the <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>logAppend<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> property to <bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>true<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and the <bpt
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>authorization<ept
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> property to <bpt
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>enabled<ept
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Falls Sie MongoDB unter Linux wie oben beschrieben mit <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>apt-get<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> installiert haben, befindet sich eine Konfigurationsdatei unter <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/etc/mongod.conf<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Bearbeiten Sie diese Datei.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Die Werte für <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>dbPath<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> und <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>systemLog path<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> sollten bereits korrekt definiert sein.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wir empfehlen die Variablen <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>logAppend<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> auf <bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>true<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> und <bpt
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>authorization<ept
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> auf <bpt
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>enabled<ept
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> zu setzen.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In any other case make sure the configuration file contains the
+following properties:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In any other case make sure the configuration file contains the following properties:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Stellen Sie im Falle einer abweichenden Installationsprozedur sicher, dass die folgenden Einträge korrekt gesetzt sind:</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>dbPath</source><seg-source><mrk
+            mtype="seg"
+            mid="1">dbPath</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">dbPath</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Defines the directory where the database files are stored.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines the directory where the database files are stored.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Definiert das Verzeichnis, in dem die Daten gespeichert werden.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>path</source><seg-source><mrk
+            mtype="seg"
+            mid="1">path</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">path</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Defines the file that will contain the logging output.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines the file that will contain the logging output.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Definiert das Logverzeichnis.</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>logAppend</source><seg-source><mrk
+            mtype="seg"
+            mid="1">logAppend</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">logAppend</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Indicates that new logs will be appended to an existing log file
+after restarting the server, if set to true.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Indicates that new logs will be appended to an existing log file after restarting the server, if set to true.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Falls auf “true” gesetzt, werden nach einem Neustart von MongoDB die neuen Logeinträge falls möglich an ein bereits bestehendes Logfile angefügt.</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>authorization</source><seg-source><mrk
+            mtype="seg"
+            mid="1">authorization</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">authorization</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>(optional) Turns authentication on, if set to
+      <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>enabled<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.
+It is advised to turn authentication on in case the MongoDB instance
+can be accessed over the network.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">(optional) Turns authentication on, if set to <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>enabled<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">It is advised to turn authentication on in case the MongoDB instance can be accessed over the network.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="64"
+            MadCap:diff="ContentChanged" /></target><alt-trans
+          mid="2"
+          match-quality="64"
+          origin="previous-version"><seg-source>(optional) Turns authentication on, if set to <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>enabled<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. It is advised to turn authentication on in case the MongoDB instance can be accessed over the network.</seg-source><target
+            MadCap:segmentStatus="Untranslated">(optional) Aktiviert Authentifizierung, falls auf <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>enabled<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> gesetzt. Dieser Parameter sollte unbedingt auf <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>enabled<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>gesetzt werden, falls es möglich ist, auf MongoDB über ein Netzwerk zuzugreifen.</target></alt-trans></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you have installed MongoDB on Debian using a package manager, the
+default configuration file will probably contain the following entry: <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>net: bindIp: 127.0.0.1<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+        
+   This setting tells MongoDB to only bind to the local interface and
+reject remote connections. If you plan to install MongoDB and Tomcat on
+different machines, you must update this setting and either remove it
+or add the IP interface MongoDB should bind to, in order to listen for
+incoming connections. This value can contain a comma separated list of
+IPs and should NOT contain the IP address of the application
+server.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you have installed MongoDB on Debian using a package manager, the default configuration file will probably contain the following entry: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>net: bindIp: 127.0.0.1<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> This setting tells MongoDB to only bind to the local interface and reject remote connections.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If you plan to install MongoDB and Tomcat on different machines, you must update this setting and either remove it or add the IP interface MongoDB should bind to, in order to listen for incoming connections.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">This value can contain a comma separated list of IPs and should NOT contain the IP address of the application server.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="63"
+            MadCap:diff="ContentChanged" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Wenn Sie vorhaben MongoDB und Tomcat auf verschiedenen Maschinen zu installieren, müssen Sie diese Einstellung anpassen und sie entweder entfernen oder die IP-Schnittstelle angeben, auf welche sich die MongoDB verbinden soll, um eingehende Verbindungen entgegen zu nehmen.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Dieser Wert kann eine kommagetrennte Liste von IPs enthalten und sollte NICHT die IP des Anwendungsservers enthalten.</mrk></target><alt-trans
+          match-quality="63"
+          origin="previous-version"><seg-source>If you have installed MongoDB on Debian using a package manager, the default configuration file will probably contain the following entry: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>net: bindIp: 127.0.0.1<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></seg-source><target
+            MadCap:segmentStatus="Untranslated">Wenn Sie MongoDB auf Debian über einen Paketmanager installiert haben, wird die Standardkonfigurationsdatei wahrscheinlich den folgenden Eintrag enthalten: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>net: bindIp: 127.0.0.1<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></target></alt-trans></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>For more configuration options, see
+<bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.mongodb.com/manual/reference/configuration-options/" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</bpt>https://docs.mongodb.com/manual/reference/configuration-options\
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">For more configuration options, see <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.mongodb.com/manual/reference/configuration-options/" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="2">https://docs.mongodb.com/manual/reference/configuration-options\ <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Weitere Konfigurationsoptionen können Sie entsprechend der folgenden Dokumentation setzen: <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.mongodb.com/manual/reference/configuration-options/" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">https://docs.mongodb.com/manual/reference/configuration-options\ <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>
+   Add a database user for Workflow Accelerator</source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">Add a database user for Workflow Accelerator</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Einen Datenbanknutzer für Workflow Accelerator hinzufügen</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Workflow Accelerator requires a MongoDB user in the admin database
+that has the following roles:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Workflow Accelerator requires a MongoDB user in the admin database that has the following roles:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Workflow Accelerator benötigt einen MongoDB-Nutzer, der in der Administrationsdatenbank die folgenden Rollen innehat:</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>dbAdminAnyDatabase</source><seg-source><mrk
+            mtype="seg"
+            mid="1">dbAdminAnyDatabase</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">dbAdminAnyDatabase</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>readWriteAnyDatabase</source><seg-source><mrk
+            mtype="seg"
+            mid="1">readWriteAnyDatabase</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">readWriteAnyDatabase</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>clusterAdmin</source><seg-source><mrk
+            mtype="seg"
+            mid="1">clusterAdmin</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">clusterAdmin</mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>This role will allow you to list all databases. This becomes
+necessary if you plan on using the user credentials when editing any
+database content with a tool like Robomongo. Furthermore, it is
+necessary for creating backups.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">This role will allow you to list all databases.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">This becomes necessary if you plan on using the user credentials when editing any database content with a tool like Robomongo.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Furthermore, it is necessary for creating backups.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Diese Rolle erlaubt es, alle Datenbanken aufzuführen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Dies ist notwendig für Backups und falls ein Tool wie Robomongo für den Zugriff auf mehrere Datenbanken genutzt werden soll.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Diese Rolle wird für Backups benötigt.</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>userAdminAnyDatabase</source><seg-source><mrk
+            mtype="seg"
+            mid="1">userAdminAnyDatabase</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">userAdminAnyDatabase</mrk></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>This role is required for backups.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">This role is required for backups.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Diese Rolle wird für Backups benötigt.</mrk></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The user will access the databases for Workflow Accelerator.
+Workflow Accelerator will create two databases, one for the user and
+workflow data, and one for uploaded files. The name of the first
+database can be configured in the Workflow Accelerator configuration
+file. The name of the second database is derived from the name of the
+first one by adding “-files”. For instance, if you define the database
+name “signavio”, the databases “signavio” and “signavio-files” will be
+created.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The user will access the databases for Workflow Accelerator.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Workflow Accelerator will create two databases, one for the user and workflow data, and one for uploaded files.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The name of the first database can be configured in the Workflow Accelerator configuration file.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">The name of the second database is derived from the name of the first one by adding “-files”.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">For instance, if you define the database name “signavio”, the databases “signavio” and “signavio-files” will be created.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der Nutzer greift für Workflow Accelerator auf die Datenbank zu.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Workflow Accelerator erstellt zwei Datenbanken, eine für Nutzer- und Workflow-Daten und eine weitere für hochgeladene Dateien.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der Name der ersten Datenbank kann in der Workflow Accelerator-Konfigurationsdatei konfiguriert werden.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der zweite Name ist vom ersten Namen abgeleitet, indem die Endung „-files“ ergänzt wird.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Nennen Sie Ihre erste Datenbank „signavio“, so heißt die zweite Datenbank „signavio-files“.</mrk></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In general, if you want to create a new user in MongoDB you will
+need to authenticate with an existing user that has the role userAdmin
+or userAdminAnyDatabase. There is an exception for a fresh MongoDB
+set-up. It will allow you to create the first user from localhost
+without any authentication. The following examples will show you how to
+create a new user using the credentials of an admin user and how to do
+it without any credentials in case of a new MongoDB.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In general, if you want to create a new user in MongoDB you will need to authenticate with an existing user that has the role userAdmin or userAdminAnyDatabase.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">There is an exception for a fresh MongoDB set-up.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">It will allow you to create the first user from localhost without any authentication.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">The following examples will show you how to create a new user using the credentials of an admin user and how to do it without any credentials in case of a new MongoDB.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wenn Sie einen neuenNutzer in MongoDB erstellen wollen, müssen Sie sich mit einem Nutzer mit der Rolle userAdmin oder userAdminAnyDatabase in MongoDB anmelden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="62"
+            MadCap:diff="ContentChanged" /><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Im Folgenden wird ein neuer MongoDB-Nutzer sowohl über einen Administratorennutzer als auch als Teil einer neuen MongoDB-Installation erstellt.</mrk></target><alt-trans
+          mid="4"
+          match-quality="62"
+          origin="previous-version"><seg-source>There is an exception for a fresh MongoDB set-up. It will allow you to create the first user from localhost without any authentication.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Eine Ausnahme stellt die Installation eines neuen MongoDB-Systems dar, dass Ihnen ermöglicht einen neuen Nutzer ohne vorherige Authentifizierung zu erstellen.</target></alt-trans></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In order to add a new user to MongoDB, the MongoDB server has to be
+running. The following subsections will show you how to create the
+Workflow Accelerator database user using the command line.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In order to add a new user to MongoDB, the MongoDB server has to be running.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The following subsections will show you how to create the Workflow Accelerator database user using the command line.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Um einen MongoDB-Nutzer zu erstellen, muss MongoDB gestartet worden sein.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die folgenden Unterabschnitte beschreiben, wie Sie den Workflow Accelerator Datenbanknutzer mit Hilfe der Kommandozeile anlegen können.</mrk></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>Windows</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Windows</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Windows</mrk></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Open the command line <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>cmd<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+				and go to your MongoDBbin
+				directory, e.g. by executing: </source><seg-source><mrk
+            mtype="seg"
+            mid="1">Open the command line <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>cmd<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and go to your MongoDBbin directory, e.g. by executing:</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Öffnen Sie in der Kommandozeile <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>cmd<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> das Verzeichnis MongoDBbin, z.B. in dem Sie folgenden Befehl ausführen:</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>If you have an admin user, create the Workflow Accelerator user by
+			executing:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you have an admin user, create the Workflow Accelerator user by executing:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Falls Sie einen Administratorennutzer angelegt haben, erstellen Sie den neuen Nutzer wie folgt:</mrk></target></trans-unit><trans-unit
+        id="30"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Replace &lt;enterAdminPasswordHere&gt; with the password you have
+				defined for the admin user.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Replace &lt;enterAdminPasswordHere&gt; with the password you have defined for the admin user.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Ersetzen Sie &lt;enterAdminPasswordHere&gt; mit dem Administratorenpasswort.</mrk></target></trans-unit><trans-unit
+        id="31"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Replace &lt;enterSignavioPasswordHere&gt; with the password for the
+				new Workflow Accelerator user. As you can see the user name is
+				signavio.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Replace &lt;enterSignavioPasswordHere&gt; with the password for the new Workflow Accelerator user.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">As you can see the user name is signavio.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Ersetzen Sie &lt;enterSignavioPasswordHere&gt; mit dem Passwort des neuen Nutzers.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der Nutzername ist signavio.</mrk></target></trans-unit><trans-unit
+        id="32"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>If you have a new MongoDB and no admin user, create the Workflow
+Accelerator user by executing:<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;mongo.exe admin --eval "db.createUser( { user: 'signavio', pwd: '&amp;lt;enterSignavioPasswordHere&amp;gt;', roles: ['dbAdminAnyDatabase', 'readWriteAnyDatabase', 'clusterAdmin', 'userAdminAnyDatabase'] } )"&lt;/code&gt;&lt;/pre&gt;</ph><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>
+						Replace &lt;enterSignavioPasswordHere&gt; with the password for the
+						new Workflow Accelerator user. As you can see the user name is
+						signavio.
+					<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you have a new MongoDB and no admin user, create the Workflow Accelerator user by executing:<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;mongo.exe admin --eval "db.createUser( { user: 'signavio', pwd: '&amp;lt;enterSignavioPasswordHere&amp;gt;', roles: ['dbAdminAnyDatabase', 'readWriteAnyDatabase', 'clusterAdmin', 'userAdminAnyDatabase'] } )"&lt;/code&gt;&lt;/pre&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt> Replace &lt;enterSignavioPasswordHere&gt; with the password for the new Workflow Accelerator user.</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk><mrk
+            mtype="seg"
+            mid="4">As you can see the user name is signavio.</mrk><mrk
+            mtype="protected"
+            mid="5"> </mrk><mrk
+            mtype="seg"
+            mid="6"><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Falls Sie ein neues MongoDB System ohne Administratorennutzer aufgesetzt haben, führen Sie den folgenden Befehl aus: <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;mongo.exe admin --eval "db.createUser( { user: 'signavio', pwd: '&amp;lt;enterSignavioPasswordHere&amp;gt;', roles: ['dbAdminAnyDatabase', 'readWriteAnyDatabase', 'clusterAdmin', 'userAdminAnyDatabase'] } )"&lt;/code&gt;&lt;/pre&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt> Ersetzen Sie &lt;enterSignavioPasswordHere&gt; mit dem Passwort des neuen Nutzers.</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der Nutzername ist signavio.</mrk><mrk
+            mtype="protected"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="33"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>You can verify the creation of the new Workflow Accelerator user by
+				executing:<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;mongo.exe admin -u signavio -p &amp;lt;enterSignavioPasswordHere&amp;gt; --eval "db.getUser('signavio');"&lt;/code&gt;&lt;/pre&gt;</ph><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>
+						On the command line you will see the user information including the
+						four assigned roles.
+					<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">You can verify the creation of the new Workflow Accelerator user by executing:<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;mongo.exe admin -u signavio -p &amp;lt;enterSignavioPasswordHere&amp;gt; --eval "db.getUser('signavio');"&lt;/code&gt;&lt;/pre&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt> On the command line you will see the user information including the four assigned roles.</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk><mrk
+            mtype="seg"
+            mid="4"><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Um die Erstellung des Nutzers zu verifizieren, führen Sie den folgenden Befehl aus:<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;mongo.exe admin -u signavio -p &amp;lt;enterSignavioPasswordHere&amp;gt; --eval "db.getUser('signavio');"&lt;/code&gt;&lt;/pre&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>Die Kommandozeile wird den Nutzer und die vier assoziierten Rollen anzeigen.</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="34"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>Debian</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Debian</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Debian</mrk></target></trans-unit><trans-unit
+        id="35"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you have installed MongoDB using a package manager, the binaries
+should be available on the path. Otherwise, open the directory with the
+MongoDB binary files and follow the instructions.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you have installed MongoDB using a package manager, the binaries should be available on the path.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Otherwise, open the directory with the MongoDB binary files and follow the instructions.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Falls Sie MongoDB über einen Paketmanager installiert haben, werden die entsprechenden Anwendungen in die Linux-Standardpfade installiert weshalb sie ohne weitere Pfadangabe überall verfügbar sind.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Öffnen Sie andernfalls einfach das Verzeichnis mit den Binaries, um dort die unten aufgeführten Befehle auszuführen.</mrk></target></trans-unit><trans-unit
+        id="36"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>If you have an admin user, create the Workflow Accelerator user by
+executing: <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;mongo admin -u admin -p &amp;lt;enterYourAdminPasswordHere&amp;gt; --eval "db.createUser( { user: 'signavio', pwd: '&amp;lt;enterSignavioPasswordHere&amp;gt;', roles: ['dbAdminAnyDatabase', 'readWriteAnyDatabase', 'clusterAdmin', 'userAdminAnyDatabase'] } )"&lt;/code&gt;&lt;/pre&gt;</ph><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       Replace &lt;enterAdminPasswordHere&gt; with the password, you have
+defined for the admin user.
+      <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       Replace &lt;enterSignavioPasswordHere&gt; with the password for the
+new Workflow Accelerator user. As you can see the user name is
+signavio.
+      <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you have an admin user, create the Workflow Accelerator user by executing: <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;mongo admin -u admin -p &amp;lt;enterYourAdminPasswordHere&amp;gt; --eval "db.createUser( { user: 'signavio', pwd: '&amp;lt;enterSignavioPasswordHere&amp;gt;', roles: ['dbAdminAnyDatabase', 'readWriteAnyDatabase', 'clusterAdmin', 'userAdminAnyDatabase'] } )"&lt;/code&gt;&lt;/pre&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Replace &lt;enterAdminPasswordHere&gt; with the password, you have defined for the admin user.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5"><ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="6"><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Replace &lt;enterSignavioPasswordHere&gt; with the password for the new Workflow Accelerator user.</mrk><mrk
+            mtype="protected"
+            mid="7"> </mrk><mrk
+            mtype="seg"
+            mid="8">As you can see the user name is signavio.</mrk><mrk
+            mtype="protected"
+            mid="9"> </mrk><mrk
+            mtype="seg"
+            mid="10"><ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Falls Sie einen Administratorennutzer angelegt haben, erstellen Sie den neuen Nutzer wie folgt: <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;mongo admin -u admin -p &amp;lt;enterYourAdminPasswordHere&amp;gt; --eval "db.createUser( { user: 'signavio', pwd: '&amp;lt;enterSignavioPasswordHere&amp;gt;', roles: ['dbAdminAnyDatabase', 'readWriteAnyDatabase', 'clusterAdmin', 'userAdminAnyDatabase'] } )"&lt;/code&gt;&lt;/pre&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>Ersetzen Sie &lt;enterAdminPasswordHere&gt; mit dem Administratorenpasswort.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Ersetzen Sie &lt;enterSignavioPasswordHere&gt; mit dem Passwort des neuen Nutzers.</mrk><mrk
+            mtype="protected"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der Nutzername ist signavio.</mrk><mrk
+            mtype="protected"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="37"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>If you have a new MongoDB and no admin user, create the Workflow
+Accelerator user by executing: <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;mongo admin --eval "db.createUser( { user: 'signavio', pwd: '&amp;lt;enterSignavioPasswordHere&amp;gt;', roles: ['dbAdminAnyDatabase', 'readWriteAnyDatabase', 'clusterAdmin', 'userAdminAnyDatabase'] } )"&lt;/code&gt;&lt;/pre&gt;</ph><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>
+       Replace &lt;enterSignavioPasswordHere&gt; with the password for the
+new Workflow Accelerator user. As you can see the user name is
+signavio.
+      <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you have a new MongoDB and no admin user, create the Workflow Accelerator user by executing: <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;mongo admin --eval "db.createUser( { user: 'signavio', pwd: '&amp;lt;enterSignavioPasswordHere&amp;gt;', roles: ['dbAdminAnyDatabase', 'readWriteAnyDatabase', 'clusterAdmin', 'userAdminAnyDatabase'] } )"&lt;/code&gt;&lt;/pre&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt> Replace &lt;enterSignavioPasswordHere&gt; with the password for the new Workflow Accelerator user.</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk><mrk
+            mtype="seg"
+            mid="4">As you can see the user name is signavio.</mrk><mrk
+            mtype="protected"
+            mid="5"> </mrk><mrk
+            mtype="seg"
+            mid="6"><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Falls Sie ein neues MongoDB System ohne Administratorennutzer aufgesetzt haben, führen Sie den folgenden Befehl aus: <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;mongo admin --eval "db.createUser( { user: 'signavio', pwd: '&amp;lt;enterSignavioPasswordHere&amp;gt;', roles: ['dbAdminAnyDatabase', 'readWriteAnyDatabase', 'clusterAdmin', 'userAdminAnyDatabase'] } )"&lt;/code&gt;&lt;/pre&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt> Ersetzen Sie &lt;enterSignavioPasswordHere&gt; mit dem Passwort des neuen Nutzers.</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der Nutzername ist signavio.</mrk><mrk
+            mtype="protected"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="38"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>You can verify the creation of the new Workflow Accelerator user by
+executing: <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;mongo admin -u signavio -p &amp;lt;enterSignavioPasswordHere&amp;gt; --eval "db.getUser('signavio');"&lt;/code&gt;&lt;/pre&gt;</ph><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>
+       On the command line you will see the user information including the
+four assigned roles.
+      <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">You can verify the creation of the new Workflow Accelerator user by executing: <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;mongo admin -u signavio -p &amp;lt;enterSignavioPasswordHere&amp;gt; --eval "db.getUser('signavio');"&lt;/code&gt;&lt;/pre&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt> On the command line you will see the user information including the four assigned roles.</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk><mrk
+            mtype="seg"
+            mid="4"><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Um die Erstellung des Nutzers zu verifizieren, führen Sie den folgenden Befehl aus:<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;mongo admin -u signavio -p &amp;lt;enterSignavioPasswordHere&amp;gt; --eval "db.getUser('signavio');"&lt;/code&gt;&lt;/pre&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>Die Kommandozeile wird den Nutzer und die vier assoziierten Rollen anzeigen.</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="39"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Once the Workflow Accelerator user is created, its credentials have
+to be added to the Workflow Accelerator configuration file to the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.mongodb.username<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   and
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.mongodb.password<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   properties. Section <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="configure.htm#UpdateWorkflowAcc" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Update the Workflow Accelerator
+configuration file
+  &lt;/MadCap:xref&gt;</ph>
+   explains how to update the configuration file.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Once the Workflow Accelerator user is created, its credentials have to be added to the Workflow Accelerator configuration file to the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.mongodb.username<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.mongodb.password<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> properties.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Section <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="configure.htm#UpdateWorkflowAcc" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Update the Workflow Accelerator
+configuration file
+  &lt;/MadCap:xref&gt;</ph> explains how to update the configuration file.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Sobald der Workflow Accelerator-Nutzer erstellt wurde, müssen die Credentials in der Workflow Accelerator-Konfigurationsdatei unter der Variable <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.mongodb.username<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> und <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.mongodb.password<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> hinterlegt werden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Der Abschnitt <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="configure.htm#UpdateWorkflowAcc" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Update the Workflow Accelerator
+configuration file
+  &lt;/MadCap:xref&gt;</ph> beschreibt die Anpassung der Konfigurationsdatei.</mrk></target></trans-unit><trans-unit
+        id="40"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Backup and restore</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Backup and restore</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Backup und Wiederherstellung</mrk></target></trans-unit><trans-unit
+        id="41"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You are advised to do regular backups of the MongoDB database to
+prevent a complete data loss in case of a system failure. The Workflow
+Accelerator system will NOT backup the user data on its own. <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../backup/backup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Backup&lt;/MadCap:xref&gt;</ph> explains in detail how to set up backups for MongoDB properly. <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../restore-backups/restore-backups.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Restoring backups
+  &lt;/MadCap:xref&gt;</ph> explains how you can restore an older version of the user data from a
+backup.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You are advised to do regular backups of the MongoDB database to prevent a complete data loss in case of a system failure.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The Workflow Accelerator system will NOT backup the user data on its own.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../backup/backup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Backup&lt;/MadCap:xref&gt;</ph> explains in detail how to set up backups for MongoDB properly.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7"><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../restore-backups/restore-backups.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Restoring backups
+  &lt;/MadCap:xref&gt;</ph> explains how you can restore an older version of the user data from a backup.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wir empfehlen, regelmäßige Backups der MongoDB Datenbank anzulegen um einen kompletten Datenverlust im Falle eines Systemfehlers zu vermeiden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Das Workflow Accelerator System legt von selbst KEINE Backups der Nutzerdaten an.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Kapitel <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../backup/backup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Backup&lt;/MadCap:xref&gt;</ph> beschreibt detailliert, wie Sie Backups mit  MongoDB anlegen können.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">In Kapitel <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../restore-backups/restore-backups.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Restoring backups
+  &lt;/MadCap:xref&gt;</ph>  wird Ihnen außerdem erklärt, wie Sie Backups verwenden um ältere Versionen der Nutzerdaten wieder herzustellen.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

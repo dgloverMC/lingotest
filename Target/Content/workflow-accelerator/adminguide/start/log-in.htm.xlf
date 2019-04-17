@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="in-progress">
+  <file
+    xml:space="preserve"
+    original="log-in.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="log-in.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">23</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">3</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xhtml-img-alt"
+        phase-name="pretrans"><source>The default Workflow Accelerator login screen</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="">The default Workflow Accelerator login screen</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Standard Workflow Accelerator-Login-Maske</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xhtml-img-alt"
+        phase-name="pretrans"><source>The Signavio login screen</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="">The Signavio login screen</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Signavio Login-Maske</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xhtml-img-alt"
+        phase-name="pretrans"><source>The Signavio authorization dialog</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="">The Signavio authorization dialog</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der Autorisierungsdialog in Signavio</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Logging in to Workflow
+Accelerator</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Logging in to Workflow Accelerator</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Bei Workflow Accelerator einloggen</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>When the Workflow Accelerator system was started properly you can
+see the login screen by entering the URL of your Workflow Accelerator
+installation in your browser. There are different versions of the login
+screen. If you purchased an Workflow Accelerator standalone version,
+you will see a form that requires an email address and a password to
+login.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">When the Workflow Accelerator system was started properly you can see the login screen by entering the URL of your Workflow Accelerator installation in your browser.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">There are different versions of the login screen.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">If you purchased an Workflow Accelerator standalone version, you will see a form that requires an email address and a password to login.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Nachdem Workflow Accelerator erfolgreich gestartet wurde, können Sie nun die Login-Maske öffnen, indem Sie die Workflow Accelerator-URL Ihrer Installation im Browser aufrufen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Login-Maske unterscheidet sich in den verschiedenen Workflow Accelerator-Versionen.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Login-Maske der Standalone-Version enthält Eingabemöglichkeiten für Nutzername und Passwort und sieht wie folgt aus:</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-figcaption"
+        phase-name="pretrans"><source>The default Workflow Accelerator login screen</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="img">The default Workflow Accelerator login screen</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Standard Workflow Accelerator-Login-Maske</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you purchased Workflow Accelerator along with Signavio Process
+Manager, you will see a login screen with one button. You can login to
+Workflow Accelerator using your Signavio Process Manager account as
+soon as the Workflow Accelerator users have been set up. See
+section
+ <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../process-manager-integration/user-management.htm#UserManagement" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;User management
+  &lt;/MadCap:xref&gt;</ph>   for more information on how to
+set up the users.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you purchased Workflow Accelerator along with Signavio Process Manager, you will see a login screen with one button.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You can login to Workflow Accelerator using your Signavio Process Manager account as soon as the Workflow Accelerator users have been set up.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">See section <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../process-manager-integration/user-management.htm#UserManagement" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;User management
+  &lt;/MadCap:xref&gt;</ph> for more information on how to set up the users.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="54"
+            MadCap:diff="ContentChanged" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="90">Im Abschnitt <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../process-manager-integration/user-management.htm#UserManagement" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;User management
+  &lt;/MadCap:xref&gt;</ph>  finden Sie detaillierte Anweisungen zur Nutzererstellung.</mrk></target><alt-trans
+          mid="2"
+          match-quality="54"
+          origin="previous-version"><seg-source>If you purchased Workflow Accelerator along with Signavio Process Manager, you will see a login screen with one button. You can login to Workflow Accelerator using your Signavio Process Manager account as soon as the Workflow Accelerator users have been set up.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Falls Sie Workflow Accelerator in Kombination mit dem Signavio Process Manager erworben haben, befindet sich in der Login-Maske lediglich eine Schaltfläche, die den Login mit Ihrem Process Manager-Konto ermöglicht.</target></alt-trans></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-figcaption"
+        phase-name="pretrans"><source>The Signavio login screen</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="img">The Signavio login screen</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Signavio Login-Maske</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>When you click
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    Log in with Signavio account
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>, you will be
+redirected to Signavio Process Manager and asked to authorize the
+access of Workflow Accelerator. When you click on
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    Grant
+   <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>, you
+will be redirected back to Workflow Accelerator and automatically
+logged in. The authorization dialog is only shown the first time you
+use this method to login.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">When you click <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Log in with Signavio account <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>, you will be redirected to Signavio Process Manager and asked to authorize the access of Workflow Accelerator.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">When you click on <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Grant <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>, you will be redirected back to Workflow Accelerator and automatically logged in. The authorization dialog is only shown the first time you use this method to login.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Ein Klick auf <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Mit meinem Signavio Konto anmelden<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> leitet Sie zum Signavio Process Manager-System weiter, in dem Sie nun den Zugriff von Workflow Accelerator bestätigen müssen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Hier bestätigen Sie nun den Zugriff mit <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Grant<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-figcaption"
+        phase-name="pretrans"><source>The Signavio authorization dialog</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="img">The Signavio authorization dialog</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der Autorisierungsdialog in Signavio</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You have to be logged in to Signavio Process Manager in order to see
+the authorization dialog. Otherwise, you will be redirected to the
+Collaboration Portal.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You have to be logged in to Signavio Process Manager in order to see the authorization dialog.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Otherwise, you will be redirected to the Collaboration Portal.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Damit dieser Dialog angezeigt wird, müssen Sie im Signavio Process Manager angemeldet sein.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Andernfalls werden Sie zum Signavio Collaboration Portal weitergeleitet.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

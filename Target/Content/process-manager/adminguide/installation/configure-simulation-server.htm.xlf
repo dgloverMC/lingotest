@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="configure-simulation-server.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="configure-simulation-server.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">55</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Configuring the Signavio Simulation Server (optional)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configuring the Signavio Simulation Server (optional)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Den Signavio Simulationsserver konfigurieren (optional)</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The execution of process simulations is performed in a standalone
+web application that is usually deployed on the same Tomcat server as
+the rest of the application. To avoid an overload of the web server by
+a complex simulation scenario, a simulation instance will be canceled
+when reaching a preconfigured threshold. You can increase these
+thresholds on your own risk. To avoid an overload of the web server,
+you can also deploy the simulation component on a separate Tomcat
+server.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The execution of process simulations is performed in a standalone web application that is usually deployed on the same Tomcat server as the rest of the application.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">To avoid an overload of the web server by a complex simulation scenario, a simulation instance will be canceled when reaching a preconfigured threshold.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">You can increase these thresholds on your own risk.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">To avoid an overload of the web server, you can also deploy the simulation component on a separate Tomcat server.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die Ausführung der Simulation von Prozessen erfolgt in einer eigenständigen Webapplikation, die standardmäßig auf demselben Tomcat-Server installiert wird, wie auch der Rest der Anwendung.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Um eine Überlastung des Webservers durch ein komplexes Simulationsszenario zu verhindern, werden Simulationsinstanzen bei Erreichen bestimmter vorkonfigurierter Grenzen abgebrochen.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Sie können diese Grenzen auf eigene Gefahr erhöhen.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Um eine Überlastung des Webservers zu verhindern,kann die Simulationskomponente außerdem auf einen eigenen Tomcat-Server ausgelagert werden.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Adjusting properties of the Signavio Simulation Server</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Adjusting properties of the Signavio Simulation Server</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Die Eigenschaften des Signavio Simulationsservers konfigurieren</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>For this you need to adjust the file
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>simulation.xml<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   you
+find at
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR/conf/<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">For this you need to adjust the file <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>simulation.xml<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> you find at <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR/conf/<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uncomment the respective XML-tags and fill the tags as follows:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uncomment the respective XML-tags and fill the tags as follows:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Entfernen Sie die Kommentierungszeichen der entsprechenden XML-Tags und passen die Tags wie folgt an:</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-dt"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>maxResults<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>:</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>maxResults<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>:</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-dd"
+        phase-name="pretrans"><source>Defines the maximum number of simulation results that will be cached
+in the Simulation Server at a time. The default value is 100.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines the maximum number of simulation results that will be cached in the Simulation Server at a time.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The default value is 100.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Definiert das Maximum der Simulationsergebnisse, die vom Simulationsserver zu einem Zeitpunkt zwischengespeichert werden können.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Der Standardwert ist 100.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-dt"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>maxCachedInstances<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>:</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>maxCachedInstances<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>:</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-dd"
+        phase-name="pretrans"><source>Defines the maximum number of running simulation instances that will
+be cached in the Simulation Server at a time. The default value is
+100.
+      <ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="math display" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+        $$\text{NrOfParallelNCaseRuns} \times
+\frac{maxLogEntries \times 15}{100.000}\text{MB}$$
+       <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines the maximum number of running simulation instances that will be cached in the Simulation Server at a time.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The default value is 100.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5"><ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="math display" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> $$\text{NrOfParallelNCaseRuns} \times \frac{maxLogEntries \times 15}{100.000}\text{MB}$$ <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Definiert das Maximum der laufenden Simulationsinstanzen, die vom Simulationsserver zu einem Zeitpunkt zwischengespeichert werden können.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Der Standardwert ist 100.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-dt"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>resultTimeout<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>:</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>resultTimeout<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>:</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-dd"
+        phase-name="pretrans"><source>Defines the amount of time (seconds) until a simulation result is
+considered as old and can be deleted. The default value is 600.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines the amount of time (seconds) until a simulation result is considered as old and can be deleted.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The default value is 600.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Definiert den Zeitraum (in Sekunden) nach dem ein Simulationsergebnis als ‘alt’ angesehen wird und gelöscht werden kann.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Der Standardwert ist 600.</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-dt"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>instanceTimeout<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>:</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>instanceTimeout<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>:</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-dd"
+        phase-name="pretrans"><source>Defines the amount of time (seconds) until a simulation instance is
+considered as old and can be deleted. The default value is 600.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines the amount of time (seconds) until a simulation instance is considered as old and can be deleted.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The default value is 600.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Definiert den Zeitraum (in Sekunden) nach dem eine Simulationsinstanz als ‘alt’ angesehen wird und gelöscht werden kann.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Der Standardwert ist 600.</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you want to run the simulation server with the defaults, you
+don’t need to edit the values after uncommenting them.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you want to run the simulation server with the defaults, you don’t need to edit the values after uncommenting them.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Wenn Sie den Simulationsserver mit den Standardeinstellungen betreiben möchten, brauchen Sie nach der Entfernung der Kommentierungszeichen die Einstellungen nicht anzupassen.</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Installing Signavio Simulation Server in a separate Tomcat instance
+(optional)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Installing Signavio Simulation Server in a separate Tomcat instance (optional)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Signavio Simulationsserver in einem separaten Tomcat installieren (optional)</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In most cases it is not necessary to install the Signavio Simulation
+Server on a separate Tomcat. The only good reason for doing so is to
+prevent performance problems if both of the following conditions are
+valid:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In most cases it is not necessary to install the Signavio Simulation Server on a separate Tomcat.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The only good reason for doing so is to prevent performance problems if both of the following conditions are valid:</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">In den meisten Fällen ist es nicht notwendig den Signavio Simulationsserver in einem separaten Tomcat zu installieren.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Valide Gründe hierfür gibt es nur, wenn die folgenden Bedingungen beide zutreffen:</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>You have purchased the Enterprise Edition.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You have purchased the Enterprise Edition.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Sie verwenden die Enterprise Edition.</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Many of your business process modelers are frequently using the
+n-case simulation feature.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Many of your business process modelers are frequently using the n-case simulation feature.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Viele Ihrer Geschäftsprozessmodellierer verwenden regelmäßig das n-case Simulationsfeature.</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In order to run the Simulation server on a separate Tomcat, install
+the Tomcat and configure it just as the Signavio Tomcat (see: <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="configure-web-server.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Configuring the web server&lt;/MadCap:xref&gt;</ph>).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In order to run the Simulation server on a separate Tomcat, install the Tomcat and configure it just as the Signavio Tomcat (see: <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="configure-web-server.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Configuring the web server&lt;/MadCap:xref&gt;</ph>).</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In case the second Tomcat runs on the same server/VM, please make
+sure it is running on a different port than the Signavio Tomcat.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In case the second Tomcat runs on the same server/VM, please make sure it is running on a different port than the Signavio Tomcat.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Sollte der zweite Tomcat auf demselben Server/in derselben VM laufen, stellen Sie sicher, dass die Ports der beiden Tomcat Server nicht identisch sind.</mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Make sure to always update Signavio Process Manager together with
+the Simulation Server. Different versions are incompatible with each
+other.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Make sure to always update Signavio Process Manager together with the Simulation Server.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Different versions are incompatible with each other.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Stellen Sie sicher, dass bei einem Update des Signavio Process Managers auch der Simulationsserver aktualisiert wird.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Unterschiedliche Versionen sind zueinander inkompatibel.</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Now, proceed as follows:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Now, proceed as follows:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Gehen Sie abschließend wie folgt vor:</mrk></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Stop the Tomcats (if running).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Stop the Tomcats (if running).</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Stoppen Sie die Tomcat Server, falls diese zur Zeit laufen.</mrk></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-li"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Move
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+    (not copy!) the folder
+    <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>simulationservice<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    from the webapps-directory of the
+Signavio Tomcat to the
+    <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     webapps
+    <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    directory of the Simulation
+Server Tomcat.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Move <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> (not copy!) the folder <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>simulationservice<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> from the webapps-directory of the Signavio Tomcat to the <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> webapps <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> directory of the Simulation Server Tomcat.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Adjust the file
+     <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>simulation.xml<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     you find at <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;signavio-tomcat&gt;\conf<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. Uncomment the corresponding
+XML-tags and fill the tags as follows:
+
+                <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt><bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>
+        host
+       <ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>: Defines the host name of the server where the
+Simulation Server is deployed, for example
+       <bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>
+        http://mysignaviosimulationservice:8180
+       <ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.
+      <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt><bpt
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>
+        path
+       <ept
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>: Defines the URL path at which the Simulation
+Server is deployed, normally
+       <bpt
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>
+        /simulationservice/<ept
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.
+      <ept
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Adjust the file <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>simulation.xml<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> you find at <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;signavio-tomcat&gt;\conf<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Uncomment the corresponding XML-tags and fill the tags as follows: </mrk><mrk
+            mtype="seg"
+            mid="4"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="5"><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt><bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt> host <ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>: Defines the host name of the server where the Simulation Server is deployed, for example <bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt> http://mysignaviosimulationservice:8180 <ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7"><ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="8"><bpt
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt><bpt
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt> path <ept
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>: Defines the URL path at which the Simulation Server is deployed, normally <bpt
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt> /simulationservice/<ept
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="9"> </mrk><mrk
+            mtype="seg"
+            mid="10"><ept
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Start both Tomcats (the order does not matter).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Start both Tomcats (the order does not matter).</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Starten Sie die beiden Tomcat Server (die Reihenfolge spielt keine Rolle).</mrk></target></trans-unit></body>
+  </file>
+</xliff>

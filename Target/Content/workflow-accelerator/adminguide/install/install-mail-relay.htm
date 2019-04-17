@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" MadCap:onlyLocalStylesheets="True" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/TableStyles/Alternate-Row-Color.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <style type="text/css">
+        </style>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 name="install-mail-relay">
+   Installing the Workflow Accelerator Mail
+Relay
+  </h1>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <p>
+    You only need to install and configure the Mail Relay if you
+purchased a version of Workflow Accelerator which allows you to use
+email triggers.
+   </p>
+        </div>
+        <p>
+   The mail relay is a SMTP server which receives emails and forwards
+them via HTTP to the Workflow Accelerator web application. It is
+required in order to start a workflow by email. If you don't plan on
+starting workflows by email, you don't have to set this component up
+and can skip this section.
+  </p>
+        <p>
+   The complete set-up of the mail relay consists of the following
+steps:
+  </p>
+        <ol>
+            <li>
+    Create an email domain for the mail relay
+   </li>
+            <li>
+    Install and configure the mail relay
+   </li>
+            <li>
+    Configure the web application
+   </li>
+        </ol>
+        <h2 name="create-an-email-domain-for-the-mail-relay">
+   Create an email
+domain for the mail relay
+  </h2>
+        <p>
+   In order to work properly, the mail relay needs to receive all
+relevant emails. The used email addresses are created dynamically based
+on the ID of the workflow that should be started. The domain used for
+the email addresses can be chosen by you and has to be configured in
+the system. We advise that you create a specific subdomain which is
+different from your normal email domain and redirect any incoming
+emails to the mail relay.
+  </p>
+        <p>
+   For example if you use the email domain
+   <kbd>mail.yourcompany.com</kbd>, a typical email address for the
+workflow system would look like this: </p><pre xml:space="preserve" madcap-space-after-export="preserve"> <code class="language-sh">process-5702854fd1dfff250dc57994@mail.yourcompany.com</code></pre>
+        <p>
+   How you route the emails to the mail relay is up to you and depends
+on your infrastructure. If the server which runs the mail relay is
+publicly available, you can simply set up a respective
+   <a href="https://en.wikipedia.org/wiki/MX_record">
+    MX record
+   </a>. Note, the mail
+relay and the Workflow Accelerator web application don't have to run on
+the same server. If your email server (e.g. Microsoft Exchange) allows
+rerouting traffic for a specific subdomain to another server, you can
+also set up a respective rule there. Make sure the email text and
+sender address have not been modified due to some forwarding
+mechanism.
+  </p>
+        <p>
+   The next subsection explains how you set up the mail relay and
+configure it to use your email domain.
+  </p>
+        <h2 name="install-and-configure-the-mail-relay">
+   Install and configure the
+mail relay
+  </h2>
+        <p>
+   The mail relay comes as a JAR file which requires Java 8 for the
+execution. Make sure Java 8 is installed before continuing with the
+set-up.
+  </p>
+        <p>
+   The mail relay can be installed on the same server as the Workflow
+Accelerator web application or on a different server. If you choose two
+different servers, ensure the mail relay is able to reach the server
+which runs the web application.
+  </p>
+        <ol>
+            <li>
+       
+     Create a new local directory for the mail relay, <br xmlns="http://www.w3.org/1999/xhtml" />e.g.
+     <kbd>C:\Program Files\Mail Relay</kbd>
+     or
+     <kbd>/var/lib/mail-relay</kbd>.
+                <ul><li>
+       We will refer to this directory as
+       <kbd>$MAIL_RELAY_HOME</kbd>.
+      </li></ul></li>
+            <li>
+     Copy the contents of the directory
+     <kbd>$WORKFLOW_HOME/mail-relay/</kbd>
+     to your newly created
+directory.
+    <ul><li>
+       You should find the file
+       <kbd>mail-relay.jar</kbd>
+       directly
+within your directory:
+       <kbd>$MAIL_RELAY_HOME/mail-relay.jar</kbd></li></ul></li>
+            <li>
+    Within the
+    <kbd>$MAIL_RELAY_HOME</kbd>
+    directory create a new
+directory <kbd>logs</kbd></li>
+            <li>
+     Open <kbd>$MAIL_RELAY_HOME/logback.xml</kbd>
+     and edit <kbd>value</kbd>
+     in the following line: <pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;property name="LOG_DIR" value="."/&gt;</code></pre></li>
+            <li>
+     Set
+     <kbd>value</kbd> to the absolute path of
+     <kbd>$MAIL_RELAY_HOME/logs</kbd>.
+    <ul><li>
+       For example
+       <kbd>C:\\Program Files\\Mail Relay\\logs</kbd>
+       or
+       <kbd>/var/lib/mail-relay/logs</kbd></li><li>
+       On Windows you have to use
+       <kbd>\\</kbd>
+       as a separator for the
+path.
+      </li></ul></li>
+        </ol>
+        <p>Next, edit the configuration file.    </p>
+        <ol MadCap:continue="true">
+            <li> Open <kbd xmlns="http://www.w3.org/1999/xhtml">$MAIL_RELAY_HOME/mail-relay.properties</kbd>
+     and edit
+the values for the domain, port and Workflow Accelerator URL.
+    <ul xmlns="http://www.w3.org/1999/xhtml"><li>
+       Ensure that the port for the mail relay is not used by any other
+application.
+      </li></ul></li>
+        </ol>
+        <p>
+   The configuration file offers the following options:
+  </p>
+        <table class="TableStyle-Alternate-Row-Color" style="mc-table-style: url('../../../Resources/TableStyles/Alternate-Row-Color.css');" cellspacing="21">
+            <tbody>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>workflow.relay.domain
+</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      Defines the (sub)domain which is used to receive emails for
+Workflow Accelerator.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>workflow.relay.port</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2">
+      Defines the port the SMTP will use and listen to.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body1"><kbd>workflow.relay.serverUrl</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyA-Column2-Body1">
+      Defines the URL of the Workflow Accelerator web application.
+     </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+   After the successful set-up you can start the mail relay by opening
+the command line and executing the following command :
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-javascript">java -jar $MAIL_RELAY_HOME/mail-relay.jar</code></pre>
+        <p>
+   Replace <kbd>$MAIL_RELAY_HOME</kbd> with the absolute path to the
+JAR file.
+  </p>
+        <p>
+   You can also register a new service or set up a new Linux Init
+script depending on your operating system to ease the management of the
+mail relay.
+  </p>
+        <h3 name="windows-6">
+   Windows
+  </h3>
+        <p>
+   Section <MadCap:xref href="install-script-engine.htm#Wrapping">Wrapping the Script Engine into a
+service
+  </MadCap:xref> explains how you can wrap a single
+command into a service using NSSM. If you installed NSSM previously,
+you don't need to install it again. Simply follow the instructions and
+replace the details for the script engine with the details for the mail
+relay:
+  </p>
+        <ol>
+            <li>
+     Open a command line with administrator privileges and execute: <pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">nssm install mail-relay</code></pre></li>
+            <li>
+                <p>
+     In the
+     <em>
+      Application</em>
+     tab fill in the following
+information:
+    </p>
+                <table style="margin-left: 0; margin-right: auto;" xmlns="http://www.w3.org/1999/xhtml">
+                    <col style="width: 35%;" />
+                    <col style="width: 65%;" />
+                    <tbody>
+                        <tr>
+                            <td><em xmlns="http://www.w3.org/1999/xhtml">
+        Path
+       </em>
+                            </td>
+                            <td> the path to the Java .exe file, e.g. <br /><kbd xmlns="http://www.w3.org/1999/xhtml">C:\Program Files\Java\jre1.8.0_92\bin\java.exe</kbd></td>
+                        </tr>
+                        <tr>
+                            <td><em>Startup directory</em>
+                            </td>
+                            <td> the value of<kbd>$MAIL_RELAY_HOME</kbd>, e.g.<kbd>C:\Program Files\Mail Relay</kbd>.
+      </td>
+                        </tr>
+                        <tr>
+                            <td><em>
+        Arguments
+       </em>
+                            </td>
+                            <td> the exact value <kbd>-jar mail-relay.jar</kbd></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    <img alt="image" class="align-center" src="../_images/nssm/nssm03.png" />
+                </p>
+            </li>
+            <li>
+     In the
+     <em>
+      Details
+     </em>
+     tab fill in the following information:
+    <table style="margin-left: 0; margin-right: auto;" xmlns="http://www.w3.org/1999/xhtml"><col style="width: 35%;" /><col style="width: 65%;" /><tbody><tr><td><em xmlns="http://www.w3.org/1999/xhtml">
+        Display name
+       </em></td><td> the name of the service shown in
+       <kbd>services.msc</kbd></td></tr><tr><td><em xmlns="http://www.w3.org/1999/xhtml">
+        Description
+       </em></td><td> a description which will help you to
+recognize the service
+      </td></tr><tr><td><em xmlns="http://www.w3.org/1999/xhtml">
+        Startup type
+       </em></td><td> choose if the service shall start
+automatically on startup or if you want to start it manually</td></tr></tbody></table><p><img alt="image" class="align-center" src="../_images/nssm/nssm04.png" /></p></li>
+        </ol>
+        <p>
+   After the successful registration, you can start the mail relay
+similarly to the script engine either on command line or via
+   <kbd>services.msc</kbd>.
+  </p>
+        <h3 name="linux-1">
+   Linux
+  </h3>
+        <p>
+   Similar to the script engine, for the mail relay this task is
+usually accomplished with Init scripts using the respective Init system
+of your Linux distribution. Because there are several different Init
+systems, Signavio will not provide a template. However, if you don't
+already have a template, you can find lots of matching templates for
+your Init system on the internet.
+  </p>
+        <p>
+   As mentioned before, the mail relay can be started by executing: </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-javascript">java -jar $MAIL_RELAY_HOME/mail-relay.jar</code></pre>
+        <p>
+   The placeholder
+   <kbd>$MAIL_RELAY_HOME</kbd>
+   has to be replaced
+with the absolute path to the JAR file.
+  </p>
+        <p>
+   You have to ensure your Init script starts the Java executable and
+uses the arguments
+   <kbd>-jar</kbd>
+   and the absolute path to JAR file
+   <kbd>mail-relay.jar</kbd>. Note that if you use a restricted user to
+execute the command, the user must have appropriate access to the
+   <kbd>$MAIL_RELAY_HOME</kbd>
+   directory.
+  </p>
+        <h2 name="configure-the-web-application">
+   Configure the web
+application
+  </h2>
+        <p>
+   After setting up the mail relay, the email trigger needs to be
+enabled in the web application configuration. Section <MadCap:xref href="configure.htm#UpdateWorkflowAcc">Update the Workflow Accelerator
+configuration file
+  </MadCap:xref>explains where you find the respective configuration file. Make sure to
+set proper values for the following configuration values: </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">effektif.mail.receiver.enabled = true
+
+effektif.mail.receiver.domain = mail.yourcompany.com</code></pre>
+        <p>
+   The first value must be set to
+   <kbd>true</kbd>
+   to enable the email
+trigger. The second value must be set to the email domain you created
+for the mail relay. It will be shown in the user interface of the web
+application.
+  </p>
+        <h2 name="testing-the-mail-relay">
+   Testing the mail relay
+  </h2>
+        <p>
+   In order to verify the set-up works as intended, it can be helpful
+to test it. If you have installed Workflow Accelerator completely and
+created an organization within the application, you can directly test
+the set-up with a workflow.
+  </p>
+        <ol>
+            <li>
+    Create a new workflow
+   </li>
+            <li>
+    Choose the email trigger
+   </li>
+            <li>
+    Copy the email address which is shown in the UI
+   </li>
+            <li>
+    Publish the workflow
+   </li>
+            <li>
+    Send an email to the copied email address
+   </li>
+        </ol>
+        <p>
+   The case list should now contain a new completed case which shows
+your email in the event stream. If no case was started, you should
+check the log file
+   <kbd>$MAIL_RELAY_HOME/logs/mail.log</kbd>
+   for any
+error message.
+  </p>
+        <p>
+   If you haven't finished the complete set-up, but at least the web
+application is running as well, you can test already whether the
+communication between the mail relay and the web application works. A
+simple way to do that is to send an email via command line to the mail
+relay and consult the log file to see the result from the server. The
+following examples will show you how you can do that on different
+operating systems. The examples will send an email to a not existing
+workflow which is referenced by
+   <kbd>process-123</kbd>. Therefore,
+the web application will respond with an error code and you will see a
+message similar to
+   <kbd>Invalid response status code: 400</kbd>
+   in
+the log file. This error is expected, as the workflow doesn't exist,
+and proves the communication is working.
+  </p>
+        <h3 name="windows-7">
+   Windows
+  </h3>
+        <p>
+   You can send an email using the Windows PowerShell:&gt;</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">Send-MailMessage -SMTPServer localhost -To process-123@mail.yourcompany.com -From you@yourcompany.com -Subject "This is a test email" -Body "This is the test message"</code></pre>
+        <p>
+   Replace the domain of the email address for the
+   <kbd>-To</kbd>
+   parameter with the one you set in the configuration file.
+  </p>
+        <h3 name="linux-2">
+   Linux
+  </h3>
+        <p>
+   You can send an email using telnet to connect to the mail relay.
+  </p>
+        <p>
+   Open a command line on the server which is running the mail relay
+and execute:</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">telnet localhost 25</code></pre>
+        <p>
+   Replace the number
+   <kbd>25</kbd>
+   with the respective port that you
+configured for the mail relay.
+  </p>
+        <p>
+   Afterwards type in the following example line by line and replace
+the domain in the email for
+   <kbd>rcpt to</kbd>
+   to match the domain
+you configured for the mail relay.
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">helo me
+
+mail from:&lt;john.doe@yourcompany.com&gt;
+
+rcpt to:&lt;process-123@mail.yourcompany.com&gt;
+
+data
+
+From: john.doe@yourcompany.com
+
+Subject: test subject
+
+
+This is the body.
+
+quit</code></pre>
+    </body>
+</html>

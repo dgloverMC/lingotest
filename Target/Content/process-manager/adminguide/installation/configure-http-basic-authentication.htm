@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:sourceDocument="C:\Users\Dana\Documents\adminguide_editor\editor\docs\installation\http.htm" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="configuring-http-basic-authentication" name="configuring-http-basic-authentication">
+   Configuring HTTP basic
+authentication
+  </h1>
+        <p>
+   To prevent unauthorized users from registering themselves by using
+the link
+   <kbd>http://&lt;IP address or DNS of the Signavio System&gt;/p/register</kbd>, you can protoct this URL with
+   <strong>
+    HTTP Basic authentication</strong>.
+  </p>
+        <p>
+   Edit the file
+   <kbd>$TOMCAT_DIR/conf/web.xml
+   </kbd>
+   and add the
+following lines to its end before the XML tag
+   <kbd>&lt;/web-app&gt;</kbd>:
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;security-role&gt;
+
+
+    &lt;role-name&gt;register&lt;/role-name&gt;
+
+
+&lt;/security-role&gt;
+
+
+&lt;security-constraint&gt;
+
+
+    &lt;display-name&gt;
+
+        Security constraint for the user registration page
+
+    &lt;/display-name&gt;
+
+
+    &lt;web-resource-collection&gt;
+
+
+        &lt;web-resource-name&gt;
+
+            Protected Area
+
+        &lt;/web-resource-name&gt;
+
+
+        &lt;url-pattern&gt;
+
+            /p/register/*
+
+        &lt;/url-pattern&gt;
+
+
+    &lt;/web-resource-collection&gt;
+
+
+    &lt;auth-constraint&gt;
+
+
+        &lt;role-name&gt;
+
+            register
+
+        &lt;/role-name&gt;
+
+
+    &lt;/auth-constraint&gt;
+
+
+&lt;/security-constraint&gt;
+
+
+&lt;login-config&gt;
+
+
+    &lt;auth-method&gt;
+
+        BASIC
+
+    &lt;/auth-method&gt;
+
+
+    &lt;realm-name&gt;
+
+        Register
+
+    &lt;/realm-name&gt;
+
+
+&lt;/login-config&gt;</code></pre>
+        <p>
+   This configuration ensures only Tomcat users with the role
+   <kbd>register</kbd>
+   can access the resource
+   <kbd>/p/register</kbd>.
+  </p>
+        <p>
+   The role
+   <kbd>register</kbd> needs to be defined and assigned to
+an existing Tomcat user account.
+  </p>
+        <p>
+   To do so, edit the file
+   <kbd>$TOMCAT_DIR/conf/tomcat-users.xml</kbd>
+   and replace its content with the following lines:
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+
+
+&lt;tomcat-users&gt;
+
+
+    &lt;role rolename="register"/&gt;
+
+
+    &lt;user username="signavio" password="signavio" roles="register"/&gt;
+
+
+&lt;/tomcat-users&gt;</code></pre>
+        <p>
+   These lines define the role
+   <kbd>register</kbd>
+   and create a user
+with the username
+   <kbd>signavio</kbd>, the password
+   <kbd>signavio</kbd>
+   and the role
+   <kbd>register</kbd>.
+  </p>
+        <p>
+   Please customize the attribute values for
+   <kbd>username</kbd>
+   and
+   <kbd>password</kbd> and share this information only with authorized
+persons who are allowed to register new users in the Signavio
+system.
+  </p>
+    </body>
+</html>

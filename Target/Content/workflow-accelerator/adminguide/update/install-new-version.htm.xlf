@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="install-new-version.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="install-new-version.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">16</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>
+   Install a new version</source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">Install a new version</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Eine neue Version installieren</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In order to update the Workflow Accelerator system, you have to
+replace the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>ROOT<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   folder in <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   with the newer version you can find
+in the extracted directory
+   <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/webapps<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In order to update the Workflow Accelerator system, you have to replace the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>ROOT<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> folder in <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> with the newer version you can find in the extracted directory <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/webapps<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Um das Workflow Accelerator-System zu aktualisieren, müssen Sie den Ordner <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>ROOT<ept
+              id="1">&lt;/kbd&gt;</ept> im Verzeichnis <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps<ept
+              id="2">&lt;/kbd&gt;</ept> durch die neuere Version ersetzen, welche sich in dem entpackten Verzeichnis <bpt
+              id="3">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/webapps<ept
+              id="3">&lt;/kbd&gt;</ept> befindet.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Delete the directory
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    completely.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Delete the directory <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> completely.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Löschen Sie den Ordner <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT<ept
+              id="1">&lt;/kbd&gt;</ept> vollständig.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Copy the directory
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/webapps/ROOT<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    to
+    <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Copy the directory <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/webapps/ROOT<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> to <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Kopieren Sie den Ordner <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/webapps/ROOT<ept
+              id="1">&lt;/kbd&gt;</ept> nach <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps<ept
+              id="2">&lt;/kbd&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Copy the configuration files you have backed up in subsection <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="backup-configuration-files.htm#Back" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Backup the configuration
+files
+  &lt;/MadCap:xref&gt;</ph>back into the directory
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Copy the configuration files you have backed up in subsection <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="backup-configuration-files.htm#Back" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Backup the configuration
+files
+  &lt;/MadCap:xref&gt;</ph>back into the directory <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Kopieren Sie die Konfigurationsdateien, die Sie in Abschnitt <ph
+              id="1">&lt;MadCap:xref href="backup-configuration-files.htm#Back" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Backup the configuration
+files
+  &lt;/MadCap:xref&gt;</ph> gesichert haben, zurück in das Verzeichnis <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes<ept
+              id="1">&lt;/kbd&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>If you have been provided with a new
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>license.xml<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, copy
+the file into
+    <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    and replace the existing file. Otherwise, you can keep on using the old
+    <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>license.xml<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you have been provided with a new <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>license.xml<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, copy the file into <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and replace the existing file.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Otherwise, you can keep on using the old <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>license.xml<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Insofern Sie mit der Aktualisierung eine neue <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>license.xml<ept
+              id="1">&lt;/kbd&gt;</ept> erhalten haben, kopieren Sie diese Datei in das Verzeichnis <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes<ept
+              id="2">&lt;/kbd&gt;</ept> und ersetzen die bestehende Datei.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Sollten Sie keine neue <bpt
+              id="3">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>license.xml<ept
+              id="3">&lt;/kbd&gt;</ept> erhalten haben, können Sie weiterhin die alte Datei verwenden.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you have installed the Workflow Accelerator Script Engine, you
+need to update the content of the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   directory with the newer version you can find in the extracted
+directory
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/script-engine<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you have installed the Workflow Accelerator Script Engine, you need to update the content of the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> directory with the newer version you can find in the extracted directory <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/script-engine<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie die Workflow Accelerator Script Engine installiert haben, müssen Sie den Inhalt des Verzeichnis <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+              id="1">&lt;/kbd&gt;</ept> durch die neuere Version in dem Verzeichnis <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/script-engine<ept
+              id="2">&lt;/kbd&gt;</ept> ersetzen.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Delete all files in the directory
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Delete all files in the directory <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Löschen Sie alle Dateien im Verzeichnis <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+              id="1">&lt;/kbd&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Copy the content of the directory
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/script-engine<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    to your
+    <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    directory.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Copy the content of the directory <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/script-engine<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> to your <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> directory.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Kopieren Sie den Inhalt des Verzeichnisses <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/script-engine<ept
+              id="1">&lt;/kbd&gt;</ept> in Ihr <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+              id="2">&lt;/kbd&gt;</ept> Verzeichnis.</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Copy the configuration file
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns=""&gt;</bpt>configuration.onpremise.js<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    you have backed up in subsection
+    <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="backup-configuration-files.htm#Back" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Backup the configuration
+files
+  &lt;/MadCap:xref&gt;</ph>
+    back into the
+directory
+    <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns=""&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Copy the configuration file <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns=""&gt;</bpt>configuration.onpremise.js<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> you have backed up in subsection <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="backup-configuration-files.htm#Back" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Backup the configuration
+files
+  &lt;/MadCap:xref&gt;</ph> back into the directory <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns=""&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Kopieren Sie die Konfigurationsdatei <bpt
+              id="1">&lt;kbd xmlns=""&gt;</bpt>configuration.onpremise.js<ept
+              id="1">&lt;/kbd&gt;</ept>, die Sie in Abschnitt <ph
+              id="1">&lt;MadCap:xref href="backup-configuration-files.htm#Back" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Backup the configuration
+files
+  &lt;/MadCap:xref&gt;</ph> gesichert haben, zurück in das Verzeichnis <bpt
+              id="2">&lt;kbd xmlns=""&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+              id="2">&lt;/kbd&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you have installed the Workflow Accelerator Mail Relay, you need
+to update the content of the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>mail-relay.jar<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   file within
+the
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$MAIL_RELAY_HOME<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   directory with the newer version you
+can find in the extracted directory
+   <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/mail-relay<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you have installed the Workflow Accelerator Mail Relay, you need to update the content of the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>mail-relay.jar<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> file within the <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$MAIL_RELAY_HOME<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> directory with the newer version you can find in the extracted directory <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/mail-relay<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie das Workflow Accelerator Mail Relay installiert haben, dann müssen Sie die Datei <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>mail-relay.jar<ept
+              id="1">&lt;/kbd&gt;</ept> im Verzeichnis <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$MAIL_RELAY_HOME<ept
+              id="2">&lt;/kbd&gt;</ept> durch die neuere Version ersetzen, die Sie im extrahierten Verzeichnis <bpt
+              id="3">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/mail-relay<ept
+              id="3">&lt;/kbd&gt;</ept> finden.</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Delete the file
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$MAIL_RELAY_HOME/mail-relay.jar<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Delete the file <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$MAIL_RELAY_HOME/mail-relay.jar<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Löschen Sie die Datei <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$MAIL_RELAY_HOME/mail-relay.jar<ept
+              id="1">&lt;/kbd&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Copy the file
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/mail-relay/mail-relay.jar<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    to your
+    <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$MAIL_RELAY_HOME<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    directory.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Copy the file <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/mail-relay/mail-relay.jar<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> to your <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$MAIL_RELAY_HOME<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> directory.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Kopieren Sie die Datei <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/mail-relay/mail-relay.jar<ept
+              id="1">&lt;/kbd&gt;</ept> in ihr <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$MAIL_RELAY_HOME<ept
+              id="2">&lt;/kbd&gt;</ept>-Verrzeichnis.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

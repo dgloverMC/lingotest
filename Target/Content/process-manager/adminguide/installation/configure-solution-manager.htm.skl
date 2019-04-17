@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="configuring-sap-solution-manager-connector-optional" name="configuring-sap-solution-manager-connector-optional">砻קยด1ตว融</h1>
+        <p>砻קยด2ตว融</p>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <p>砻קยด3ตว融</p>
+            <p>砻קยด4ตว融</p>
+        </div>
+        <h2 id="installing-the-connector" name="installing-the-connector">砻קยด5ตว融</h2>
+        <p>砻קยด6ตว融</p>
+        <p>砻קยด7ตว融</p>
+        <p>砻קยด8ตว融</p>
+        <p> </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh"># the shared secret for communication between Signavio Process Manager and solman72-service
+
+    # must be the same as the &lt;sharedJwtSecret&gt; in configuration.xml
+
+    sharedJwtSecret: SHARED_SECRET_CHANGE_ME
+</code>   </pre>
+        <h2 id="configuring-the-connector" name="configuring-the-connector">砻קยด9ตว融</h2>
+        <p>砻קยด10ตว融</p>
+        <p>砻קยด11ตว融<a name="&#xA;spring.config.location"></a></p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;Environment name="spring.config.location" 
+	value="${catalina.base}/conf/solman72.yml"
+	type="java.lang.String"/&gt;</code></pre>
+        <p>砻קยด12ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;sharedJwtSecret&gt;SHARED_SECRET_CHANGE_ME&lt;/sharedJwtSecret&gt;
+
+
+&lt;gatewaymappings&gt;solman72=http://localhost:8080/solman72&lt;/gatewaymappings&gt;</code></pre>
+        <p>砻קยด13ตว融</p>
+        <ul>
+            <li>砻קยด14ตว融</li>
+            <li>砻קยด15ตว融</li>
+        </ul>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>砻קยด16ตว融</p>
+        </div>
+        <h2 id="using-solution-administration" name="using-solution-administration">砻קยด17ตว融</h2>
+        <p>砻קยด18ตว融</p>
+        <h2 id="generating-the-ssl-certificate-optional" name="generating-the-ssl-certificate-optional">砻קยด19ตว融</h2>
+        <p>砻קยด20ตว融</p>
+        <p>砻קยด21ตว融</p>
+        <p>砻קยด22ตว融</p><pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">[ req ]
+
+default_bits = 2048
+
+default_keyfile = localhost.pem
+
+distinguished_name = subject
+
+req_extensions = req_ext
+
+x509_extensions = x509_ext
+
+string_mask = utf8only
+
+
+
+
+[ subject ]
+
+countryName = Country Name (2 letter code)
+
+countryName_default = US
+
+
+stateOrProvinceName = State or Province Name (full name)
+
+stateOrProvinceName_default = NY
+
+
+localityName = Locality Name (eg, city)
+
+localityName_default = New York
+
+
+organizationName = Organization Name (eg, company)
+
+organizationName_default = Example, LLC
+
+
+commonName = Common Name (e.g. server FQDN or YOUR name)
+
+commonName_default = Example Company
+
+
+emailAddress = Email Address
+
+emailAddress_default = test@example.com
+
+
+[ x509_ext ]
+
+subjectKeyIdentifier = hash
+
+authorityKeyIdentifier = keyid,issuer
+
+
+
+
+basicConstraints = CA:FALSE
+
+keyUsage = digitalSignature, keyEncipherment
+
+subjectAltName = @alternate_names
+
+nsComment = "OpenSSL Generated Certificate"
+
+
+[ req_ext ]
+
+subjectKeyIdentifier = hash
+
+
+basicConstraints = CA:FALSE
+
+keyUsage = digitalSignature, keyEncipherment
+
+subjectAltName = @alternate_names
+
+nsComment = "OpenSSL Generated Certificate"
+
+
+
+
+[ alternate_names ]
+
+DNS.1 = localhost
+
+DNS.2 = 127.0.0.1
+
+DNS.3 = mycompany.com
+
+DNS.4 = signavio.mycompany.com
+
+
+# Add these if you need them
+
+# DNS.5 = mycompany.de
+
+# DNS.6 = mycompany.co.uk
+
+# DNS.7 = 127.0.0.1
+
+
+# IPv6 localhost
+
+# DNS.8 = ::1
+
+# DNS.9 = fe80::1]</code></pre>
+        <p>砻קยด23ตว融</p>
+        <h2 id="trusting-ssl-certificates-in-tomcat-optional" name="trusting-ssl-certificates-in-tomcat-optional">砻קยด24ตว融</h2>
+        <p>砻קยด25ตว融</p>
+        <p>砻קยด26ตว融</p>
+        <p>砻קยด27ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">bash_profile
+
+export CLIENT_CERT=/path/to/keystore.jks
+
+export CATALINA_OPTS="$CATALINA_OPTS -Djavax.net.ssl.keyStore=$CLIENT_CERT -Djavax.net.ssl.keyStorePassword=mypassword -Djavax.net.ssl.trustStore=$CLIENT_CERT -Djavax.net.ssl.trustStorePassword=mypassword"</code></pre>
+        <p>砻קยด28ตว融</p>
+        <h2 id="system-diagnostics" name="system-diagnostics">砻קยด29ตว融</h2>
+        <p>砻קยด30ตว融</p>
+    </body>
+</html>

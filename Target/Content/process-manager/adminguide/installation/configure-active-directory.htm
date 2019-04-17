@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="configuring-collaboration-hub-active-directory-optional" name="configuring-collaboration-hub-active-directory-optional">
+   Configuring Collaboration Hub &amp; Active Directory (optional)
+  </h1>
+        <p>
+   If you have purchased Collaboration Hub and want to use
+single-sign-on, the you need to configure the connection to your Active
+Directory service.
+  </p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <ul>
+                <li>
+    If you use Kerberos-SSO functionality, you need to install the
+Signavio server on a Microsoft Windows 64 bit operating system of a
+machine that is within your Active Directory domain.
+   </li>
+                <li>
+    If you want to test access to your Active Directory, you may use the
+    <strong>
+     LDAP Browser
+    </strong>
+    by Softerra. For example, you can check,
+if the user name and password is correct and if the user can access
+relevant parts of the Active Directory. You can download the Softerra
+LDAP Browser free of charge at:
+   </li>
+                <li><a href="http://www.ldapbrowser.com/download.htm">
+     http://www.ldapbrowser.com/download.htm
+    </a>
+                </li>
+                <li>
+    Before activating or deactivating the SSO-functionality you should
+unpublish all diagrams. Otherwise diagrams may not be correctly
+published for some users.
+   </li>
+            </ul>
+        </div>
+        <p>
+   The configuration template
+   <kbd>
+    configuration.xml
+   </kbd>
+   contains
+an example configuration of an Active Directory connection:
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;ldap&gt;
+
+
+  &lt;ldapHost&gt;ldap://192.168.0.100/&lt;/ldapHost&gt;
+
+
+  &lt;ldapSearchRoots&gt;
+
+
+    &lt;ldapSearchRoot&gt;CN=Users,DC=company,DC=com&lt;/ldapSearchRoot&gt;
+
+
+    &lt;ldapSearchRoot&gt;CN=Groups,DC=company,DC=com&lt;/ldapSearchRoot&gt;
+
+
+  &lt;/ldapSearchRoots&gt;
+
+
+  &lt;ldapUser&gt;CN=LdapUser,CN=Users,DC=company,DC=com&lt;/ldapUser&gt;
+
+
+  &lt;ldapPw&gt;password&lt;/ldapPw&gt;
+
+
+  &lt;ldapSsoMode&gt;KERBEROS&lt;/ldapSsoMode&gt;
+
+
+  &lt;ldapModelerSsoSupported&gt;true&lt;/ldapModelerSsoSupported&gt;
+
+
+  &lt;ldapAdminMail&gt;admin@company.com&lt;/ldapAdminMail&gt;
+
+
+&lt;/ldap&gt;</code></pre>
+        <p>
+   For requests to the Active Directory, LDAP interfaces are used. To
+enable the connection, adjust the
+   <kbd>configuration.xml
+   </kbd>
+   file
+as follows:
+  </p>
+        <ul>
+            <li><strong>ldapHost
+    </strong>: URL for the access to the Active
+Directory using LDAP.
+</li><strong>
+      ldapSearchRoots
+     </strong>: Multiple folder objects that will
+be used as root directory for the search. Specify these objects as
+     <strong>
+      Distinguished Names</strong>. Search roots can be either
+     <strong>
+      Organizational Units
+     </strong>
+     or
+     <strong>
+      Containers</strong>.
+Note user groups are
+     <strong>
+      not
+     </strong>
+     containers for users, but
+references to those. Below you see an example of a structure of an
+Active Directory in the domain
+     <kbd>adtest.local</kbd>:
+    <ul><li>
+      If the containers
+      <em>
+       Users
+      </em>
+      or user
+      <em>
+       UserGroups
+      </em>
+      are in
+the domain's root node, all folders highlighted in red have to be
+marked as
+      <kbd>searchRoots</kbd>:
+     </li></ul><figure><img src="../_static/_images/en/active_directory1.png" /></figure><em>
+      Example: user groups on root level in an Active
+Directory
+     </em><li>The
+     <em>
+      Distinguished Names
+     </em>
+     in this case are:
+    <pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">CN=Users,DC=adtest,DC=local
+
+OU=UserGroups,DC=adtest,DC=local</code></pre><li>If the Active Directory is divided by location or organization
+units, the sub folders containing groups and user have to be marked as</li><kbd>searchRoots
+     </kbd>:
+    <figure><img src="../_static/_images/en/active_directory2.png" xmlns="http://www.w3.org/1999/xhtml" /></figure><em>
+      Example: user groups on organization level in an Active
+Directory
+     </em></li><li>The Distinguished Names in this case are:
+    <pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">OU=Groups,OU=AAA,OU=Organization,DC=adtest,DC=local
+      Example: user groups on organization level in an Active
+Directory
+     </code></pre></li><li>The Distinguished Names in this case are:
+    <pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">OU=Groups,OU=AAA,OU=Organization,DC=adtest,DC=local
+
+
+OU=Users,OU=AAA,OU=Organization,DC=adtest,DC=local
+
+
+OU=Groups,OU=BBB,OU=Organization,DC=adtest,DC=local
+
+
+OU=Users,OU=BBB,OU=Organization,DC=adtest,DC=local
+
+
+OU=Groups,OU=CCC,OU=Organization,DC=adtest,DC=local
+
+
+OU=Users,OU=CCC,OU=Organization,DC=adtest,DC=local</code></pre></li><li><strong xmlns="http://www.w3.org/1999/xhtml">
+      ldapUser</strong>:
+
+     <br xmlns="http://www.w3.org/1999/xhtml" />User object for the access to the Active Directory. Depending on the
+version and the configuration of the active directory, there are three
+different notations for the user name:
+
+     <br xmlns="http://www.w3.org/1999/xhtml" />Please try the different notations in this order. If it does not
+work try the next notation:
+    <ol style="list-style-type: lower-alpha;" xmlns="http://www.w3.org/1999/xhtml"><li>
+       Distinguished Name (e.g.:
+       <kbd>CN=LdapUser,CN=Users,DC=company,DC=com</kbd>)
+      </li><li>
+       User UPN logon name (e.g.:
+       <kbd>LdapUser@company.com</kbd>)
+      </li><li>
+       SamAccountName (e.g.:
+       <kbd>company\LdapUser</kbd>)
+      </li></ol></li><li><strong xmlns="http://www.w3.org/1999/xhtml">
+      ldapPw
+     </strong>
+     :
+    <br xmlns="http://www.w3.org/1999/xhtml" />
+   Password of the user object.
+    </li><li><strong xmlns="http://www.w3.org/1999/xhtml">
+      ldapSsoMode
+     </strong>:
+
+     <br xmlns="http://www.w3.org/1999/xhtml" />Used mechanism for the user Single-Sign-On. Might be
+     <kbd xmlns="http://www.w3.org/1999/xhtml">KERBEROS</kbd>
+     or
+     <kbd xmlns="http://www.w3.org/1999/xhtml">LDAPQUERY</kbd>
+     (authentication using
+an LDAP user name and password). If you use Kerberos, Signavio Process
+Manager must be installed on a Microsoft Windows 64 bit operating
+system. If you use LDAP-query based authentication, you can also
+specify an
+     <kbd xmlns="http://www.w3.org/1999/xhtml">ldapQueryLoginPattern</kbd>.
+    </li><li><strong xmlns="http://www.w3.org/1999/xhtml">
+      ldapQueryLoginPattern
+     </strong>
+     (optional): <br xmlns="http://www.w3.org/1999/xhtml" />Allows you to
+specify a completion pattern for the user name provided to the
+LDAP-query based authentication.
+
+<br xmlns="http://www.w3.org/1999/xhtml" />Example: Using the pattern
+     <kbd xmlns="http://www.w3.org/1999/xhtml">$login$@company\.com</kbd>, you
+can configure that instead of the user input
+     <kbd xmlns="http://www.w3.org/1999/xhtml">j.doe</kbd>
+     the
+following user name is actually used for authentication:
+     <kbd xmlns="http://www.w3.org/1999/xhtml">j.doe@company\.com</kbd>.<br xmlns="http://www.w3.org/1999/xhtml" />    </li><li><strong xmlns="http://www.w3.org/1999/xhtml">
+      ldapModelerSsoSupported
+     </strong>
+     <br xmlns="http://www.w3.org/1999/xhtml" />Controls, whether Active-Directory users can login to Signavio
+Process Manager as modeling users without providing a separate Signavio
+password. Possible values are true and false (default).
+
+     <br xmlns="http://www.w3.org/1999/xhtml" />To use this SSO for a specific Active-Directory user, a modeling
+user must be registered within Signavio Process Manager that has the
+same email-address as the Active-Directory user.
+    </li><li><strong xmlns="http://www.w3.org/1999/xhtml">
+      ldapAdminMail
+     </strong><br xmlns="http://www.w3.org/1999/xhtml" />Email address of the administrator who is responsible for the LDAP
+configuration. This is used for system notifications and thus has to be
+defined.
+</li></ul>
+        <p>
+   Copy the customized
+   <kbd>configuration.xml</kbd>
+   into the
+directory
+   <kbd>$TOMCAT_DIR/conf/</kbd>
+   and restart the Tomcat
+server.
+  </p>
+        <p>
+   Now, grant read access to the BPM Collaboration Hub to users and/or
+user groups according to the chapter
+   <a href="https://docs.signavio.com/userguide/editor/en/workspace_admin/manage_users_access/portal_managing_user_access.html">
+    Granting Collaboration Hub read access to Active Directory service
+users and user groups
+   </a>
+   of the Signavio user guide.
+  </p>
+        <p>
+   With Collaboration Hub, you purchase a contingent of a specific
+number of Active Directory users who are allowed to get read access to
+models that were published in Signavio Collaboration Hub. When
+calculating the number of active users, the system considers all users
+that have access to any published diagram.
+  </p>
+        <p>
+   If the quantity of Collaboration Hub users reaches 80% of the
+contingent, the system will automatically inform your workspace
+administrator by email.
+  </p>
+        <p>
+   If the contingent is exceeded, the read access to the Signavio
+process portal is temporarily deactivated. However, licensed users will
+still be able to log in.
+  </p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>
+    To activate the automatic authentication for the Internet Explorer
+using a Kerberos user, add the host name of the Signavio server to the
+security zone
+    <strong>
+     Local intranet
+    </strong>
+    and ensure the option
+    <strong>
+     user authentication &gt; registration
+    </strong>
+    is set to
+    <strong>
+     Automatic logon only in Intranet zone
+    </strong>.
+   </p>
+        </div>
+        <p>
+   To activate Kerberos authentication using Mozilla Firefox, go to
+   <strong>
+    about:config
+   </strong>
+   via the address bar of the browser.
+There, set the variable
+   <kbd>network.negotiate-auth.trusted-uris</kbd>
+   to the Signavio server
+URL as defined in the
+   <kbd>configuration.xml</kbd>
+   file. If the
+variable is already set, extend it as a comma-separated list with the
+server URL.
+  </p>
+    </body>
+</html>

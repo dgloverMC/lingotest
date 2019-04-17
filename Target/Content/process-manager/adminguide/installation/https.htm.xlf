@@ -1,0 +1,999 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="https.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="https.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">79</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Using HTTPS (optional)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Using HTTPS (optional)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">HTTPS verwenden (optional)</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Signavio Process Manager supports encrypted communication via HTTPS.
+We recommend using HTTPS for example, if the users access the Signavio
+system via an insecure network connection.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio Process Manager supports encrypted communication via HTTPS.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">We recommend using HTTPS for example, if the users access the Signavio system via an insecure network connection.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Der Signavio Process Manager unterstützt verschlüsselte Kommunikation mittels HTTPS.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die Verwendung von HTTPS ist beispielsweise sinnvoll, wenn Nutzer über unsichere Netzwerkverbindungen\nauf den Signavio Server zugreifen.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you want to use the HTTPS protocol, some further configurations
+in the software are necessary. It is required that the respective
+administrator has some knowledge in the usage of HTTPS in combination
+with the Apache Tomcat. For further information and help regarding the
+installation and configuration please consult the documentation of the
+Apache Tomcat.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you want to use the HTTPS protocol, some further configurations in the software are necessary.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">It is required that the respective administrator has some knowledge in the usage of HTTPS in combination with the Apache Tomcat.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">For further information and help regarding the installation and configuration please consult the documentation of the Apache Tomcat.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Wenn Sie HTTPS verwenden möchten, ist eine zusätzliche Konfigurationen in der Anwendung nötig.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Es wird vorausgesetzt, dass der zuständige Administrator Erfahrung in der Benutzung von HTTPS mit dem Apache Tomcat hat.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Für weitere Hilfen zur Einrichtung von HTTPS im Apache Tomcat lesen Sie bitte die Dokumentation des Apache Tomcat.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Please make sure that the certificate is issued by a trusted
+Certificate Authority (CA) and please make sure that the JVM is
+trusting that certificate and CA. Therefore, both certificates must be
+added to the Java Truststore.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Please make sure that the certificate is issued by a trusted Certificate Authority (CA) and please make sure that the JVM is trusting that certificate and CA.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Therefore, both certificates must be added to the Java Truststore.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Stellen Sie bitte sicher, dass das Zertifikat von einer vertrauenswürdigen Certificate Authority (CA) ausgestellt wurde und stellen Sie sicher, dass die JVM, mit dem der Apache Tomcat ausgeführt\nwird, dem Zertifikat sowie der CA vertraut.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Hierzu müssen beide Zertifikate dem Java Truststore hinzugefügt werden.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>An incorrectly configured HTTPS connection usually typically causes
+the following problems:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">An incorrectly configured HTTPS connection usually typically causes the following problems:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Eine fehlerhafte HTTPS Konfiguration führt in der Regel zu einem oder mehreren der folgenden Effekte:</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>The search of diagrams and dictionary entries returns no
+results.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The search of diagrams and dictionary entries returns no results.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die Suche nach Diagrammen und Glossareinträgen gibt keine Ergebnisse zurück.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>The Dictionary is empty.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Dictionary is empty.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Das Glossar ist leer.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Diagrams can’t be exported as a PNG, the diagram preview in the
+explorer shows no picture of the diagram, the BPM Collaboration Portal
+shows no graphical representation and in the Simulation and Comparator
+no diagram is displayed.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Diagrams can’t be exported as a PNG, the diagram preview in the explorer shows no picture of the diagram, the BPM Collaboration Portal shows no graphical representation and in the Simulation and Comparator no diagram is displayed.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Abgespeicherte Diagramme können nicht als PNG exportiert werden und die Diagrammvorschau im Explorer zeigt kein Diagramm an, das Collaboration Hub zeigt keine grafische Darstellung an und in der Simulation und dem Diagrammvergleich wird keine grafische Darstellung angezeigt.</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>The Simulation can’t be executed.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Simulation can’t be executed.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die Simulation kann nicht ausgeführt werden.</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>The system doesn’t send notification emails.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The system doesn’t send notification emails.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Es werden keine E-Mail-Benachrichtigungen verschickt.</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The reason for these effects is that the different features are
+provided by different web services that communicate via HTTP(S).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The reason for these effects is that the different features are provided by different web services that communicate via HTTP(S).</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Der Grund für dieser Effekte ist, dass die unterschiedlichen Funktionen von einzelnen Webanwendungen bereitgestellt werden, die per HTTP(S) kommunizieren.</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To ensure a stable connection, the JVM instance must accept the used
+certificate. If you observe one or more of these effects, please check
+the Tomcat log files. Usually, the error messages contain helpful
+information about the problem.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To ensure a stable connection, the JVM instance must accept the used certificate.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If you observe one or more of these effects, please check the Tomcat log files.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Usually, the error messages contain helpful information about the problem.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Bei der Verwendung von HTTPS ist es für eine reibungslose Kommunikation daher erforderlich, dass die JVM Instanz das verwendete Zertifikat akzeptiert.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Wenn Sie einen oder mehrere dieser Effekte beobachten, kontrollieren Sie die Logdateien vom Tomcat Server.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die Fehlermeldungen enthalten häufig konkrete Hinweise, welche Ursache das Problem hat.</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Tomcat SSL Certification</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Tomcat SSL Certification</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Tomcat SSL-Zertifizierung</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The Apache Tomcat team announced that support for Apache Tomcat
+8.0.x ended on 30th June 2018. Therefore, Signavio only supports Tomcat
+version 8.5.x.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Apache Tomcat team announced that support for Apache Tomcat 8.0.x ended on 30th June 2018.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Therefore, Signavio only supports Tomcat version 8.5.x.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Das Apache Tomcat Team gab bekannt, dass die Unterstützung für Apache Tomcat 8.0.x am 30. Juni 2018 beendet wurde.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Daher unterstützt Signavio ausschließlich die Tomcat-Version 8.5.x.</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    For Tomcat 8.5
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+   , you will find detailed instructions
+for SSL certification in the official Apache Tomcat documentation
+at:</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> For Tomcat 8.5 <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> , you will find detailed instructions for SSL certification in the official Apache Tomcat documentation at:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Eine detaillierte englischsprachige Anleitung zur SSL-Zertifizierung finden Sie in der offiziellen <bpt
+              id="1">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Tomcat 8.5<ept
+              id="1">&lt;/strong&gt;</ept>-Dokumentation unter:</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>
+    https://tomcat.apache.org/tomcat-8.5-doc/ssl-howto.html
+   </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">https://tomcat.apache.org/tomcat-8.5-doc/ssl-howto.html</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">https://tomcat.apache.org/tomcat-8.5-doc/ssl-howto.html</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Please make sure to set UTF-8 as the URIEncoding of the HTTPS
+connector.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Please make sure to set UTF-8 as the URIEncoding of the HTTPS connector.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Bitte stellen Sie sicher, dass UTF-8 als URIEncoding des HTTPS-Konnektors gesetzt ist.</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>A readily prepared connector configuration could look like this:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">A readily prepared connector configuration could look like this:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Eine korrekte Konfiguration kann zum Beispiel wie folgt aussehen:</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>For Tomcat 8.5, the SSL protocol has changed. The TLS protocol is no
+longer supported by all browsers. As a result, you will not be able to
+reach your application if you try to use the default TSL protocol. To
+fix this, you need to define an additional TLS version.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">For Tomcat 8.5, the SSL protocol has changed.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The TLS protocol is no longer supported by all browsers.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">As a result, you will not be able to reach your application if you try to use the default TSL protocol.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">To fix this, you need to define an additional TLS version.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Das SSL-Protokoll für Tomcat 8.5 hat sich geändert.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Das alte TLS-Protokoll wird nicht mehr von allen Browsern unterstützt.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Daher können Sie Ihre Anwendung nicht erreichen, wenn Sie versuchen, das Standard-TSL-Protokoll zu verwenden.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Um dies zu beheben, müssen Sie eine zusätzliche TLS-Version definieren.</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Your connector could look like this:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Your connector could look like this:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Ihr Konnektor könnte zum Beispiel wie folgt aussehen:</mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>For really large active directories, you will need to double or
+quadruple the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    maxHttpHeadersize
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   parameter. Otherwise,
+Tomcat 8.5 will time out.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">For really large active directories, you will need to double or quadruple the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> maxHttpHeadersize <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> parameter.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Otherwise, Tomcat 8.5 will time out.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Andernfalls wird Tomcat 8.5 den Vorgang abbrechen.</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     keystore
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    lines are optional, and can be changed
+depending on what kind of certificate you want to use (our example is
+for PFX). Edit your code accordingly.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> keystore <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> lines are optional, and can be changed depending on what kind of certificate you want to use (our example is for PFX).</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Edit your code accordingly.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Bearbeiten Sie Ihren Code dementsprechend.</mrk></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Using an Apache web server in front of the Tomcat to enable SSL
+(alternative to 3.20.1)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Using an Apache web server in front of the Tomcat to enable SSL (alternative to 3.20.1)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Einen Apache Webserver vor den Tomcat schalten, um SSL zu ermöglichen (Alternative zu 3.20.1)</mrk></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Instead of configuring the Tomcat to use SSL, you can setup an
+Apache web server (that uses SSL) and have it handle the external
+traffic for the Tomcat.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Instead of configuring the Tomcat to use SSL, you can setup an Apache web server (that uses SSL) and have it handle the external traffic for the Tomcat.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Anstatt einen Tomcat HTTPS Konnektor zu konfigurieren, können Sie einen Apache Webserver (der HTTPS verwendet) vor den Tomcat schalten.</mrk></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The configuration procedure is described in the official Apache
+Tomcat documentation at
+   <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://tomcat.apache.org/connectors-doc/webserver_howto/apache.html" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    https://tomcat.apache.org/connectors-doc/webserver_howto/apache.html
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">The configuration procedure is described in the official Apache Tomcat documentation at <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://tomcat.apache.org/connectors-doc/webserver_howto/apache.html" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> https://tomcat.apache.org/connectors-doc/webserver_howto/apache.html <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Um die Konfiguration durchzuführen, folgen Sie den Anweisungen in der offiziellen Tomcat Dokumentation unter <bpt
+              id="1"
+              ctype="link">&lt;a href="https://tomcat.apache.org/connectors-doc/webserver_howto/apache.html" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://tomcat.apache.org/connectors-doc/webserver_howto/apache.html<ept
+              id="1">&lt;/a&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Signavio system
+configuration</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio system configuration</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Das Signavio-System konfigurieren</mrk></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In addition to the regular installation procedures, please also
+follow these steps.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In addition to the regular installation procedures, please also follow these steps.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Führen Sie zusätzlich zu den Standardinstallationsschritten die folgenden Schritte aus.</mrk></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The Tomcat server must be stopped for this.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Tomcat server must be stopped for this.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Stoppen Sie hierzu den Tomcat-Server.</mrk></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>These instruction assume that the Signavio Application Server, the
+Mailing Server, the Image Server, the Simulation Server and Apache Solr
+run on the same machine. If this is not the case, adjust the
+corresponding URLs according to your system setup and
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     don’t
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+    restrict the Tomcat Connector in step 1) to
+listen to localhost only (no
+    <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     address=”127.0.0.1”<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>).
+Instead, you can restrict access with a
+    <bpt
+            id="3"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://tomcat.apache.org/tomcat-8.0-doc/config/valve.html#Remote_Address_Filter" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Remote Address Filter
+    <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>, for example.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">These instruction assume that the Signavio Application Server, the Mailing Server, the Image Server, the Simulation Server and Apache Solr run on the same machine.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If this is not the case, adjust the corresponding URLs according to your system setup and <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> don’t <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> restrict the Tomcat Connector in step 1) to listen to localhost only (no <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> address=”127.0.0.1”<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>).</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Instead, you can restrict access with a <bpt
+              id="3"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://tomcat.apache.org/tomcat-8.0-doc/config/valve.html#Remote_Address_Filter" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Remote Address Filter <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>, for example.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">In diesen Anweisungen gehen wir davon aus, dass der Signavio Applikationserver, der Mailingserver, der Imageserver, der Simulationsserver und der Apache Solr auf der selben Maschine laufen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="30"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To configure the Signavio system to work properly with HTTPS,
+proceed as follows:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To configure the Signavio system to work properly with HTTPS, proceed as follows:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Um das Signavio System für die Verwendung von HTTPS zu konfigurieren, gehen Sie wie folgt vor:</mrk></target></trans-unit><trans-unit
+        id="31"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Activate an
+     <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      HTTP connector
+     <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+     in the
+     <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      server.xml
+     <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     file (in the
+     <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      conf
+     <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     directory of
+your tomcat) as described at
+     <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      Configure Apache Tomcat.
+     <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+     Make sure to have the connector listening to local requests only
+(<bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>address="127.0.0.1"<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>). A readily prepared connector
+configuration typically looks like this:
+    </source><seg-source><mrk
+            mtype="seg"
+            mid="1">Activate an <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> HTTP connector <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> in the <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> server.xml <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> file (in the <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> conf <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> directory of your tomcat) as described at <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Configure Apache Tomcat.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3"><ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> Make sure to have the connector listening to local requests only (<bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>address="127.0.0.1"<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>).</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">A readily prepared connector configuration typically looks like this:</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Eine korrekte Konfiguration sieht typischerweise wie folgt aus:</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="32"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>It is important that all other services of the application make
+requests against this connector (see below). If they are configured to
+use the HTTPS connector instead, most probably some features will not
+be reliably available.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">It is important that all other services of the application make requests against this connector (see below).</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If they are configured to use the HTTPS connector instead, most probably some features will not be reliably available.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Es ist notwendig, dass alle anderen Services der Anwendung Requests an diesen Konnektor senden (siehe unten).</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Falls stattdessen der HTTPS Konnektor verwendet wird, kann es vorkommen, dass einige Anwendungsfunktionen nicht verlässlich verfügbar sind.</mrk></target></trans-unit><trans-unit
+        id="33"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Update the Signavio configuration file
+     <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     in the folder
+     <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR/conf/<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>:
+    <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ol style="list-style-type: lower-alpha;" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>
+      Add the following lines at the end of the file but before the end
+tag
+      <bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>
+       &lt;/configuration&gt;
+      <ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>:
+     <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ol&gt;</ept><ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;&amp;lt;solrUrl&amp;gt;
+
+  http://localhost/solr
+
+&amp;lt;/solrUrl&amp;gt;
+
+&amp;lt;imageServiceHost&amp;gt;
+
+  http://localhost
+
+&amp;lt;/imageServiceHost&amp;gt;
+
+&amp;lt;platformHostForMailingService&amp;gt;
+
+  http://localhost
+
+&amp;lt;/platformHostForMailingService&amp;gt;
+
+
+&amp;lt;decisionTableVerificationHost&amp;gt;
+
+  http://localhost
+
+&amp;lt;/decisionTableVerificationHost&amp;gt;
+
+
+&amp;lt;bdmSimulationServiceHost&amp;gt;
+
+  http://localhost
+
+&amp;lt;/bdmSimulationServiceHost&amp;gt;
+
+
+&amp;lt;droolsExportServiceHost&amp;gt;
+
+  http://localhost
+
+&amp;lt;/droolsExportServiceHost&amp;gt;&lt;/code&gt;&lt;/pre&gt;</ph><bpt
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ol start="2" style="list-style-type: lower-alpha;" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>
+      In the same directory, in the file
+      <bpt
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>simulation.xml<ept
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>,
+make sure the host entry looks like this:
+     <ept
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ol&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Update the Signavio configuration file <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> in the folder <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR/conf/<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>: <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ol style="list-style-type: lower-alpha;" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt> Add the following lines at the end of the file but before the end tag <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt> &lt;/configuration&gt; <ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>: <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ol&gt;</ept><ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;&amp;lt;solrUrl&amp;gt;
+
+  http://localhost/solr
+
+&amp;lt;/solrUrl&amp;gt;
+
+&amp;lt;imageServiceHost&amp;gt;
+
+  http://localhost
+
+&amp;lt;/imageServiceHost&amp;gt;
+
+&amp;lt;platformHostForMailingService&amp;gt;
+
+  http://localhost
+
+&amp;lt;/platformHostForMailingService&amp;gt;
+
+
+&amp;lt;decisionTableVerificationHost&amp;gt;
+
+  http://localhost
+
+&amp;lt;/decisionTableVerificationHost&amp;gt;
+
+
+&amp;lt;bdmSimulationServiceHost&amp;gt;
+
+  http://localhost
+
+&amp;lt;/bdmSimulationServiceHost&amp;gt;
+
+
+&amp;lt;droolsExportServiceHost&amp;gt;
+
+  http://localhost
+
+&amp;lt;/droolsExportServiceHost&amp;gt;&lt;/code&gt;&lt;/pre&gt;</ph><bpt
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ol start="2" style="list-style-type: lower-alpha;" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt> In the same directory, in the file <bpt
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>simulation.xml<ept
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, make sure the host entry looks like this: <ept
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ol&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="34"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Update the Apache Solr server:
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ol style="list-style-type: lower-alpha;" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Open the file
+      <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>
+       $TOMCAT_DIR/webapps/solr/META-INF/context.xml
+      <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept><ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       Add your IP with a leading
+       <bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>|<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+       to the attribute
+       <bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>allow<ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+       of the xml element
+       <bpt
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Valve<ept
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.
+
+       <ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>For example, if the IP of the server is
+       <bpt
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>192.168.80.152<ept
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>,
+the entry should look like this:
+      <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre class="sourceCode" xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"&gt;&lt;code&gt;&amp;lt;Valve className="org.apache.catalina.valves.RemoteAddrValve"
+
+  allow="localhost|127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1|
+
+  192.168.90.152"
+
+/&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;</ept><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ol&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Update the Apache Solr server: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ol style="list-style-type: lower-alpha;" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Open the file <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt> $TOMCAT_DIR/webapps/solr/META-INF/context.xml <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Add your IP with a leading <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>|<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> to the attribute <bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>allow<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> of the xml element <bpt
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Valve<ept
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5"><ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="6">For example, if the IP of the server is <bpt
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>192.168.80.152<ept
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, the entry should look like this: <ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre class="sourceCode" xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"&gt;&lt;code&gt;&amp;lt;Valve className="org.apache.catalina.valves.RemoteAddrValve"
+
+  allow="localhost|127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1|
+
+  192.168.90.152"
+
+/&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;</ept><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ol&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Passen Sie die Konfiguration des Apache Solr Servers an: <bpt
+              id="1">&lt;ol style="list-style-type: lower-alpha;" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="35"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Ensure your configuration is correct. Proceed as described at
+    <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;code class="interpreted-text" data-role="ref" xmlns="http://www.w3.org/1999/xhtml"&gt;
+     diagnostics
+    &lt;/code&gt;</ph>
+    .</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Ensure your configuration is correct.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Proceed as described at <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;code class="interpreted-text" data-role="ref" xmlns="http://www.w3.org/1999/xhtml"&gt;
+     diagnostics
+    &lt;/code&gt;</ph> .</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Stellen Sie sicher, dass Ihre Konfiguration korrekt ist.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Gehen Sie dafür wie in <ph
+              id="1">&lt;code class="interpreted-text" data-role="ref" xmlns="http://www.w3.org/1999/xhtml"&gt;
+     diagnostics
+    &lt;/code&gt;</ph> beschrieben vor.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

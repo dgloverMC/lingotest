@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1><a name="ConfigureGoogleService" xmlns="http://www.w3.org/1999/xhtml"></a>Configure Google service
+actions
+  </h1>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   To use Google actions within Workflow Accelerator you need to create
+your own OAuth 2.0 client credentials with Google to access the Google
+APIs.
+  </p>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;" xmlns="http://www.w3.org/1999/xhtml">
+            <p>
+    Your Workflow Accelerator system must be available on the public
+internet and the URL must end with a public top level domain.
+   </p>
+        </div>
+        <h2 name="create-oauth-2.0-client-credentials-for-google-services" xmlns="http://www.w3.org/1999/xhtml">
+   Create
+OAuth 2.0 client credentials for Google services
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The following Google article explains how to create OAuth 2.0 client
+credentials:
+   <a href="https://support.google.com/googleapi/answer/6158849?hl=en&amp;ref_topic=7013279">
+    https://support.google.com/googleapi/answer/6158849?hl=en&amp;ref_topic=7013279
+   </a></p>
+        <ol xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Setup a new project in
+    <a href="https://console.developers.google.com">
+     https://console.developers.google.com
+    </a></li>
+            <li>
+     Create OAuth client credentials
+    <ul><li>
+       When asked for the application type, choose
+       <em>web application
+       </em></li><li>
+       For <em>Authorised redirect URIs</em>
+       use the base URL you
+configured in your Workflow Accelerator configuration file and add the
+following path <br /><kbd>/api/v1/oauth_callback</kbd>, e.g. <kbd>https://workfow.example.com/api/v1/oauth_callback</kbd>. The
+redirect URI is required to successfully add new Google accounts to a
+user’s Workflow Accelerator account.
+      </li></ul></li>
+            <li>
+    Activate the APIs required by Workflow Accelerator (see the
+following section for more information)
+   </li>
+            <li>
+     Update the user consent screen
+    <ul><li>
+       Whenever your users add their Google accounts to get access to the
+Google services in Workflow Accelerator they will see this consent
+screen
+      </li></ul></li>
+        </ol>
+        <h2 name="activate-required-google-apis" xmlns="http://www.w3.org/1999/xhtml">
+   Activate required Google
+APIs
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Once you created the Google APIs project and setup the client
+credentials, you need to activate the Google APIs for your project
+which are used by Workflow Accelerator.
+  </p>
+        <ol xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Open
+    <a href="https://console.developers.google.com/apis/dashboard">https://console.developers.google.com/apis/dashboard</a>
+    - your project’s dashboard and click
+    <em>Activate APIs and services</em></li>
+            <li>
+     Search for the following three APIs and activate them
+    <ul><li>
+       Google Drive API
+      </li><li>
+       Google Sheets API
+      </li><li>
+       Google Calendar API
+      </li></ul></li>
+            <li>
+    Once you are finished you should see them listed on your project
+dashboard
+   </li>
+        </ol>
+        <h2 name="download-and-install-the-client-credentials" xmlns="http://www.w3.org/1999/xhtml">
+   Download and
+install the client credentials
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Workflow Accelerator needs to be configured to use your Google
+client credentials.
+  </p>
+        <ol xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Open
+<a href="https://console.developers.google.com/apis/credentials">https://console.developers.google.com/apis/credentials</a>
+    - your Google APIs project’s credentials page
+   </li>
+            <li>
+    You should see your previously created OAuth 2.0 credentials for
+Workflow Accelerator listed there
+   </li>
+            <li>
+    Next to the entry click
+    <em>Download JSON</em></li>
+            <li>
+     The downloaded file has a long name which includes a dynamic part.
+If you like you can rename it to something shorter, e.g.<br /><kbd>google_client_credentials.json</kbd><ul><li>
+       For the rest of this guide we will assume the file is called
+<kbd>google_client_credentials.json</kbd>. Please adjust any
+following examples to your chosen filename.
+      </li></ul></li>
+            <li>
+    Upload the JSON file to the Workflow Accelerator server
+   </li>
+            <li>
+     The file must be accessible by the Tomcat server as it will be
+loaded on startup of the application
+    <ul><li>
+       You can use for instance the Tomcat
+<kbd>conf</kbd>
+       directory
+      </li></ul></li>
+            <li>
+     Add the absolute path of the JSON file to the Workflow Accelerator
+configuration file
+    <ul><li>
+       In
+<kbd>effektif-onpremise.properties</kbd>
+       add the entry
+<pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">effektif.google.secrets.location = /path/to/google_client_credentials.json</code></pre></li><li>
+       Replace the value with the absolute path to your JSON file
+      </li></ul></li>
+            <li>
+    Restart Tomcat
+   </li>
+        </ol>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   When you open the workflow editor, you should now be able to add
+Google actions to your workflows and your Google accounts in the
+actions configuration.
+  </p>
+        <h2 name="apply-for-application-verification" xmlns="http://www.w3.org/1999/xhtml">
+   Apply for application
+verification
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The Google integration accesses sensitive data like files in Google
+Drive and calendars. Google introduced a verification mechanism for
+applications that use OAuth to access sensitive data. Unverified apps
+will have stricter quota limits for API calls and users will be warned
+when granting access to an unverified application.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The following article gives more information about applications that
+need verification and the verification process itself:<br /><a href="https://support.google.com/cloud/answer/7454865?hl=en">https://support.google.com/cloud/answer/7454865?hl=en</a></p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Please read the article and check whether your Google APIs project
+(application) needs to be verified.
+  </p>
+    </body>
+</html>

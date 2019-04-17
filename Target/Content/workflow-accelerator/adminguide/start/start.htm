@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Start Workflow Accelerator
+  </h1>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   After completing the installation as described above, both the
+MongoDB database and the Tomcat application server must be started for
+Workflow Accelerator to run properly. This section will give you more
+details on how to start them.
+  </p>
+        <h2 name="windows" xmlns="http://www.w3.org/1999/xhtml">
+   Windows
+  </h2>
+        <h3 name="mongodb" xmlns="http://www.w3.org/1999/xhtml">
+   MongoDB
+  </h3>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you followed the instructions in this guide and registered a
+service for MongoDB, you can simply start the MongoDB server by opening
+a command line with administrator privileges and execute the following
+command:</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">net start MongoDB</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The registration also defined the startup type of the MongoDB
+service as “Automatic” which means it will start automatically if you
+restart the Windows system. Alternatively, you can manage the MongoDB
+service by opening the
+   <kbd>services.msc</kbd>. There, MongoDB will
+be listed among the other services and can be started and stopped.
+  </p>
+        <h3 name="tomcat" xmlns="http://www.w3.org/1999/xhtml">
+   Tomcat
+  </h3>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Assuming you installed Tomcat using the Windows service installer,
+you can open the Tomcat configuration dialog again by opening the
+Windows start menu and selecting
+   <kbd>Program Files\Apache Tomcat\Configure Tomcat</kbd>. The tab General contains respective
+buttons to start and stop the Tomcat service.
+  </p>
+        <figure xmlns="http://www.w3.org/1999/xhtml">
+            <img class="align-center" src="../_images/Start_Tomcat_Windows.png" />
+        </figure>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Furthermore, you have the option to define the startup type of the
+service. By default, this should be “Manual” which means you have to
+start the Tomcat server manually each time the server restarts. You can
+change the type to “Automatic”. Then the Tomcat server will start
+automatically each time you restart your Windows server.
+  </p>
+        <h2 name="script-engine" xmlns="http://www.w3.org/1999/xhtml">
+   Script Engine
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you installed the script engine and wrapped it into a service,
+you can open the
+   <kbd>services.msc</kbd>, locate the Signavio Script
+Engine service and start it there. Otherwise open a command line,
+navigate to the
+   <kbd>$SCRIPT_ENGINE_HOME</kbd>
+   directory and execute:</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-javascript">node server.js</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Note, you cannot close the command line as long as the script engine
+is running.
+  </p>
+        <h2 id="mail-relay" name="mail-relay" xmlns="http://www.w3.org/1999/xhtml">
+   Mail Relay
+ </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you installed the mail relay and wrapped it into a service, you
+can open the
+   <kbd>services.msc</kbd>, locate the Signavio Mail Relay
+service and start it there. Otherwise open a command line and execute
+(replace the placeholder with the absolute path):</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-javascript">java -jar $MAIL_RELAY_HOME\mail-relay.jar</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Note, you cannot close the command line as long as the mail relay is
+running.
+  </p>
+        <h2 name="debian" xmlns="http://www.w3.org/1999/xhtml">
+   Debian
+  </h2>
+        <h3 name="mongodb-1" xmlns="http://www.w3.org/1999/xhtml">
+   MongoDB
+  </h3>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you followed the instructions in this guide to setup MongoDB
+using a packet manager, some additional scripts have been installed
+that allow you to start, stop and restart the database very easily. Be
+aware, the execution of those scripts require root privileges. :
+  </p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">sudo service mongod start</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If MongoDB is already running, you can restart the database by
+executing:</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">sudo service mongod restart</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   In order to determine whether MongoDB is running or not, you can
+check upon the status with the following command:</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">sudo service mongod status</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Be aware, in earlier versions of MongoDB, e.g. 2.4.x, the scripts
+had a different name
+   <kbd>/etc/init.d/mongodb</kbd></p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">/etc/init.d/mongodb start
+
+/etc/init.d/mongodb restart
+
+/etc/init.d/mongodb status</code></pre>
+        <h3 name="tomcat-1" xmlns="http://www.w3.org/1999/xhtml">
+   Tomcat
+  </h3>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The recommended way to install Tomcat is to use a packet manager.
+Installing Tomcat under Debian with APT will install additional scripts
+to start, stop and restart the server. Be aware, the execution of those
+scripts might require root privileges:
+  </p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">/etc/init.d/tomcat8 start</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   You can restart the Tomcat server if it is already running by
+executing:</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">/etc/init.d/tomcat8 restart</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Furthermore, you can check upon the status of the Tomcat and
+determine whether it is running or not with the following command:</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">/etc/init.d/tomcat8 status</code></pre>
+        <h3 name="script-engine-1" xmlns="http://www.w3.org/1999/xhtml">
+   Script Engine
+  </h3>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you installed the script engine and setup an Init script, execute
+the respective start command for the Init script. Otherwise open a
+command line, navigate to the
+   <kbd>$SCRIPT_ENGINE_HOME</kbd>
+   directory and execute:</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-javascript">node server.js</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Note, you cannot close the command line as long as the script engine
+is running.
+  </p>
+        <h3 name="mail-relay-1" xmlns="http://www.w3.org/1999/xhtml">
+   Mail Relay
+  </h3>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you installed the mail relay and setup an Init script, execute
+the respective start command for the Init script. Otherwise open a
+command line and execute (replace the placeholder with the absolute
+path):</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-javascript">java -jar $MAIL_RELAY_HOME\mail-relay.jar</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Note, you cannot close the command line as long as the mail relay is
+running.
+  </p>
+    </body>
+</html>

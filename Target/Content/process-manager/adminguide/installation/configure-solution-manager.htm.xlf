@@ -1,0 +1,850 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="configure-solution-manager.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="configure-solution-manager.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">69</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Configuring SAP Solution Manager Connector (optional)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configuring SAP Solution Manager Connector (optional)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Konfiguration des SAP Solution Manager Konnektors (optional)</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In order to use the SAP Solution Manager 7.2 (SolMan) connector, you
+must first install Apache Tomcat and Signavio Process Manager. Refer to
+the
+   <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;code class="interpreted-text" data-role="ref" xmlns="http://www.w3.org/1999/xhtml"&gt;
+    Installation
+&amp;lt;requirements&amp;gt;
+   &lt;/code&gt;</ph>
+   chapter for instructions.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In order to use the SAP Solution Manager 7.2 (SolMan) connector, you must first install Apache Tomcat and Signavio Process Manager.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Refer to the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;code class="interpreted-text" data-role="ref" xmlns="http://www.w3.org/1999/xhtml"&gt;
+    Installation
+&amp;lt;requirements&amp;gt;
+   &lt;/code&gt;</ph> chapter for instructions.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Um den SAP Solution Manager 7.2 (SolMan) Konnektor zu verwenden, müssen Sie zuerst Apache Tomcat und Signavio Process Manager installieren.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Anweisungen dazu finden Sie im Kapitel <ph
+              id="1">&lt;code class="interpreted-text" data-role="ref" xmlns="http://www.w3.org/1999/xhtml"&gt;
+    Installation
+&amp;lt;requirements&amp;gt;
+   &lt;/code&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Make sure to create a new database schema named <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>solman72connector<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+				 for the SAP Solution Manager 7.2 connector.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Make sure to create a new database schema named <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>solman72connector<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> for the SAP Solution Manager 7.2 connector.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You must run the connector on a different database schema than the
+one you use for Signavio Process Manager.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You must run the connector on a different database schema than the one you use for Signavio Process Manager.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Sie müssen den Konnektor auf einem anderen Datenbankschema ausführen, als dem Datenbankschema, welches Sie für Signavio Process Manager verwenden.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Installing the connector</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Installing the connector</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Installieren des Konnektors</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To install the SAP Solution Manager connector, you need two files:
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>solman72.yml
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   and
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.
+   <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>solman72.yml<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   is used to configure the SAP Solution Manager
+connector.
+   <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml
+   <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   is the same file as the
+one used to configure Signavio Process Manager. Both are provided in
+the .zip file that comes with the on-premises edition of Signavio
+Process Manager.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To install the SAP Solution Manager connector, you need two files: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>solman72.yml <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>solman72.yml<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> is used to configure the SAP Solution Manager connector.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5"><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml <ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> is the same file as the one used to configure Signavio Process Manager.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">Both are provided in the .zip file that comes with the on-premises edition of Signavio Process Manager.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>First, copy
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>solman72.yml<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   into the Tomcat
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>conf<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   folder. Open the
+   <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>solman72.yml<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   file, and follow the instructions and read the comments in it. The instructions give advices on how to configure the SAP Solution Manager 7.2 connector.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">First, copy <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>solman72.yml<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> into the Tomcat <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>conf<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> folder.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Open the <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>solman72.yml<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> file, and follow the instructions and read the comments in it.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The instructions give advices on how to configure the SAP Solution Manager 7.2 connector.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Instructions and comments within the file start with a hastag (<bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>#<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>). Note that comments always refer to the following configuration parameter, e.g.:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Instructions and comments within the file start with a hastag (<bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>#<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>).</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Note that comments always refer to the following configuration parameter, e.g.:</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Configuring the connector</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configuring the connector</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Konfiguration des Konnektors</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Configuring the connector is similar to the configuration used for
+Signavio Process Manager. You will use
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Environment<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   instead
+of
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Parameter<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   in the code.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configuring the connector is similar to the configuration used for Signavio Process Manager.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You will use <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Environment<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> instead of <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Parameter<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> in the code.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Die Konfiguration des Konnektors ähnelt der für Signavio Process Manager verwendeten Konfiguration.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Open
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>context.xml<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   in the Tomcat
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>conf<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   folder, and add the following code snippet within the
+   <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Context<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   tag below the other parameters:
+</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Open <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>context.xml<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> in the Tomcat <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>conf<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> folder, and add the following code snippet within the <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Context<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> tag below the other parameters:</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Next, open
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   and add the following:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Next, open <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and add the following:</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>These parameters need to be configured:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">These parameters need to be configured:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Folgende Parameter müssen konfiguriert werden:</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-li"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>sharedJwtSecret<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>: Just like with the template file,
+this is where you set the secret. It MUST be the same in both
+    <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>solman72.yml<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    and
+    <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>sharedJwtSecret<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>: Just like with the template file, this is where you set the secret.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">It MUST be the same in both <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>solman72.yml<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-li"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>gatewaymappings
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>: This is your host and port.
+    <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>http://localhost:8080<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    is the default.
+    <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>solman72<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    is the name of the directory in the Tomcat
+    <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>webapps<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    folder and should not be changed.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>gatewaymappings <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>: This is your host and port.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>http://localhost:8080<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> is the default.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>solman72<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> is the name of the directory in the Tomcat <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>webapps<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> folder and should not be changed.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Make sure to keep the parameters within the template and the
+configuration files consistent with each other.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Make sure to keep the parameters within the template and the configuration files consistent with each other.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Das Wichtigste ist, dass die Parameter in der Vorlage und in den Konfigurationsdateien konsistent bleiben müssen.</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Using Solution
+Administration</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Using Solution Administration</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Verwendung der Solution-Administration</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>See the
+   <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.signavio.com/userguide/editor/en/workspace_admin/sap_solman/solman72/index.html#solution-administration" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    Signavio user guide
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>
+   for information on using the connector.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">See the <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.signavio.com/userguide/editor/en/workspace_admin/sap_solman/solman72/index.html#solution-administration" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Signavio user guide <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> for information on using the connector.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Informationen zur Verwendung des Konnektors finden Sie im <bpt
+              id="1"
+              ctype="link">&lt;a href="https://docs.signavio.com/userguide/editor/en/workspace_admin/sap_solman/solman72/index.html#solution-administration" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Signavio Nutzerhandbuch<ept
+              id="1">&lt;/a&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Generating the SSL
+certificate (optional)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Generating the SSL certificate (optional)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Generieren des SSL-Zertifikats (optional)</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>This section is only relevant if you are using HTTPS with Signavio
+Process Manager. See the
+   <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;code class="interpreted-text" data-role="ref" xmlns="http://www.w3.org/1999/xhtml"&gt;
+    https
+   &lt;/code&gt;</ph>
+   chapter for additional information.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">This section is only relevant if you are using HTTPS with Signavio Process Manager.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">See the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;code class="interpreted-text" data-role="ref" xmlns="http://www.w3.org/1999/xhtml"&gt;
+    https
+   &lt;/code&gt;</ph> chapter for additional information.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Dieser Abschnitt ist nur relevant, wenn Sie HTTPS mit Signavio Process Manager verwenden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Weitere Informationen finden Sie im Kapitel <ph
+              id="1">&lt;code class="interpreted-text" data-role="ref" xmlns="http://www.w3.org/1999/xhtml"&gt;
+    https
+   &lt;/code&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you are using HTTPS, then Apache Tomcat requires an SSL
+certificate with multiple DNS names in order to run the connector.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you are using HTTPS, then Apache Tomcat requires an SSL certificate with multiple DNS names in order to run the connector.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Wenn Sie HTTPS verwenden, benötigt Apache Tomcat ein SSL-Zertifikat mit mehreren DNS-Namen, um den Konnektor auszuführen.</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>First, create a configuration file named
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    selfsigned.conf<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, and use that to generate the SSL
+certificate. Below is a sample configuration file you can use as a
+template.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">First, create a configuration file named <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> selfsigned.conf<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, and use that to generate the SSL certificate.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Below is a sample configuration file you can use as a template.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Im Folgenden finden Sie eine Beispiel-Konfigurationsdatei, welche Sie als Vorlage verwenden können.</mrk></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Next, change the DNS parameters to match the addresses you will use
+to access the platform. In the command line, use
+   <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;openssl req
+-config selfsigned.conf -new -x509 -sha256 -newkey rsa:2048 -nodes
+-keyout localhost.key.pem -days 365 -out localhost.cert.pem&lt;/code&gt;&lt;/pre&gt;</ph> to
+generate the certificate. Finally, use the command <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code&gt;openssl pkcs12
+-export -out localhost.pfx -inkey localhost.key.pem -in
+localhost.cert.pem&lt;/code&gt;&lt;/pre&gt;</ph>
+   to generate a PFX file.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Next, change the DNS parameters to match the addresses you will use to access the platform.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">In the command line, use <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;openssl req
+-config selfsigned.conf -new -x509 -sha256 -newkey rsa:2048 -nodes
+-keyout localhost.key.pem -days 365 -out localhost.cert.pem&lt;/code&gt;&lt;/pre&gt;</ph> to generate the certificate.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Finally, use the command <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code&gt;openssl pkcs12
+-export -out localhost.pfx -inkey localhost.key.pem -in
+localhost.cert.pem&lt;/code&gt;&lt;/pre&gt;</ph> to generate a PFX file.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Als Nächstes ändern Sie die DNS-Parameter so, dass sie mit den Adressen übereinstimmen, die Sie für den Zugriff auf die Plattform verwenden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Verwenden Sie in der Kommandozeile , um das Zertifikat zu generieren.<ph
+              id="1">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;openssl req
+-config selfsigned.conf -new -x509 -sha256 -newkey rsa:2048 -nodes
+-keyout localhost.key.pem -days 365 -out localhost.cert.pem&lt;/code&gt;&lt;/pre&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Verwenden Sie abschließend den Befehl , um eine PFX-Datei zu erzeugen.<ph
+              id="2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code&gt;openssl pkcs12
+-export -out localhost.pfx -inkey localhost.key.pem -in
+localhost.cert.pem&lt;/code&gt;&lt;/pre&gt;</ph></mrk></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Trusting SSL
+certificates in Tomcat (optional)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Trusting SSL certificates in Tomcat (optional)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">SSL-Zertifikaten in Tomcat vertrauen (optional)</mrk></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The last step is to instruct your Tomcat to trust your self-signed
+certificate.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The last step is to instruct your Tomcat to trust your self-signed certificate.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Als letzten Schritt weisen Sie Ihren Tomcat an, Ihrem selbstsignierten Zertifikat zu vertrauen.</mrk></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Create a trusted Java Keystore. In the command line, add the
+self-signed certificate to it using the command <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;keytool
+-importcert -file localhost.cert.pem -keystore keystore.jks -alias
+"localhost"&lt;/code&gt;&lt;/pre&gt;</ph>Choose a new password when prompted.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create a trusted Java Keystore.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">In the command line, add the self-signed certificate to it using the command <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;keytool
+-importcert -file localhost.cert.pem -keystore keystore.jks -alias
+"localhost"&lt;/code&gt;&lt;/pre&gt;</ph>Choose a new password when prompted.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Erstellen Sie einen vertrauenswürdigen Java Keystore.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Configure your Tomcat to trust the keystore that you've just created
+by starting Tomcat with the Java parameters
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>-Djavax.net.ssl.keyStore<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>,
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>-Djavax.net.ssl.keyStorePassword<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>,
+   <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>-Djavax.net.ssl.trustStore<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, and
+   <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>-Djavax.net.ssl.trustStorePassword<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. One way of doing it is
+through the environment variable
+   <bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>CATALINA_OPTS<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, like so:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configure your Tomcat to trust the keystore that you've just created by starting Tomcat with the Java parameters <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>-Djavax.net.ssl.keyStore<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>-Djavax.net.ssl.keyStorePassword<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>-Djavax.net.ssl.trustStore<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, and <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>-Djavax.net.ssl.trustStorePassword<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">One way of doing it is through the environment variable <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>CATALINA_OPTS<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, like so:</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Finally, you need to configure your Tomcat to use your newly
+generate PFX file. Follow the instructions as specified in the
+   <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;code class="interpreted-text" data-role="ref" xmlns="http://www.w3.org/1999/xhtml"&gt;
+    Using HTTPS
+&amp;lt;https&amp;gt;
+   &lt;/code&gt;</ph>
+   chapter.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Finally, you need to configure your Tomcat to use your newly generate PFX file.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Follow the instructions as specified in the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;code class="interpreted-text" data-role="ref" xmlns="http://www.w3.org/1999/xhtml"&gt;
+    Using HTTPS
+&amp;lt;https&amp;gt;
+   &lt;/code&gt;</ph> chapter.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Schließlich müssen Sie Ihren Tomcat so konfigurieren, dass er Ihre neu erstellte PFX-Datei verwendet.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Folgen Sie den Anweisungen im Abschnitt <ph
+              id="1">&lt;code class="interpreted-text" data-role="ref" xmlns="http://www.w3.org/1999/xhtml"&gt;
+    Using HTTPS
+&amp;lt;https&amp;gt;
+   &lt;/code&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>System diagnostics</source><seg-source><mrk
+            mtype="seg"
+            mid="1">System diagnostics</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">System diagnostics</mrk></target></trans-unit><trans-unit
+        id="30"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>On-premise customers can use our system diagnostics page to check
+that their connector installation was successful. See the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>diagnostics<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   chapter for
+further details.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">On-premise customers can use our system diagnostics page to check that their connector installation was successful.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">See the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>diagnostics<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> chapter for further details.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">On-premise-Kunden können auf der Seite system diagnostics überprüfen, ob ihre Konnektor-Installation erfolgreich war.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

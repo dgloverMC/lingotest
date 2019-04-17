@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="HomePage.flmsp"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="x-flmsp"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="HomePage.flmsp.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">8</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-div"
+        phase-name="pretrans"><source>
+                <bpt
+            id="2"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="../../home.htm" class="documentation"&gt;</bpt>Documentation<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="2"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="../../home.htm" class="documentation"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="3">Documentation</mrk><mrk
+            mtype="seg"
+            mid="4"><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"
+            MadCap:diff="New">Dokumentation</mrk><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.signavio.com/legal-info/"&gt;</bpt>Legal<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> | <bpt
+            id="2"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.signavio.com/contact/"&gt;</bpt>Contact<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.signavio.com/legal-info/"&gt;</bpt>Legal<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> | <bpt
+              id="2"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.signavio.com/contact/"&gt;</bpt>Contact<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"
+            MadCap:diff="ContentChanged"><bpt
+              id="1"
+              ctype="link">&lt;a href="https://www.signavio.com/legal-info/"&gt;</bpt>Rechtliches<ept
+              id="1">&lt;/a&gt;</ept> | <bpt
+              id="2"
+              ctype="link">&lt;a href="https://www.signavio.com/contact/"&gt;</bpt>Kontakt<ept
+              id="2">&lt;/a&gt;</ept></mrk></target><alt-trans
+          match-quality="99"
+          origin="previous-version"><seg-source><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.signavio.com"&gt;</bpt>Legal<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> | <bpt
+              id="2"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.signavio.com"&gt;</bpt>Contact<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></seg-source><target
+            MadCap:segmentStatus="Untranslated"><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.signavio.com/legal-info/"&gt;</bpt>Rechtliches<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> | <bpt
+              id="2"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.signavio.com/contact/"&gt;</bpt>Kontakt<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></target></alt-trans></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.Copyright" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>. All rights reserved.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.Copyright" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">All rights reserved.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"
+            MadCap:diff="ContentChanged">Alle Rechte vorbehalten.</mrk></target><alt-trans
+          mid="2"
+          match-quality="77"
+          origin="previous-version"><seg-source><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.Copyright" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>, All rights reserved</seg-source><target
+            MadCap:segmentStatus="Untranslated"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.Copyright" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>, Alle Rechte vorbehalten.</target></alt-trans><alt-trans
+          mid="2"
+          match-quality="77"
+          origin="previous-version"><seg-source><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.Copyright" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>, All rights reserved</seg-source><target
+            MadCap:segmentStatus="Untranslated"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.Copyright" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>, Alle Rechte vorbehalten.</target></alt-trans><alt-trans
+          mid="2"
+          match-quality="77"
+          origin="previous-version"><seg-source><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.Copyright" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>, All rights reserved</seg-source><target
+            MadCap:segmentStatus="Untranslated"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.Copyright" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>, Alle Rechte vorbehalten.</target></alt-trans><alt-trans
+          mid="2"
+          match-quality="77"
+          origin="previous-version"><seg-source><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.Copyright" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>, All rights reserved</seg-source><target
+            MadCap:segmentStatus="Untranslated"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.Copyright" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>, Alle Rechte vorbehalten.</target></alt-trans></trans-unit></body>
+  </file>
+</xliff>

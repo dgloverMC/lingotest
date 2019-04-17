@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultProject Version="1" xml:lang="en-us" SourceControlBound="false" Comment="This template contains several starter topics and other files intended for online HTML5 output with top navigation like a modern website, instead of the more traditional tripane format. It includes several features that you might use in online output, and the content and files have been designed to maximize single-sourcing capabilities. This template starts you out with two HTML5 targets. Responsive output is automatically enabled with this type of output. This means the content display changes automatically depending on the width of the screen. The template also includes multiple PDF targets for generating user guides with different content in different sizes; some with crop and registration marks set, some without. You can add other kinds of targets and skins if you like." MasterStylesheet="/Content/Resources/Stylesheets/Styles.css" MasterStylesheetOverride="True" MasterToc="/Project/TOCs/Signavio Process Manager Administrator Guide.fltoc" IncludePattern="*.htm;*.html;*.png;*.jpg;*.flmsp;*.css;*.fltar;*.flvar;*.flskn;*.flnsp" AutoExcludeNonTaggedFiles="false" IncludeLinkedFiles="true" DeleteStale="false" DeleteUnreferenced="false" AutoSync="false" LastImport="2019-01-09T15:17:21.9211190+01:00">
+    <Files>
+        <Url Source="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Cardiff.flprj" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Cardiff.flprj" />
+    </Files>
+    <ExcludedFiles />
+    <CollectedSourceFiles>
+        <Url Source="../Cardiff/Content/Resources/Images/icon-gears.png" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/Resources/Images/icon-gears.png" />
+        <Url Source="../Cardiff/Content/Resources/Images/minus.png" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/Resources/Images/minus.png" />
+        <Url Source="../Cardiff/Content/Resources/Images/PlaceholderLogo-white.png" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/Resources/Images/PlaceholderLogo-white.png" />
+        <Url Source="../Cardiff/Content/Resources/Images/plus.png" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/Resources/Images/plus.png" />
+        <Url Source="../Cardiff/Content/Resources/MasterPages/HomePage.flmsp" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/Resources/MasterPages/HomePage.flmsp" />
+        <Url Source="../Cardiff/Content/Resources/MasterPages/OtherTopics.flmsp" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/Resources/MasterPages/OtherTopics.flmsp" />
+        <Url Source="../Cardiff/Content/Resources/Stylesheets/Styles.css" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/Resources/Stylesheets/Styles.css" />
+        <Url Source="../Cardiff/Project/Skins/HTML5 - Side Navigation.flskn" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Project/Skins/HTML5 - Side Navigation.flskn" />
+        <Url Source="../Cardiff/Project/Skins/Topic Toolbar.flskn" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Project/Skins/Topic Toolbar.flskn" />
+        <Url Source="../Cardiff/Project/Targets/HTML5 - Side Navigation.fltar" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Project/Targets/HTML5 - Side Navigation.fltar" />
+        <Url Source="../Cardiff/Content/Home.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/Home.htm" />
+        <Url Source="../Cardiff/Content/Search-Results.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/Search-Results.htm" />
+        <Url Source="../Cardiff/Content/A_Introduction Topics/GettingStarted.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/A_Introduction Topics/GettingStarted.htm" />
+        <Url Source="../Cardiff/Content/A_Introduction Topics/MoreInformation.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/A_Introduction Topics/MoreInformation.htm" />
+        <Url Source="../Cardiff/Content/A_Introduction Topics/WhatsNew.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/A_Introduction Topics/WhatsNew.htm" />
+        <Url Source="../Cardiff/Content/B_Feature Topics/Feature1.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/B_Feature Topics/Feature1.htm" />
+        <Url Source="../Cardiff/Content/B_Feature Topics/Feature2.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/B_Feature Topics/Feature2.htm" />
+        <Url Source="../Cardiff/Content/B_Feature Topics/Feature3.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/B_Feature Topics/Feature3.htm" />
+        <Url Source="../Cardiff/Content/B_Feature Topics/Features.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/B_Feature Topics/Features.htm" />
+        <Url Source="../Cardiff/Content/C_Procedure Topics/Procedure1.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/C_Procedure Topics/Procedure1.htm" />
+        <Url Source="../Cardiff/Content/C_Procedure Topics/Procedure2.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/C_Procedure Topics/Procedure2.htm" />
+        <Url Source="../Cardiff/Content/C_Procedure Topics/Procedure3.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/C_Procedure Topics/Procedure3.htm" />
+        <Url Source="../Cardiff/Content/C_Procedure Topics/Procedures.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Content/C_Procedure Topics/Procedures.htm" />
+        <Url Source="../Cardiff/Project/VariableSets/General.flvar" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Project/VariableSets/General.flvar" />
+        <Url Source="../styles/Content/Home.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/Home.htm" />
+        <Url Source="../styles/Content/Search-Results.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/Search-Results.htm" />
+        <Url Source="../styles/Content/A_Introduction Topics/GettingStarted.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/A_Introduction Topics/GettingStarted.htm" />
+        <Url Source="../styles/Content/A_Introduction Topics/MoreInformation.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/A_Introduction Topics/MoreInformation.htm" />
+        <Url Source="../styles/Content/A_Introduction Topics/WhatsNew.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/A_Introduction Topics/WhatsNew.htm" />
+        <Url Source="../styles/Content/B_Feature Topics/Feature1.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/B_Feature Topics/Feature1.htm" />
+        <Url Source="../styles/Content/B_Feature Topics/Feature2.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/B_Feature Topics/Feature2.htm" />
+        <Url Source="../styles/Content/B_Feature Topics/Feature3.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/B_Feature Topics/Feature3.htm" />
+        <Url Source="../styles/Content/B_Feature Topics/Features.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/B_Feature Topics/Features.htm" />
+        <Url Source="../styles/Content/C_Procedure Topics/Procedure1.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/C_Procedure Topics/Procedure1.htm" />
+        <Url Source="../styles/Content/C_Procedure Topics/Procedure2.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/C_Procedure Topics/Procedure2.htm" />
+        <Url Source="../styles/Content/C_Procedure Topics/Procedure3.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/C_Procedure Topics/Procedure3.htm" />
+        <Url Source="../styles/Content/C_Procedure Topics/Procedures.htm" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/C_Procedure Topics/Procedures.htm" />
+        <Url Source="../styles/Content/Resources/Images/icon-gears.png" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/Resources/Images/icon-gears.png" />
+        <Url Source="../styles/Content/Resources/Images/minus.png" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/Resources/Images/minus.png" />
+        <Url Source="../styles/Content/Resources/Images/PlaceholderLogo-white.png" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/Resources/Images/PlaceholderLogo-white.png" />
+        <Url Source="../styles/Content/Resources/Images/plus.png" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/Resources/Images/plus.png" />
+        <Url Source="../styles/Content/Resources/MasterPages/HomePage.flmsp" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/Resources/MasterPages/HomePage.flmsp" />
+        <Url Source="../styles/Content/Resources/MasterPages/OtherTopics.flmsp" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/Resources/MasterPages/OtherTopics.flmsp" />
+        <Url Source="../styles/Content/Resources/Stylesheets/Styles.css" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Content/Resources/Stylesheets/Styles.css" />
+        <Url Source="../styles/Project/Skins/HTML5 - Side Navigation.flskn" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Project/Skins/HTML5 - Side Navigation.flskn" />
+        <Url Source="../styles/Project/Skins/Topic Toolbar.flskn" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Project/Skins/Topic Toolbar.flskn" />
+        <Url Source="../styles/Project/Targets/HTML5 - Side Navigation.fltar" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Project/Targets/HTML5 - Side Navigation.fltar" />
+        <Url Source="../styles/Project/VariableSets/General.flvar" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/styles/Project/VariableSets/General.flvar" />
+    </CollectedSourceFiles>
+    <SkippedSourceFiles>
+        <Url Source="../Cardiff/Project/VariableSets/General.flvar" AbsoluteSource="file:///C:/Users/eva.jackolis/Documents/My Projects/Cardiff/Project/VariableSets/General.flvar" />
+    </SkippedSourceFiles>
+    <GeneratedFiles>
+        <Url Source="../../../../../../Content/Resources/Images/icon-gears.png" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../../../../../Content/Resources/Images/minus.png" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../../../../../Content/Resources/Images/PlaceholderLogo-white.png" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../../../../../Content/Resources/Images/plus.png" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../../../../../Content/Resources/MasterPages/HomePage.flmsp" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../../../../../Content/Resources/MasterPages/OtherTopics.flmsp" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../../../../../Content/Resources/Stylesheets/Styles.css" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../../../../Skins/HTML5 - Side Navigation.flskn" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../../../../Skins/Topic Toolbar.flskn" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../../../../Targets/HTML5 - Side Navigation.fltar" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../../../Content/Home.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="../../../../Content/Search-Results.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="../../../../Content/A_Introduction Topics/GettingStarted.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="../../../../Content/A_Introduction Topics/MoreInformation.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="../../../../Content/A_Introduction Topics/WhatsNew.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="../../../../Content/B_Feature Topics/Feature1.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="../../../../Content/B_Feature Topics/Feature2.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="../../../../Content/B_Feature Topics/Feature3.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="../../../../Content/B_Feature Topics/Features.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="../../../../Content/C_Procedure Topics/Procedure1.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="../../../../Content/C_Procedure Topics/Procedure2.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="../../../../Content/C_Procedure Topics/Procedure3.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="../../../../Content/C_Procedure Topics/Procedures.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="../../Content/Resources/Images/icon-gears.png" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../Content/Resources/Images/minus.png" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../Content/Resources/Images/PlaceholderLogo-white.png" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../Content/Resources/Images/plus.png" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../Content/Resources/MasterPages/HomePage.flmsp" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../Content/Resources/MasterPages/OtherTopics.flmsp" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../Content/Resources/Stylesheets/Styles.css" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../Skins/HTML5 - Side Navigation.flskn" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../Skins/Topic Toolbar.flskn" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../Targets/HTML5 - Side Navigation.fltar" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../Content/Home.htm" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../Content/A_Introduction Topics/GettingStarted.htm" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../Content/B_Feature Topics/Feature1.htm" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="../../Content/C_Procedure Topics/Procedure1.htm" TimeStamp="09.01.2019 13:35:18" />
+        <Url Source="Content/Home.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Content/Search-Results.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Content/A_Introduction Topics/GettingStarted.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Content/A_Introduction Topics/MoreInformation.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Content/A_Introduction Topics/WhatsNew.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Content/B_Feature Topics/Feature1.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Content/B_Feature Topics/Feature2.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Content/B_Feature Topics/Feature3.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Content/B_Feature Topics/Features.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Content/C_Procedure Topics/Procedure1.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Content/C_Procedure Topics/Procedure2.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Content/C_Procedure Topics/Procedure3.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Content/C_Procedure Topics/Procedures.htm" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Content/Resources/Images/icon-gears.png" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Content/Resources/Images/minus.png" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Content/Resources/Images/PlaceholderLogo-white.png" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Content/Resources/Images/plus.png" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Content/Resources/MasterPages/HomePage.flmsp" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Content/Resources/MasterPages/OtherTopics.flmsp" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Content/Resources/Stylesheets/Styles.css" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Project/Skins/HTML5 - Side Navigation.flskn" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Project/Skins/Topic Toolbar.flskn" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Project/Targets/HTML5 - Side Navigation.fltar" TimeStamp="01.09.2019 13:35:18" />
+        <Url Source="Project/VariableSets/General.flvar" TimeStamp="01.09.2019 13:35:18" />
+    </GeneratedFiles>
+    <Synchronize>
+    </Synchronize>
+</CatapultProject>

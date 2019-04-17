@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="windows.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="windows.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">19</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-title"
+        phase-name="pretrans"><source>Windows</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Windows</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Windows</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Windows</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Windows</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Windows</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Tomcat</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Tomcat</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Tomcat</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>As already mentioned in the section<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../start/intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;   Starting Signavio Workflow Accelerator&lt;/MadCap:xref&gt;</ph>, the Tomcat configuration
+dialog offers a simple way to stop the Tomcat server. Simply open the
+Windows start menu, select
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Program Files\Apache Tomcat\Configure Tomcat<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, open the tab
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>General<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+   and click the button
+   <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Stop<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">As already mentioned in the section<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../start/intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;   Starting Signavio Workflow Accelerator&lt;/MadCap:xref&gt;</ph>, the Tomcat configuration dialog offers a simple way to stop the Tomcat server.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Simply open the Windows start menu, select <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Program Files\Apache Tomcat\Configure Tomcat<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, open the tab <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>General<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> and click the button <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Stop<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wie im Abschnitt <ph
+              id="1">&lt;MadCap:xref href="../start/intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;   Starting Signavio Workflow Accelerator&lt;/MadCap:xref&gt;</ph> erwähnt, können Sie Tomcat über dessen Konfigurationsoberfläche stoppen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Öffnen Sie hierzu im Windows Startmenü <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Programme\\Apache Tomcat\\Configure Tomcat<ept
+              id="1">&lt;/kbd&gt;</ept>, wechseln Sie zum Tab <bpt
+              id="2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>General<ept
+              id="2">&lt;/em&gt;</ept> und klicken Sie auf <bpt
+              id="3">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Stop<ept
+              id="3">&lt;/em&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>MongoDB</source><seg-source><mrk
+            mtype="seg"
+            mid="1">MongoDB</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">MongoDB</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you have registered MongoDB as a Windows service, you can stop
+the database in two ways. Either you open the command line with
+adminstrator privileges and execute:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you have registered MongoDB as a Windows service, you can stop the database in two ways.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Either you open the command line with adminstrator privileges and execute:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Falls Sie MongoDB wie empfohlen als Windows Service registriert haben, gibt es zwei Möglichkeiten, die MongoDB-Datenbank zu stoppen:</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Öffnen Sie entweder die Kommandozeile mit Administratorrechten und führen Sie folgenden Befehl aus:</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Or you run
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>services.msc<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, select MongoDB in the list of
+services and click on
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Stop<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Or you run <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>services.msc<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, select MongoDB in the list of services and click on <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Stop<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Oder Sie öffnen <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>services.msc<ept
+              id="1">&lt;/kbd&gt;</ept>, wählen MongoDB in der Liste der Services aus und klicken auf die <bpt
+              id="2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Stopp<ept
+              id="2">&lt;/em&gt;</ept>-Schaltfläche in den Diensteigenschaften.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Script Engine</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Script Engine</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Script Engine</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you installed the script engine and wrapped it into a service,
+you can open the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>services.msc<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, locate the Signavio Script
+Engine service and stop it there. If you are executing the script
+engine directly via command line, simply abort the process by pressing
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>CTRL<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> + <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you installed the script engine and wrapped it into a service, you can open the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>services.msc<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, locate the Signavio Script Engine service and stop it there.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If you are executing the script engine directly via command line, simply abort the process by pressing <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>CTRL<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> + <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie die Script Engine installiert und als Service registriert haben, können Sie <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>services.msc<ept
+              id="1">&lt;/kbd&gt;</ept> öffnen und den Script Engine Service von dort stoppen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie die Script Engine direkt auf der Kommandozeile ausführen, können Sie den Prozess einfach mit <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>STRG<ept
+              id="2">&lt;/kbd&gt;</ept> + <bpt
+              id="3">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C<ept
+              id="3">&lt;/kbd&gt;</ept> stoppen.</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Mail Relay</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Mail Relay</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Mail Relay</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you installed the mail relay and wrapped it into a service, you
+can open the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>services.msc<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, locate the Signavio Mail Relay
+service and stop it there. If you are executing the mail relay directly
+via command line, simply abort the process by pressing
+  <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>CTRL<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> + <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you installed the mail relay and wrapped it into a service, you can open the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>services.msc<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, locate the Signavio Mail Relay service and stop it there.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If you are executing the mail relay directly via command line, simply abort the process by pressing <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>CTRL<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> + <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie das Mail Relay installiert und als Service registriert haben, können Sie <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>services.msc<ept
+              id="1">&lt;/kbd&gt;</ept> öffnen und den Mail Relay-Service von dort stoppen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie das Mail Relay direkt auf der Kommandozeile ausführen, können Sie den Prozess einfach mit  <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>STRG<ept
+              id="2">&lt;/kbd&gt;</ept> + <bpt
+              id="3">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C<ept
+              id="3">&lt;/kbd&gt;</ept> stoppen.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

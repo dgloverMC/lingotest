@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="configuring-the-mailing-server-optional" name="configuring-the-mailing-server-optional">
+   Configuring the
+mailing server (optional)
+  </h1>
+        <p>
+   The mailing service that is used for sending emails is usually
+deployed on the same Tomcat as the rest of the application. However,
+you can deploy the mailing service on a separate server. If you are
+running a Signavio system that fulfills one the following conditions,
+it may be useful to use a separate server for better performance:
+  </p>
+        <ul>
+            <li>
+    You are using the system with more than 1,000 modeling users.
+   </li>
+            <li>
+    You are using the system with more than 50,000 portal users.
+   </li>
+            <li>
+    You are running Signavio on a web server cluster.
+   </li>
+        </ul>
+        <p>
+   In order to run the mailing server on a separate Tomcat, install the
+Tomcat and configure it just as the Signavio Tomcat (see: <MadCap:xref href="configure-web-server.htm">Configuring the web server</MadCap:xref>).
+Additionally, ensure that the mailing server can access the Signavio
+database. We recommend to use the same database user as for the
+Signavio server.
+  </p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>
+    In case the second Tomcat runs on the same server/VM, please make
+sure it is running on a different port than the Signavio Tomcat.
+   </p>
+        </div>
+        <p>
+   Afterwards, proceed as follows:
+  </p>
+        <ol>
+            <li>
+    If running, stop the Tomcats.
+   </li>
+            <li><strong>
+     Move
+    </strong>
+    (not copy!) the folder
+    <kbd>mailingservice</kbd>
+    from the
+    <kbd>webapps</kbd>
+    directory of
+the Signavio Tomcat to the
+    <kbd>webapps</kbd>
+    directory of the
+mailing service Tomcat.
+   </li>
+            <li>
+    Adjust the file
+    <kbd>configuration.xml</kbd>
+    you find at
+    <kbd>&lt;signavio-tomcat&gt;/conf</kbd>.
+   </li>
+            <li>
+    Start the Signavio Tomcat.
+   </li>
+            <li>
+    Start the mailing server Tomcat.
+   </li>
+        </ol>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>
+    Always ensure the Signavio server is running before the mailing
+server is started. Otherwise, the initialization of the mailing service
+fails.
+   </p>
+        </div>
+    </body>
+</html>

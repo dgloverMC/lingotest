@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="run-functional-tests.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="run-functional-tests.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">23</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Run manual
+functional tests</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Run manual functional tests</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To ensure that your system is operating properly after installation
+or update, run the following manual tests:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To ensure that your system is operating properly after installation or update, run the following manual tests:</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>(Only new/first installation): Register at least two Signavio
+users.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">(Only new/first installation): Register at least two Signavio users.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">(Nur bei Neu-Installation): Registrieren Sie wenigstens zwei Signavio Nutzer.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Log in as a modeling user.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Log in as a modeling user.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Loggen Sie sich als Modellierungsnutzer ein.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Create a folder and a diagram (incl. dictionary entries).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create a folder and a diagram (incl.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">dictionary entries).</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Erstellen Sie einen Ordner und ein Diagramm (inkl.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Glossareinträge).</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Publish the diagram in Collaboration Hub.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Publish the diagram in Collaboration Hub.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Veröffentlichen Sie das Diagramm im Collaboration Hub.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Send an invitation to comment on a diagram.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Send an invitation to comment on a diagram.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Versenden Sie eine Einladung zum Kommentieren für das Diagramm.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Create a process documentation handbook.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create a process documentation handbook.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Erstellen Sie ein Prozesshandbuch.</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Create an Excel report.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create an Excel report.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Erstellen Sie einen Excel-Report.</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Use the BPMN Simulation.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Use the BPMN Simulation.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Verwenden Sie die BPMN Simulation.</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Use the Dictionary (for example, edit an existing entry).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Use the Dictionary (for example, edit an existing entry).</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Verwenden Sie das Glossar (editieren Sie zum Beispiel einen Eintrag).</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Log out as a modeling user.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Log out as a modeling user.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Loggen Sie sich als Modellierungsnutzer aus.</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Open of Collaboration Hub as a portal user:
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       (Only if configured): Is the user correctly recognized in the
+Single Sign-On?
+      <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       Is the diagram you published before available?
+      <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Open of Collaboration Hub as a portal user: </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> (Only if configured): Is the user correctly recognized in the Single Sign-On?</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5"><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="6"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Is the diagram you published before available?</mrk><mrk
+            mtype="protected"
+            mid="7"> </mrk><mrk
+            mtype="seg"
+            mid="8"><ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Öffnen Sie den Collaboration Hub als Portalnutzer:</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Check if notification mails are sent with the configured
+frequency.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Check if notification mails are sent with the configured frequency.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Überprüfen Sie, ob E-Mail-Benachrichtigungen mit der eingestellten Häufigkeit verschickt werden.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

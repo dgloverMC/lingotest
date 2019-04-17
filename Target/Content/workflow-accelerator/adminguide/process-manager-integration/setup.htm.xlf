@@ -1,0 +1,896 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="setup.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="setup.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">80</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Setup</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Setup</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Setup</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Make sure both systems are NOT running.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Make sure both systems are NOT running.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Stellen Sie sicher, dass beide System NICHT ausgeführt werden.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Edit the Process Manager configuration file, which can be found in
+the Tomcat that hosts the Process Manager system at the following
+path:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Edit the Process Manager configuration file, which can be found in the Tomcat that hosts the Process Manager system at the following path:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Bearbeiten Sie die Process Manager-Konfigurationsdatei, die sich in dem Tomcat, in dem das SPM System gehostet wird, unter dem folgenden Pfad befindet:</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>version 9.3 and earlier:
+<bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>WEBAPPS/ROOT/WEB-INF/classes/configuration.xml<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">version 9.3 and earlier: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>WEBAPPS/ROOT/WEB-INF/classes/configuration.xml<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">bis einschließlich Version 9.3: <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>WEBAPPS/ROOT/WEB-INF/classes/<ept
+              id="1">&lt;/kbd&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>version 9.7 and later:
+<bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>CONF/configuration.xml<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">version 9.7 and later: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>CONF/configuration.xml<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">ab einschließlich Version 9.7: <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>CONF/configuration.xml<ept
+              id="1">&lt;/kbd&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektifServerUrl</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektifServerUrl</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektifServerUrl</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Defines the URL under which your Workflow Accelerator system is
+available.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines the URL under which your Workflow Accelerator system is available.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Tragen Sie die Server-URL ein, unter der Ihr Workflow Accelerator-System erreichbar ist.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektifUserName</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektifUserName</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektifUserName</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Defines the mail of the system user that will access the Workflow
+Accelerator system. Make sure to use <ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>system@signavio.com<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+      to ensure the integration to work properly. The value is already
+preconfigured. You do NOT have to create an account for this user in
+any of the systems.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines the mail of the system user that will access the Workflow Accelerator system.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Make sure to use <ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>system@signavio.com<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> to ensure the integration to work properly.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The value is already preconfigured.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">You do NOT have to create an account for this user in any of the systems.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Hier wird die E-Mail-Adresse des Systemnutzers, der auf Workflow Accelerator für den Process Manager zugreift, festgelegt.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Stellen Sie sicher, dass der Wert hierfür <ph
+              id="1"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>system@signavio.com<ept
+              id="1">&lt;/kbd&gt;</ept> ist.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Hierbei handelt es sich um den vorkonfigurierten Wert.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sie müssen für diesen Nutzer KEINEN Account in einem der beiden System anlegen.</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektifUserPw</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektifUserPw</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektifUserPw</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Defines the password of the system user. Remember this password:
+you will need to use the exact same password in the Workflow
+Accelerator configuration file as <ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.process.manager.authentication.clientSecret<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines the password of the system user.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Remember this password: you will need to use the exact same password in the Workflow Accelerator configuration file as <ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.process.manager.authentication.clientSecret<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Tragen Sie hier das Passwort für den Systemnutzer ein.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wichtig: Genau dieses Passwort muss ebenfalls in die Workflow Accelerator-Konfigurationsdatei für die Option <ph
+              id="1"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.process.manager.authentication.clientSecret<ept
+              id="1">&lt;/kbd&gt;</ept> eingetragen werden.</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>sharedJwtSecret</source><seg-source><mrk
+            mtype="seg"
+            mid="1">sharedJwtSecret</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">sharedJwtSecret</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Defines a shared secret that is used to secure the communication
+between Workflow Accelerator and Process Manager. You will need to set
+the exact same secret in the Workflow Accelerator configuration file as <ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.process.manager.<ph
+            id="2"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph>authentication.jwt.secret
+<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines a shared secret that is used to secure the communication between Workflow Accelerator and Process Manager.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You will need to set the exact same secret in the Workflow Accelerator configuration file as <ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="4"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.process.manager.<ph
+              id="2"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="5">authentication.jwt.secret <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Hier der geteilte Schlüssel definiert, welcher genutzt wird, um die Kommunikation zwischen Workflow Accelerator und Process Manager abzusichern.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Genau dieser Schlüssel muss ebenfalls in die Workflow Accelerator-Konfigurationsdatei eingetragen werden für die Option <ph
+              id="1"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.process.manager.<ph
+              id="2"
+              ctype="lb">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">authentication.jwt.secret <ept
+              id="1">&lt;/kbd&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Edit the Workflow Accelerator configuration file <ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/effektif-onpremise.properties<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     and add / update the following entries:
+    </source><seg-source><mrk
+            mtype="seg"
+            mid="1">Edit the Workflow Accelerator configuration file <ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/effektif-onpremise.properties<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and add / update the following entries:</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Bearbeiten Sie die Workflow Accelerator-Konfigurationsdatei <ph
+              id="1"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/effektif-onpremise.properties<ept
+              id="1">&lt;/kbd&gt;</ept> (diese liegt im Workflow AcceleratorTomcat) und bearbeiten, beziehungsweise ergänzen Sie die folgenden Einträge:</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.process.manager.baseUrl</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.process.manager.baseUrl</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.process.manager.baseUrl</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Defines the URL under which your Process Manager system is
+available.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines the URL under which your Process Manager system is available.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Hinterlegen Sie hier die URL, unter der Ihr Process Manager-System erreichbar ist.</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.process.manager.<ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph>authentication.clientId</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.process.manager.<ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2">authentication.clientId</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">effektif.process.manager.<ph
+              id="1"
+              ctype="lb">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">authentication.clientId</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Defines the ID the Workflow Accelerator system uses to identify itself to the Process Manager system. Make sure to use <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>com.effektif.oem<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+      to ensure the integration to work
+properly. This value is already preconfigured.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines the ID the Workflow Accelerator system uses to identify itself to the Process Manager system.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Make sure to use <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>com.effektif.oem<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> to ensure the integration to work properly.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">This value is already preconfigured.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Hier ist die ID hinterlegt, mit der sich Workflow Accelerator im Process Manager identifiziert.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Stellen Sie sicher, dass der Wert <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>com.effektif.oem<ept
+              id="1">&lt;/kbd&gt;</ept> ist.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Hierbei handelt es sich um einen vorkonfigurierten Wert.</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.process.manager.<ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph>authenticationclientSecret</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.process.manager.<ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2">authenticationclientSecret</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">effektif.process.manager.<ph
+              id="1"
+              ctype="lb">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">authenticationclientSecret</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Defines the password the Workflow Accelerator system uses to
+identify itself to the Process Manager system. Reuse the same password
+that you have set in the Process Manager configuration file as<ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektifUserPw<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines the password the Workflow Accelerator system uses to identify itself to the Process Manager system.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Reuse the same password that you have set in the Process Manager configuration file as<ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektifUserPw<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Hier wird das Passwort des Workflow Accelerator-Systemnutzers im Process Manager-System hinterlegt.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Stellen Sie sicher, dass Sie exakt das Passwort verwenden, das Sie vorher in der Process Manager-Konfigurationsdatei unter <ph
+              id="1"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektifUserPw<ept
+              id="1">&lt;/kbd&gt;</ept> eingetragen haben.</mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.process.manager.<ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph>authentication.jwt.secret</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.process.manager.<ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2">authentication.jwt.secret</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">effektif.process.manager.<ph
+              id="1"
+              ctype="lb">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">authentication.jwt.secret</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Defines a shared secret that is used to secure the communication
+between Workflow Accelerator and Process Manager. Reuse the same secret
+that you have set in the Process Manager configuration file as<ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>sharedJwtSecret<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines a shared secret that is used to secure the communication between Workflow Accelerator and Process Manager.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Reuse the same secret that you have set in the Process Manager configuration file as<ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>sharedJwtSecret<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Legen Sie hier den geteilten Schlüssel fest, welcher genutzt wird, um die Kommunikation zwischen Workflow Accelerator und Process Manager abzusichern.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Stellen Sie sicher, dass Sie exakt den Schlüssel verwenden, den Sie vorher in der Process Manager-Konfigurationsdatei unter <ph
+              id="1"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>sharedJwtSecret<ept
+              id="1">&lt;/kbd&gt;</ept> eingetragen haben.</mrk></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Start both systems.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Start both systems.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Starten Sie beide Systeme.</mrk></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Activate the approval workflow feature within your Process Manager
+workspace. Your Workflow Accelerator organization will be setup
+automatically. For more information on how to activate the approval
+workflow, refer to Process Manager's user manual.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Activate the approval workflow feature within your Process Manager workspace.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Your Workflow Accelerator organization will be setup automatically.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">For more information on how to activate the approval workflow, refer to Process Manager's user manual.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="53"
+            MadCap:diff="ContentChanged" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Aktivierung der Freigabe-Workflow-Funktion wird im Process Manager-Nutzerhandbuch detailliert beschrieben.</mrk></target><alt-trans
+          match-quality="53"
+          origin="previous-version"><seg-source>Activate the approval workflow feature within your Process Manager workspace. Your Workflow Accelerator organization will be setup automatically.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Aktivieren Sie die Freigabe-Workflow-Funktion im Process Manager, um Ihre Workflow Accelerator-Organisation automatisch zu erstellen.</target></alt-trans><alt-trans
+          match-quality="53"
+          origin="previous-version"><seg-source>Activate the approval workflow feature within your Process Manager workspace. Your Workflow Accelerator organization will be setup automatically.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Aktivieren Sie die Freigabe-Workflow-Funktion im Process Manager, um Ihre Workflow Accelerator-Organisation automatisch zu erstellen.</target></alt-trans><alt-trans
+          match-quality="53"
+          origin="previous-version"><seg-source>Activate the approval workflow feature within your Process Manager workspace. Your Workflow Accelerator organization will be setup automatically.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Aktivieren Sie die Freigabe-Workflow-Funktion im Process Manager, um Ihre Workflow Accelerator-Organisation automatisch zu erstellen.</target></alt-trans><alt-trans
+          match-quality="53"
+          origin="previous-version"><seg-source>Activate the approval workflow feature within your Process Manager workspace. Your Workflow Accelerator organization will be setup automatically.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Aktivieren Sie die Freigabe-Workflow-Funktion im Process Manager, um Ihre Workflow Accelerator-Organisation automatisch zu erstellen.</target></alt-trans><alt-trans
+          match-quality="53"
+          origin="previous-version"><seg-source>Activate the approval workflow feature within your Process Manager workspace. Your Workflow Accelerator organization will be setup automatically.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Aktivieren Sie die Freigabe-Workflow-Funktion im Process Manager, um Ihre Workflow Accelerator-Organisation automatisch zu erstellen.</target></alt-trans><alt-trans
+          match-quality="53"
+          origin="previous-version"><seg-source>Activate the approval workflow feature within your Process Manager workspace. Your Workflow Accelerator organization will be setup automatically.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Aktivieren Sie die Freigabe-Workflow-Funktion im Process Manager, um Ihre Workflow Accelerator-Organisation automatisch zu erstellen.</target></alt-trans><alt-trans
+          match-quality="53"
+          origin="previous-version"><seg-source>Activate the approval workflow feature within your Process Manager workspace. Your Workflow Accelerator organization will be setup automatically.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Aktivieren Sie die Freigabe-Workflow-Funktion im Process Manager, um Ihre Workflow Accelerator-Organisation automatisch zu erstellen.</target></alt-trans><alt-trans
+          match-quality="53"
+          origin="previous-version"><seg-source>Activate the approval workflow feature within your Process Manager workspace. Your Workflow Accelerator organization will be setup automatically.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Aktivieren Sie die Freigabe-Workflow-Funktion im Process Manager, um Ihre Workflow Accelerator-Organisation automatisch zu erstellen.</target></alt-trans><alt-trans
+          match-quality="53"
+          origin="previous-version"><seg-source>Activate the approval workflow feature within your Process Manager workspace. Your Workflow Accelerator organization will be setup automatically.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Aktivieren Sie die Freigabe-Workflow-Funktion im Process Manager, um Ihre Workflow Accelerator-Organisation automatisch zu erstellen.</target></alt-trans></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The configuration parameters have been renamed with version 3.56.
+See the following table for the new names. The old names are now
+deprecated, but will still work until further notice.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The configuration parameters have been renamed with version 3.56.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">See the following table for the new names.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The old names are now deprecated, but will still work until further notice.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Mit Version 3.56 wurden die Konfigurationsparameter umbenannt.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Die folgende Tabelle enthält die neuen Namen.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die alten Namen wurden als veraltet markiert, funktionieren aber weiterhin.</mrk></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-th"
+        phase-name="pretrans"><source>deprecated name</source><seg-source><mrk
+            mtype="seg"
+            mid="1">deprecated name</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Alter Name</mrk></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-th"
+        phase-name="pretrans"><source>new name</source><seg-source><mrk
+            mtype="seg"
+            mid="1">new name</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Neuer Name</mrk></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.com.effektif.model.<ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph>service.signavio.<ph
+            id="2"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph>SignavioAuthenticationProvider.<ph
+            id="3"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph>serviceBaseUrl</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.com.effektif.model.<ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2">service.signavio.</mrk><mrk
+            mtype="seg"
+            mid="3"><ph
+              id="2"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="4">SignavioAuthenticationProvider.<ph
+              id="3"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="5">serviceBaseUrl</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">effektif.com.effektif.model.<ph
+              id="1"
+              ctype="lb">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">service.signavio.</mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">SignavioAuthenticationProvider.<ph
+              id="3"
+              ctype="lb">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">serviceBaseUrl</mrk></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.process.<ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph>manager.baseUrl</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.process.<ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2">manager.baseUrl</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.process.<ph
+              id="1"
+              ctype="lb">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">manager.baseUrl</mrk></target></trans-unit><trans-unit
+        id="30"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.com.effektif.model.<ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph>service.signavio.<ph
+            id="2"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph>SignavioAuthenticationProvider.<ph
+            id="3"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph>clientId</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.com.effektif.model.<ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2">service.signavio.</mrk><mrk
+            mtype="seg"
+            mid="3"><ph
+              id="2"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="4">SignavioAuthenticationProvider.<ph
+              id="3"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="5">clientId</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">effektif.com.effektif.model.<ph
+              id="1"
+              ctype="lb">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">service.signavio.</mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">SignavioAuthenticationProvider.<ph
+              id="3"
+              ctype="lb">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">clientId</mrk></target></trans-unit><trans-unit
+        id="31"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.process.manager.<ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph>authentication.clientId</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.process.manager.<ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2">authentication.clientId</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">effektif.process.manager.<ph
+              id="1"
+              ctype="lb">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">authentication.clientId</mrk></target></trans-unit><trans-unit
+        id="32"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.com.effektif.model.<ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph>service.signavio.<ph
+            id="2"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph>SignavioAuthenticationProvider.<ph
+            id="3"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph>clientSecret</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.com.effektif.model.<ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2">service.signavio.</mrk><mrk
+            mtype="seg"
+            mid="3"><ph
+              id="2"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="4">SignavioAuthenticationProvider.<ph
+              id="3"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="5">clientSecret</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">effektif.com.effektif.model.<ph
+              id="1"
+              ctype="lb">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">service.signavio.</mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">SignavioAuthenticationProvider.<ph
+              id="3"
+              ctype="lb">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">clientSecret</mrk></target></trans-unit><trans-unit
+        id="33"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.process.manager.<ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph>authenticationclientSecret</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.process.manager.<ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2">authenticationclientSecret</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">effektif.process.manager.<ph
+              id="1"
+              ctype="lb">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">authenticationclientSecret</mrk></target></trans-unit></body>
+  </file>
+</xliff>

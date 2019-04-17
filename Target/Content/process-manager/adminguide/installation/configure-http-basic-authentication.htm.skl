@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:sourceDocument="C:\Users\Dana\Documents\adminguide_editor\editor\docs\installation\http.htm" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="configuring-http-basic-authentication" name="configuring-http-basic-authentication">砻קยด1ตว融</h1>
+        <p>砻קยด2ตว融</p>
+        <p>砻קยด3ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;security-role&gt;
+
+
+    &lt;role-name&gt;register&lt;/role-name&gt;
+
+
+&lt;/security-role&gt;
+
+
+&lt;security-constraint&gt;
+
+
+    &lt;display-name&gt;
+
+        Security constraint for the user registration page
+
+    &lt;/display-name&gt;
+
+
+    &lt;web-resource-collection&gt;
+
+
+        &lt;web-resource-name&gt;
+
+            Protected Area
+
+        &lt;/web-resource-name&gt;
+
+
+        &lt;url-pattern&gt;
+
+            /p/register/*
+
+        &lt;/url-pattern&gt;
+
+
+    &lt;/web-resource-collection&gt;
+
+
+    &lt;auth-constraint&gt;
+
+
+        &lt;role-name&gt;
+
+            register
+
+        &lt;/role-name&gt;
+
+
+    &lt;/auth-constraint&gt;
+
+
+&lt;/security-constraint&gt;
+
+
+&lt;login-config&gt;
+
+
+    &lt;auth-method&gt;
+
+        BASIC
+
+    &lt;/auth-method&gt;
+
+
+    &lt;realm-name&gt;
+
+        Register
+
+    &lt;/realm-name&gt;
+
+
+&lt;/login-config&gt;</code></pre>
+        <p>砻קยด4ตว融</p>
+        <p>砻קยด5ตว融</p>
+        <p>砻קยด6ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+
+
+&lt;tomcat-users&gt;
+
+
+    &lt;role rolename="register"/&gt;
+
+
+    &lt;user username="signavio" password="signavio" roles="register"/&gt;
+
+
+&lt;/tomcat-users&gt;</code></pre>
+        <p>砻קยด7ตว融</p>
+        <p>砻קยด8ตว融</p>
+    </body>
+</html>

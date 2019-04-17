@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  DefaultUrl="/Content/home.htm"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles_HTML5.css"
+  TopicToolbarSkin="/Project/Skins/Topic Toolbar.flskn"
+  Skin="/Project/Skins/HTML5 - Side Navigation.flskn"
+  MasterToc="/Project/TOCs/Master.fltoc"
+  CentralLinkIds=""
+  TargetLanguage="en-us,de_../../150657lingo/translation-docs/documentation.liprj"
+  SyncLingoProject="false"
+  MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
+  EnableSitemap="true"
+  SitemapWebUrl="https.//documentation.signavio.com/"
+  MasterStylesheetOverride="false">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+</CatapultTarget>

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="update-to-3.72.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="update-to-3.72.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">16</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Updating to Signavio Workflow Accelerator 3.72</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Updating to Signavio Workflow Accelerator 3.72</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Auf Signavio Workflow Accelerator 3.72 aktualisieren</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you use Workflow Accelerator in combination with Signavio Process
+Manager, you must update Process Manager to version 12.3.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you use Workflow Accelerator in combination with Signavio Process Manager, you must update Process Manager to version 12.3.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie Workflow Accelerator in Kombination mit dem Signavio Process Manager benutzen, dann müssen Sie Process Manager auf Version 12.3 aktualisieren.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The Apache Tomcat Team announced that the support for Apache Tomcat
+8.0.x has ended June 30, 2018. That's why Workflow Accelerator now only
+supports Apache Tomcat 8.5.x. If you are upgrading from Tomcat 8.0.x or
+older to Tomcat 8.5.x and configured SSL / TLS previously, then you
+will have to adjust your settings. The official Tomcat 8.5.x
+documentation explains how to configure SSL / TLS:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Apache Tomcat Team announced that the support for Apache Tomcat 8.0.x has ended June 30, 2018.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">That's why Workflow Accelerator now only supports Apache Tomcat 8.5.x.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">If you are upgrading from Tomcat 8.0.x or older to Tomcat 8.5.x and configured SSL / TLS previously, then you will have to adjust your settings.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">The official Tomcat 8.5.x documentation explains how to configure SSL / TLS:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Das Apache Tomcat Team gab bekannt, dass der Support für Apache Tomcat 8.0.x am 30. Juni 2018 beendet wurde.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Daher unterstützt Workflow Accelerator ausschließlich die Tomcat Version 8.5.x.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie Tomcat von Version 8.0.x oder älter auf 8.5.x aktualisieren und zuvor SSL / TLS konfiguriert hatten, dann müssen Sie Ihre Einstellungen anpassen.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Die offizielle Tomcat 8.5.x Dokumentation erklärt, wie Sie SSL / TLS konfigurieren:</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>
+    https://tomcat.apache.org/tomcat-8.5-doc/ssl-howto.html
+   </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">https://tomcat.apache.org/tomcat-8.5-doc/ssl-howto.html</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk></seg-source><target
+          state="translated"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">https://tomcat.apache.org/tomcat-8.5-doc/ssl-howto.html</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The Process Manager admin guide also contains instructions on how to
+setup SSL with Tomcat:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Process Manager admin guide also contains instructions on how to setup SSL with Tomcat:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Das Process Manager-Administratorenhandbuch enthält auch Instruktionen wie Sie SSL mit Tomcat aufsetzen:</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>
+    https://docs.signavio.com/adminguide/editor/en/installation/https.html
+</source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">https://docs.signavio.com/adminguide/editor/en/installation/https.html</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk></seg-source><target
+          state="translated"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">https://docs.signavio.com/adminguide/editor/de/installation/https.html</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" MadCap:onlyLocalStylesheets="True" xml:space="preserve">
+    <head><title></title>
+        <style type="text/css">
+        </style>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 name="install-mongodb">砻קยด1ตว融</h1>
+        <p>砻קยด2ตว融</p>
+        <p>砻קยด3ตว融</p>
+        <p><a href="https://docs.mongodb.com/manual/installation/">砻קยด4ตว融</a></p>
+        <p>砻קยด5ตว融</p>
+        <p>砻קยด6ตว融</p>
+        <p>砻קยด7ตว融</p>
+        <h2 name="remarks-for-downloading-the-binaries">砻קยด8ตว融</h2>
+        <p>砻קยด9ตว融</p>
+        <p><a href="https://www.mongodb.com/download-center">砻קยด10ตว融</a>
+        </p>
+        <h2 name="windows-2">砻קยด11ตว融</h2>
+        <p>砻קยด12ตว融</p>
+        <p>砻קยด13ตว融</p>
+        <p><a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/">砻קยด14ตว融</a>
+        </p>
+        <p>砻קยด15ตว融</p>
+        <ol>
+            <li>砻קยด16ตว融</li>
+            <li>砻קยด17ตว融</li>
+            <ul>
+                <li>砻קยด18ตว融</li>
+            </ul>
+            <li>砻קยด19ตว融</li>
+            <li>砻קยด20ตว融</li>
+            <li>砻קยด21ตว融</li>
+            <li>砻קยด22ตว融<pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">net start MongoDB</code></pre></li>
+            <li>砻קยด23ตว融<pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">net stop MongoDB</code></pre></li>
+            <ul>
+                <li>砻קยด24ตว融<pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">services.msc</code></pre></li>
+            </ul>
+        </ol>
+        <h2 name="install-mongodb-debian"><a name="Debi"></a>砻קยด25ตว融</h2>
+        <p>砻קยด26ตว融</p>
+        <p><a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/">砻קยด27ตว融</a></p>
+        <p>砻קยด28ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">sudo ./mongodb.install.debian.sh</code></pre>
+        <p>砻קยด29ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code>sudo service mongod start</code></pre>
+        <p>砻קยด30ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code>sudo service mongod stop</code></pre>
+        <p>砻קยด31ตว融</p>
+    </body>
+</html>

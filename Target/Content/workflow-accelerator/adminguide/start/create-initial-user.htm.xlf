@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="in-progress">
+  <file
+    xml:space="preserve"
+    original="create-initial-user.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="create-initial-user.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">24</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Create the initial user</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create the initial user</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Den ersten Nutzer erstellen</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In case you purchased Workflow Accelerator along with Signavio
+Process Manager and want to setup the integration, you don't have to
+create the initial Workflow Accelerator user manually. See section <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#CreateInitialUser" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Create the initial user
+  &lt;/MadCap:xref&gt;</ph>
+   for more information.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In case you purchased Workflow Accelerator along with Signavio Process Manager and want to setup the integration, you don't have to create the initial Workflow Accelerator user manually.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">See section <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#CreateInitialUser" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Create the initial user
+  &lt;/MadCap:xref&gt;</ph> for more information.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Falls Sie Workflow Accelerator in Kombination mit dem Signavio Process Manager erworben haben und daher beide System integrieren möchten, ist es nicht notwendig, den ersten Nutzer manuell zu erstellen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="74">Wechseln Sie in den Abschnitt <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#CreateInitialUser" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Create the initial user
+  &lt;/MadCap:xref&gt;</ph>, um weitere Informationen zu erhalten.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Workflow Accelerator users are organized in organizations. There is
+a fadfadfaf dfasdf asfd maximum amount of organizations that can be registered on an
+on-premise system. You will find the maximum number of available
+organizations in your license file. When the initial user registers, he
+will automatically create the first organization.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Workflow Accelerator users are organized in organizations.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">There is a fadfadfaf dfasdf asfd maximum amount of organizations that can be registered on an on-premise system.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">You will find the maximum number of available organizations in your license file.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">When the initial user registers, he will automatically create the first organization.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Workflow Accelerator-Nutzer werden in Organisationen verwaltet.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="80"
+            MadCap:diff="ContentChanged" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Diese Zahl können Sie Ihrer Lizenzdatei entnehmen.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wenn der erste Nutzer erstellt wird, wird mit ihm automatisch eine Organisation erstellt.</mrk></target><alt-trans
+          mid="2"
+          match-quality="80"
+          origin="previous-version"><seg-source>There is a maximum amount of organizations that can be registered on an on-premise system.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Es gibt eine Maximalbeschränkung an Organisationen, die in einer On-Premise Installation erstellt werden können.</target></alt-trans></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In order to register, enter the URL of your Workflow Accelerator
+installation in your browser. You will see the login screen of Workflow
+Accelerator.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In order to register, enter the URL of your Workflow Accelerator installation in your browser.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You will see the login screen of Workflow Accelerator.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Rufen Sie die URL Ihrer Workflow Accelerator-Installation im Browser auf, um den ersten Nutzer anzulegen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Sie sehen die Login-Maske von Workflow Accelerator.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Click
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    Register a new account
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>, fill in your email address
+and click
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    Register a new user
+   <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>. You will then receive an email
+with a link to complete your registration. After you have done that,
+your Workflow Accelerator organization is set up and you can go ahead
+and invite more users.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Click <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Register a new account <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>, fill in your email address and click <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Register a new user <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You will then receive an email with a link to complete your registration.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">After you have done that, your Workflow Accelerator organization is set up and you can go ahead and invite more users.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Klicken Sie nun auf <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Ein neues Konto registrieren<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>, geben Sie Ihre E-Mail-Adresse ein und wählen Sie <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Einen neuen Benutzer registrieren<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> aus.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sie erhalten nun eine E-Mail mit einem Aktivierungslink. Mit einem Klick auf den Link können Sie die Registrierung abschließen.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Nun ist Ihre Workflow Accelerator-Organisation angelegt und Sie können weitere Nutzer registrieren.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Every time a user registers using the register link on the login
+screen, a new organization is created until the maximum amount is
+reached. In general, you will create one organization and invite other
+users to join this organization. The next subsection explains how to
+invite users.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Every time a user registers using the register link on the login screen, a new organization is created until the maximum amount is reached.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">In general, you will create one organization and invite other users to join this organization.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The next subsection explains how to invite users.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Immer wenn ein Nutzer über den „Registrieren“-Link angelegt wird, wird automatisch eine neue Organisation angelegt, solange das entsprechende Limit noch nicht erreicht wurde.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Daher sollten Sie die Nutzer aus Ihrem Arbeitsbereich heraus einladen, sodass diese Nutzer Ihrer Organisation hinzugefügt werden.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der folgende Abschnitt beschreibt diese Vorgehensweise.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

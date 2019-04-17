@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+   Where are the log files?
+  </h1>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   There are multiple different log files that yield information in
+case of an error scenario. The following subsections will assist you in
+finding the log files for every part of the Signavio Workflow
+Accelerator application. The most important one, regarding the Workflow
+Accelerator system is the <kbd>effektif.log</kbd>. It will contain
+any application related log entries.
+  </p>
+        <h2 name="workflow-accelerator" xmlns="http://www.w3.org/1999/xhtml">
+   Workflow Accelerator
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The Workflow Accelerator log file effektif.log can be found in the
+location you configured in the logging configuration file
+   <kbd xmlns="http://www.w3.org/1999/xhtml">$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/logback.xml</kbd>.
+This file contains the line:</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">&lt;property name="LOG_DIR" value="/path/to/log"/&gt;</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The value contains the directory of the log file. Besides the
+   <kbd>effektif.log</kbd>
+   the directory contains more log files for
+every day of the past 30 days the server was running. If you are
+looking for any information about incidents on a specific date, open
+the log file with the respective timestamp.
+  </p>
+        <h2 name="script-engine" xmlns="http://www.w3.org/1999/xhtml">
+   Script Engine
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The Workflow Accelerator Script Engine log files have been
+configured in the configuration file
+   <kbd>$SCRIPT_ENGINE_HOME/configuration.onpremise.js</kbd>. The values
+for the entries
+   <kbd>log</kbd><kbd>file</kbd>
+   and <kbd>log</kbd><kbd>errorFile</kbd>
+   will tell you the name and location of the log
+files.
+  </p>
+        <h2 xmlns="http://www.w3.org/1999/xhtml">
+   Mail Relay
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The Workflow Accelerator Mail Relay log file
+   <kbd>mail.log</kbd>
+   has been configured in the logging configuration file
+   <kbd>$MAIL_RELAY_HOME/logback.xml</kbd>. This file contains the line:</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">&lt;property name="LOG_DIR" value="/path/to/log"/&gt;</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The value contains the directory of the log file. Besides the <kbd>mail.log</kbd>
+   the directory contains more log files for every
+day of the past 30 days the server was running. If you are looking for
+any information about incidents on a specific date, open the log file
+with the respective timestamp.
+  </p>
+        <h2 name="mongodb" xmlns="http://www.w3.org/1999/xhtml">
+   MongoDB
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The MongoDB log file is configured by the logpath option. This is
+either defined in the MongoDB configuration file that you reference
+when starting MongoDB or directly as a start parameter of MongoDB.
+Anyway, the value of this parameter will tell you where to find the log
+file.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   On Linux, one default location where the log file can be found is
+   <kbd>/var/log/mongodb/mongodb.log</kbd>. Whereas default locations
+for the configuration file are
+   <kbd>/etc/mongodb.conf</kbd>
+   or
+   <kbd>/etc/mongod.conf</kbd>. These locations can change depending on
+the distribution and depend on how you have installed MongoDB.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you are using Windows and followed the instructions in this guide
+to setup MongoDB, you should find the log file in your MongoDB
+installation directory
+   <kbd>$MONGO_HOME\logs</kbd>.
+  </p>
+        <h2 name="tomcat" xmlns="http://www.w3.org/1999/xhtml">
+   Tomcat
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If not configured otherwise, the log files of the Apache Tomcat
+application server can be found either in the installation directory of
+the Tomcat
+   <kbd>$TOMCAT_HOME\logs</kbd>
+   (Windows) or a common log
+directory e.g.
+   <kbd>/var/log/tomcat7</kbd>
+   (Linux).
+  </p>
+    </body>
+</html>

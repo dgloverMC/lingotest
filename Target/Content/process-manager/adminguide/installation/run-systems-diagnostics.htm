@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="diagnostics" name="diagnostics">
+   Using the Diagnostics Tool to troubleshoot
+configuration issues
+  </h1>
+        <p>
+   To check if everything went fine after starting the Tomcat, visit
+the URL
+   <kbd>&lt;baseURL&gt;/diagnostics</kbd>
+   (for example:
+   <kbd>https://mycompanysignavio.com:8080/diagnostics</kbd>).
+  </p>
+        <p>
+   Here, you see the following window:
+  </p>
+        <figure>
+            <img src="../_static/_images/en/diagnostics.png" xmlns="http://www.w3.org/1999/xhtml" />
+        </figure>
+        <p><em>
+    Run Diagnostics Test
+   </em>
+        </p>
+        <p>
+   Click
+   <strong>
+    Run Diagnostics Test
+   </strong>. The tool is
+automatically checking the log entries. In case of errors, you receive
+a problem description and detailed advice on how to proceed.
+  </p>
+        <p>
+   To prevent users from accessing the diagnostics results, follow the
+instructions at
+   <em>
+    Configuring HTTP basic authentication
+   </em>.
+  </p>
+        <p>
+   In the code snippets, insert
+   <kbd>
+    diagnostics
+   </kbd>
+   instead of
+   <kbd>
+    register
+   </kbd>, respectively
+   <kbd>
+    &lt;url-pattern&gt;/diagnostics/*&lt;/url-pattern&gt;
+   </kbd>
+   instead of
+   <kbd>
+    &lt;url-pattern&gt;/p/register/*&lt;/url-pattern&gt;</kbd>.
+  </p>
+    </body>
+</html>

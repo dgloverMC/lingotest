@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" MadCap:onlyLocalStylesheets="True" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/TableStyles/Alternate-Row-Color.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <style type="text/css">
+        </style>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 name="configure-mongodb"><a name="ConfiguringMongoDB" xmlns="http://www.w3.org/1999/xhtml"></a>Configuring MongoDB
+  </h1>
+        <p>
+   In order to run MongoDB properly, some configuration options have to
+be defined. The easiest solution is to create a configuration file and
+link this configuration file when starting MongoDB with the
+   <kbd>--config</kbd>
+   option. The MongoDB configuration uses the
+   <a href="http://yaml.org">
+    YAML
+   </a>
+   format, you can use an online
+checker like
+   <a href="http://www.yamllint.com/">
+    YAML Lint
+   </a>
+   to verify
+that your configuration file has the proper format.
+  </p>
+        <p>
+   If you installed MongoDB under Windows using the method in the last
+section, you have already copied the predefined configuration file and
+adjusted the values for <kbd>dbPath</kbd> and <kbd>systemLog path</kbd>
+   to your system. Then your configuration file already
+contains all necessary values.
+  </p>
+        <p>
+   If you installed MongoDB under Linux using <kbd>apt-get</kbd>,
+e.g. by following the instructions in the last section, there should be
+a <kbd>/etc/mongod.conf</kbd>
+   configuration file. Edit this
+configuration file. The <kbd>dbPath</kbd>, <kbd>systemLog path</kbd>
+   properties should already be defined. We recommend
+that you set the <kbd>logAppend</kbd> property to <kbd>true</kbd> and the <kbd>authorization</kbd> property to <kbd>enabled</kbd>.
+  </p>
+        <p>
+   In any other case make sure the configuration file contains the
+following properties:</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">systemLog:
+
+  destination: file
+
+  path: /var/log/mongodbdb/mongodb.log
+
+  logAppend: true
+
+storage:
+
+  dbPath: /var/lib/mongodb
+
+security:
+
+  authorization: enabled</code></pre>
+        <table class="TableStyle-Alternate-Row-Color" style="mc-table-style: url('../../../Resources/TableStyles/Alternate-Row-Color.css');" cellspacing="21">
+            <col style="width: 25%;" class="TableStyle-Alternate-Row-Color-Column-Column1" />
+            <col style="width: 75%;" class="TableStyle-Alternate-Row-Color-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>dbPath</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      Defines the directory where the database files are stored.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>path</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2">
+      Defines the file that will contain the logging output.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>logAppend</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      Indicates that new logs will be appended to an existing log file
+after restarting the server, if set to true.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body2"><kbd>authorization</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyA-Column2-Body2">
+      (optional) Turns authentication on, if set to
+      <kbd>enabled</kbd>.
+It is advised to turn authentication on in case the MongoDB instance
+can be accessed over the network.
+     </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+If you have installed MongoDB on Debian using a package manager, the
+default configuration file will probably contain the following entry: <kbd>net: bindIp: 127.0.0.1</kbd>
+        
+   This setting tells MongoDB to only bind to the local interface and
+reject remote connections. If you plan to install MongoDB and Tomcat on
+different machines, you must update this setting and either remove it
+or add the IP interface MongoDB should bind to, in order to listen for
+incoming connections. This value can contain a comma separated list of
+IPs and should NOT contain the IP address of the application
+server.
+  </p>
+        <p>
+   For more configuration options, see
+<a href="https://docs.mongodb.com/manual/reference/configuration-options/" xmlns="http://www.w3.org/1999/xhtml"><br xmlns="http://www.w3.org/1999/xhtml" />https://docs.mongodb.com/manual/reference/configuration-options\
+   </a>.
+  </p>
+        <h2 name="add-mongodb-user"><a name="Add" xmlns="http://www.w3.org/1999/xhtml"></a>
+   Add a database user for Workflow Accelerator
+  </h2>
+        <p>
+   Workflow Accelerator requires a MongoDB user in the admin database
+that has the following roles:
+  </p>
+        <table class="TableStyle-Alternate-Row-Color" style="mc-table-style: url('../../../Resources/TableStyles/Alternate-Row-Color.css');" cellspacing="21">
+            <tbody>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>dbAdminAnyDatabase</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1"> </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>readWriteAnyDatabase</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2"> </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>clusterAdmin</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+This role will allow you to list all databases. This becomes
+necessary if you plan on using the user credentials when editing any
+database content with a tool like Robomongo. Furthermore, it is
+necessary for creating backups.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body2"><kbd>userAdminAnyDatabase</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyA-Column2-Body2"> This role is required for backups.
+     </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+   The user will access the databases for Workflow Accelerator.
+Workflow Accelerator will create two databases, one for the user and
+workflow data, and one for uploaded files. The name of the first
+database can be configured in the Workflow Accelerator configuration
+file. The name of the second database is derived from the name of the
+first one by adding “-files”. For instance, if you define the database
+name “signavio”, the databases “signavio” and “signavio-files” will be
+created.
+  </p>
+        <p>
+   In general, if you want to create a new user in MongoDB you will
+need to authenticate with an existing user that has the role userAdmin
+or userAdminAnyDatabase. There is an exception for a fresh MongoDB
+set-up. It will allow you to create the first user from localhost
+without any authentication. The following examples will show you how to
+create a new user using the credentials of an admin user and how to do
+it without any credentials in case of a new MongoDB.
+  </p>
+        <p>
+   In order to add a new user to MongoDB, the MongoDB server has to be
+running. The following subsections will show you how to create the
+Workflow Accelerator database user using the command line.
+  </p>
+        <h3 name="windows-3">
+   Windows
+  </h3>
+        <ol>
+            <li>
+				Open the command line <kbd xmlns="http://www.w3.org/1999/xhtml">cmd</kbd>
+				and go to your MongoDBbin
+				directory, e.g. by executing: <pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">cd C:\MongoDB\bin</code></pre></li>
+            <li>
+				If you have an admin user, create the Workflow Accelerator user by
+			executing:</li><pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">mongo.exe admin -u admin -p &lt;enterYourAdminPasswordHere&gt; --eval "db.createUser( { user: 'signavio', pwd: '&lt;enterSignavioPasswordHere&gt;', roles: ['dbAdminAnyDatabase', 'readWriteAnyDatabase', 'clusterAdmin', 'userAdminAnyDatabase'] } )"</code></pre>
+            <ul>
+                <li>
+				Replace &lt;enterAdminPasswordHere&gt; with the password you have
+				defined for the admin user.
+			</li>
+                <li>
+				Replace &lt;enterSignavioPasswordHere&gt; with the password for the
+				new Workflow Accelerator user. As you can see the user name is
+				signavio.
+			</li>
+            </ul>
+            <li>
+	
+				If you have a new MongoDB and no admin user, create the Workflow
+Accelerator user by executing:<pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">mongo.exe admin --eval "db.createUser( { user: 'signavio', pwd: '&lt;enterSignavioPasswordHere&gt;', roles: ['dbAdminAnyDatabase', 'readWriteAnyDatabase', 'clusterAdmin', 'userAdminAnyDatabase'] } )"</code></pre><ul><li>
+						Replace &lt;enterSignavioPasswordHere&gt; with the password for the
+						new Workflow Accelerator user. As you can see the user name is
+						signavio.
+					</li></ul></li>
+            <li>
+				You can verify the creation of the new Workflow Accelerator user by
+				executing:<pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">mongo.exe admin -u signavio -p &lt;enterSignavioPasswordHere&gt; --eval "db.getUser('signavio');"</code></pre><ul><li>
+						On the command line you will see the user information including the
+						four assigned roles.
+					</li></ul></li>
+        </ol>
+        <h3 name="debian-3">
+   Debian
+  </h3>
+        <p>
+   If you have installed MongoDB using a package manager, the binaries
+should be available on the path. Otherwise, open the directory with the
+MongoDB binary files and follow the instructions.
+  </p>
+        <ol>
+            <li>
+     If you have an admin user, create the Workflow Accelerator user by
+executing: <pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">mongo admin -u admin -p &lt;enterYourAdminPasswordHere&gt; --eval "db.createUser( { user: 'signavio', pwd: '&lt;enterSignavioPasswordHere&gt;', roles: ['dbAdminAnyDatabase', 'readWriteAnyDatabase', 'clusterAdmin', 'userAdminAnyDatabase'] } )"</code></pre><ul><li>
+       Replace &lt;enterAdminPasswordHere&gt; with the password, you have
+defined for the admin user.
+      </li><li>
+       Replace &lt;enterSignavioPasswordHere&gt; with the password for the
+new Workflow Accelerator user. As you can see the user name is
+signavio.
+      </li></ul></li>
+            <li>
+     If you have a new MongoDB and no admin user, create the Workflow
+Accelerator user by executing: <pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">mongo admin --eval "db.createUser( { user: 'signavio', pwd: '&lt;enterSignavioPasswordHere&gt;', roles: ['dbAdminAnyDatabase', 'readWriteAnyDatabase', 'clusterAdmin', 'userAdminAnyDatabase'] } )"</code></pre><ul><li>
+       Replace &lt;enterSignavioPasswordHere&gt; with the password for the
+new Workflow Accelerator user. As you can see the user name is
+signavio.
+      </li></ul></li>
+            <li>
+           You can verify the creation of the new Workflow Accelerator user by
+executing: <pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">mongo admin -u signavio -p &lt;enterSignavioPasswordHere&gt; --eval "db.getUser('signavio');"</code></pre><ul><li>
+       On the command line you will see the user information including the
+four assigned roles.
+      </li></ul></li>
+        </ol>
+        <p>
+   Once the Workflow Accelerator user is created, its credentials have
+to be added to the Workflow Accelerator configuration file to the
+   <kbd xmlns="http://www.w3.org/1999/xhtml">effektif.mongodb.username</kbd>
+   and
+   <kbd xmlns="http://www.w3.org/1999/xhtml">effektif.mongodb.password</kbd>
+   properties. Section <MadCap:xref href="configure.htm#UpdateWorkflowAcc">Update the Workflow Accelerator
+configuration file
+  </MadCap:xref>
+   explains how to update the configuration file.
+  </p>
+        <h2 name="backup-and-restore">
+   Backup and restore
+  </h2>
+        <p>
+   You are advised to do regular backups of the MongoDB database to
+prevent a complete data loss in case of a system failure. The Workflow
+Accelerator system will NOT backup the user data on its own. <MadCap:xref href="../backup/backup.htm">Backup</MadCap:xref> explains in detail how to set up backups for MongoDB properly. <MadCap:xref href="../restore-backups/restore-backups.htm">
+   Restoring backups
+  </MadCap:xref> explains how you can restore an older version of the user data from a
+backup.
+  </p>
+    </body>
+</html>

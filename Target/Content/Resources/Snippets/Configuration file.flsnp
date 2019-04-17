@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <body>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Aconfiguration file is a property file that contains one
+configuration option per line and key and value are separated by a
+   <kbd xmlns="http://www.w3.org/1999/xhtml">=</kbd>. Every line that starts with a <kbd xmlns="http://www.w3.org/1999/xhtml">#</kbd>
+   is
+commented out and will not be used.
+  </p>
+    </body>
+</html>

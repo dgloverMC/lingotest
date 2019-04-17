@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head><title>Backup for Debian  Signavio Workflow Accelerator </title>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Debian</h1>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you followed the instructions within this guide to setup MongoDB,
+then <kbd>mongodump</kbd> could be executed like this:</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">mongodump -u signavio -p &lt;SignavioUserPassword&gt; -o /path/to/dumps </code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The parameter -u defines the username and -p the password of the
+Workflow Accelerator MongoDB user, replace them with your chosen
+values. The parameter -o specifies the output directory, in this case
+/path/to/dumps. Make sure the executing user has the required
+privileges to write to the output folder.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Another example will create a folder with a timestamp for every new
+dump:</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">mongodump -u signavio -p &lt;SignavioUserPassword&gt; -o /path/to/dumps/`date +"%Y-%m-%d-%H-%M-%S"`</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The folder dumps would then contain a subfolder for every backup
+with a name similar to “2014-10-07-17-49-07”. However, this method
+doesn’t remove old backups.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   It's good practice to take backups regularly. We recommend using
+cron to schedule backups. You could for instance setup
+   <kbd>/etc/crontab</kbd> that executes the mongodump command.
+  </p>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="replacing-the-license-file" name="replacing-the-license-file">砻קยด1ตว融</h1>
+        <p>砻קยด2ตว融</p>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>砻קยด3ตว融</p>
+        </div>
+        <ol>
+            <li>砻קยด4ตว融</li>
+            <li>砻קยด5ตว融</li>
+            <li>砻קยด6ตว融</li>
+            <li>砻קยด7ตว融</li>
+            <li>砻קยด8ตว融</li>
+        </ol>
+    </body>
+</html>

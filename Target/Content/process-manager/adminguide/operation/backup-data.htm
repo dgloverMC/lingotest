@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:sourceDocument="C:\Users\Dana\Documents\adminguide_editor\editor\docs\operation\backup.htm" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="backing-up-your-data" name="backing-up-your-data">
+   Backing up your data
+  </h1>
+        <p>
+   The database contains all relevant data for a secure recovery of all
+your repository information.
+  </p>
+        <p>
+   The only items that are not stored in the database are:
+  </p>
+        <ul>
+            <li>
+    the search index (that will be generated automatically when you
+restart the Tomcat server,
+   </li>
+            <li>
+    user sessions (that means users have to login again after you
+restart the Tomcat sever).
+   </li>
+        </ul>
+        <p>
+   Based on your database system and existing infrastructure, a
+database backup may rely on existing backup strategies. We recommend
+you to execute at least one backup per day and implement a rotating
+backup strategy with monthly backups.
+  </p>
+        <p>
+   You should store the backups on different hardware at another
+physical location or on external hardware, to protect the backups - for
+example - from fire.
+  </p>
+    </body>
+</html>

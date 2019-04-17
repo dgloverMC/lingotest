@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="installing-the-jdbc-driver" name="installing-the-jdbc-driver">
+   Installing the JDBC driver
+  </h1>
+        <p>
+   To use the database system for the Signavio application server, add
+a compatible JDBC driver to the Apache Tomcat installation. You can
+download the JDBC driver from your database vendor’s support homepage,
+as described in the following sections. Please consider the vendor’s
+license agreements for using the JDBC driver.
+  </p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>
+Ensure you install exactly the JDBC driver version that is
+mentioned in the corresponding section for your database system. Other
+versions of the JDBC driver (older and newer) may cause problems.
+   </p>
+            <p>
+    After you have successfully downloaded the JDBC driver, copy the jar
+library of the JDBC driver in the Apache Tomcat installation directory
+(below called
+    <kbd>$TOMCAT_DIR</kbd>) to the folder
+    <kbd>$TOMCAT_DIR/lib</kbd>.
+   </p>
+        </div>
+        <h2 id="downloading-the-jdbc-driver-for-mysql" name="downloading-the-jdbc-driver-for-mysql">
+   Downloading the JDBC
+driver for MySQL
+  </h2>
+        <p>Download the MySQL Connector/J JDBC driver
+   <strong xmlns="http://www.w3.org/1999/xhtml">
+    version 5.1.47</strong> here: </p>
+        <p style="font-weight: normal;"><a href="https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.47.tar.gz" title="Download for Linux OS" alt="Download for Linux OS" xmlns="http://www.w3.org/1999/xhtml">Download for Linux</a>
+        </p>
+        <p style="font-weight: normal;"><a href="https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.47.zip" title="Download for Windows OS" alt="Download for Windows OS" xmlns="http://www.w3.org/1999/xhtml">Download for Windows</a>
+        </p>
+        <p>Alternatively, open the download website of the MySQL Connector/JDBC driver in your web browser:</p>
+        <p><a href="http://dev.mysql.com/downloads/connector/j/" title="http://dev.mysql.com/downloads/connector/j/" alt="http://dev.mysql.com/downloads/connector/j/" xmlns="http://www.w3.org/1999/xhtml">http://dev.mysql.com/downloads/connector/j/</a>
+        </p>
+        <p>Please ensure to select <strong xmlns="http://www.w3.org/1999/xhtml">version 5.1.47
+   </strong> and <b>Platform Independent</b>.</p>
+        <p>
+   Unpack the archive to a location of your choice. The JDBC driver is
+the file <kbd>mysql-connector-java-5.1.47-bin.jar</kbd>.
+  </p>
+        <h2 id="install_mssql_jdbc" name="install_mssql_jdbc"><a name="Down" xmlns="http://www.w3.org/1999/xhtml"></a>
+   Download JDBC driver for Microsoft SQL
+Server
+  </h2>
+        <p>
+   Please go to the download website of Microsoft to get the Microsoft
+JDBC driver
+   <strong>
+    version 7.0</strong>:
+  </p>
+        <p><a href="https://www.microsoft.com/en-us/download/details.aspx?id=57175" xmlns="http://www.w3.org/1999/xhtml" title="download JDBC driver for Microsoft SQL Server" alt="download JDBC driver for Microsoft SQL Server">Download   </a>
+        </p>
+        <p>
+   Click the
+   <strong xmlns="http://www.w3.org/1999/xhtml">Download</strong>
+   button and select the
+corresponding file (Windows:
+   <kbd xmlns="http://www.w3.org/1999/xhtml">sqljdbc_7.0.0.0_enu.exe</kbd>,
+Linux:
+   <kbd xmlns="http://www.w3.org/1999/xhtml">sqljdbc_7.0.0.0_enu.tar.gz</kbd>) and click
+   <strong xmlns="http://www.w3.org/1999/xhtml">
+    Next</strong>. Unpack the self-extracting archive to a location
+of your choice. The correct JDBC driver is the file
+   <kbd xmlns="http://www.w3.org/1999/xhtml">enu/mssql-jdbc-7.0.0.jre8.jar</kbd>
+   in the
+   <kbd xmlns="http://www.w3.org/1999/xhtml">$TOMCAT_DIR/lib</kbd> folder.
+  </p>
+        <h2 id="oracle_driver" name="oracle_driver"><a name="Down2" xmlns="http://www.w3.org/1999/xhtml"></a>
+   Download JDBC driver for Oracle
+  </h2>
+        <p>
+   For downloading the JDBC driver an account on oracle.com is
+required. The account is available to you as a customer of Oracle.
+Independent of the Oracle database version you are using, please
+download the Oracle Database JDBC driver version 12.2.0.1 from the
+Oracle download website:
+  </p>
+        <p><a href="https://www.oracle.com/technetwork/database/features/jdbc/jdbc-ucp-122-3110062.html" xmlns="http://www.w3.org/1999/xhtml">https://www.oracle.com/technetwork/database/features/jdbc/jdbc-ucp-122-3110062.html</a>
+        </p>
+        <p>
+   Read and accept Oracle’s license agreement (OTN Development
+and Distribution License Agreement). Subsequently, download the files
+   <kbd>ojdbc8.jar</kbd>
+   and
+   <kbd>orai18n.jar</kbd>. If you haven’t
+logged in before, you will be requested to log in before the download
+starts.
+  </p>
+        <p>
+   The JDBC driver consists of the two files
+   <kbd>ojdbc8.jar</kbd>
+   and
+   <kbd>orai18n.jar</kbd>.
+  </p>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <p>
+    In newer tomcat versions the jar scanner is activated by default. It
+will scan manifests of libraries and log missing dependencies to
+    <kbd>
+     stdout</kbd>. Missing dependencies of the oracle driver can be
+ignored to keep the log file clean. Exclude
+    <kbd>
+     orai18n*
+    </kbd>
+    and
+    <kbd>gdk_custom.jar</kbd>
+    from jar scan by modifying
+    <kbd>
+     $TOMCAT_DIR/conf/catalina.properties</kbd>:
+   </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">tomcat.util.scan.StandardJarScanFilter.jarsToSkip=\
+
+orai18n-*,\
+
+gdk_custom.jar,\</code></pre>
+        </div>
+    </body>
+</html>

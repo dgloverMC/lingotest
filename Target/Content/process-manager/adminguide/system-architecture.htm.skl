@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="SPM-button" style="mc-master-page: url('..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="system-architecture-components" name="system-architecture-components">砻קยด3ตว融</h1>
+        <p>砻קยด4ตว融</p>
+        <h2 id="system-architecture" name="system-architecture">砻קยด5ตว融</h2>
+        <p>砻קยด6ตว融</p>
+        <p>砻קยด7ตว融</p>
+        <figure>
+            <img src="_static/_images/en/landscape.png" xmlns="http://www.w3.org/1999/xhtml" />
+        </figure>
+        <p><em>砻קยด8ตว融</em></p>
+        <h2 id="software-components" name="software-components">砻קยด9ตว融</h2>
+        <h3 id="signavio-collaboration-hub-javascript" name="signavio-collaboration-hub-javascript">砻קยด10ตว融</h3>
+        <p>砻קยด11ตว融</p>
+        <p>砻קยด12ตว融</p>
+        <h3 id="signavio-process-manager-javascript" name="signavio-process-manager-javascript">砻קยด13ตว融</h3>
+        <p>砻קยด14ตว融</p>
+        <p>砻קยด15ตว融</p>
+        <h3 id="signavio-process-manager-web-application" name="signavio-process-manager-web-application">砻קยด16ตว融</h3>
+        <p>砻קยด17ตว融</p>
+        <h3 id="jdbc-connector" name="jdbc-connector">砻קยด18ตว融</h3>
+        <p>砻קยด19ตว融</p>
+        <h3 id="web-browser" name="web-browser">砻קยด20ตว融</h3>
+        <p>砻קยด21ตว融</p>
+        <h3 id="apache-tomcat" name="apache-tomcat">砻קยด22ตว融</h3>
+        <p>砻קยด23ตว融</p>
+        <p>砻קยด24ตว融</p>
+        <p>砻קยด25ตว融</p>
+        <h3 id="mail-server-smtp" name="mail-server-smtp">砻קยด26ตว融</h3>
+        <p>砻קยด27ตว融</p>
+        <h3 id="database-system" name="database-system">砻קยด28ตว融</h3>
+        <p>砻קยด29ตว融</p>
+        <h3 id="active-directory" name="active-directory">砻קยด30ตว融</h3>
+        <p>砻קยด31ตว融</p>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>砻קยด32ตว融</p>
+        </div>
+        <h3 id="sharepoint-portal" name="sharepoint-portal">砻קยด33ตว融</h3>
+        <p>砻קยด34ตว融</p>
+        <h3 id="third-party-system" name="third-party-system">砻קยด35ตว融</h3>
+        <p>砻קยด36ตว融</p>
+        <h3 id="signavio-workflow-accelerator" name="signavio-workflow-accelerator">砻קยด37ตว融</h3>
+        <p>砻קยด38ตว融</p>
+        <h3 id="signavio-workflow-accelerator-ui" name="signavio-workflow-accelerator-ui">砻קยด39ตว融</h3>
+        <p>砻קยด40ตว融</p>
+    </body>
+</html>

@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HtmlImport
+  KeepSourceLinks="false"
+  ProjectName="documentation"
+  ProjectFolder="C:\Users\jill.koglatis\Documents\GitHub\documentation\"
+  AutoSync="false"
+  SourceFolders="file:///C:/Users/jill.koglatis/Desktop/TW-492/editor/src/en/workspace_admin"
+  ImportResources="true"
+  ImportResourcesLocation="RelativeToDocument"
+  ImportTopics="specific"
+  ImportLinkedHtmlFiles="false"
+  LastImport="2019-02-18T16:23:41.9189558+01:00"
+  ImportTopicsLocation="Content/02_processmanager/userguide/"
+  ResourceFolder="file:///C:/Users/jill.koglatis/Documents/GitHub/documentation/Content/02_processmanager/userguide/">
+  <Files>
+    <Url
+      Source="../../../../../Desktop/TW-492/editor/src/en/workspace_admin"
+      AbsoluteSource="file:///C:/Users/jill.koglatis/Desktop/TW-492/editor/src/en/workspace_admin" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/api.htm"
+      TimeStamp="18.02.2019 16:23:32" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/config_tutorial.htm"
+      TimeStamp="18.02.2019 16:23:32" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/faq_admin.htm"
+      TimeStamp="18.02.2019 16:23:32" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/index.htm"
+      TimeStamp="18.02.2019 16:23:32" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/integration_overview.htm"
+      TimeStamp="18.02.2019 16:23:32" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/additional_packages_and_info/index.htm"
+      TimeStamp="18.02.2019 16:23:32" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/embedding_portal/embedding_portal_in_iframe.htm"
+      TimeStamp="18.02.2019 16:23:32" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/embedding_portal/index.htm"
+      TimeStamp="18.02.2019 16:23:32" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/import_export/apqc.htm"
+      TimeStamp="18.02.2019 16:23:33" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/import_export/importing_aris_aml.htm"
+      TimeStamp="18.02.2019 16:23:33" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/import_export/importing_bpmn2_xml.htm"
+      TimeStamp="18.02.2019 16:23:33" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/import_export/importing_dictionary.htm"
+      TimeStamp="18.02.2019 16:23:33" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/import_export/importing_sgx.htm"
+      TimeStamp="18.02.2019 16:23:33" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/import_export/importing_xpdl.htm"
+      TimeStamp="18.02.2019 16:23:33" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/import_export/import_jar.htm"
+      TimeStamp="18.02.2019 16:23:33" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/import_export/import_visio.htm"
+      TimeStamp="18.02.2019 16:23:33" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/import_export/index.htm"
+      TimeStamp="18.02.2019 16:23:33" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/import_export/uploading_non_diagram.htm"
+      TimeStamp="18.02.2019 16:23:33" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_modeling_settings/configuring_notations_and_attributes.htm"
+      TimeStamp="18.02.2019 16:23:33" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_modeling_settings/creating_process_documentation_templates.htm"
+      TimeStamp="18.02.2019 16:23:34" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_modeling_settings/defining_custom_categories_attributes_dictionary.htm"
+      TimeStamp="18.02.2019 16:23:34" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_modeling_settings/index.htm"
+      TimeStamp="18.02.2019 16:23:34" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_modeling_settings/managing_av_layers.htm"
+      TimeStamp="18.02.2019 16:23:34" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_modeling_settings/managing_external_data.htm"
+      TimeStamp="18.02.2019 16:23:34" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_modeling_settings/managing_input_output_btw_dmn_n_dictionary.htm"
+      TimeStamp="18.02.2019 16:23:34" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_modeling_settings/managing_modeling_conventions.htm"
+      TimeStamp="18.02.2019 16:23:34" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_modeling_settings/managing_risks_and_controls.htm"
+      TimeStamp="18.02.2019 16:23:34" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_modeling_settings/managing_risks_and_controls2.htm"
+      TimeStamp="18.02.2019 16:23:34" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_software_config/config_explorer_editor.htm"
+      TimeStamp="18.02.2019 16:23:34" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_software_config/config_lang.htm"
+      TimeStamp="18.02.2019 16:23:35" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_software_config/config_portal.htm"
+      TimeStamp="18.02.2019 16:23:35" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_software_config/config_workflows.htm"
+      TimeStamp="18.02.2019 16:23:35" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_users_access/adding_new_modelers.htm"
+      TimeStamp="18.02.2019 16:23:35" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_users_access/feature_sets.htm"
+      TimeStamp="18.02.2019 16:23:35" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_users_access/index.htm"
+      TimeStamp="18.02.2019 16:23:35" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_users_access/managing_access_rights_diagrams_dictionary.htm"
+      TimeStamp="18.02.2019 16:23:35" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_users_access/managing_security_settings.htm"
+      TimeStamp="18.02.2019 16:23:35" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_users_access/managing_user_groups.htm"
+      TimeStamp="18.02.2019 16:23:36" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_users_access/portal_access_active_directory.htm"
+      TimeStamp="18.02.2019 16:23:36" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_users_access/portal_and_editor_sso_via_saml.htm"
+      TimeStamp="18.02.2019 16:23:36" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_users_access/portal_creating_certificates.htm"
+      TimeStamp="18.02.2019 16:23:36" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_users_access/portal_importing_certificates_certutil.htm"
+      TimeStamp="18.02.2019 16:23:36" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/manage_users_access/portal_managing_user_access.htm"
+      TimeStamp="18.02.2019 16:23:36" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sap_solman/importing_data_sap.htm"
+      TimeStamp="18.02.2019 16:23:36" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sap_solman/index.htm"
+      TimeStamp="18.02.2019 16:23:36" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sap_solman/installing_solman7.1.htm"
+      TimeStamp="18.02.2019 16:23:36" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sap_solman/integrating_solman.htm"
+      TimeStamp="18.02.2019 16:23:36" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sap_solman/project_config.htm"
+      TimeStamp="18.02.2019 16:23:37" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sap_solman/project_sync.htm"
+      TimeStamp="18.02.2019 16:23:37" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sap_solman/pushing_solman.htm"
+      TimeStamp="18.02.2019 16:23:37" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sap_solman/solman_use_cases.htm"
+      TimeStamp="18.02.2019 16:23:37" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sap_solman/troubleshooting_solman.htm"
+      TimeStamp="18.02.2019 16:23:37" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sap_solman/update_solman.htm"
+      TimeStamp="18.02.2019 16:23:37" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sap_solman/solman72/index.htm"
+      TimeStamp="18.02.2019 16:23:37" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sharepoint_integration/add_app_2007_13.htm"
+      TimeStamp="18.02.2019 16:23:37" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sharepoint_integration/configure_search.htm"
+      TimeStamp="18.02.2019 16:23:37" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sharepoint_integration/defining_sharepoint_entry.htm"
+      TimeStamp="18.02.2019 16:23:37" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sharepoint_integration/enabling_certificate_based_access_sp.htm"
+      TimeStamp="18.02.2019 16:23:37" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sharepoint_integration/enabling_certificate_based_authentication_sp_2007-2013.htm"
+      TimeStamp="18.02.2019 16:23:37" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sharepoint_integration/grant_read_access.htm"
+      TimeStamp="18.02.2019 16:23:37" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sharepoint_integration/index.htm"
+      TimeStamp="18.02.2019 16:23:37" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sharepoint_integration/install_activate_sp_online.htm"
+      TimeStamp="18.02.2019 16:23:38" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sharepoint_integration/install_connector.htm"
+      TimeStamp="18.02.2019 16:23:38" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sharepoint_integration/install_sp_app_2007_13.htm"
+      TimeStamp="18.02.2019 16:23:38" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sharepoint_integration/remove_sp_app_2007_13.htm"
+      TimeStamp="18.02.2019 16:23:38" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sharepoint_integration/troubleshooting_the_integration.htm"
+      TimeStamp="18.02.2019 16:23:38" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/sharepoint_integration/update_certificate_sharepoint.htm"
+      TimeStamp="18.02.2019 16:23:38" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/workspace_admin/workflow_integration/index.htm"
+      TimeStamp="18.02.2019 16:23:38" />
+    <Url
+      Source="../TOCs/workspace_admin.fltoc"
+      TimeStamp="18.02.2019 16:23:40" />
+    <Url
+      Source="../../Content/02_processmanager/userguide/img_migrated/solmanb24_en.png"
+      TimeStamp="08.02.2019 10:48:02" />
+  </GeneratedFiles>
+</HtmlImport>

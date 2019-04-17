@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="configuring-signavio-collaboration-hub-sharepoint-component-optional" name="configuring-signavio-collaboration-hub-sharepoint-component-optional">
+   Configuring Signavio Collaboration Hub SharePoint component
+(optional)
+  </h1>
+        <p>
+   This section describes the installation process of the optional
+   <strong>
+    Signavio Collaboration Hub Web Part
+   </strong>
+   . With the Signavio
+Web Part, you can embed Collaboration Hub into a Microsoft SharePoint
+system.
+  </p>
+        <p>
+   You need a Microsoft Office SharePoint Server (<a href="https://products.office.com/en-us/sharepoint/collaboration" xmlns="http://www.w3.org/1999/xhtml">https://products.office.com/en-us/sharepoint/collaboration</a>   )
+for the installation
+  </p>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <p>
+    Integrating
+    <strong>
+     SharePoint for Office 365
+    </strong>
+    (SharePoint
+Online) is only possible with our software-as-a-service offer.
+   </p>
+        </div>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>
+    Since Microsoft<sup>®</sup> stopped supporting Microsoft<sup>®</sup> SharePoint<sup>®</sup> 2007 and
+2010 on
+    
+October 9, 2012, respectively on
+    
+     October 13, 2015, it is getting increasingly difficult to provide Collaboration
+Hub for these SharePoint versions. As we want to keep Collaboration Hub
+up to date and to provide the best features possible, we dropped
+support for Microsoft<sup>®</sup> SharePoint<sup>®</sup> 2007 and 2010 on
+    <strong>April 1,2017</strong>.
+   </p>
+        </div>
+        <p>
+   The Web Part allows a preconfigured view of Collaboration Hub. The
+Web Part needs to be purchased as a separate component.
+  </p>
+        <p>
+   Download the Web Part from the Signavio Explorer at
+   <strong>
+    Setup
+   </strong>
+   -
+   <strong>
+    Download SharePoint Web
+Part
+   </strong>
+   :
+  </p>
+        <figure>
+            <img src="../_static/_images/en/download_webpart.png" xmlns="http://www.w3.org/1999/xhtml" />
+        </figure>
+        <p><em>
+    Download the Signavio SharePoint Web Part
+   </em>
+        </p>
+        <p>
+   Copy the file
+   <kbd>SignavioViewer2013_2016.wsp</kbd>
+   into a
+directory of your choice on the SharePoint server. Install the
+SharePoint Solution as described in the corresponding SharePoint
+manual.
+  </p>
+        <h2 id="installing-the-web-part" name="installing-the-web-part">
+   Installing the Web Part
+  </h2>
+        <p>
+   The following section explains how to install the Web Part with
+different Microsoft SharePoint Server versions. In our examples, the
+parameter
+   <kbd>&lt;SharePointServerURL&gt;
+   </kbd>
+   represents the
+SharePoint server’s web application URL.
+  </p>
+        <p>
+   The Signavio Hub Web Part uses an SSL connection to communicate with
+the Signavio server. In case you configured very strict security
+policies for your SharePoint server, you might need to import the SSL
+certificate authority used by Signavio into Microsoft SharePoint's
+   <strong>
+    Trusted Root Certificate Store</strong>. The certificate file
+(<kbd>geotrust.cer</kbd>) can be downloaded at
+  </p>
+        <ul>
+            <li><a href="https://editor.signavio.com/sharepoint/geotrust.zip">
+     https://editor.signavio.com/sharepoint/geotrust.zip
+    </a>
+    (Europe),
+   </li>
+            <li><a href="https://app-us.signavio.com/sharepoint/geotrust.zip">
+     https://app-us.signavio.com/sharepoint/geotrust.zip
+    </a>
+    (US) or
+   </li>
+            <li><a href="https://app-au.signavio.com/sharepoint/geotrust.zip">
+     https://app-au.signavio.com/sharepoint/geotrust.zip
+    </a>
+    (Australia/APAC).
+   </li>
+        </ul>
+        <p>
+   Follow these steps to install the geotrust certificate:
+  </p>
+        <ul>
+            <li>
+    Ensure the Windows service
+    <strong>
+     SharePoint
+Administration
+    </strong>
+    runs.
+   </li>
+            <li>
+    Open the
+    <strong>
+     Microsoft SharePoint 2013/2016 Central
+Administration</strong>.
+   </li>
+            <li>
+    Navigate to
+    <strong>
+     Security
+    </strong>&gt;<strong>
+     Manage trust
+settings
+    </strong>
+    and click
+    <strong>New</strong>.
+   </li>
+            <li>
+    Enter a name, for example
+    <em>
+     Signavio
+    </em>, and browse to the <kbd>geotrust.cer</kbd>
+    file.
+   </li>
+        </ul>
+        <p>
+   To install the Web Part, please open the management shell of the
+SharePoint server and execute the following commands:
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">Add-SPSolution -LiteralPath &lt;Path&gt;\SignavioViewer2013_2016.wsp
+
+
+Install-SPSolution -Identity SignavioViewer2013_2016.wsp -WebApplication
+
+&lt;SharePointServerURL&gt; –GACDeployment</code></pre>
+        <p>
+   You can check the status of the installation through the following
+   <pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">http://&lt;SharePointServerURL&gt;:&lt;ADMIN_PORT&gt;/_admin/SolutionStatus.aspx?ItemName=signavioviewer2013_2016.wsp&amp;Lcid=0</code></pre></p>
+        <p>
+   You find further information about installing a .wsp file on a
+Microsoft SharePoint Server at
+   <a href="https://technet.microsoft.com/en-us/library/cc262995.aspx?f=255&amp;mspperror=-2147217396">
+    https://technet.microsoft.com/en-us/library/cc262995.aspx?f=255&amp;mspperror=-2147217396
+   </a></p>
+        <h2 id="configuring-the-web-part" name="configuring-the-web-part">
+   Configuring the Web Part
+  </h2>
+        <p>
+   After installing the SharePoint Solution on a SharePoint Server, you
+can include the Web Part in the desired SharePoint page(s).
+  </p>
+        <ol>
+            <li>
+    Navigate to
+    <strong>
+     Page
+    </strong>
+    and click
+    <strong>
+     Edit
+page</strong>.
+   </li>
+            <li>
+    Now, click
+    <strong>
+     Add a Web Part</strong>.
+   </li>
+            <li>
+    Select
+    <strong>
+     Signavio Collaboration Hub Web Part
+    </strong>
+    and add
+it.
+   </li>
+            <li>
+    Use
+    <strong>
+     Edit
+    </strong>
+    to add the
+    <strong>
+     Signavio URL
+    </strong>
+    to the section
+    <strong>
+     Signavio
+    </strong>
+    on the right. It either
+directs to the Signavio server or defines an URL to a specific start
+diagram (as an URL from Collaboration Hub preview). Additionally, you
+can customize the look and feel of the Signavio component, for example
+by configuring the title or size.
+   </li>
+        </ol>
+        <p>
+   You find more information about embedding a Web Part at:
+   <a href="http://office.microsoft.com/de/HA010097463.aspx">
+    http://office.microsoft.com/de/HA010097463.aspx</a>.
+  </p>
+    </body>
+</html>

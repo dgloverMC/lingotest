@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="Styles_PDF.css"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="x-css"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="Styles_PDF.css.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">28</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-mc-auto-number-format"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Example: <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Example: <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"><ph
+              id="1">{b}</ph>Beispiel<ph
+              id="2">{/b}</ph></mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-mc-auto-number-format"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Example: <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Example: <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"><ph
+              id="1">{b}</ph>Beispiel<ph
+              id="2">{/b}</ph></mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-mc-auto-number-format"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Note <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Note <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"><ph
+              id="1">{b}</ph>Hinweis<ph
+              id="2">{/b}</ph></mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-mc-auto-number-format"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Warning: <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Warning: <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-mc-auto-number-format"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Example: <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Example: <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"><ph
+              id="1">{b}</ph>Beispiel<ph
+              id="2">{/b}</ph></mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-mc-auto-number-format"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Note: <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Note: <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"><ph
+              id="1">{b}</ph>Hinweis<ph
+              id="2">{/b}</ph></mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-mc-auto-number-format"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Important: <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Important: <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><ph
+              id="1">{b}</ph>Wichtig<ph
+              id="2">{/b}</ph></mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-mc-auto-number-format"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Example: <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Example: <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"><ph
+              id="1">{b}</ph>Beispiel<ph
+              id="2">{/b}</ph></mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-mc-auto-number-format"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Important/b}</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Important/b}</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><ph
+              id="1">{b}</ph>Wichtig</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-mc-auto-number-format"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Note<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Note<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><ph
+              id="1">{b}</ph>Hinweis<ph
+              id="2">{/b}</ph></mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-mc-auto-number-format"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Hint <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Hint <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"><ph
+              id="1">{b}</ph>Hinweis<ph
+              id="2">{/b}</ph></mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-mc-format"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{para}</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{para}</ph></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-mc-auto-number-format"
+        phase-name="pretrans"><source>GH:<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n+}</ph>   </source><seg-source><mrk
+            mtype="seg"
+            mid="1">GH:<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n+}</ph></mrk><mrk
+            mtype="protected"
+            mid="2">   </mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">GH:<ph
+              id="1">{n+}</ph></mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="14"
+        restype="x-mc-auto-number-format"
+        phase-name="pretrans"><source>GH:<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n}</ph>.<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n+}</ph>   </source><seg-source><mrk
+            mtype="seg"
+            mid="1">GH:<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n}</ph>.<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n+}</ph></mrk><mrk
+            mtype="protected"
+            mid="2">   </mrk><mrk
+            mtype="protected"
+            mid="3" /></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">GH:<ph
+              id="1">{n}</ph>.<ph
+              id="2">{n+}</ph></mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="15"
+        restype="x-mc-auto-number-format"
+        phase-name="pretrans"><source>GH:<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n}</ph>.<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n}</ph>.<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n+}</ph>   </source><seg-source><mrk
+            mtype="seg"
+            mid="1">GH:<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n}</ph>.<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n}</ph>.<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n+}</ph></mrk><mrk
+            mtype="protected"
+            mid="2">   </mrk><mrk
+            mtype="protected"
+            mid="3" /></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">GH:<ph
+              id="1">{n}</ph>.<ph
+              id="2">{n}</ph>.<ph
+              id="3">{n+}</ph></mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="16"
+        restype="x-mc-format"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{quote}{para}{quote}</ph> <ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">{pageref}</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{quote}{para}{quote}</ph> <ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">{pageref}</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"><ph
+              id="1">{quote}{para}{quote}</ph> <ph
+              id="4">{pageref}</ph></mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-mc-auto-number-format"
+        phase-name="pretrans"><source>GH:<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n}</ph>.<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n}</ph>.<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n}</ph>.<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n+}</ph> </source><seg-source><mrk
+            mtype="seg"
+            mid="1">GH:<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n}</ph>.<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n}</ph>.<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n}</ph>.<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n+}</ph></mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="protected"
+            mid="3" /></seg-source><target
+          state="needs-review-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="90"
+            MadCap:diff="ContentChanged" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target><alt-trans
+          match-quality="90"
+          origin="previous-version"><seg-source>GH:<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n}</ph>.<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n}</ph>.<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n}</ph>.<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n+}</ph>.</seg-source><target
+            MadCap:segmentStatus="Untranslated">GH:<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n}</ph>.<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n}</ph>.<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n}</ph>.<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">{n+}</ph></target></alt-trans></trans-unit><trans-unit
+        id="18"
+        restype="x-mc-auto-number-format"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Note: <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Note: <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"><ph
+              id="1">{b}</ph>Hinweis<ph
+              id="2">{/b}</ph></mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-mc-auto-number-format"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Important <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{b}</ph>Important <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">{/b}</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><ph
+              id="1">{b}</ph>Wichtig<ph
+              id="2">{/b}</ph></mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-mc-format"
+        phase-name="pretrans"><source>h2</source><seg-source><mrk
+            mtype="seg"
+            mid="1">h2</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">h2</mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-mc-format"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{para}</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{para}</ph></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

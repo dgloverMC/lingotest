@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="configure-http-basic-authentication.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="configure-http-basic-authentication.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">8</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Configuring HTTP basic
+authentication</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configuring HTTP basic authentication</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">HTTP Basic Authentifizierung konfigurieren</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To prevent unauthorized users from registering themselves by using
+the link
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>http://&lt;IP address or DNS of the Signavio System&gt;/p/register<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, you can protoct this URL with
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    HTTP Basic authentication<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To prevent unauthorized users from registering themselves by using the link <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>http://&lt;IP address or DNS of the Signavio System&gt;/p/register<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, you can protoct this URL with <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> HTTP Basic authentication<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Um zu verhindern, dass unautorisierte Personen über den Link <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>http://&lt;IP-Adresse oder DNS des Systems&gt;/p/register<ept
+              id="1">&lt;/kbd&gt;</ept> einen Nutzer registrieren, können Sie das Aufrufen dieser URL durch eine <bpt
+              id="2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>HTTP Basic Authentifizierung<ept
+              id="2">&lt;/strong&gt;</ept> schützen.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Edit the file
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR/conf/web.xml
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   and add the
+following lines to its end before the XML tag
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;/web-app&gt;<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Edit the file <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR/conf/web.xml <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and add the following lines to its end before the XML tag <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;/web-app&gt;<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Öffnen Sie hierzu die Datei <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR/conf/web.xml<ept
+              id="1">&lt;/kbd&gt;</ept> in einem Texteditor und fügen Sie die folgenden Zeilen am Ende der Datei, aber vor dem schließenden XML-Tag <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;/web-app&gt;<ept
+              id="2">&lt;/kbd&gt;</ept> ein:</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>This configuration ensures only Tomcat users with the role
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>register<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   can access the resource
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/p/register<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">This configuration ensures only Tomcat users with the role <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>register<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> can access the resource <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/p/register<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Sie haben nun konfiguriert, dass nur Tomcat-Nutzer mit der Rolle <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>register<ept
+              id="1">&lt;/kbd&gt;</ept> Zugriff auf die Ressource <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/p/register<ept
+              id="2">&lt;/kbd&gt;</ept> bekommen.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The role
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>register<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> needs to be defined and assigned to
+an existing Tomcat user account.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The role <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>register<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> needs to be defined and assigned to an existing Tomcat user account.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Sie müssen jedoch noch die Rolle <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>register<ept
+              id="1">&lt;/kbd&gt;</ept> definieren sowie einen Nutzer anlegen und dem Nutzer diese Rolle zuweisen.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To do so, edit the file
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR/conf/tomcat-users.xml<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   and replace its content with the following lines:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To do so, edit the file <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR/conf/tomcat-users.xml<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and replace its content with the following lines:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Öffnen Sie hierzu die Datei <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR/conf/tomcat-users.xml<ept
+              id="1">&lt;/kbd&gt;</ept> in einem Texteditor und ersetzen Sie den Inhalt der Datei mit den folgenden Zeilen:</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>These lines define the role
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>register<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   and create a user
+with the username
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>signavio<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, the password
+   <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>signavio<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   and the role
+   <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>register<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">These lines define the role <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>register<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and create a user with the username <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>signavio<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, the password <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>signavio<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and the role <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>register<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Diese Zeilen definieren die Rolle <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>register<ept
+              id="1">&lt;/kbd&gt;</ept> und erstellen einen Nutzer mit dem Nutzernamen <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>signavio<ept
+              id="2">&lt;/kbd&gt;</ept> und dem Passwort <bpt
+              id="3">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>signavio<ept
+              id="3">&lt;/kbd&gt;</ept>, dem die Rolle <bpt
+              id="4">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>register<ept
+              id="4">&lt;/kbd&gt;</ept> zugeordnet wurde.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Please customize the attribute values for
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>username<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   and
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>password<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and share this information only with authorized
+persons who are allowed to register new users in the Signavio
+system.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Please customize the attribute values for <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>username<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>password<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and share this information only with authorized persons who are allowed to register new users in the Signavio system.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Ändern Sie die Attribute <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>username<ept
+              id="1">&lt;/kbd&gt;</ept> und <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>password<ept
+              id="2">&lt;/kbd&gt;</ept> und geben Sie diese Informationen nur an autorisierte Personen weiter, die neue Nutzer in Ihrem System anlegen dürfen.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

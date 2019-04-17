@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="maintain-server.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="maintain-server.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">26</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Maintaining the server</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Maintaining the server</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Den Server warten</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>When you need to restart the system - for example because of an
+update - consider the following issues.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">When you need to restart the system - for example because of an update - consider the following issues.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Wenn Wartungsarbeiten am Server durchgeführt werden müssen und diese ein Herunterfahren des Systems erfordern, berücksichtigen Sie bitte die folgenden Punkte:</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Inform your users</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Inform your users</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Informieren Sie Ihre Nutzer</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If maintenance activities require a restart of the system, inform
+all users that the server is temporarily unavailable.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If maintenance activities require a restart of the system, inform all users that the server is temporarily unavailable.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Wenn Wartungsarbeiten am Server durchgeführt werden müssen und diese ein Herunterfahren des Systems erfordern, weisen Sie alle Nutzer rechtzeitig darauf hin, dass der Signavio Process Manager für eine bestimmte Zeit nicht erreichbar ist.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>As a workspace administrator of Signavio Process Manager you can
+access a list of all users to inform them about updates and possible
+downtimes.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">As a workspace administrator of Signavio Process Manager you can access a list of all users to inform them about updates and possible downtimes.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Arbeitsbereichsadministratoren des Signavio Process Managers können in der Nutzerverwaltung eine Liste der Emailadressen aller auf dem System registrierten Nutzer abrufen. Mit Hilfe dieser Liste können Sie eine E-Mail an alle Nutzer des Systems senden.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Managing the database
+during a restart</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Managing the database during a restart</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die Datenbank im Falle eines Neustarts richtig verwalten</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Signavio Process Manager works exclusively on database systems that
+support transactions.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio Process Manager works exclusively on database systems that support transactions.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Der Signavio Process Manager arbeitet nur auf Datenbanksystemen, die Transaktionen unterstützen.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Therefore, a
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    restart
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+   of the database doesn't impact
+data consistency. However, you must not abort the
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    initialization
+   <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+   of the server, because it includes
+operations not all database system run in transactions. Therefore, you
+   <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    must not
+   <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+   shut down the system during startup. In case
+you need to shut down the database system,
+   <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    always shut down the
+Tomcat server before
+   <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Therefore, a <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> restart <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> of the database doesn't impact data consistency.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">However, you must not abort the <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> initialization <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> of the server, because it includes operations not all database system run in transactions.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Therefore, you <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> must not <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> shut down the system during startup.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">In case you need to shut down the database system, <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> always shut down the Tomcat server before <ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Grundsätzlich kann daher das Signavio System zu <bpt
+              id="1">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>jeder Zeit heruntergefahren<ept
+              id="1">&lt;/strong&gt;</ept> werden, ohne in Gefahr zu laufen, einen inkonsistenten Zustand in der Datenbank zu erzeugen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Ausgenommen ist jedoch die <bpt
+              id="2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Initialisierungsphase<ept
+              id="2">&lt;/strong&gt;</ept> beim Starten des Tomcats, da hier Operationen auf der Datenbank ausgeführt werden, die nicht auf allen Datenbanksystemen innerhalb einer Transaktion ablaufen.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Sie sollten daher unbedingt <bpt
+              id="3">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>vermeiden<ept
+              id="3">&lt;/strong&gt;</ept>, während der Startphase des Tomcat Servers den Tomcat Prozess zu stoppen.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Managing user sessions
+during a restart</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Managing user sessions during a restart</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Nutzer-Sessions während eines Restart verwalten</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Every user session will be kept at a restart of the Tomcat server.
+Therefore, users who are currently logged in stay logged in. Upon shut
+down, the user sessions data is stored in a file on the Tomcat server
+(by default <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR/work/Catalina/localhost/\_/SESSIONS.ser<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>). The
+system reads the file again during startup and restores the sessions.
+If the system interrupt only lasts a short time, the modelers who are
+currently logged in may not notice the restart at all. When users try
+to save a diagram while the Tomcat server is down, they receive an
+error message. As soon as the server is restarted, the save process can
+be repeated and will succeed.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Every user session will be kept at a restart of the Tomcat server.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Therefore, users who are currently logged in stay logged in. Upon shut down, the user sessions data is stored in a file on the Tomcat server (by default <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR/work/Catalina/localhost/\_/SESSIONS.ser<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>).</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The system reads the file again during startup and restores the sessions.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">If the system interrupt only lasts a short time, the modelers who are currently logged in may not notice the restart at all.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">When users try to save a diagram while the Tomcat server is down, they receive an error message.</mrk><mrk
+            mtype="protected"
+            mid="10"> </mrk><mrk
+            mtype="seg"
+            mid="11">As soon as the server is restarted, the save process can be repeated and will succeed.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Jede Benutzersitzung wird bei einem Neustart des Tomcat-Servers beibehalten.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Das System liest die Datei während des Startvorgangs erneut und stellt die Sitzungen wieder her.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Ist die Unterbrechung nur sehr kurz, bekommen die zurzeit angemeldeten Nutzer unter Umständen gar nicht mit, dass der Server kurzzeitig nicht erreichbar war.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Hat ein Nutzer aber beispielsweise genau in dieser Zeit versucht, ein Diagramm abzuspeichern, so wird dem Nutzer ein Fehler angezeigt.</mrk><mrk
+            mtype="protected"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Sobald der Tomcat Server wieder hochgefahren ist, kann der Nutzer allerdings den Speichervorgang wiederholen und das Diagramm abspeichern.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

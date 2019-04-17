@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="conf_web_server" name="conf_web_server">
+   Configuring the web server
+  </h1>
+        <h2 id="installing-apache-tomcat" name="installing-apache-tomcat">
+   Installing Apache Tomcat
+  </h2>
+        <p>
+   You can download the Apache Tomcat installation files for different
+operating systems at: <a href="https://tomcat.apache.org/download-80.cgi">
+     https://tomcat.apache.org/download-80.cgi
+    </a></p>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <p>
+    The Apache Tomcat team announced that support for Apache Tomcat
+8.0.x ended on 30th June 2018. Therefore, Signavio only supports Tomcat
+version 8.5.x.   </p>
+        </div>
+        <p>
+   Some Linux distributions allow the installation of Apache Tomcat
+through the package manager. If you use Debian version 6.0 or higher,
+for example, you can install Tomcat as follows:
+  </p>
+        <p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">apt-get install tomcat8</code></pre>
+        </p>
+        <p>
+   For Windows, Apache provides the Windows Service Installer (download
+the package <kbd>32-bit/64-bit Windows Service Installer</kbd>).
+  </p>
+        <p>
+   This allows installing the Apache Tomcat as a windows service by
+using the Apache Tomcat installation wizard.
+  </p>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <p>
+    After installing Tomcat through the Windows wizard, it will start up
+automatically at every server startup.
+   </p>
+        </div>
+        <p>
+   When using the Windows installer, some properties can be easily
+configured via the administrator’s panel (see below). Therefore, we
+recommend the Service Installer to be used on Windows systems. Please
+make sure you run the Service installer with administrator rights.
+  </p>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>
+    Please make sure the executing user has got read/write permissions
+for the folder
+    <kbd>
+     $TOMCAT_DIR/webapps
+    </kbd>
+    and all containing sub
+folders.
+   </p>
+        </div>
+        <p>
+   On a Windows system, we recommend installing Apache Tomcat into a
+root folder on
+   <kbd>C:\</kbd>. That should make sure that the
+executing user has got read/write permissions for the respective
+folders.
+  </p>
+        <h2 id="configuring-apache-tomcat" name="configuring-apache-tomcat">
+   Configuring Apache Tomcat
+  </h2>
+        <p>
+   Allocate as much RAM as possible for Apache Tomcat. We recommend to
+allocate at least 4096MB RAM.
+  </p>
+        <p>
+   This is done by changing the JVM variable
+   <kbd>Xmx</kbd>
+   (that means executing the JVM start command with the attached parameter
+   <kbd>-Xmx4096m</kbd>). When using the Apache Tomcat installer on a
+Windows system, you can edit JVM variables in the Apache configuration
+dialog.
+  </p>
+        <p>
+   Please ensure Apache Tomcat is using
+   <kbd>UTF-8</kbd>
+   as
+   <kbd>default encoding</kbd>
+   mechanism and has configuration editing
+disabled. Set the JVM variable
+   <kbd>Dfile.encoding</kbd>
+   to
+   <kbd>UTF-8</kbd>
+   and
+   <kbd>-Ddisable.configEdit</kbd>
+   to
+   <kbd>true</kbd>:
+
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">-Dfile.encoding=UTF-8
+
+
+-Ddisable.configEdit=true</code></pre>
+        <p><strong>
+    On Windows
+   </strong>, open the Windows Start menu and go to
+   <strong>Program Files
+   </strong>-
+   <strong>Apache Tomcat X
+   </strong>-
+   <strong>
+    Configure Tomcat</strong>.
+  </p>
+        <p>
+   Go to the tab
+   <strong>
+    Java
+   </strong>
+   and enter the values as
+follows:
+  </p>
+        <figure>
+            <img src="../_static/_images/en/tomcat.png" xmlns="http://www.w3.org/1999/xhtml" />
+        </figure>
+        <p><em>
+    Configure Apache Tomcat
+   </em>
+        </p>
+        <p><strong>
+    On Linux</strong>, create the environment variable
+   <kbd>
+    JAVA_OPTS
+   </kbd>
+   with the following value by executing the
+following command:
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">export JAVA_OPTS="$JAVA_OPTS -Xmx4096m -Dfile.encoding=UTF-8 -Ddisable.configEdit=true"</code></pre>
+        <p>
+   For all operating systems, ensure the XML file
+   <kbd>
+    $TOMCAT_DIR/conf/web.xml
+   </kbd>
+   is encoded with
+   <kbd>
+    UTF-8
+   </kbd>
+   and change the configuration if necessary.
+  </p>
+        <p>
+   The first line of the file has to be:
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&gt;&lt;?xml version="1.0" encoding="UTF-8"?&gt;</code></pre>
+        <p>
+   Additionally, add the attribute
+   <kbd>URIEncoding="UTF-8"</kbd>
+   to
+the
+   <kbd>HTTP(S) Connector</kbd>
+   element of the file
+   <kbd>$TOMCAT_DIR/conf/server.xml</kbd>.
+  </p>
+        <p>
+   To compress the information transferred, automatic compression
+should be enabled.
+  </p>
+        <p>
+   Add the following attributes to the
+   <kbd>Connector</kbd>
+   element:
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">compressableMimeType="
+
+
+    text/css,text/plain,
+
+    image/svg+xml,
+
+    application/xhtml+xml,
+
+    text/html,
+
+    text/xml,
+
+    text/javascript,
+
+    application/xml,
+
+    application/x-javascript,
+
+    application/javascript"
+
+
+compression="on"
+
+
+compressionMinSize="2048"</code></pre>
+        <p>
+   Moreover, you can configure the port the Apache Tomcat is using by
+setting the attribute
+   <kbd>port</kbd>
+   of the
+   <kbd>Connector</kbd>
+   element. By default, the port is
+   <kbd>8080</kbd>. If you want to
+spare users of Signavio Process Manager entering the port number to the
+address line of the web browser (e.g.
+   <kbd>http://signavio.yourCompany.com:8080/</kbd>), change the port
+number to
+   <kbd>80</kbd>.
+  </p>
+        <p>
+   To support diagrams that exceed 2 MB of mere textual representation,
+you can add the following line to the connector definition:
+  </p><kbd>maxPostSize="33554432"</kbd>
+        <p><strong>
+    Example</strong> of a fully configured connector:
+
+  </p><pre space="preserve"><code class="language-sh">&lt;Connector port="80" protocol="HTTP/1.1"
+s
+
+    connectionTimeout="20000"
+
+    redirectPort="8443"
+
+    URIEncoding="UTF-8"
+
+    compressableMimeType="
+
+    text/css,text/plain,
+
+    image/svg+xml,
+
+    application/xhtml+xml,
+
+    text/html,
+
+    text/xml,
+
+    text/javascript,
+
+    application/xml,
+
+    application/x-javascript,
+
+    application/javascript"
+
+    compression="on"
+
+    compressionMinSize="2048"
+
+maxPostSize="33554432"
+
+/&gt;</code></pre>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <ul>
+                <li>
+     Signavio Process Manager uses the
+     <kbd>webapps</kbd>
+     directory
+     <kbd>ROOT</kbd>. This may cause trouble if other applications are
+running on the same Tomcat server. Therefore, we strongly recommend you
+to exclusively use the Tomcat server for Signavio Process Manager.
+    </li>
+                <li>
+     If you want to use HTTPS, please ensure that the certificate is
+signed by a trusted certificate authority (CA) and that the JVM trusts
+the Tomcat's certificate. You can find further information on this
+topic in <MadCap:xref href="https.htm">Using HTTPS (optional)</MadCap:xref>.
+    </li>
+                <li>
+     If you use multiple connectors, apply the correct settings to all
+of them.
+    </li>
+                <li>
+      If you want to integrate the Tomcat server into your system via the
+AJP connector, please make sure the connector is UTF-8 encoded.
+     <pre xml:space="preserve" madcap-space-after-export="preserve"><code>&lt;Connector port="8009" protocol="AJP/1.3" redirectPort="8443" URIEncoding="UTF-8" /&gt;</code></pre></li>
+            </ul>
+        </div>
+    </body>
+</html>

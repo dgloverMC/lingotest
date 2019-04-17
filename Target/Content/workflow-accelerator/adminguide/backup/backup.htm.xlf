@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="backup.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="backup.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">39</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-title"
+        phase-name="pretrans"><source>Backup Signavio Workflow Accelerator</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Backup Signavio Workflow Accelerator</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Backup für Signavio Workflow Accelerator</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Backup</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Backup</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Backup</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In order to take a backup, it is sufficient to backup the content of
+MongoDB. All uploaded files are stored in the database and, therefore,
+covered by a database backup. MongoDB comes with built-in solutions for
+backups. Signavio recommends to use mongodump. For more detailed
+information about backups of MongoDB see the official
+documentation:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In order to take a backup, it is sufficient to backup the content of MongoDB.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">All uploaded files are stored in the database and, therefore, covered by a database backup.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">MongoDB comes with built-in solutions for backups.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">Signavio recommends to use mongodump.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">For more detailed information about backups of MongoDB see the official documentation:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Um ein Backup zu erstellen, genügt es den Speicherinhalt von MongoDB zu sichern.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Alle hochgeladenen Dateien sind in der Datenbank gespeichert und so durch ein Datenbankbackup gedeckt.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">MongoDB verfügt über programmeigene Backup-Features.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wir empfehlen mongodump zu verwenden.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Weitere Informationen zu Backups in MongoDB finden Sie hier:</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>
+    https://docs.mongodb.com/manual/core/backups/
+   </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">https://docs.mongodb.com/manual/core/backups/</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk></seg-source><target
+          state="translated"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">https://docs.mongodb.com/manual/core/backups/</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>
+    https://docs.mongodb.com/manual/tutorial/backup-and-restore-tools/#binary-bson-dumps</source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">https://docs.mongodb.com/manual/tutorial/backup-and-restore-tools/#binary-bson-dumps</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">https://docs.mongodb.com/manual/tutorial/backup-and-restore-tools/#binary-bson-dumps</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Make sure the MongoDB server is running when you want to execute
+mongodump. If not stated otherwise via command line parameters,
+mongodump will try to backup data from the locally running mongod
+service.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Make sure the MongoDB server is running when you want to execute mongodump.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If not stated otherwise via command line parameters, mongodump will try to backup data from the locally running mongod service.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Stellen Sie sicher, dass MongoDB ausgeführt wird wenn Sie mongodump ausführen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Falls nicht anders (über Kommandozeilenparameter) spezifiziert, versucht mongodump die Daten des lokal ausgeführten mongod Services zu sichern.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You will need to use the Signavio Workflow Accelerator MongoDB user
+credentials again to access the data of the Workflow Accelerator
+database. If you are using another MongoDB user to perform the backups,
+make sure he has the necessary roles. For the backups, the user needs
+to access all databases and the user data. The user should have the
+following roles:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You will need to use the Signavio Workflow Accelerator MongoDB user credentials again to access the data of the Workflow Accelerator database.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If you are using another MongoDB user to perform the backups, make sure he has the necessary roles.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">For the backups, the user needs to access all databases and the user data.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">The user should have the following roles:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Um auf die Daten in der Signavio Workflow Accelerator-Datenbank zuzugreifen, benötigen Sie die Nutzerdaten des entsprechenden Datenbanknutzers.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Falls Sie einen anderen MongoDB-Nutzer für das Backup einsetzen, stellen Sie sicher, dass der ausführende Nutzer über die notwendigen Rechte verfügt.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Für Backups muss der Nutzer auf alle Datenbanken und die Nutzerdaten zugreifen können.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der Nutzer muss die folgenden Rollen innehaben:</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>clusterAdmin</source><seg-source><mrk
+            mtype="seg"
+            mid="1">clusterAdmin</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">clusterAdmin</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>userAdminAnyDatabase</source><seg-source><mrk
+            mtype="seg"
+            mid="1">userAdminAnyDatabase</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">userAdminAnyDatabase</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>readWriteAnyDatabase</source><seg-source><mrk
+            mtype="seg"
+            mid="1">readWriteAnyDatabase</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">readWriteAnyDatabase</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>dbAdminAnyDatabase</source><seg-source><mrk
+            mtype="seg"
+            mid="1">dbAdminAnyDatabase</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">dbAdminAnyDatabase</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You can specify the output folder where the content of the backup is
+stored. Be aware, if the directory contains already an older backup,
+the new backup will overwrite existing files. Alternatively, you could
+store several backups with a timestamp.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You can specify the output folder where the content of the backup is stored.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Be aware, if the directory contains already an older backup, the new backup will overwrite existing files.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Alternatively, you could store several backups with a timestamp.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sie können den Output-Ordner des Backups festlegen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Seien Sie sich bewusst, dass ältere Backups überschrieben werden, wenn Sie einen Ordner auswählen, der bereits ein Backup enthält.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Um dies zu verhindern können Sie jedes Backup mit einem Zeitstempel versehen.</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You should make sure the backup is stored in a safe location and
+cannot get lost if the server fails. Keep in mind, the backups can
+consume a lot of space, therefore, you should add additional disk space
+to the server if you plan storing on multiple versions of the
+backup.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You should make sure the backup is stored in a safe location and cannot get lost if the server fails.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Keep in mind, the backups can consume a lot of space, therefore, you should add additional disk space to the server if you plan storing on multiple versions of the backup.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Stellen Sie sicher, dass das Backup an einem sicheren Ort gespeichert wird und nicht verloren gehen kann, falls der Server ausfällt.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Berücksichtigen Sie auch, dass Backups viel zusätzlichen Speicherplatz beanspruchen, besonders bei der Erstellung von mehreren Backups.</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The following lines will show an example on how to do a backup with
+mongodump on different operating systems.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The following lines will show an example on how to do a backup with mongodump on different operating systems.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die folgenden Beispiele illustrieren, wie ein Backup mit mongodump ausgeführt werden kann.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="search-results" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: ;" data-mc-skin="/Project/Skins/Topic Toolbar.flskn" />
+        
+        <div class="search-results">
+            <div class="custom-top-navbar">
+                <div class="logo-container"><a href="./home.htm" class="custom-top-navbar-logo"></a>砻קยด1ตว融</div>
+                <div class="custom-top-navbar-buttons"></div>
+            </div>
+            <MadCap:searchResultsProxy />
+        </div>
+
+        <script>
+            const topicToolbarProxy = document.querySelector('.topicToolbarProxy')
+            const actionButtonsContainer = document.querySelector('.custom-top-navbar-buttons')
+            const searchForm = document.querySelector('form.search')
+
+            actionButtonsContainer.appendChild(searchForm)
+            actionButtonsContainer.appendChild(topicToolbarProxy)
+        </script>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head><title>Windows</title>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 name="windows" xmlns="http://www.w3.org/1999/xhtml">
+   Windows
+  </h1>
+        <h2 name="tomcat" xmlns="http://www.w3.org/1999/xhtml">
+   Tomcat
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   As already mentioned in the section<MadCap:xref href="../start/intro.htm">   Starting Signavio Workflow Accelerator</MadCap:xref>, the Tomcat configuration
+dialog offers a simple way to stop the Tomcat server. Simply open the
+Windows start menu, select
+   <kbd>Program Files\Apache Tomcat\Configure Tomcat</kbd>, open the tab
+   <em>General</em>
+   and click the button
+   <em>Stop</em>.
+  </p>
+        <h2 name="mongodb" xmlns="http://www.w3.org/1999/xhtml">
+   MongoDB
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you have registered MongoDB as a Windows service, you can stop
+the database in two ways. Either you open the command line with
+adminstrator privileges and execute:</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code>net stop MongoDB</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Or you run
+   <kbd>services.msc</kbd>, select MongoDB in the list of
+services and click on
+   <em>Stop</em>.
+  </p>
+        <h2 name="script-engine" xmlns="http://www.w3.org/1999/xhtml">
+   Script Engine
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you installed the script engine and wrapped it into a service,
+you can open the
+   <kbd>services.msc</kbd>, locate the Signavio Script
+Engine service and stop it there. If you are executing the script
+engine directly via command line, simply abort the process by pressing
+   <kbd>CTRL</kbd> + <kbd>C</kbd>.
+  </p>
+        <h2 xmlns="http://www.w3.org/1999/xhtml">
+   Mail Relay
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you installed the mail relay and wrapped it into a service, you
+can open the
+   <kbd xmlns="http://www.w3.org/1999/xhtml">services.msc</kbd>, locate the Signavio Mail Relay
+service and stop it there. If you are executing the mail relay directly
+via command line, simply abort the process by pressing
+  <kbd xmlns="http://www.w3.org/1999/xhtml">CTRL</kbd> + <kbd xmlns="http://www.w3.org/1999/xhtml">C</kbd>.
+</p>
+    </body>
+</html>

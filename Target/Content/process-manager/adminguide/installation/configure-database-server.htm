@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="configure_db" name="configure_db">
+   Configuring the database server
+  </h1>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>
+    The database system should be installed by an experienced database
+administrator. The various database systems differ in terms of
+installation and configuration and will not be explained in detail in
+this manual.
+   </p>
+        </div>
+        <p>
+   This section describes how to configure the database server.
+  </p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>
+    We recommend you use MySQL Standard Edition 5.x (InnoDB Storage
+Engine) or MySQL Enterprise Edition 5.x (InnoDB Storage Engine), as
+long as your organization doesn’t specifically require you to use a
+different database system.</p>
+        </div>
+        <p>
+   The database system is required to support <strong>transactions</strong>.
+  </p>
+        <p>
+   If you are running a database cluster in your company, a database
+for the Signavio System can be created there, too.
+  </p>
+        <p>
+   A user account for Signavio Process Manager has to be created in the
+database.
+  </p>
+        <p>
+   Apart from the standard SQL commands
+   <kbd>SELECT</kbd>,
+   <kbd>UPDATE</kbd>,
+   <kbd>INSERT</kbd>
+   and
+   <kbd>DELETE</kbd>,
+Signavio Process Manager user must be able to
+   <kbd>create</kbd>,
+   <kbd>edit</kbd>
+   and
+   <kbd>delete</kbd> <kbd>tables</kbd><kbd>views</kbd>
+   and
+   <kbd>indexes</kbd>
+   and to set
+   <kbd>locks</kbd>.
+  </p>
+        <p><kbd>
+    Routines</kbd> (stored procedures) are not created by the
+Signavio Process Manager account. Moreover, the system doesn’t change
+any database user account settings.
+  </p>
+        <p>
+   To use the
+   <kbd data-role="ref">
+    Diagnostics tool for system administrators
+&lt;diagnostics&gt;
+   </kbd>, your database user needs to be able to
+create views. You can configure this right with the following command
+(all supported database systems):
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">GRANT CREATE VIEW ON &lt;db_schema&gt; TO &lt;dbuser&gt;</code></pre>
+        <p>with
+   <kbd>&lt;dbuser&gt;</kbd>
+   being a placeholder for your
+database user and
+   <kbd>&lt;db_schema&gt;</kbd>
+   being a placeholder
+for your database schema name.
+  </p>
+        <p>
+   Furthermore, you need to grant the database user permission to read
+out information from a set of meta data tables:
+  </p>
+        <p><strong>
+    Oracle
+   </strong>
+        </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">GRANT SELECT ON user_tab_columns TO &lt;dbuser&gt;
+
+GRANT SELECT ON user_tables TO &lt;dbuser&gt;
+
+GRANT SELECT ON user_ind_columns TO &lt;dbuser&gt;
+
+GRANT SELECT ON user_constraints TO &lt;dbuser&gt;
+
+GRANT SELECT ON user_cons_columns TO &lt;dbuser&gt;</code></pre>
+        <p><strong>
+    MySQL
+   </strong>
+        </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">GRANT SELECT ON information_schema.columns TO &lt;dbuser&gt;
+
+GRANT SELECT ON information_schema.tables TO &lt;dbuser&gt;
+
+GRANT SELECT ON information_schema.statistics TO &lt;dbuser&gt;
+
+GRANT SELECT ON information_schema.table_constraints TO &lt;dbuser&gt;
+
+GRANT SELECT ON information_schema.key_column_usage TO &lt;dbuser&gt;</code></pre>
+        <p><strong>
+    SQL Server
+   </strong>
+        </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">GRANT SELECT ON information_schema.columns TO &lt;dbuser&gt;
+
+GRANT SELECT ON sys.dm_db_partition_stats TO &lt;dbuser&gt;
+
+GRANT SELECT ON sys.objects TO &lt;dbuser&gt;
+
+GRANT SELECT ON sys.indexes TO &lt;dbuser&gt;
+
+GRANT SELECT ON sys.index_columns TO &lt;dbuser&gt;
+
+GRANT SELECT ON sys.foreign_keys TO &lt;dbuser&gt;
+
+GRANT SELECT ON sys.foreign_key_columns TO &lt;dbuser&gt;
+
+GRANT CREATE PROCEDURE TO &lt;dbuser&gt;</code></pre>
+        <p> with <kbd>&lt;dbuser&gt;</kbd> being a placeholder for your database user.
+  </p>
+        <p>
+   Signavio Process Manager is linked to the database server via a JDBC
+driver. Please ensure that the database is accessible for the Signavio
+server through your network.
+  </p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>
+    You need the JDBC-URL of the database to configure it. Please
+request such an URL from the responsible database administrator.
+   </p>
+        </div>
+        <h2 id="configuring-mysql" name="configuring-mysql">
+   Configuring MySQL
+  </h2>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>
+    Only required when using a MySQL database
+   </p>
+        </div>
+        <p>
+   Please ensure that by default the MySQL database is encoded with
+   <kbd>UTF-8</kbd>
+   and uses the
+   <kbd>InnoDB</kbd> storage engine.
+This is the only storage engine delivered by MySQL that supports
+transactions. Additionally, the maximum package size must be set to 16
+MB.
+  </p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>
+    We recommend to also install the MySQL Workbench. The administration
+of the MySQL server is much easier with it.
+   </p>
+        </div>
+        <p>
+   Those configurations are made by changing the following variables in
+the MySQL configuration file (<kbd>my.ini</kbd>
+   or
+   <kbd>my.cnf</kbd>).
+  </p>
+        <p>
+   The file should be found in the respective folder (e.g.
+   <kbd>C:\ProgramData \MySQL\MySQL Server 5.5</kbd>
+   on Windows and
+   <kbd>/etc/mysql</kbd>
+   on Debian-based Linux distributions).
+  </p>
+        <p>
+   Use the following configuration, if you are running
+   <strong>
+    MySQL up
+to version 5.5.2</strong>:
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">[mysqld]
+
+
+max_allowed_packet=16M
+
+
+default-character-set=utf8
+
+
+default-collation=utf8_general_ci
+
+
+default-storage-engine=innodb
+
+
+max_connections=160
+
+lower_case_table_names=1</code>
+</pre>
+        <p>
+   Use the following configuration, if you are running
+   <strong>
+    MySQL
+version 5.5.3 or later</strong>:
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">[mysql]
+
+
+default-character-set=utf8
+
+
+[mysqld]
+
+
+max_allowed_packet=16M
+
+
+character-set-server=utf8
+
+
+collation-server=utf8_general_ci
+
+
+default-storage-engine=INNODB
+
+
+max_connections=160
+
+
+query_cache_limit = 32M
+
+
+query_cache_size = 128M
+
+
+query_cache_type = 1
+
+lower_case_table_names=1</code></pre>
+        <p>
+   Create an empty database scheme for Signavio Process Manager.
+  </p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>
+    Ensure to overwrite older entries or make sure that no older entries
+are below their new corresponding ones. Replace if necessary, or use
+    <kbd>#</kbd>
+    to comment the lines out.
+   </p>
+        </div>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>
+    If you can’t locate the configuration files, you can also edit this
+attributes in the MySQL Workbench.
+   </p>
+        </div>
+        <h2 id="configuring-microsoft-sql-server" name="configuring-microsoft-sql-server">
+   Configuring Microsoft SQL
+Server
+  </h2>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>
+    Only required when using a Microsoft SQL database
+   </p>
+        </div>
+        <p>
+   If you are not hosting the MSSQL Server on MS Windows, ensure
+that the host system supports
+   <kbd>UTF-8</kbd>
+   encoding.
+  </p>
+        <p>
+   Moreover, the TCP/IP protocol must be enabled for the database
+instance. To enable this, start the
+   <strong>
+    SQL Server Configuration
+Manager
+   </strong>
+   and selecting
+   <strong>
+    SQL-Server-Network
+configuration
+   </strong>
+   -
+   <strong>
+    Protocols for ‘INSTANCE_NAME’
+   </strong>
+   in the list and activate the TCP/IP protocol. After this configuration
+the SQL Server must be restarted.
+  </p>
+        <p>
+   Create a database user account which uses SQL Server authentication.
+The user name and password are required to configure the Signavio
+Process Manager later on. Please check, if the option
+   <strong>
+    SQL
+Server- and Windows-authentication mode
+   </strong>
+   is enabled in the
+security settings of your Microsoft SQL Server instance.
+  </p>
+        <p>
+   Create an empty database for the Signavio Process Explorer and
+assign the user account the
+   <strong>
+    membership
+   </strong> <kbd>db_owner</kbd>
+   for the database. Set
+   <kbd>dbo</kbd>
+   as the
+   <kbd>default scheme</kbd>
+   for the user account. Use
+   <kbd>Latin1_General_CI_AS
+   </kbd>
+   as the database’s
+   <em>collation</em>.
+</p>
+        <h3><b xmlns="http://www.w3.org/1999/xhtml">Enabling snapshot isolation for Microsoft SQL Server</b>
+        </h3>
+        <p>Some database transactions in Signavio Process Manager require <b>snapshot isolation</b> to prevent <a href="https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/ms191242(v=sql.105)#Anchor_4" xmlns="http://www.w3.org/1999/xhtml">database deadlocks</a>. To enable snapshot isolation, execute the following SQL statements all at once (<kbd>&lt;DbName&gt;</kbd> represents the name of your database):</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh" xmlns="http://www.w3.org/1999/xhtml">ALTER DATABASE [database] SET ALLOW_SNAPSHOT_ISOLATION ON;
+ALTER DATABASE [database] SET READ_COMMITTED_SNAPSHOT ON;</code></pre>
+        <h2 id="configuring-oracle-database" name="configuring-oracle-database">
+   Configuring Oracle database
+  </h2>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>
+    Only required when using an Oracle database
+   </p>
+        </div>
+        <p>
+   Please ensure the database is using
+   <kbd>UFT-8</kbd>
+   as standard
+encoding and create an empty database for Signavio Process Manager.
+  </p>
+        <p>
+   When using a Linux operating system you find the configuration file
+by default at
+   <kbd>oracle/network/admin/sqlnet.ora</kbd>.
+  </p>
+    </body>
+</html>

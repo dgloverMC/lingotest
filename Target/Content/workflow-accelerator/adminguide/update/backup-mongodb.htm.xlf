@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="backup-mongodb.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="backup-mongodb.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">10</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Backup MongoDB</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Backup MongoDB</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Backup MongoDB</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Updating Workflow Accelerator to a newer version might involve
+changes in the database schema. Therefore, you are requested to backup
+the database before you go on. See    <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../backup/backup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Backup
+  &lt;/MadCap:xref&gt;</ph>
+   for more information
+on how to create a backup. Furthermore, the backup is necessary in case
+you have to revert Workflow Accelerator to an older version, because
+changes of the database schema are in general not backward compatible.
+This means you cannot run an older version of Workflow Accelerator with
+a database that was already migrated to a newer version.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Updating Workflow Accelerator to a newer version might involve changes in the database schema.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Therefore, you are requested to backup the database before you go on.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">See <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../backup/backup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Backup
+  &lt;/MadCap:xref&gt;</ph> for more information on how to create a backup.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">Furthermore, the backup is necessary in case you have to revert Workflow Accelerator to an older version, because changes of the database schema are in general not backward compatible.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">This means you cannot run an older version of Workflow Accelerator with a database that was already migrated to a newer version.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Während der Aktualisierung von Workflow Accelerator auf eine neuere Version kann es vorkommen, dass das Datenbankschema angepasst werden muss.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Daher sollten Sie ein Backup der Datenbank anlegen, bevor Sie mit der Aktualisierung fortfahren.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">In Kapitel <ph
+              id="1">&lt;MadCap:xref href="../backup/backup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Backup
+  &lt;/MadCap:xref&gt;</ph> finden Sie mehr Informationen dazu, wie Sie ein Backup anlegen.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Außerdem ist das Backup notwendig für den Fall, dass Sie eine ältere Version von Workflow Accelerator wiederherstellen müssen, denn ein verändertes Datenbankschema ist im Allgemeinen nicht abwärtskompatibel.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Das bedeutet, dass Sie keine ältere Version von Workflow Accelerator mit einer Datenbank betreiben können, die bereits auf ein neueres Schema migriert wurde.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

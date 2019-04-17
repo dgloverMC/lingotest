@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <body>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   A current web browser is necessary on every client that should
+display the Workflow Accelerator user interface. </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">See <a href="https://www.signavio.com/browser-compatibility/" xmlns="http://www.w3.org/1999/xhtml">https://www.signavio.com/browser-compatibility/</a> for a list of supported browsers.</p>
+    </body>
+</html>

@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="debian.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="debian.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">19</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-title"
+        phase-name="pretrans"><source>Debian</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Debian</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Debian</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Debian</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Debian</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Debian</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Tomcat</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Tomcat</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Tomcat</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you installed Tomcat using a packet manager, you can simply run
+the following command. This might require root privileges.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you installed Tomcat using a packet manager, you can simply run the following command.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">This might require root privileges.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="71"
+            MadCap:diff="ContentChanged" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /></target><alt-trans
+          match-quality="71"
+          origin="previous-version"><seg-source>If you installed Tomcat using a packet manager, you can simply run the following command. This might require root privileges.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Falls Sie Tomcat wie empfohlen über einen Paketmanager installiert haben, können Sie zum Stoppen den folgenden Befehl ausführen – eventuell erfordert dies Root-Rechte:</target></alt-trans><alt-trans
+          match-quality="71"
+          origin="previous-version"><seg-source>If you installed Tomcat using a packet manager, you can simply run the following command. This might require root privileges.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Falls Sie Tomcat wie empfohlen über einen Paketmanager installiert haben, können Sie zum Stoppen den folgenden Befehl ausführen – eventuell erfordert dies Root-Rechte:</target></alt-trans><alt-trans
+          match-quality="71"
+          origin="previous-version"><seg-source>If you installed Tomcat using a packet manager, you can simply run the following command. This might require root privileges.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Falls Sie Tomcat wie empfohlen über einen Paketmanager installiert haben, können Sie zum Stoppen den folgenden Befehl ausführen – eventuell erfordert dies Root-Rechte:</target></alt-trans><alt-trans
+          match-quality="71"
+          origin="previous-version"><seg-source>If you installed Tomcat using a packet manager, you can simply run the following command. This might require root privileges.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Falls Sie Tomcat wie empfohlen über einen Paketmanager installiert haben, können Sie zum Stoppen den folgenden Befehl ausführen – eventuell erfordert dies Root-Rechte:</target></alt-trans></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>MongoDB</source><seg-source><mrk
+            mtype="seg"
+            mid="1">MongoDB</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">MongoDB</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If MongoDB was setup following the instructions in this guide, you
+can simply stop the MongoDB server by executing the following command.
+This might require root privileges.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If MongoDB was setup following the instructions in this guide, you can simply stop the MongoDB server by executing the following command.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">This might require root privileges.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="79"
+            MadCap:diff="ContentChanged" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /></target><alt-trans
+          match-quality="79"
+          origin="previous-version"><seg-source>If MongoDB was setup following the instructions in this guide, you can simply stop the MongoDB server by executing the following command. This might require root privileges.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Falls Sie MongoDB wie empfohlen über einen Paketmanager installiert haben, lässt sich das Programm wie folgt über die Kommandozeile stoppen - eventuell erfordert dies Root-Rechte:</target></alt-trans><alt-trans
+          match-quality="79"
+          origin="previous-version"><seg-source>If MongoDB was setup following the instructions in this guide, you can simply stop the MongoDB server by executing the following command. This might require root privileges.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Falls Sie MongoDB wie empfohlen über einen Paketmanager installiert haben, lässt sich das Programm wie folgt über die Kommandozeile stoppen - eventuell erfordert dies Root-Rechte:</target></alt-trans><alt-trans
+          match-quality="79"
+          origin="previous-version"><seg-source>If MongoDB was setup following the instructions in this guide, you can simply stop the MongoDB server by executing the following command. This might require root privileges.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Falls Sie MongoDB wie empfohlen über einen Paketmanager installiert haben, lässt sich das Programm wie folgt über die Kommandozeile stoppen - eventuell erfordert dies Root-Rechte:</target></alt-trans><alt-trans
+          match-quality="79"
+          origin="previous-version"><seg-source>If MongoDB was setup following the instructions in this guide, you can simply stop the MongoDB server by executing the following command. This might require root privileges.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Falls Sie MongoDB wie empfohlen über einen Paketmanager installiert haben, lässt sich das Programm wie folgt über die Kommandozeile stoppen - eventuell erfordert dies Root-Rechte:</target></alt-trans></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In earlier versions of MongoDB, e.g. 2.4.x, the script had a
+different name:
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/etc/init.d/mongodb<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In earlier versions of MongoDB, e.g. 2.4.x, the script had a different name: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/etc/init.d/mongodb<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">In früheren Version von MongoDB, z.B. 2.4.x, hatte das Skript einen anderen Namen: <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/etc/init.d/mongodb<ept
+              id="1">&lt;/kbd&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Script Engine</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Script Engine</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Script Engine</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you installed the script engine and setup an Init script, execute
+the respective stop command for the Init script. If you are executing
+the script engine directly via command line, simply abort the process
+by pressing <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>CTRL<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> + <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you installed the script engine and setup an Init script, execute the respective stop command for the Init script.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If you are executing the script engine directly via command line, simply abort the process by pressing <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>CTRL<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> + <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wenn Sie die Script Engine installiert und ein Init-Skript aufgesetzt haben, stoppen Sie die Script Engine mit dem entsprechenden Befehl für das Init-Skript.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie die Script Engine direkt auf der Kommandozeile ausführen, können Sie den Prozess einfach mit <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>STRG<ept
+              id="2">&lt;/kbd&gt;</ept> + <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C<ept
+              id="1">&lt;/kbd&gt;</ept> stoppen.</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Mail Relay</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Mail Relay</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Mail Relay</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you installed the mail relay and setup an Init script, execute
+the respective stop command for the Init script. If you are executing
+the mail relay directly via command line, simply abort the process by
+pressing <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>CTRL<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> + <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you installed the mail relay and setup an Init script, execute the respective stop command for the Init script.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If you are executing the mail relay directly via command line, simply abort the process by pressing <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>CTRL<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> + <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wenn Sie das Mail Relay installiert und ein Init-Skript aufgesetzt haben, stoppen Sie das Mail Relay mit dem entsprechenden Befehl für das Init-Skript.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie das Mail Relay direkt auf der Kommandozeile ausführen, können Sie den Prozess einfach mit  <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>STRG<ept
+              id="2">&lt;/kbd&gt;</ept> + <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C<ept
+              id="1">&lt;/kbd&gt;</ept> stoppen.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

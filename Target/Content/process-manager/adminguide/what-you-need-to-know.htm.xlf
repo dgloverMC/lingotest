@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="what-you-need-to-know.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="what-you-need-to-know.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">32</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-title"
+        phase-name="pretrans"><source>Required administrator profile Signavio Process Manager</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Required administrator profile Signavio Process Manager</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Erfahrungsprofil der Administratoren Signavio Process Manager</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Required administrator
+profile</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Required administrator profile</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Erfahrungsprofil der Administratoren</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>As any web application, Signavio Process Manager depends on several
+external software components. The administrator guide requires prior
+knowledge about these components. The administrators responsible for
+installing and maintaining the Signavio Process Manager need to be
+proficient in the following technologies:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">As any web application, Signavio Process Manager depends on several external software components.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The administrator guide requires prior knowledge about these components.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The administrators responsible for installing and maintaining the Signavio Process Manager need to be proficient in the following technologies:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Wie jede Software ist auch der Signavio Process Manager von externen Softwarekomponenten abhängig.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die Installationsanleitung setzt Vorkenntnisse in den abhängigen Technologien voraus.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die Administratoren, die mit der Installation und dem Betrieb des Signavio Process Managers beauftragt werden, müssen Erfahrung mit den folgenden Technologien haben:</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>The operating system you install the software on</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The operating system you install the software on</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Dem verwendeten Betriebssystem</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>The database system you employ</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The database system you employ</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Dem verwendeten Datenbanksystem</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Oracle Java</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Oracle Java</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Oracle Java</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Apache Tomcat</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Apache Tomcat</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Apache Tomcat</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Setting up the connection to an email server</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Setting up the connection to an email server</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Der Anbindung eines E-Mail-Servers</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>If HTTPS is used, SSL/HTTPS</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If HTTPS is used, SSL/HTTPS</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Wenn HTTPS verwendet wird, SSL/HTTPS</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>If required, Microsoft Active Directory</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If required, Microsoft Active Directory</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Wenn verwendet, der Anbindung eines Microsoft Active Directory</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>If required, Microsoft SharePoint Web Part</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If required, Microsoft SharePoint Web Part</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Wenn verwendet, der Installation und Konfiguration eines Microsoft SharePoint Webparts</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Note that viewing this guide as a PDF with the Google Chrome web
+browser may cause display errors, especially when you copy and paste
+content. Therefore, we recommend the use of the online version.
+Alternatively, download the PDF and open it with the free Adobe Acrobat
+Reader.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Note that viewing this guide as a PDF with the Google Chrome web browser may cause display errors, especially when you copy and paste content.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Therefore, we recommend the use of the online version.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Alternatively, download the PDF and open it with the free Adobe Acrobat Reader.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Beachten Sie, dass das Anzeigen dieses Handbuchs als PDF mit dem Google Chrome-Webbrowser zu Anzeigefehlern führen kann, insbesondere wenn Sie Inhalte kopieren und einfügen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Wir empfehlen daher die Verwendung der Online-Version.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Alternativ können Sie die PDF-Datei herunterladen und mit dem kostenlosen Adobe Acrobat Reader öffnen.</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>
+     Information for customers of the Signavio Small Business
+Edition
+    </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">Information for customers of the Signavio Small Business Edition</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Hinweis für Kunden der Signavio Small Business Edition</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The Signavio Small Business Edition (available until spring 2013)
+has been provided with a pre-configured VMware image to simplify the
+installation of Signavio Process Manager. However, operating and
+maintaining the virtual machine is the responsibility of the customer.
+Due to the further development of Signavio Process Manager, the
+hardware requirements of the software have changed over the years.
+Therefore, the pre-configured VMware image no longer fulfills the
+requirements for operating Signavio Process Manager version 8.3.0 or
+later. If you are using the pre-configured VMware image and you want to
+update to version 8.3.0 or later, please migrate Signavio Process
+Manager on a server infrastructure as explained in this document.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Signavio Small Business Edition (available until spring 2013) has been provided with a pre-configured VMware image to simplify the installation of Signavio Process Manager.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">However, operating and maintaining the virtual machine is the responsibility of the customer.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Due to the further development of Signavio Process Manager, the hardware requirements of the software have changed over the years.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">Therefore, the pre-configured VMware image no longer fulfills the requirements for operating Signavio Process Manager version 8.3.0 or later.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">If you are using the pre-configured VMware image and you want to update to version 8.3.0 or later, please migrate Signavio Process Manager on a server infrastructure as explained in this document.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die Signavio Small Business Edition (verfügbar bis Frühjahr 2013) wurde zur Vereinfachung der Installation mit einem vorkonfigurierten VMware Image ausgeliefert.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Der Betrieb und die Wartung der virtuellen Maschine obliegt allerdings in der Verantwortung des Kunden.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Durch die Weiterentwicklung des Signavio Process Managers sind auch die Hardwareanforderungen gestiegen.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Aus diesem Grund erfüllt das vorkonfigurierte VMware Image nicht mehr die Mindestanforderungen für den Betrieb des Signavio Process Managers ab der Version 8.3.0.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Wenn Sie das vorkonfigurierte VMware Image im Einsatz haben und auf die Version 8.3.0 oder höher aktualisieren möchten, dann migrieren Sie bitte zuvor den Signavio Process Manager auf eine wie in diesem Handbuch beschriebene Systemlandschaft.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="monitor-server.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="monitor-server.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">15</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Monitoring</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Monitoring</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Monitoring</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To avoid unnecessary downtime, you should continuously monitor both
+the database server and the Tomcat server. For the database server it
+is most important to monitor the used disc storage. You may set up an
+observation routine that checks if the server runs out of disk space or
+if there are problems with creating backups. If the database server
+responds slowly, you should re-check its configuration (for example, if
+the database caches are configured correctly or if the data needs to be
+read from disk each time a request occurs).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To avoid unnecessary downtime, you should continuously monitor both the database server and the Tomcat server.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">For the database server it is most important to monitor the used disc storage.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">You may set up an observation routine that checks if the server runs out of disk space or if there are problems with creating backups.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">If the database server responds slowly, you should re-check its configuration (for example, if the database caches are configured correctly or if the data needs to be read from disk each time a request occurs).</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Um eine hohe Verfügbarkeit zu gewährleisten, sollten Sie sowohl den Datenbankserver als auch den Apache Tomcat Server überwachen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Beim Datenbankserver ist vor Allem darauf zu achten, dass genügend freier Festplattenspeicher zur Verfügung steht.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Richten Sie am Besten auf dem Datenbankserver eine Benachrichtigung an den zuständigen Administrator ein, wenn der freie Speicher zur Neige geht oder ein Problem beim Erstellen der Datenbank-Backups auftritt.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Falls Anfragen an den Signavio Process Manager nur mit einer hohen Latenz beantwortet werden, lassen Sie bitte von einem Datenbank-Administrator die Konfiguration der Datenbank überprüfen (beispielsweise, ob die Datenbank-Caches korrekt konfiguriert sind oder ob bei jeder Anfrage die Daten von der Festplatte gelesen werden müssen).</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You can check the plain availability of the Apache Tomcat server by
+sending an
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    http
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   request and logging into the Signavio
+system. Additionally, you should monitor the Tomcat server's process
+and its memory usage. If the process has to touch the swap-section and
+needs to outsource memory pages to the disc, the system responds very
+slowly. In such a case, make further memory available.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You can check the plain availability of the Apache Tomcat server by sending an <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> http <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> request and logging into the Signavio system.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Additionally, you should monitor the Tomcat server's process and its memory usage.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">If the process has to touch the swap-section and needs to outsource memory pages to the disc, the system responds very slowly.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">In such a case, make further memory available.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Zusätzlich sollte der Tomcat Prozess selbst sowie der Arbeitsspeicherverbrauch des Tomcat Prozesses überwacht werden.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Wenn der Tomcat Prozess auf den Swap-Bereich zugreifen und Teile des Arbeitsspeichers auf die Festplatte auslagern muss, wird das System sehr träge und antwortet sehr langsam.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Daher sollte dies auf jeden Fall vermieden werden.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

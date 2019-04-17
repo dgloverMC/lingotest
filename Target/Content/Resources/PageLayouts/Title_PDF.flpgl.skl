@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles MadCap:conditions="" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Name="Title" Width="800" Height="800" Padding="20px" PageSize="A4" PageType="title" PaddingLeft="19mm" PaddingRight="19mm" PaddingTop="63mm" PaddingBottom="21mm">
+        <Frame X="394px" Y="-140px" Width="256px" Height="141px" Flow="decoration0" Right="0px" Bottom="805px" BackgroundImage="../signavio-vector-logo.png" BackgroundRepeat="stretch" />
+        <Frame X="125.1479mm" Y="629px" Width="47.09583mm" Height="47.09583mm" Flow="decoration2" Right="-1px" Bottom="-1px" BackgroundType="Solid" BackgroundColor="#4d4d4f" Anchors="" />
+        <Frame X="473px" Y="450px" Width="47.09583mm" Height="47.09583mm" Flow="decoration0" Right="-1px" Bottom="178px" Anchors="" BackgroundType="Solid" BackgroundColor="#5dbabb" />
+        <Frame X="524px" Y="497px" Width="78px" Height="78px" Flow="decoration3" Right="48px" Bottom="231px" BackgroundImage="../menu-manual.svg" BackgroundRepeat="stretch" />
+        <Frame X="0px" Y="450px" Width="124.8833mm" Height="94.45625mm" Flow="decoration1" Right="178px" Bottom="-1px" Anchors="" BackgroundType="Solid" BackgroundColor="#82124c" />
+        <Frame X="52px" Y="450px" Width="402px" Height="273px" Flow="body" Right="196px" Bottom="83px" />
+        <Frame X="483px" Y="762px" Width="151px" Height="43px" FlowIndex="6" Flow="body" Right="16px" Bottom="1px" />
+    </Page>
+</PageStyles>

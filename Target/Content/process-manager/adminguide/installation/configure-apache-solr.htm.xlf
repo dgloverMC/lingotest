@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="configure-apache-solr.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="configure-apache-solr.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">28</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Configuring the Apache Solr server (optional)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configuring the Apache Solr server (optional)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Apache Solr Server konfigurieren (optional)</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To search diagrams, folders, uploaded documents and dictionary items
+the Signavio application server employs Apache Solr. Usually, the Solr
+server is deployed on the same Tomcat as the rest of the
+application.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To search diagrams, folders, uploaded documents and dictionary items the Signavio application server employs Apache Solr.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Usually, the Solr server is deployed on the same Tomcat as the rest of the application.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Für die Suche nach Diagrammen, Ordnern, hochgeladenen Dokumenten sowie Glossareinträgen wird ein Apache Solr Server eingesetzt.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Standardmäßig wird der Solr Server in demselben Tomcat Server installiert wird, wie der Rest der Anwendung.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>However, you can deploy the Solr server on a separate web server. If
+your Signavio system fulfills one the following conditions, it may be
+useful to employ a separate server for better performance:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">However, you can deploy the Solr server on a separate web server.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If your Signavio system fulfills one the following conditions, it may be useful to employ a separate server for better performance:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Der Apache Solr Server kann alternativ auf einem separaten Webserver installiert werden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Wenn Sie ein Signavio System mit einen der folgenden Parameter betreiben, dann kann es zur besseren Lastverteilung sinnvoll sein, einen separaten Webserver zu verwenden:</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>You are using the system with more than 1,000 modelling users.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You are using the system with more than 1,000 modelling users.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Sie verwenden das System mit mehr als 1000 Modellierern.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>You are using the system with more than 50,000 Collaboration Hub
+users.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You are using the system with more than 50,000 Collaboration Hub users.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Sie verwenden das System mit mehr als 50000 Collaboration Hub Nutzern.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Your process landscape contains more than 5,000 diagrams.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Your process landscape contains more than 5,000 diagrams.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Ihre Prozesslandschaft besteht aus über 5000 Diagrammen.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>You are running Signavio on a web server cluster.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You are running Signavio on a web server cluster.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Sie betreiben Signavio in einem Webserver-Cluster.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To run the Solr server on a separate Tomcat, install the Tomcat and
+configure it just as the Signavio Tomcat (see: <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="configure-web-server.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Configuring the web server&lt;/MadCap:xref&gt;</ph>).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To run the Solr server on a separate Tomcat, install the Tomcat and configure it just as the Signavio Tomcat (see: <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="configure-web-server.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Configuring the web server&lt;/MadCap:xref&gt;</ph>).</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Um den Solr Server in einem separaten Apache Tomcat zu betreiben, stellen Sie einen weiteren Server bereit und installieren und konfigurieren Sie einen Apache Tomcat Server analog zum Signavio Server (siehe: <ph
+              id="1">&lt;MadCap:xref href="configure-web-server.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Configuring the web server&lt;/MadCap:xref&gt;</ph>).</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In case the second Tomcat runs on the same server/VM, please make
+sure it it runs on a different port than the Signavio Tomcat.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In case the second Tomcat runs on the same server/VM, please make sure it it runs on a different port than the Signavio Tomcat.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Sollte der zweite Tomcat auf demselben Server / in derselben VM laufen, stellen Sie bitte sicher, dass die Ports der beiden Tomcat Server nicht identisch sind.</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Afterwards, proceed as follows:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Afterwards, proceed as follows:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Gehen Sie abschließend wie folgt vor:</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Stop the Tomcats (if running).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Stop the Tomcats (if running).</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Stoppen Sie die Tomcat Server, falls diese zur Zeit laufen.</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-li"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Move
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+    (not copy!) the folder solr from the
+webapps-directory of the Signavio Tomcat to the webapps-directory of
+the Solr Tomcat.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Move <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> (not copy!) the folder solr from the webapps-directory of the Signavio Tomcat to the webapps-directory of the Solr Tomcat.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"><bpt
+              id="1">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Verschieben<ept
+              id="1">&lt;/strong&gt;</ept> (nicht kopieren) Sie den Ordner solr aus dem webapps-Verzeichnis des Signavio-Tomcats in das webapps-Verzeichnis des Solr-Tomcats.</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Adjust the file
+     <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      configuration.xml<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, located at
+     <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;signavio-tomcat&gt;/conf/<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. Add the following line at
+the end of the file, but before the line
+     <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;/configuration&gt;<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>:
+    <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;dd xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;kbd&gt;</bpt>
+      &lt;solrUrl&gt;http://localhost:8080/solr&lt;/solrUrl&gt;
+     <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;&lt;/dd&gt;</ept><bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;dd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Replace the URL
+     <bpt
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>http://localhost:8080/solr<ept
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     with the URL
+of the Solr server. Please ensure you also define the context path of
+the web application (default is
+     <bpt
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>solr<ept
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>).
+    <ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/dd&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Adjust the file <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> configuration.xml<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, located at <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;signavio-tomcat&gt;/conf/<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Add the following line at the end of the file, but before the line <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;/configuration&gt;<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>: <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;dd xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;kbd&gt;</bpt> &lt;solrUrl&gt;http://localhost:8080/solr&lt;/solrUrl&gt; <ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;&lt;/dd&gt;</ept><bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;dd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Replace the URL <bpt
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>http://localhost:8080/solr<ept
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> with the URL of the Solr server.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Please ensure you also define the context path of the web application (default is <bpt
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>solr<ept
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>).</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7"><ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/dd&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Passen Sie die Datei <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+              id="1">&lt;/kbd&gt;</ept>, die unter <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;signavio-tomcat&gt;\\conf<ept
+              id="2">&lt;/kbd&gt;</ept> zu finden ist, an.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Fügen Sie die folgende Zeile an das Ende der Datei an,jedoch vor der  Zeile <bpt
+              id="3">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;/configuration&gt;<ept
+              id="3">&lt;/kbd&gt;</ept>: <bpt
+              id="4">&lt;dd xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;kbd&gt;</bpt> &lt;solrUrl&gt;http://localhost:8080/solr&lt;/solrUrl&gt; <ept
+              id="4">&lt;/kbd&gt;&lt;/dd&gt;</ept><bpt
+              id="6">&lt;dd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Ersetzen Sie die URL <bpt
+              id="7">&lt;kbd&gt;</bpt>http://localhost:8080/solr<ept
+              id="7">&lt;/kbd&gt;</ept> mit der URL des Solr Servers.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Stellen Sie sicher, dass Sie auch den Kontextpfad der Webanwendung definieren (Standardeinstellung ist <bpt
+              id="8">&lt;kbd&gt;</bpt>solr<ept
+              id="8">&lt;/kbd&gt;</ept>).</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Start the Solr Tomcat.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Start the Solr Tomcat.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Starten Sie den Solr-Tomcat.</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Start the Signavio Tomcat.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Start the Signavio Tomcat.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Starten Sie den Signavio-Tomcat.</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Before you start the Signavio server, always ensure the Solr server
+is running. Otherwise, system cannot create the search index.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Before you start the Signavio server, always ensure the Solr server is running.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Otherwise, system cannot create the search index.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Achten Sie immer darauf, dass der Solr Server bereits läuft, wenn Sie den Signavio Server starten.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Anderenfalls schlägt die Erstellung des Suchindexes fehl.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

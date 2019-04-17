@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>Test_Dana</h1>
+		<p>Some database transactions in Signavio Process Manager require <b>snapshot isolation</b> to prevent <a href="https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/ms191242(v=sql.105)#Anchor_4" xmlns="http://www.w3.org/1999/xhtml">database deadlocks</a>. To enable snapshot isolation, execute the following SQL statements all at once (<kbd>&lt;DbName&gt;</kbd> represents the name of your database):</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh" xmlns="http://www.w3.org/1999/xhtml">ALTER DATABASE [database] SET ALLOW_SNAPSHOT_ISOLATION ON;
+ALTER DATABASE [database] SET READ_COMMITTED_SNAPSHOT ON;</code></pre>
+    </body>
+</html>

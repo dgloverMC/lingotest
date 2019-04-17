@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>砻קยด1ตว融</h1>
+		<p>砻קยด2ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh" xmlns="http://www.w3.org/1999/xhtml">ALTER DATABASE [database] SET ALLOW_SNAPSHOT_ISOLATION ON;
+ALTER DATABASE [database] SET READ_COMMITTED_SNAPSHOT ON;</code></pre>
+    </body>
+</html>

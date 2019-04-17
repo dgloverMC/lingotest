@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="index.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="index.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">22</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Contact and legal
+information</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Contact and legal information</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Kontaktinformationen und rechtliche Angaben</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Signavio GmbH</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio GmbH</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Signavio GmbH</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Registered office of the company
+   <ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>   Kurfürstenstraße 111
+   <ph
+            id="2"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>   10787 Berlin</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Registered office of the company <ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Kurfürstenstraße 111 <ph
+              id="2"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">10787 Berlin</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Sitz der Gesellschaft <ph
+              id="1"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Kurfürstenstraße 111 <ph
+              id="2"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">10787 Berlin</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Contact
+   <ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>   Phone: 030 / 856 21 54 - 21
+   <ph
+            id="2"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>   Fax: 030 / 856 21 54 - 19</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Contact <ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Phone: 030 / 856 21 54 - 21 <ph
+              id="2"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Fax: 030 / 856 21 54 - 19</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Kontakt<ph
+              id="1"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Telefon: 030 / 856 21 54 - 21 <ph
+              id="2"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Fax: 030 / 856 21 54 - 19</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Website
+   <ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://www.signavio.com" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    http://www.signavio.com
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Website <ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://www.signavio.com" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> http://www.signavio.com <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Internetauftritt<ph
+              id="1"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="1"
+              ctype="link">&lt;a href="http://www.signavio.com" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> http://www.signavio.com <ept
+              id="1">&lt;/a&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Legal information
+   <ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>   CEO: Gero Decker
+   <ph
+            id="2"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>   VATIN: DE265675123
+   <ph
+            id="3"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>   TIN: 27/048/09093
+   <ph
+            id="4"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>   Register court: Amtsgericht Charlottenburg, HRB 150074 B</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Legal information <ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">CEO: Gero Decker <ph
+              id="2"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">VATIN: DE265675123 <ph
+              id="3"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">TIN: 27/048/09093 <ph
+              id="4"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">Register court: Amtsgericht Charlottenburg, HRB 150074 B</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Rechtliche Angaben <ph
+              id="1"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Geschäftsführer: Gero Decker <ph
+              id="2"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Umsatzsteuer-ID: DE265675123 <ph
+              id="3"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Steuernummer: 27/048/09093 <ph
+              id="4"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Registergericht: Amtsgericht Charlottenburg, HRB 150074 B</mrk></target></trans-unit></body>
+  </file>
+</xliff>

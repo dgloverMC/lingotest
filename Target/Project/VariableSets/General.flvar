@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName"
+    EvaluatedDefinition="Signavio GmbH">Signavio GmbH</Variable>
+  <Variable
+    Comment=""
+    Name="PhoneNumber"
+    EvaluatedDefinition="030 / 856 21 54 - 21">030 / 856 21 54 - 21</Variable>
+  <Variable
+    Name="Home"
+    Comment=""
+    EvaluatedDefinition="signavio.com">signavio.com</Variable>
+  <Variable
+    Name="StreetAddress"
+    Comment=""
+    EvaluatedDefinition="Kurfürstenstraße 111">Kurfürstenstraße 111</Variable>
+  <Variable
+    Name="CityStateZip"
+    Comment=""
+    EvaluatedDefinition="10787 Berlin">10787 Berlin</Variable>
+  <Variable
+    Name="Mail"
+    Comment=""
+    EvaluatedDefinition="support@signavio.com">support@signavio.com</Variable>
+  <Variable
+    Name="Twitter"
+    Comment=""
+    EvaluatedDefinition="http://www.twitter.com/signavio">http://www.twitter.com/signavio</Variable>
+  <Variable
+    Name="Youtube"
+    Comment=""
+    EvaluatedDefinition="http://www.youtube.com/signavio">http://www.youtube.com/signavio</Variable>
+  <Variable
+    Name="Copyright"
+    Comment=""
+    EvaluatedDefinition="© Copyright 2019, Signavio GmbH">© Copyright 2019, Signavio GmbH</Variable>
+</CatapultVariableSet>

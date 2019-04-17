@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="General.flvar"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="x-flvar"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="General.flvar.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">9</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>Signavio GmbH</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio GmbH</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Signavio GmbH</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>030 / 856 21 54 - 21</source><seg-source><mrk
+            mtype="seg"
+            mid="1">030 / 856 21 54 - 21</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">030 / 856 21 54 - 21</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>signavio.com</source><seg-source><mrk
+            mtype="seg"
+            mid="1">signavio.com</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">signavio.com</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>Kurfürstenstraße 111</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Kurfürstenstraße 111</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Kurfürstenstraße 111</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>10787 Berlin</source><seg-source><mrk
+            mtype="seg"
+            mid="1">10787 Berlin</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">10787 Berlin</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>support@signavio.com</source><seg-source><mrk
+            mtype="seg"
+            mid="1">support@signavio.com</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">support@signavio.com</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>http://www.twitter.com/signavio</source><seg-source><mrk
+            mtype="seg"
+            mid="1">http://www.twitter.com/signavio</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">http://www.twitter.com/signavio</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>http://www.youtube.com/signavio</source><seg-source><mrk
+            mtype="seg"
+            mid="1">http://www.youtube.com/signavio</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">http://www.youtube.com/signavio</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>© Copyright 2019, Signavio GmbH</source><seg-source><mrk
+            mtype="seg"
+            mid="1">© Copyright 2019, Signavio GmbH</mrk></seg-source><target
+          state="needs-review-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="96"
+            MadCap:diff="ContentChanged" /></target><alt-trans
+          match-quality="96"
+          origin="previous-version"><seg-source>© Copyright 2019, Signavio GmbH.</seg-source><target
+            MadCap:segmentStatus="Untranslated">© Copyright 2018, Signavio GmbH.</target></alt-trans></trans-unit></body>
+  </file>
+</xliff>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="in-progress">
+  <file
+    xml:space="preserve"
+    original="intro.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="intro.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">11</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Introduction</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Introduction</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Einleitung</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>This is the Signavio Workflow Accelerator administration manual. It
+will provide you with information to setup the Workflow Accelerator
+system on your own server infrastructure. Workflow Accelerator
+officially supports Microsoft Windows Server 64Bit and Debian Stable
+64Bit.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">This is the Signavio Workflow Accelerator administration manual.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">It will provide you with information to setup the Workflow Accelerator system on your own server infrastructure.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Workflow Accelerator officially supports Microsoft Windows Server 64Bit and Debian Stable 64Bit.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Dies ist das Signavio Workflow Accelerator Administratorenhandbuch.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Es enthält detaillierte Informationen und Anweisungen für die Installation von Workflow Accelerator auf Ihrem hauseigenen Server (oder auf der Infrastruktur eines Cloudanbieters Ihrer Wahl).</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Workflow Accelerator unterstützt offiziell die Betriebssysteme Windows Server 64 Bit und Debian Stable 64 Bit.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>It is possible to setup Workflow Accelerator also on other Linux
+distributions. However, the instructions in this manual are only tested
+for Debian. Probably, you will have to adjust the instructions to your
+system, but the used software should work on most distributions.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">It is possible to setup Workflow Accelerator also on other Linux distributions.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">However, the instructions in this manual are only tested for Debian.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Probably, you will have to adjust the instructions to your system, but the used software should work on most distributions.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Es ist möglich, Workflow Accelerator auf weiteren Linux-Distributionen zu installieren.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="64"
+            MadCap:diff="ContentChanged" /></target><alt-trans
+          mid="4"
+          match-quality="64"
+          origin="previous-version"><seg-source>However, the instructions in this manual are only tested for Debian. Probably, you will have to adjust the instructions to your system, but the used software should work on most distributions.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Die Linux-Beispiele in den Installationsanweisungen sind jedoch auf Debian zugeschnitten und können bei anderen Linux-Distributionen abweichen.</target></alt-trans></trans-unit></body>
+  </file>
+</xliff>

@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="enable-sso.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="enable-sso.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">34</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">6</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xhtml-a-title"
+        phase-name="pretrans"><source>Enabling single sign-on via SAML</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="a">Enabling single sign-on via SAML</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xhtml-a-alt"
+        phase-name="pretrans"><source>Enabling single sign-on via SAML</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="a">Enabling single sign-on via SAML</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xhtml-a-title"
+        phase-name="pretrans"><source>Configuring SSO for an identity provider for SaaS workspaces</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="a">Configuring SSO for an identity provider for SaaS workspaces</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xhtml-a-alt"
+        phase-name="pretrans"><source>Configuring SSO for an identity provider for SaaS workspaces</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="a">Configuring SSO for an identity provider for SaaS workspaces</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xhtml-a-title"
+        phase-name="pretrans"><source>XML metadata template</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="a">XML metadata template</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xhtml-a-alt"
+        phase-name="pretrans"><source>XML metadata template</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="a">XML metadata template</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-title"
+        phase-name="pretrans"><source>Enabling single sign-on via SAML</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Enabling single sign-on via SAML</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Enabling single sign-on via SAML (optional)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Enabling single sign-on via SAML (optional)</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You can enable <bpt
+            id="1"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>single sign-on (SSO)<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> via <bpt
+            id="2"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Security Assertion Markup Language (SAML)<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> for your on-premises installation. Read more about this topic in the Signavio Process Manager <bpt
+            id="3"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.signavio.com/userguide/editor/en/workspace_admin/manage_users_access/portal_and_editor_sso_via_saml.html" title="<sub
+              ctype="x-xhtml-a-title"
+              datatype="xhtml"
+              xid="1" xmlns="urn:oasis:names:tc:xliff:document:1.2" />" alt="<sub
+              ctype="x-xhtml-a-alt"
+              datatype="xhtml"
+              xid="2" xmlns="urn:oasis:names:tc:xliff:document:1.2" />"&gt;</bpt>User Guide<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>. The user guide article also explains, which steps to take on the side of your <bpt
+            id="4"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>service provider (SP)<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>, Signavio Process Manager.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You can enable <bpt
+              id="1"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>single sign-on (SSO)<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> via <bpt
+              id="2"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Security Assertion Markup Language (SAML)<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> for your on-premises installation.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Read more about this topic in the Signavio Process Manager <bpt
+              id="3"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.signavio.com/userguide/editor/en/workspace_admin/manage_users_access/portal_and_editor_sso_via_saml.html" title="<sub
+                ctype="x-xhtml-a-title"
+                datatype="xhtml"
+                xid="1" xmlns="urn:oasis:names:tc:xliff:document:1.2" />" alt="<sub
+                ctype="x-xhtml-a-alt"
+                datatype="xhtml"
+                xid="2" xmlns="urn:oasis:names:tc:xliff:document:1.2" />"&gt;</bpt>User Guide<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The user guide article also explains, which steps to take on the side of your <bpt
+              id="4"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>service provider (SP)<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>, Signavio Process Manager.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>On-premises customers have two options to configure SSO for an <bpt
+            id="1"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>identity provider (IdP)<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> which differ from the <bpt
+            id="2"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.signavio.com/userguide/editor/en/workspace_admin/manage_users_access/portal_and_editor_sso_via_saml.html#configuring-sso-for-an-identity-provider-idp" title="<sub
+              ctype="x-xhtml-a-title"
+              datatype="xhtml"
+              xid="3" xmlns="urn:oasis:names:tc:xliff:document:1.2" />" alt="<sub
+              ctype="x-xhtml-a-alt"
+              datatype="xhtml"
+              xid="4" xmlns="urn:oasis:names:tc:xliff:document:1.2" />"&gt;</bpt>description for SaaS workspaces<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">On-premises customers have two options to configure SSO for an <bpt
+              id="1"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>identity provider (IdP)<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> which differ from the <bpt
+              id="2"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.signavio.com/userguide/editor/en/workspace_admin/manage_users_access/portal_and_editor_sso_via_saml.html#configuring-sso-for-an-identity-provider-idp" title="<sub
+                ctype="x-xhtml-a-title"
+                datatype="xhtml"
+                xid="3" xmlns="urn:oasis:names:tc:xliff:document:1.2" />" alt="<sub
+                ctype="x-xhtml-a-alt"
+                datatype="xhtml"
+                xid="4" xmlns="urn:oasis:names:tc:xliff:document:1.2" />"&gt;</bpt>description for SaaS workspaces<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>First option: To configure SSO for your IdP, follow your Idp´s specific configuration. You have to set Signavio Process Manager as a trusted party.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">First option: To configure SSO for your IdP, follow your Idp´s specific configuration.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You have to set Signavio Process Manager as a trusted party.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Second option: If XML metadata is required to configure SSO, open the following XML metadata template:<ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;&lt;br /&gt;</ph><bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="../_static/download_ressources/template_xml_metadata.xml"&gt;</bpt>XML metadata template<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept><ph
+            id="3"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;&lt;br /&gt;</ph>You need to replace the following placeholders in the template with your specific data:<ph
+            id="5"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph>1. <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>###SERVER_PARAMETER_FROM_CONFIGURATION_XML_WITHOUT_PROTOCOL###<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>: Use the URL of your Signavio Process Manager system. You specified the URL in your <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>configuration.xml<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> when you <bpt
+            id="4"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="configure-process-manager.htm"&gt;</bpt>configured Signavio Process Manager<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>. An example is <bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>example.com<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.<ph
+            id="6"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;&lt;br /&gt;</ph>2. <bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>###SERVER_PARAMETER_FROM_CONFIGURATION_XML_WITH_PROTOCOL###<ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>: Use the URL, including the protocol, of your Signavio Process Manager system. You specified the URL and the protocol in your <bpt
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>configuration.xml<ept
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> when you <bpt
+            id="8"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="configure-process-manager.htm"&gt;</bpt>configured Signavio Process Manager<ept
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.  An example is <bpt
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>https://example.com<ept
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Second option: If XML metadata is required to configure SSO, open the following XML metadata template:<ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;&lt;br /&gt;</ph><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="../_static/download_ressources/template_xml_metadata.xml"&gt;</bpt>XML metadata template<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept><ph
+              id="3"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2">You need to replace the following placeholders in the template with your specific data:<ph
+              id="5"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="3">1. <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>###SERVER_PARAMETER_FROM_CONFIGURATION_XML_WITHOUT_PROTOCOL###<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>: Use the URL of your Signavio Process Manager system.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">You specified the URL in your <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>configuration.xml<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> when you <bpt
+              id="4"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="configure-process-manager.htm"&gt;</bpt>configured Signavio Process Manager<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">An example is <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>example.com<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.<ph
+              id="6"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="8">2. <bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>###SERVER_PARAMETER_FROM_CONFIGURATION_XML_WITH_PROTOCOL###<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>: Use the URL, including the protocol, of your Signavio Process Manager system.</mrk><mrk
+            mtype="protected"
+            mid="9"> </mrk><mrk
+            mtype="seg"
+            mid="10">You specified the URL and the protocol in your <bpt
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>configuration.xml<ept
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> when you <bpt
+              id="8"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="configure-process-manager.htm"&gt;</bpt>configured Signavio Process Manager<ept
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="11"> </mrk><mrk
+            mtype="seg"
+            mid="12">An example is <bpt
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>https://example.com<ept
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Ensure to set the following SAML response attributes in your IdP configuration:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Ensure to set the following SAML response attributes in your IdP configuration:</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>email</source><seg-source><mrk
+            mtype="seg"
+            mid="1">email</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>first_name</source><seg-source><mrk
+            mtype="seg"
+            mid="1">first_name</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>last_name</source><seg-source><mrk
+            mtype="seg"
+            mid="1">last_name</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Name ID</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Name ID</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

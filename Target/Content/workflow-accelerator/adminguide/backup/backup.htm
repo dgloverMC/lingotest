@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head><title>Backup Signavio Workflow Accelerator </title>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 name="backup">
+   Backup
+  </h1>
+        <p>
+   In order to take a backup, it is sufficient to backup the content of
+MongoDB. All uploaded files are stored in the database and, therefore,
+covered by a database backup. MongoDB comes with built-in solutions for
+backups. Signavio recommends to use mongodump. For more detailed
+information about backups of MongoDB see the official
+documentation:
+  </p>
+        <p><a href="https://docs.mongodb.com/manual/core/backups/">
+    https://docs.mongodb.com/manual/core/backups/
+   </a> </p>
+        <p><a href="https://docs.mongodb.com/manual/tutorial/backup-and-restore-tools/#binary-bson-dumps">
+    https://docs.mongodb.com/manual/tutorial/backup-and-restore-tools/#binary-bson-dumps</a>
+        </p>
+        <p>
+   Make sure the MongoDB server is running when you want to execute
+mongodump. If not stated otherwise via command line parameters,
+mongodump will try to backup data from the locally running mongod
+service.
+  </p>
+        <p>
+   You will need to use the Signavio Workflow Accelerator MongoDB user
+credentials again to access the data of the Workflow Accelerator
+database. If you are using another MongoDB user to perform the backups,
+make sure he has the necessary roles. For the backups, the user needs
+to access all databases and the user data. The user should have the
+following roles:
+  </p>
+        <ul>
+            <li><kbd>clusterAdmin</kbd>
+            </li>
+            <li><kbd>userAdminAnyDatabase</kbd>
+            </li>
+            <li><kbd>readWriteAnyDatabase</kbd>
+            </li>
+            <li><kbd>dbAdminAnyDatabase</kbd>
+            </li>
+        </ul>
+        <p>
+   You can specify the output folder where the content of the backup is
+stored. Be aware, if the directory contains already an older backup,
+the new backup will overwrite existing files. Alternatively, you could
+store several backups with a timestamp.
+  </p>
+        <p>
+   You should make sure the backup is stored in a safe location and
+cannot get lost if the server fails. Keep in mind, the backups can
+consume a lot of space, therefore, you should add additional disk space
+to the server if you plan storing on multiple versions of the
+backup.
+  </p>
+        <p>
+   The following lines will show an example on how to do a backup with
+mongodump on different operating systems.
+  </p>
+    </body>
+</html>

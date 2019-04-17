@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="checklist.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="checklist.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">38</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Checklist</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Checklist</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Checkliste</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Before starting Workflow Accelerator, use the following checklist to
+make sure everything is setup properly.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Before starting Workflow Accelerator, use the following checklist to make sure everything is setup properly.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Verwenden Sie die folgende Checkliste, um sicherzustellen, dass Workflow Accelerator erfolgreich gestartet werden kann.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Oracle Java 8 is installed</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Oracle Java 8 is installed</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Oracle Java 8 ist installiert</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Apache Tomcat 8.5 is installed
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>
+       the Java options are configured
+      <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Apache Tomcat 8.5 is installed </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt> the Java options are configured <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Apache Tomcat 8.5 ist installiert</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="1">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>Die Javaoptionen sind konfiguriert.<ept
+              id="1">&lt;/li&gt;&lt;/ul&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>MongoDB is installed
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       MongoDB is configured
+      <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       a MongoDB user for Workflow Accelerator was created
+      <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">MongoDB is installed </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> MongoDB is configured <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> a MongoDB user for Workflow Accelerator was created <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">MongoDB ist installiert.</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="2">&lt;li&gt;</bpt>MongoDB ist konfiguriert.<ept
+              id="2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="3">&lt;li&gt;</bpt>Ein MongoDB-Nutzer für Workflow Accelerator wurde angelegt.<ept
+              id="3">&lt;/li&gt;</ept><ept
+              id="1">&lt;/ul&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>the Workflow Accelerator ROOT folder was copied into the Tomcat
+webapps directory</source><seg-source><mrk
+            mtype="seg"
+            mid="1">the Workflow Accelerator ROOT folder was copied into the Tomcat webapps directory</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der Workflow Accelerator-ROOT-Ordner wurde in das Tomcat webapps-Verzeichnis kopiert.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>the Workflow Accelerator license was copied to the correct
+directory</source><seg-source><mrk
+            mtype="seg"
+            mid="1">the Workflow Accelerator license was copied to the correct directory</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Workflow Accelerator-Lizenzdatei wurde korrekt hinterlegt.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>the Workflow Accelerator configuration file was updated
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       the base URL is set
+      <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       the mail configuration is set
+      <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       the database connection is set
+      <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">the Workflow Accelerator configuration file was updated </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> the base URL is set <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> the mail configuration is set <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="5"><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> the database connection is set <ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Workflow Accelerator-Konfigurationsdatei wurde angepasst.</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="2">&lt;li&gt;</bpt>Die Basis-URL ist gesetzt.<ept
+              id="2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="3">&lt;li&gt;</bpt>Die Emailserver-Konfigurationseinstellungen wurden gesetzt.<ept
+              id="3">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="4">&lt;li&gt;</bpt> Die Datenbankverbindungseinstellungen wurden gesetzt.<ept
+              id="4">&lt;/li&gt;</ept><ept
+              id="1">&lt;/ul&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>the Workflow Accelerator log file is configured</source><seg-source><mrk
+            mtype="seg"
+            mid="1">the Workflow Accelerator log file is configured</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Workflow Accelerator-Logdatei wurde konfiguriert.</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If your version includes the execution of JavaScript tasks:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If your version includes the execution of JavaScript tasks:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wenn Ihre Version die Ausführung von JavaScript-Tasks unterstützt:</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Node.js is installed</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Node.js is installed</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Node.js ist installiert.</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>the Workflow Accelerator Script Engine is installed</source><seg-source><mrk
+            mtype="seg"
+            mid="1">the Workflow Accelerator Script Engine is installed</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Workflow Accelerator Script Engine ist installiert.</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>the Workflow Accelerator Script Engine is configured
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       the port is set
+      <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       the Workflow Accelerator URL is set
+      <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       the log files are configured
+      <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       the script engine URL is configured in the Workflow Accelerator
+configuration file
+      <ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">the Workflow Accelerator Script Engine is configured </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> the port is set <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> the Workflow Accelerator URL is set <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="5"><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> the log files are configured <ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="6"><bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> the script engine URL is configured in the Workflow Accelerator configuration file <ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Workflow Accelerator Script Engine wurde konfiguriert.</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="2">&lt;li&gt;</bpt>Der Port ist gesetzt.<ept
+              id="2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="3">&lt;li&gt;</bpt>Die Workflow Accelerator URL ist konfiguriert.<ept
+              id="3">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="4">&lt;li&gt;</bpt>Die Log-Datei ist konfiguriert.<ept
+              id="4">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="5">&lt;li&gt;</bpt>Die URL der Script Engine ist in der Workflow Accelerator-Konfigurationsdatei festgelegt.<ept
+              id="5">&lt;/li&gt;</ept><ept
+              id="1">&lt;/ul&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If your version includes the email trigger for workflows:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If your version includes the email trigger for workflows:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wenn Ihre Version den E-Mail-Auslöser für Workflows unterstützt:</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>the Workflow Accelerator Mail Relay is installed</source><seg-source><mrk
+            mtype="seg"
+            mid="1">the Workflow Accelerator Mail Relay is installed</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Das Workflow Accelerator Mail Relay ist installiert.</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>the Workflow Accelerator Mail Relay is configured
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       the port is set
+      <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       the domain is set
+      <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       the Workflow Accelerator URL is set
+      <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       the log file is configured
+      <ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">the Workflow Accelerator Mail Relay is configured </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> the port is set <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> the domain is set <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="5"><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> the Workflow Accelerator URL is set <ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="6"><bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> the log file is configured <ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Das Workflow Accelerator Mail Relay wurde konfiguriert.</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"><bpt
+              id="2">&lt;li&gt;</bpt>Der Port ist gesetzt.<ept
+              id="2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="3">&lt;li&gt;</bpt>Die Domain ist gesetzt.<ept
+              id="3">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"><bpt
+              id="4">&lt;li&gt;</bpt>Die Workflow Accelerator URL ist konfiguriert.<ept
+              id="4">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="5">&lt;li&gt;</bpt>Die Log-Datei ist konfiguriert.<ept
+              id="5">&lt;/li&gt;</ept><ept
+              id="1">&lt;/ul&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If the system is integrated with Signavio Process Manager check also
+the following points:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If the system is integrated with Signavio Process Manager check also the following points:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Überprüfen Sie die folgenden Punkte, falls Workflow Accelerator in Signavio Process Manager integriert sein soll:</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Workflow Accelerator and Signavio Process Manager have compatible
+versions</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Workflow Accelerator and Signavio Process Manager have compatible versions</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Workflow Accelerator und Signavio Process Manager haben kompatible Versionen.</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Workflow Accelerator is configured in Signavio Process Manager
+configuration.xml</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Workflow Accelerator is configured in Signavio Process Manager configuration.xml</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Workflow Accelerator ist in der Signavio Process Manager-Konfigurationsdatei configuration.xml konfiguriert.</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Signavio Process Manager is configured in the Workflow Accelerator
+configuration file</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio Process Manager is configured in the Workflow Accelerator configuration file</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Signavio Process Manager ist in der Workflow Accelerator-Konfigurationsdatei konfiguriert.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

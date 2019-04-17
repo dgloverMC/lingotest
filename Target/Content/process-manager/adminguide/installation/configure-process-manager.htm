@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="configuring-signavio-process-manager" name="configuring-signavio-process-manager">
+   Configuring Signavio
+Process Manager
+  </h1>
+        <p>
+   Before you can start the web application, you need to configure the
+Signavio Server. The ZIP archive contains the configuration blueprint
+   <kbd>configuration.xml</kbd>. Place this file together with the
+Signavio Process Manager license file
+   <kbd>configuration_signed.xml</kbd>
+   and the
+   <kbd>simulation.xml</kbd>
+   file into the directory
+   <kbd>$TOMCAT_DIR/conf</kbd>.
+   <kbd>$TOMCAT_DIR</kbd>
+   denotes the
+root directory of your Tomcat instance.
+  </p>
+        <p>
+   Then, adjust the following properties in the
+   <kbd>configuration.xml</kbd>
+   file:
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml"><strong>
+      server
+     </strong>
+        </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+     The URL of the target server. It must not end with a
+     <kbd>/</kbd> (slash).
+    </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+     Format:
+     <kbd>http(s)://&lt;DNS entry or IP
+address&gt;(:&lt;port&gt;)
+     </kbd></p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+     Examples:
+     <kbd>http://signavio.mycompany.com</kbd>,
+     <kbd>http://159.234.37.47:8080</kbd></p>
+        <p><b>defaultLanguageCode</b>
+        </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+     The default language of the system. When working in a multi language workspace the value defines the default language. E.g. if a user is invited to comment on a model, the Collaboration Hub will be displayed in the default language. Once the user logs in, the Collaboration Hub is displayed in the language defined in the user settings.<br xmlns="http://www.w3.org/1999/xhtml" />Possible values are the following:
+    </p>
+        <ul xmlns="http://www.w3.org/1999/xhtml">
+            <li><kbd>de</kbd> (German)
+     </li>
+            <li><kbd>en</kbd> (English)
+     </li>
+            <li><kbd>es</kbd> (Spanish)
+     </li>
+            <li><kbd>fr</kbd> (French)
+     </li>
+            <li><kbd>ja</kbd> (Japanese)
+     </li>
+            <li><kbd>ko</kbd> (Korean)
+     </li>
+            <li><kbd>nl</kbd> (Dutch)
+     </li>
+            <li><kbd>ru</kbd> (Russian)
+     </li>
+            <li><kbd>zh</kbd> (Chinese)
+     </li>
+        </ul>
+        <p xmlns="http://www.w3.org/1999/xhtml"><strong>
+      externalconfigurationpath
+     </strong>
+        </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+     The absolute path to an existing folder on the target server. The
+system user who runs the Tomcat Server needs to have write access to
+this directory. The path must be outside of the
+     <kbd>webapps</kbd>
+     directory, because during an update of Signavio Process Manager the
+content of the
+     <kbd>webapps</kbd>
+     folder is removed. This folder
+contains files that are cached during run-time of the application. You
+don't need to backup the content of this folder.
+    </p>
+        <p xmlns="http://www.w3.org/1999/xhtml"><strong>
+      Database configuration
+     </strong>
+        </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+     The template configuration file already contains a default
+configuration for the connection to a MySQL, Oracle and MS SQL server
+database. Please use those defaults and configure the variables URL,
+user name and password.
+    </p>
+        <ul xmlns="http://www.w3.org/1999/xhtml">
+            <li><kbd>driverClass</kbd>: The Java class name of the JDBC
+driver.
+     </li>
+        </ul>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+      Possible values are:
+     </p>
+        <ul xmlns="http://www.w3.org/1999/xhtml">
+            <li><strong>
+         MySQL</strong>:
+        <kbd>com.mysql.jdbc.Driver
+        </kbd></li>
+            <li><strong>
+         Oracle 11, 12</strong>:
+        <kbd>oracle.jdbc.driver.OracleDriver</kbd></li>
+            <li><strong>
+         MS SQL Server
+        </strong>:
+        <kbd>com.microsoft.sqlserver.jdbc.SQLServerDriver
+        </kbd></li>
+        </ul>
+        <p><kbd>url</kbd>: The URL of the database system
+      </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+       Examples:
+      </p>
+        <ul xmlns="http://www.w3.org/1999/xhtml">
+            <li><strong>
+         MySQL
+        </strong>:
+        <kbd>
+         jdbc:mysql://localhost/platform
+        </kbd></li>
+            <li><strong>
+         MS SQL Server
+        </strong>:
+        <kbd>
+         jdbc:sqlserver://localhost;databaseName=signavio;
+        </kbd></li>
+        </ul>
+        <p><kbd xmlns="http://www.w3.org/1999/xhtml">username
+      </kbd>: The username of the database user
+account.
+     </p>
+        <p><kbd xmlns="http://www.w3.org/1999/xhtml">password</kbd>: The password of the database user
+account.
+     </p>
+        <p xmlns="http://www.w3.org/1999/xhtml"><kbd>dialect</kbd>: Hibernate specific SQL dialect.
+      </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+        Possible values are:
+       </p>
+        <ul xmlns="http://www.w3.org/1999/xhtml">
+            <li><strong>
+         MySQL
+        </strong>:
+org.hibernate.dialect.MySQL5InnoDBDialect
+       </li>
+            <li><strong>
+         Oracle
+        </strong>:
+org.hibernate.dialect.Oracle10gDialect
+       </li>
+            <li>
+                <p><strong>
+          MS SQL Server
+         </strong>:
+       <kbd xmlns="http://www.w3.org/1999/xhtml">
+          com.signavio.hibernate.dialect.CustomSQLServerDialect</kbd></p>
+            </li>
+        </ul>
+        <p xmlns="http://www.w3.org/1999/xhtml"><strong>
+      Email server configuration
+     </strong>
+        </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+     Configure the connection to an email sever that will send out system
+emails like notifications and registration emails.
+    </p>
+        <ul xmlns="http://www.w3.org/1999/xhtml">
+            <li><kbd>SMTP_HOST_NAME
+       </kbd>: Host name of the email server
+      </li>
+            <li><kbd>SMPT_EMAIL</kbd>: Sender mail addresses for outgoing
+emails
+      </li>
+            <li><kbd>SMTP_AUTH_USER
+       </kbd>: Username of the email account to be
+used
+      </li>
+            <li><kbd>SMTP_AUTH_PWD</kbd>: Password of the email account to be
+used
+      </li>
+            <li><kbd>SMTP_PORT</kbd>: Port the email server uses
+      </li>
+            <li><kbd>SMTP_SECURE</kbd>: Usage of TLS/SSL. Possible values are
+       <kbd>true</kbd>
+       and
+       <kbd>false</kbd></li>
+        </ul>
+        <p xmlns="http://www.w3.org/1999/xhtml"><strong xmlns="http://www.w3.org/1999/xhtml">
+      Optional configurations
+     </strong>
+        </p>
+        <ul>
+            <li xmlns="http://www.w3.org/1999/xhtml">Support email address (optional):
+<br xmlns="http://www.w3.org/1999/xhtml" />This is the receiving address of the support request users can send
+through the support form out of Signavio Process Manager. If this
+attribute is empty, the Signavio support address will be used. Please
+insert the email address of your contact person, for example
+     <kbd xmlns="http://www.w3.org/1999/xhtml">&lt;supportMailAddress&gt;support@signavio.com&lt;/supportMailAddress&gt;</kbd>.
+</li>
+            <li xmlns="http://www.w3.org/1999/xhtml">
+     Maximum diagram count for reports configuration (optional):
+    <br xmlns="http://www.w3.org/1999/xhtml" />
+     Insert the following line:
+    <br xmlns="http://www.w3.org/1999/xhtml" /><kbd xmlns="http://www.w3.org/1999/xhtml">&lt;maxDiagramCount&gt;500&lt;/maxDiagramCount&gt;
+     </kbd>
+<br xmlns="http://www.w3.org/1999/xhtml" />    In this example, the value is increased to a maximum of 500
+diagrams. The default value is 250.
+</li>
+        </ul>
+        <ul>
+            <li xmlns="http://www.w3.org/1999/xhtml">Performance related configuration (optional)<br xmlns="http://www.w3.org/1999/xhtml" /><kbd xmlns="http://www.w3.org/1999/xhtml">&lt;inMemoryCacheMaxEntries&gt;1000&lt;/inMemoryCacheMaxEntries&gt;</kbd>: The default value is 1000. Use a lower number if the system uses too much main memory (RAM). Use a higher number if the system is too slow.<br xmlns="http://www.w3.org/1999/xhtml" /><kbd xmlns="http://www.w3.org/1999/xhtml">&lt;inMemoryCacheExpirationTimeAfterAccess&gt;172800&lt;/inMemoryCacheExpirationTimeAfterAccess&gt;</kbd>: The default value is 172800 (in seconds). Use a lower number if the system uses too much main memory (RAM). Use a higher number if the system is too slow.<br xmlns="http://www.w3.org/1999/xhtml" />If you need more advice, contact the <a href="../support.htm" title="Signavio Customer Support" alt="Signavio Customer Support" xmlns="http://www.w3.org/1999/xhtml">Signavio Customer Support</a>. <br xmlns="http://www.w3.org/1999/xhtml" />  </li>
+        </ul>
+        <p>
+    In the same directory, add the following lines between the
+    <kbd>&lt;Context&gt;</kbd>
+    tag to the file
+    <kbd>context.xml</kbd>:
+   </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;Parameter name="configfile"
+
+  value="${catalina.base}/conf/configuration.xml" /&gt;
+
+
+&lt;Parameter name="licensefile"
+
+  value="${catalina.base}/conf/configuration_signed.xml" /&gt;
+
+
+&lt;Parameter name="configfile.simulation"
+
+  value="${catalina.base}/conf/simulation.xml" /&gt;</code></pre>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <p>
+    The location of the configuration files changed with version 9.7.0.
+Follow the instruction in the <MadCap:xref href="../update.htm">
+   Updating Signavio Process
+Manager
+  </MadCap:xref>section to move the files to
+the new location.
+   </p>
+        </div>
+        <p>
+   Check if the system user that runs the Tomcat has access to newly
+copied files. If this is not the case, update the corresponding
+permissions accordingly.
+  </p>
+        <p><strong>
+    Now, start the Tomcat server.
+   </strong>
+        </p>
+        <p>
+   You can now access Signavio Process Manager in a web browser via the
+DNS entry or the IP address configured (e.g.
+   <kbd>http://signavio.yourcompany.com</kbd>).
+  </p>
+        <p>
+   If you want to change the configuration later, you need to restart
+the Tomcat server to apply these changes.
+  </p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>
+    Signavio provides customers of the On-premises Edition automatically
+with a new license once the old one expires.
+   </p>
+        </div>
+    </body>
+</html>

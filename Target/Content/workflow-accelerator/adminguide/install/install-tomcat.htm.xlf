@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="install-tomcat.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="install-tomcat.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">24</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>
+   Installing Tomcat</source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">Installing Tomcat</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Tomcat installieren</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The Java backend of the Workflow Accelerator system is executed
+using Apache Tomcat. Workflow Accelerator supports Apache Tomcat 64-bit
+version 8.5. It does not support Apache Tomcat 64-bit 9.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Java backend of the Workflow Accelerator system is executed using Apache Tomcat.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Workflow Accelerator supports Apache Tomcat 64-bit version 8.5.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">It does not support Apache Tomcat 64-bit 9.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Das Java Back End von Workflow Accelerator wird im Apache Tomcat Webserver ausgeführt.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Workflow Accelerator unterstützt Apache Tomcat 64-Bit in der Version 8.5.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Version 9 von Apache Tomcat 64-Bit wird nicht unterstützt.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You can download the latest installation files for different
+operating systems from the following site:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You can download the latest installation files for different operating systems from the following site:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Tomcat-Installationsdateien erhalten Sie für verschiedene Betriebssysteme hier:</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>https://tomcat.apache.org/download-80.cgi</source><seg-source><mrk
+            mtype="seg"
+            mid="1">https://tomcat.apache.org/download-80.cgi</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">https://tomcat.apache.org/download-80.cgi</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In general, please make sure the user executing the Tomcat has
+read/write permissions for the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   directory and its sub-directories.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In general, please make sure the user executing the Tomcat has read/write permissions for the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> directory and its sub-directories.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Stellen Sie bitte sicher, dass der Tomcat Lese- und Schreibrechte im Verzeichnis <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps<ept
+              id="1">&lt;/kbd&gt;</ept> und den enthaltenen Ordnern hat.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>
+   Windows</source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">Windows</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Windows</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you are using a Windows system, the download site offers a
+Windows Service Installer (<bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;cite xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>32-bit/64-bit Windows Service Installer<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/cite&gt;</ept>).
+This installer will install the Apache Tomcat as a Windows service
+which can be started, stopped and configured over a graphical user
+interface. The service installer is the recommended way for Windows
+users to install the Tomcat server. Make sure you execute the installer
+with administrator privileges.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you are using a Windows system, the download site offers a Windows Service Installer (<bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;cite xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>32-bit/64-bit Windows Service Installer<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/cite&gt;</ept>).</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">This installer will install the Apache Tomcat as a Windows service which can be started, stopped and configured over a graphical user interface.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The service installer is the recommended way for Windows users to install the Tomcat server.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">Make sure you execute the installer with administrator privileges.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Für Windows lässt sich auf der Tomcat-Seite ein Windows Service Installer (<bpt
+              id="1">&lt;cite xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>“32-bit/64-bit Windows Service Installer<ept
+              id="1">&lt;/cite&gt;</ept>) herunterladen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Dieser Installer richtet Apache Tomcat als Windows Service ein, der über eine Desktopanwendung gestartet, gestoppt und weitgehend konfiguriert werden kann.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wir empfehlen, den  Service Installer für die Installation des Tomcat-Servers zu nutzen.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Führen Sie den Installer mit Administratorrechten aus.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Furthermore, it is recommended to install the Apache Tomcat into a
+root directory on
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C:\<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Furthermore, it is recommended to install the Apache Tomcat into a root directory on <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C:\<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Es wird empfohlen, Apache Tomcat in einem root-Ordner unter <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C:\<ept
+              id="1">&lt;/kbd&gt;</ept> zu installieren.</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Debian</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Debian</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Debian</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you are using Linux, consider installing Apache Tomcat using a
+package manager. On Debian, you can use the Advanced Packaging Tool
+(APT) and execute one of the following commands:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you are using Linux, consider installing Apache Tomcat using a package manager.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">On Debian, you can use the Advanced Packaging Tool (APT) and execute one of the following commands:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Unter Linux ist es empfehlenswert, Apache Tomcat über den Paketmanager zu installieren.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Unter Debian bietet sich das Advanced Packaging Tool (APT) an:</mrk></target></trans-unit></body>
+  </file>
+</xliff>

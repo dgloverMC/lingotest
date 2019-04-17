@@ -1,0 +1,591 @@
+﻿/*<meta />*/
+
+body
+{
+	font-family: "Open Sans";
+}
+
+body.home
+{
+	background-color: #fafafc;
+}
+
+html.home-topic	/*Used on home topic to override padding set in the skin*/
+{
+
+}
+
+html.home-topic .body-container	/*Overrides padding set in the skin*/
+{
+	padding: 0;
+}
+
+html.home-topic .main-section > .outer-row	/*Overrides padding set in the skin when in tablet/mobile*/
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+html.home-topic .sidenav-wrapper	/*Removes the side navigation from the home topic*/
+{
+	display: none;
+}
+
+html.search-results .sidenav-wrapper	/*Removes the side navigation from the search results page*/
+{
+	display: none;
+}
+
+div.home-layout
+{
+	padding: 2% 15%;
+	background-color: #f7f7f7;
+}
+
+div.layout-separator
+{
+	border-right: 1px solid #dadada;
+}
+
+div.topic-container	/*Sets padding on topics*/
+{
+	padding: 2% 0;
+}
+
+div.sub-content
+{
+	border-top: solid 1px #dadada;
+	margin-top: 40px;
+	padding: 25px 0;
+}
+
+div.search-results	/*Sets side padding on search results*/
+{
+	padding: 0 20%;
+}
+
+h1
+{
+	color: #4A4A4A;
+	font-size: 50px;
+	letter-spacing: -1.25px;
+	line-height: 68px;
+}
+
+h2
+{
+	color: #4A4A4A;
+	font-size: 38px;
+	font-weight: 300;
+	letter-spacing: -0.95px;
+	line-height: 52px;
+}
+
+h3
+{
+	font-weight: bold;
+	font-size: 14.0pt;
+}
+
+h4
+{
+	font-weight: bold;
+	font-size: 12.0pt;
+}
+
+h5
+{
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+
+h6
+{
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+p
+{
+	font-size: 12.0pt;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 20pt;
+	letter-spacing: 0.25;
+}
+
+p.footer
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 13pt;
+	color: black;
+	text-align: center;
+}
+
+ol,
+ul
+{
+	letter-spacing: .25;
+	line-height: 20pt;
+}
+
+img
+{
+	border: none;
+	max-width: 100%;
+}
+
+.center
+{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	float: none !important;
+	text-align: center;
+}
+
+MadCap|expandingHead
+{
+	font-style: italic;
+	font-weight: normal;
+	cursor: hand;
+	text-decoration: none;
+	color: #006600;
+}
+
+MadCap|expandingBody
+{
+	color: #777777;
+	font-style: italic;
+}
+
+MadCap|dropDownHotspot
+{
+	cursor: hand;
+	text-decoration: none;
+	color: #45494c;
+	font-size: 20pt;
+	font-weight: bold;
+	border-bottom: none;
+}
+
+MadCap|xref
+{
+	color: #45494c;
+	font-weight: bold;
+	mc-format: '{para}';
+	text-decoration: underline;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom-width: 0;
+	color: #888888;
+}
+
+a:link	/*Color of hyperlinks*/
+{
+	color: #8E0845;
+}
+
+a:visited
+{
+	color: #8E0845;
+}
+
+MadCap|dropDownBody
+{
+	padding: 10px 30px 0;
+}
+
+MadCap|dropDown
+{
+	border-bottom: 1px solid #dadada;
+	mc-image-position: left;
+	mc-image-spacing: 10px;
+	padding: 10px 0;
+}
+
+div.home-page-layout	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.home-page-layout::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-page-layout::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-page-layout > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	vertical-align: top;
+}
+
+h1.home-page-layout-h1
+{
+	color: #4A4A4A;
+	font-size: 50px;
+	letter-spacing: -1.25px;
+	line-height: 68px;
+}
+
+h2.home-page-layout-h2
+{
+	color: #4A4A4A;
+	font-size: 38px;
+	font-weight: 300;
+	letter-spacing: -0.95px;
+	line-height: 52px;
+	margin: 2%;
+}
+
+div.home-tiles-layout	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 5%;
+}
+
+div.home-tiles-layout::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-tiles-layout::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-tiles-layout > div
+{
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.tile
+{
+	height: 298px;
+	border-top: 4px solid #BD1465;
+	box-shadow: 0 0 2px 0 rgba(0,0,0,0.3);
+	margin: 2%;
+	background-color: #FFFFFF;
+}
+
+div.tile-title
+{
+	font-size: 1.2em;
+	letter-spacing: 0.25;
+	color: #000000;
+	font-size: 22px;
+	letter-spacing: -0.55px;
+	line-height: 42px;
+	border-bottom: 1px solid rgba(151,151,151,0.29);
+	padding: 3% 3% 3% 10%;
+}
+
+div.tile-body
+{
+	width: 80%;
+	padding-left: 10%;
+}
+
+ul.tile-list
+{
+	list-style: none;
+	padding-left: 0%;
+	line-height: 30pt;
+}
+
+a.tile-link
+{
+	color: #8E0845;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+p.tile-text
+{
+	display: block;
+	margin-inline-start: 2em;
+	margin-inline-end: 2em;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: -0.5px;
+	line-height: 27px;
+	font-family: "Open-Sans";
+	padding-inline-start: 2em;
+}
+
+div.link-tile
+{
+	height: 100%;
+	border: solid 10px pink;
+	border-radius: 3px;
+	margin: 2%;
+	background: white;
+}
+
+a.main-tile
+{
+	height: 100%;
+	display: block;
+	border-radius: 3px;
+	text-align: center;
+	margin-bottom: 7px;
+	background-color: #fff;
+	text-decoration: none;
+}
+
+a.side-tile
+{
+	height: 23.5%;
+	display: block;
+	text-align: center;
+	margin-bottom: 7px;
+	background-color: #fff;
+	text-decoration: none;
+}
+
+a.main-tile:hover
+{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	transition: all 0.2s;
+}
+
+a.side-tile:hover
+{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	transition: all 0.2s;
+}
+
+a.barlink
+{
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-left: 6px solid green;
+	line-height: 28px;
+	margin-top: 4px;
+	min-height: 36px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+p.home-tile-title
+{
+	color: white;
+	background-color: red;
+	text-align: left;
+	padding-left: 2em;
+}
+
+p.link-tile-title
+{
+	color: white;
+	background-color: red;
+	text-align: left;
+	padding-left: 2em;
+}
+
+p.tile-subtitle
+{
+	font-size: 0.9em;
+	margin: 0;
+}
+
+ul.home-tile-list
+{
+	list-style: none;
+	padding-left: 1em;
+}
+
+div.video-tiles	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.video-tiles::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.video-tiles::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.video-tiles > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+div.video-tiles > div:nth-child(1)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.video-tiles > div:nth-child(2)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.video-tiles > div:nth-child(3)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.video-tiles *	/*Text-align center set to all elements within div.video-tiles*/
+{
+	text-align: center;
+}
+
+div.home-footer
+{
+	background-color: white;
+	padding: 1% 5%;
+	border-top: solid 2px #f3f2f1;
+}
+
+MadCap|bodyProxy
+{
+	font-family: 'Open Sans';
+	color: #000000;
+}
+
+@media tablet
+{
+	html.home-topic .body-container
+	{
+		margin-left: 0;
+	}
+
+	div.home-layout
+	{
+		padding: 2% 5%;
+		background-color: #fafafa;
+	}
+
+	div.home-tiles-layout > div
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+}
+
+@media mobile
+{
+	div.home-layout
+	{
+		padding: 2% 0;
+		background-color: #fafafa;
+	}
+
+	.layout-separator
+	{
+		border-right: none;
+	}
+
+	div.home-tiles-layout > div
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.home-page-layout > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.home-page-layout > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.video-tiles > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.video-tiles > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.video-tiles > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+}
+
+@media print
+{
+	MadCap|xref
+	{
+		font-weight: normal;
+		mc-format: '{quote}{para}{quote} {pageref}';
+		text-decoration: none;
+	}
+}
+
+div.important
+{
+	border: solid 2px #00ffff;
+	mc-auto-number-format: '{b} Important {/b}';
+}
+
+div.note
+{
+	mc-auto-number-format: '{b}Note: {/b}';
+	border: solid 2px #ffe4c4;
+}
+
+div.hint
+{
+	border: solid 2px #ff00ff;
+	mc-auto-number-format: '{b} Hint: {/b}';
+}
+
+div.example
+{
+	mc-auto-number-format: '{b} Example: {/b}';
+	border: solid 2px #006400;
+}

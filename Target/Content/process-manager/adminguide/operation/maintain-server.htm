@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:sourceDocument="C:\Users\Dana\Documents\adminguide_editor\editor\docs\operation\maintain.htm" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="maintaining-the-server" name="maintaining-the-server">
+   Maintaining the server
+  </h1>
+        <p>
+   When you need to restart the system - for example because of an
+update - consider the following issues.
+  </p>
+        <h2 id="inform-your-users" name="inform-your-users">
+   Inform your users
+  </h2>
+        <p>
+   If maintenance activities require a restart of the system, inform
+all users that the server is temporarily unavailable.
+  </p>
+        <p>
+   As a workspace administrator of Signavio Process Manager you can
+access a list of all users to inform them about updates and possible
+downtimes.
+  </p>
+        <h2 id="managing-the-database-during-a-restart" name="managing-the-database-during-a-restart">
+   Managing the database
+during a restart
+  </h2>
+        <p>
+   Signavio Process Manager works exclusively on database systems that
+support transactions.
+  </p>
+        <p>
+   Therefore, a
+   <strong>
+    restart
+   </strong>
+   of the database doesn't impact
+data consistency. However, you must not abort the
+   <strong>
+    initialization
+   </strong>
+   of the server, because it includes
+operations not all database system run in transactions. Therefore, you
+   <strong>
+    must not
+   </strong>
+   shut down the system during startup. In case
+you need to shut down the database system,
+   <strong>
+    always shut down the
+Tomcat server before
+   </strong>.
+  </p>
+        <h2 id="managing-user-sessions-during-a-restart" name="managing-user-sessions-during-a-restart">
+   Managing user sessions
+during a restart
+  </h2>
+        <p>
+   Every user session will be kept at a restart of the Tomcat server.
+Therefore, users who are currently logged in stay logged in. Upon shut
+down, the user sessions data is stored in a file on the Tomcat server
+(by default <kbd>$TOMCAT_DIR/work/Catalina/localhost/\_/SESSIONS.ser</kbd>). The
+system reads the file again during startup and restores the sessions.
+If the system interrupt only lasts a short time, the modelers who are
+currently logged in may not notice the restart at all. When users try
+to save a diagram while the Tomcat server is down, they receive an
+error message. As soon as the server is restarted, the save process can
+be repeated and will succeed.
+  </p>
+    </body>
+</html>

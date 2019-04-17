@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/TableStyles/Alternate-Row-Color.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1><a name="Back" xmlns="http://www.w3.org/1999/xhtml"></a>
+   Backup the configuration
+files
+  </h1>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   During the first setup you have modified some configuration files
+and added the Workflow Accelerator license file. In order to preserve
+those changes, you have to copy those files to another location before
+updating the Workflow Accelerator system. You can find those files in
+the directory
+   <kbd>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes</kbd>.
+  </p>
+        <table class="TableStyle-Alternate-Row-Color" style="mc-table-style: url('../../../Resources/TableStyles/Alternate-Row-Color.css');" cellspacing="21" xmlns="http://www.w3.org/1999/xhtml">
+            <tbody>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>effektif-onpremise.properties</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      Workflow Accelerator configuration file
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>logback.xml</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2">
+      configuration file for Workflow Accelerator logs
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body1"><kbd>license.xml</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyA-Column2-Body1">
+      Workflow Accelerator license file
+     </td>
+                </tr>
+            </tbody>
+        </table>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Simply copy the files mentioned above to another location, e.g.
+   <kbd>$TOMCAT_HOME/webapps</kbd>.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you installed the Workflow Accelerator Script Engine, you
+modified the configuration file
+   <kbd xmlns="http://www.w3.org/1999/xhtml">configuration.onpremise.js</kbd>
+   of the script engine as well. You can find the configuration file
+directly within the
+   <kbd xmlns="http://www.w3.org/1999/xhtml">$SCRIPT_ENGINE_HOME</kbd>
+   directory. Please
+copy it as well to another location before you go on.
+</p>
+    </body>
+</html>

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="configure-approval-workflow.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="configure-approval-workflow.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">8</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Configuring approval workflows with Signavio Workflow Accelerator
+(optional)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configuring approval workflows with Signavio Workflow Accelerator (optional)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Freigabe-Workflow mit Signavio Workflow Accelerator konfigurieren (optional)</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Signavio provides Signavio Workflow Accelerator to customers who
+purchased a corresponding subscription. If your organization wants to
+use the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>approval workflows<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> feature, you need to
+install Signavio Workflow Accelerator on your server.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio provides Signavio Workflow Accelerator to customers who purchased a corresponding subscription.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If your organization wants to use the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>approval workflows<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> feature, you need to install Signavio Workflow Accelerator on your server.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Signavio bietet Signavio Workflow Accelerator den Kunden, die eine entsprechende Lizenz erworben haben.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Wenn Ihre Organisation die <bpt
+              id="1">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Freigabe-Workflow-Funktion<ept
+              id="1">&lt;/strong&gt;</ept> verwenden möchte, müssen Sie Signavio Workflow Accelerator auf Ihrem Server installieren.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Refer to the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../../../workflow-accelerator/adminguide/intro/intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+Signavio Workflow Accelerator administrators guide&lt;/MadCap:xref&gt;</ph> for more information about the system requirements and the installation
+process.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Refer to the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../../../workflow-accelerator/adminguide/intro/intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+Signavio Workflow Accelerator administrators guide&lt;/MadCap:xref&gt;</ph> for more information about the system requirements and the installation process.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Weitere Informationen zu den Systemanforderungen und zum Installationsvorgang finden Sie im Abschnitt <ph
+              id="1">&lt;MadCap:xref href="../../../workflow-accelerator/adminguide/intro/intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+Signavio Workflow Accelerator administrators guide&lt;/MadCap:xref&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Before installing Signavio Workflow Accelerator, please ensure your
+Signavio version is compatible with the Signavio Workflow Accelerator
+version you plan to install. You find a corresponding compatibility
+list <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../../../workflow-accelerator/adminguide/process-manager-integration/compatibility-list.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;here&lt;/MadCap:xref&gt;</ph>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Before installing Signavio Workflow Accelerator, please ensure your Signavio version is compatible with the Signavio Workflow Accelerator version you plan to install.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You find a corresponding compatibility list <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../../../workflow-accelerator/adminguide/process-manager-integration/compatibility-list.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;here&lt;/MadCap:xref&gt;</ph>.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Stellen Sie vor der Installation sicher, dass Ihre Process Manager-Version mit der Signavio Workflow Accelerator-Version, die Sie installieren, kompatibel ist.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Eine Kompatibilitätsliste finden Sie unter <ph
+              id="1">&lt;MadCap:xref href="../../../workflow-accelerator/adminguide/process-manager-integration/compatibility-list.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;here&lt;/MadCap:xref&gt;</ph>.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

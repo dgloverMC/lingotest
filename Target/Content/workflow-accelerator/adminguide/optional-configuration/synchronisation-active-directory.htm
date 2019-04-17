@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1><a name="User" xmlns="http://www.w3.org/1999/xhtml"></a>User and group synchronisation with Active Directory</h1>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The enterprise version of Signavio Workflow Accelerator offers user
+and group synchronisation with an Active Directory Server using the
+LDAP V3 protocol.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Before you can configure the synchronisation, check that you have
+the following pre-requisites.
+  </p>
+        <ul xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Workflow Accelerator is installed.
+   </li>
+            <li>
+    The first Workflow Accelerator user is registered, see
+    <MadCap:xref href="../start/create-initial-user.htm#CreateInitialUser">Create the initial user
+  </MadCap:xref>.
+   </li>
+            <li>
+    A domain account for querying the Active Directory - its username
+and password.
+   </li>
+        </ul>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Configuring the synchronisation consists of the following steps.
+  </p>
+        <ol xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Create an Active Directory group that contains all Workflow
+Accelerator users as members.
+   </li>
+            <li>
+    Create an Active Directory group that contains all Workflow
+Accelerator administrators as members.
+   </li>
+            <li>
+    (Optional) Create an Active Directory group that contains all
+groups as members.
+   </li>
+            <li>
+    Log in to Workflow Accelerator with your initial user.
+   </li>
+            <li>
+    Open the
+    <em>
+     Organization settings
+    </em>
+    and select the
+    <em>
+     LDAP
+    </em>
+    tab.
+   </li>
+            <li>
+    Create a new Active Directory configuration.
+   </li>
+            <li>
+    Validate your configuration.
+   </li>
+            <li>
+    Synchronise the users and groups.
+   </li>
+        </ol>
+        <h2 name="creating-the-active-directory-groups" xmlns="http://www.w3.org/1999/xhtml">
+   Creating the Active
+Directory groups
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Active Directory users and groups that should be synchronised with
+Workflow Accelerator are managed within Active Directory by adding them
+to specific Active Directory groups. There are two groups for users,
+one which contains all Workflow Accelerator users and one which
+contains only administrators. All members of the administrator group
+must be members of the user group as well. Nested groups are not
+supported. All users and administrators need to be direct members of
+their groups.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+The synchronisation will copy the attributes <kbd>givenName</kbd>, <kbd>sn</kbd>, <kbd>mail</kbd>, <kbd>dn</kbd>, <kbd>objectGUID</kbd>, <kbd>sAMAccountName</kbd> and <kbd>userPrincipalName</kbd> to the user in Workflow Accelerator. It is required that every user has the <kbd>mail</kbd> attribute defined. 
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Optionally, you can define a third group that contains all Active
+Directory groups that should be synchronised. All members of this group
+should be Active Directory groups as well. Again nested groups are not
+supported. Users must be direct members of the synchronised groups. The
+synchronisation will copy the attributes
+<kbd>cn</kbd>, <kbd>dn</kbd> and <kbd>objectGUID</kbd>
+   to the group in Workflow
+Accelerator. Every group member that is not a Workflow Accelerator user
+will be ignored.
+  </p>
+        <h2 name="creating-a-new-configuration" xmlns="http://www.w3.org/1999/xhtml">
+   Creating a new configuration
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   In the LDAP configuration tab, select
+   <em>
+    Create
+   </em>
+   to start the
+configuration. Enter the configuration details on the configuration
+form.
+  </p>
+        <ul xmlns="http://www.w3.org/1999/xhtml">
+            <li><em>
+     URL
+    </em>
+    - the location of your Active Directory server, e.g.
+<kbd>ldap://adtest.local:389</kbd></li>
+            <li><em>
+     username
+    </em>
+    and
+    <em>
+     password
+    </em>
+    - the login credentials of
+the domain account
+   </li>
+            <li><em>
+     User group DN
+    </em>
+    - the distinguished name (DN) of the Active
+Directory group which contains all users
+   </li>
+            <li><em>
+     Admin group DN
+    </em>
+    - the DN of the Active Directory group
+which contains all administrators
+   </li>
+            <li><em>
+     Group group DN
+    </em>
+    - (optional) the DN of the Active Directory
+group which contains all groups
+   </li>
+            <li><em>
+     License
+    </em>
+    - the license that will be assigned to every
+synchronised user
+   </li>
+        </ul>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The last field of the configuration form will show you if the
+configuration was already validated.
+  </p>
+        <h2 name="validating-a-configuration" xmlns="http://www.w3.org/1999/xhtml">
+   Validating a configuration
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Before synchronisation can start, the configuration must be
+validated. Validation includes the following checks.
+  </p>
+        <ul xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Workflow Accelerator can connect to the Active Directory.
+   </li>
+            <li>
+    The configured groups are proper Active Directory groups.
+   </li>
+            <li>
+    There is at least one user.
+   </li>
+            <li>
+    There is at least one administrator.
+   </li>
+            <li>
+    The users have the
+<kbd>mail</kbd>
+    attribute defined.
+   </li>
+            <li>
+    There are sufficient licenses.
+   </li>
+            <li>
+    (Optional) There are groups defined.
+   </li>
+        </ul>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Start the validation by selecting
+   <em>
+    Validate
+   </em>. If the
+configuration is valid, the
+   <em>
+    Synchronise
+   </em>
+   button is enabled. If
+the configuration is not valid, the page shows a list with more
+detailed information. In that case fix the issues and run the
+validation again.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Every time you change the configuration, the validation must be
+executed again.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Note the validation might take several seconds depending on the
+number of users you want to synchronise and the perfomance of the
+Active Directory server.
+  </p>
+        <h2 name="synchronising-users-and-groups" xmlns="http://www.w3.org/1999/xhtml">
+   Synchronising users and
+groups
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If the configuration is valid, you can synchronise the users and
+groups. Start the synchronisation by clicking on
+   <em>
+    Synchronise
+   </em>.
+If the synchronisation was successful, you will see a report of the
+added / updated users and groups. If the synchronisation failed, a list
+with more detailed information will be shown.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Note the synchronisation might take several seconds or minutes
+depending on the number of users you want to synchronise and the
+perfomance of the Active Directory.
+  </p>
+    </body>
+</html>

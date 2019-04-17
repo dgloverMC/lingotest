@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="replacing-the-license-file" name="replacing-the-license-file">
+   Replacing the license file
+  </h1>
+        <p>
+   To replace the license file (for example after ordering additional
+users or after receiving a new license file within an On-Premise
+subscription), please follow the instructions in this article.
+  </p>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>
+    Before replacing the license file please
+    <strong>
+     backup the
+database
+    </strong>
+    . The replacement of the license file triggers
+irreversible changes in the database.
+   </p>
+        </div>
+        <ol>
+            <li>
+    Stop the Apache Tomcat Server.
+   </li>
+            <li>
+    Navigate to the folder
+    <kbd>$TOMCAT_DIR/conf/</kbd>.
+   </li>
+            <li>
+    Backup the old license file
+    <kbd>
+     configuration_signed.xml
+    </kbd>
+    .
+   </li>
+            <li>
+    Move the new license file into the folder.
+   </li>
+            <li>
+    Restart the Apache Tomcat Server.
+   </li>
+        </ol>
+    </body>
+</html>

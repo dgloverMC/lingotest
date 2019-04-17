@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="install-node.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="install-node.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">17</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Installing Node.js</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Installing Node.js</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Node.js installieren</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You only need to install and configure Node.js if you purchased a
+version of Workflow Accelerator which allows you to use JavaScript
+tasks.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You only need to install and configure Node.js if you purchased a version of Workflow Accelerator which allows you to use JavaScript tasks.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sie müssen Node.js nur installieren und konfigurieren, wenn Sie eine Version von Workflow Accelerator erworben haben, welche die Ausführung von JavaScript-Tasks ermöglicht.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Node.js is a runtime environment for JavaScript which is used by
+Workflow Accelerator to execute custom JavaScript tasks created by the
+user. We recommend using the Node.js LTS (Long Term Support) version
+10.x.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Node.js is a runtime environment for JavaScript which is used by Workflow Accelerator to execute custom JavaScript tasks created by the user.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">We recommend using the Node.js LTS (Long Term Support) version 10.x.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Node.js ist eine Ausführungsumgebung für JavaScript, welche von Workflow Accelerator genutzt wird, um benutzerdefinierte JavaScript-Tasks auszuführen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="98"
+            MadCap:diff="ContentChanged">Wir empfehlen Node.js LTS (Long Term Support) Version 10.x zu verwenden.</mrk></target><alt-trans
+          mid="2"
+          match-quality="97"
+          origin="previous-version"><seg-source>We recommend using the Node.js LTS (Long Term Support) version 8.x.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Wir empfehlen Node.js LTS (Long Term Support) Version 8.x zu verwenden.</target></alt-trans><alt-trans
+          mid="2"
+          match-quality="97"
+          origin="previous-version"><seg-source>We recommend using the Node.js LTS (Long Term Support) version 8.x.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Wir empfehlen Node.js LTS (Long Term Support) Version 8.x zu verwenden.</target></alt-trans><alt-trans
+          mid="2"
+          match-quality="97"
+          origin="previous-version"><seg-source>We recommend using the Node.js LTS (Long Term Support) version 8.x.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Wir empfehlen Node.js LTS (Long Term Support) Version 8.x zu verwenden.</target></alt-trans><alt-trans
+          mid="2"
+          match-quality="97"
+          origin="previous-version"><seg-source>We recommend using the Node.js LTS (Long Term Support) version 8.x.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Wir empfehlen Node.js LTS (Long Term Support) Version 8.x zu verwenden.</target></alt-trans></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Windows</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Windows</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Windows</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>For Windows, there is a self-extracting installer to set up
+Node.js.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">For Windows, there is a self-extracting installer to set up Node.js.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Unter Windows kann Node.js per Installationsprogramm installiert werden.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Go to
+    <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://nodejs.org/en/download/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     https://nodejs.org/en/download/
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Go to <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://nodejs.org/en/download/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> https://nodejs.org/en/download/ <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Öffnen Sie <bpt
+              id="1"
+              ctype="link">&lt;a href="https://nodejs.org/en/download/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> https://nodejs.org/en/download/ <ept
+              id="1">&lt;/a&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Select the LTS version.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Select the LTS version.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wählen Sie die LTS Version aus.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Download the
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Windows Installer (.msi)
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+    for your Windows
+version.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Download the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Windows Installer (.msi) <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> for your Windows version.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Laden Sie den <bpt
+              id="1">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Windows Installer (.msi) <ept
+              id="1">&lt;/em&gt;</ept> für Ihre Windows-Version herunter.</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Execute the downloaded installer and follow installation
+guide.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Execute the downloaded installer and follow installation guide.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Führen Sie das heruntergeladene Installationsprogramm aus und folgen Sie den Installationsanweisungen.</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Debian</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Debian</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Debian</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The Node.js site offers additional documentation for setting up
+Node.js on Debian using the package manager APT:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Node.js site offers additional documentation for setting up Node.js on Debian using the package manager APT:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Node.js-Seite bietet zusätzliche Information für die Installation von Node.js unter Debian mit Hilfe des Paketmanagers APT an:</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>
+    https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
+   </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk></seg-source><target
+          state="translated"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Make sure to install the LTS version of Node.js.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Make sure to install the LTS version of Node.js.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Stellen Sie sicher, dass Sie die LTS-Version von Node.js installieren.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

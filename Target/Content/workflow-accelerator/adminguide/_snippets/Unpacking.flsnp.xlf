@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="Unpacking.flsnp"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="x-flsnp"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="Unpacking.flsnp.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">17</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Unzip signavio-workflow-{version}.zip to a directory of your
+			choice, e.g. <ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/yourlocation/signavio-workflow-{version}<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.
+			In
+			the rest of this guide, we'll refer to the Workflow Accelerator home
+			directory as <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. The directory will contain
+		the following files:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Unzip signavio-workflow-{version}.zip to a directory of your choice, e.g. <ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/yourlocation/signavio-workflow-{version}<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">In the rest of this guide, we'll refer to the Workflow Accelerator home directory as <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The directory will contain the following files:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Entpacken Sie das Archiv signavio-work2ow-{version}.zip in einem Verzeichnis Ihrer Wahl, zum Beispiel <ph
+              id="1"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/yourlocation/signavio-workflow-{version}<ept
+              id="1">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Dieses Verzeichnis wird im weiteren Text als <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME<ept
+              id="2">&lt;/kbd&gt;</ept> bezeichnet.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Das Verzeichnis enthält die folgenden Dateien:</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>*.sh - Linux shell scripts</source><seg-source><mrk
+            mtype="seg"
+            mid="1">*.sh - Linux shell scripts</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">*.sh - Linux Shellskripte</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>db - directory that contains MongoDB configuration files
+			<bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul&gt;</bpt><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>mongod.conf - configuration file for Linux<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>mongod.cfg - configuration file for Windows<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">db - directory that contains MongoDB configuration files </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>mongod.conf - configuration file for Linux<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>mongod.cfg - configuration file for Windows<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">db – Verzeichnis, das die MongoDB Konfigurationsdateien enthält</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="2">&lt;li&gt;</bpt>mongod.conf – Konfigurationsdateien für Linux<ept
+              id="2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="3">&lt;li&gt;</bpt>mongod.cfg - Konfigurationsdateien für Windows<ept
+              id="3">&lt;/li&gt;</ept><ept
+              id="1">&lt;/ul&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>mail-relay - directory that contains the mail relay</source><seg-source><mrk
+            mtype="seg"
+            mid="1">mail-relay - directory that contains the mail relay</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">mail-relay – Verzeichnis, das das Mail Relay enthält</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>script-engine - directory that contains the script engine</source><seg-source><mrk
+            mtype="seg"
+            mid="1">script-engine - directory that contains the script engine</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">script-engine - Verzeichnis, das die Dateien der Script Engine enthält</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>optional - directory that contains optional resources
+			<bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul&gt;&lt;li&gt;</bpt>spnego - directory that contains resources to setup SSO with SPNEGO<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">optional - directory that contains optional resources </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul&gt;&lt;li&gt;</bpt>spnego - directory that contains resources to setup SSO with SPNEGO<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">optional – Verzeichnis, das optional Ressourcen enthält</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="1">&lt;ul&gt;&lt;li&gt;</bpt>spnego - Verzeichnis, das die Dateien enthält um SSO mit SPNEGO aufzusetzen<ept
+              id="1">&lt;/li&gt;&lt;/ul&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>webapps - directory</source><seg-source><mrk
+            mtype="seg"
+            mid="1">webapps - directory</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">webapps - Verzeichnis</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>ROOT - this directory contains the web application</source><seg-source><mrk
+            mtype="seg"
+            mid="1">ROOT - this directory contains the web application</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">ROOT - Verzeichnis, das die Webanwendung enthält</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>On Linux systems you need to make the scripts executable with the
+			<bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>chmod<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> command like this:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">On Linux systems you need to make the scripts executable with the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>chmod<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> command like this:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Auf Linux-Systemen ist es notwendig, die Shell-Skripte ausführbar zu machen.Verwenden Sie hierfür den <bpt
+              id="1">&lt;kbd&gt;</bpt>chmod<ept
+              id="1">&lt;/kbd&gt;</ept> -Befehl, wie zum Beispiel:</mrk></target></trans-unit></body>
+  </file>
+</xliff>

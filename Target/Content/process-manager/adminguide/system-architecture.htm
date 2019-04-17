@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="SPM-button" style="mc-master-page: url('..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="system-architecture-components" name="system-architecture-components">
+   System architecture /
+components
+  </h1>
+        <p>
+   This section provides an overview over the system architecture and
+briefly describes each software component.
+  </p>
+        <h2 id="system-architecture" name="system-architecture">
+   System architecture
+  </h2>
+        <p>
+   The following diagram describes the typical system architecture the
+Signavio Process Manager is embedded in together with third-party
+software such as web servers, web browsers and databases.
+  </p>
+        <p>
+   By default, the On Premise Edition contains the components
+highlighted in red, components or interfaces highlighted in yellow can
+be purchased separately.
+  </p>
+        <figure>
+            <img src="_static/_images/en/landscape.png" xmlns="http://www.w3.org/1999/xhtml" />
+        </figure>
+        <p><em>
+    System architecture overview
+   </em>
+        </p>
+        <h2 id="software-components" name="software-components">
+   Software components
+  </h2>
+        <h3 id="signavio-collaboration-hub-javascript" name="signavio-collaboration-hub-javascript">
+   Signavio Collaboration
+Hub  </h3>
+        <p>
+   The front end of Collaboration Hub runs a JavaScript engine from a web browser. It provides read-only access to
+published diagrams. Collaboration Hub grants read-only access to every
+user who is able to access the server of Signavio Process Manager.
+Collaboration Hub can be linked to an Active Directory service to
+enable single-sign-on authentication. Moreover, the active directory
+integration allows you to define detailed diagram access rights for
+Collaboration Hub users.
+  </p>
+        <p>
+   Signavio Collaboration Hub supports all of the following web browsers: <a href="https://www.signavio.com/browser-compatibility/" xmlns="http://www.w3.org/1999/xhtml">https://www.signavio.com/browser-compatibility/</a>.
+  </p>
+        <h3 id="signavio-process-manager-javascript" name="signavio-process-manager-javascript">
+   Signavio Process Manager  </h3>
+        <p>
+   The front end runs JavaScript and is entirely accessible through the
+web browser.
+  </p>
+        <p>
+   A user must be registered with a valid email address and a
+self-chosen password to get access to the Signavio Editor, Explorer or
+Dictionary.
+  </p>
+        <h3 id="signavio-process-manager-web-application" name="signavio-process-manager-web-application">
+   Signavio Process
+Manager  </h3>
+        <p>
+   The back end logic runs in the Tomcat runtime environment as a Java
+application.
+  </p>
+        <h3 id="jdbc-connector" name="jdbc-connector">
+   JDBC Connector
+  </h3>
+        <p>
+   Access to the database system is implemented with JDBC. An adapter
+must be downloaded from the website of the respective vendor (see <MadCap:xref href="installation/install-jdbc-driver.htm">   Installing the JDBC driver</MadCap:xref>).
+  </p>
+        <h3 id="web-browser" name="web-browser">
+   Web browser
+  </h3>
+        <p>
+   The Signavio front end can be accessed via a web browser. Find all supported web browsers listed on <a href="https://www.signavio.com/browser-compatibility/" xmlns="http://www.w3.org/1999/xhtml">https://www.signavio.com/browser-compatibility/</a>.  </p>
+        <h3 id="apache-tomcat" name="apache-tomcat">
+   Apache Tomcat
+  </h3>
+        <p>
+   The application server represents the runtime environment for the
+Java back end. The system requirements mention the <a href="installation/system-requirements.htm#Soft" title="currently supported Tomcat&#xA; version(s)" alt="currently supported Tomcat&#xA; version(s)" xmlns="http://www.w3.org/1999/xhtml">currently supported Tomcat
+ version(s)</a>. For managing user sessions Signavio Process Manager
+uses the native Tomcat session mechanism. Such sessions are stored in
+the servers file system, so that they are kept even if the Tomcat
+application server is shut down. Therefore, a restart or a temporary
+unavailability of the Tomcat server is invisible to the user.
+  </p>
+        <p>
+   Furthermore, no constant connection to the back end is required for
+modeling in the front end (except for saving, loading or dictionary
+lookups). This basically implies that the back end can be shut down
+while users are still modeling. If the Tomcat server is available again
+in time, no user will recognize it. Signavio Collaboration Hub is not accessible
+during a shut down.
+  </p>
+        <p>
+   HTTP or HTTPS (SSL) can be chosen for the connection between a web
+browser and the Tomcat server.
+  </p>
+        <h3 id="mail-server-smtp" name="mail-server-smtp">
+   Mail server  </h3>
+        <p>
+   The mail server can be any server that is accessible via SMTP.
+  </p>
+        <h3 id="database-system" name="database-system">
+   Database system
+  </h3>
+        <p>
+   The database contains Signavio Process Manager’s user data. The data
+is stored using a UTF-8 character set. The system requirements contain
+a list of all supported database systems.
+  </p>
+        <h3 id="active-directory" name="active-directory">
+   Active Directory
+  </h3>
+        <p>
+   Signavio Collaboration Hub can be integrated with your Active
+Directory service. User and user group information stored in the Active
+Directory are used only to control read-only access to Collaboration
+Hub. Again, modeling access rights are decoupled from the Active
+Directory as they are managed from within Signavio Process Manager.
+  </p>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>
+    When linking to an Active Directory using <strong>Kerberos</strong>
+    as the authentication protocol, the Signavio server has to be installed
+on Windows 64 bit and must belong to the domain whose Active Directory
+needs to be accessed.
+   </p>
+        </div>
+        <h3 id="sharepoint-portal" name="sharepoint-portal">
+   SharePoint portal
+  </h3>
+        <p>
+   Optionally, Signavio offers a SharePoint Web Part as a WSP package.
+The package provides seamless front end integration for the read-only
+access to the SharePoint portal. The look and feel of Signavio
+Collaboration Hub can be customized easily via the Web Part.
+  </p>
+        <h3 id="third-party-system" name="third-party-system">
+   Third-party system
+  </h3>
+        <p>
+   Third-party systems (e.g. a ticket tracking system), can be
+connected with a separately licensed API.
+  </p>
+        <h3 id="signavio-workflow-accelerator" name="signavio-workflow-accelerator">
+   Signavio Workflow
+Accelerator
+  </h3>
+        <p>
+   Signavio Workflow Accelerator is a workflow automation system that
+is required for using the “approval workflow” feature. Signavio
+provides the software to customers who purchased a corresponding
+subscription. The back end is a Java web application that has to be
+installed on a separate server. Signavio Workflow Accelerator requires
+Oracle Java 8, Apache Tomcat 7 or 8 and MongoDB 3.4 or 3.6. Refer to the <MadCap:xref href="../../workflow-accelerator/adminguide/intro/intro.htm">
+   Signavio Workflow Accelerator administrator guide
+  </MadCap:xref>for more information.
+  </p>
+        <h3 id="signavio-workflow-accelerator-ui" name="signavio-workflow-accelerator-ui">
+   Signavio Workflow Accelerator
+UI
+  </h3>
+        <p>
+   The user interface of Signavio Workflow Accelerator is accessed
+through a web browser.
+  </p>
+    </body>
+</html>

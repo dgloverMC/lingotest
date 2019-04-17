@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js">
+        </script>
+    </head>
+    <body>
+        <main class="article-container">
+            <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: ;" data-mc-skin="/Project/Skins/Topic Toolbar.flskn" />
+            <section class="accordeon-container">
+                <div class="accordeon-navigation navigation-style"><a href="../../home.htm" class="custom-top-navbar-logo"></a>砻קยด1ตว融</div>
+                <div id="accordeon-content-container"></div>
+            </section>
+
+            <div class="article-content-container">
+                <div class="article-content-navigation navigation-style">
+                    <MadCap:breadcrumbsProxy />
+                    <div class="custom-top-navbar-buttons">
+                        <div class="action-buttons">
+                        </div>
+                    </div>
+                </div>
+                <div class="topic-container">
+                    <aside>
+                        <ul id="mini-TOC"></ul>
+                    </aside>
+                    <article>
+                        <div id="article-header"></div>
+                        <MadCap:bodyProxy />
+                    </article>
+                </div>
+            </div>
+        </main>
+
+        <footer class="home-footer-topic">
+            <p class="footer">砻קยด2ตว融</p>
+            <p class="footer">砻קยด3ตว融</p>
+        </footer>
+        <script src="../js/index.js"></script>
+    </body>
+</html>

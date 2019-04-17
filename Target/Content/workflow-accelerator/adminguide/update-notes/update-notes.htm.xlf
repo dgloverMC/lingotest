@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="update-notes.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="update-notes.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">7</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Update notes</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Update notes</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Aktualisierungshinweise</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>This section contains important information about Signavio Workflow
+Accelerator system updates. It lists changes to technical requirements
+for new versions and additional instructions for updates.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">This section contains important information about Signavio Workflow Accelerator system updates.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">It lists changes to technical requirements for new versions and additional instructions for updates.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Dieser Abschnitt enthält wichtige Information für Signavio Workflow Accelerator Systemaktualisierungen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Es werden sowohl Änderungen hinsichtlich technischer Voraussetzungen aufgelistet als auch zusätzliche Anweisungen für die Aktualisierung bereit gestellt.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you skip one or more versions of Workflow Accelerator during the
+update, please follow the update notes for the versions you are
+skipping as well. You should start with the oldest version which is
+newer than your currently installed version of Workflow
+Accelerator.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you skip one or more versions of Workflow Accelerator during the update, please follow the update notes for the versions you are skipping as well.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You should start with the oldest version which is newer than your currently installed version of Workflow Accelerator.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wenn Sie bei der Aktualisierung von Workflow Accelerator eine oder mehrere Versionen überspringen, ist es notwendig dass Sie auch die Aktualisierungshinweise für die übersprungenen Versionen lesen und befolgen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Starten Sie mit den Hinweisen für die älteste Version, die neuer als Ihre derzeit installierte Version von Workflow Accelerator ist.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

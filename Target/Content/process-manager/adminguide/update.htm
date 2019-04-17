@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="updating-signavio-process-manager" name="updating-signavio-process-manager">
+   Updating Signavio Process
+Manager
+  </h1>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <ul>
+                <li>
+     You can only update your on-premises installation from version 11.14.5 and later. If you use an earlier version, update to version 11.14.5 first.</li>
+                <li>If you use a MS SQL database and update from Signavio Process
+Manager version 10.x or lower to version 11.x or higher, download and
+install the new JDBC driver as described in <MadCap:xref href="installation/install-jdbc-driver.htm#Down">
+   Download JDBC driver for Microsoft SQL
+Server
+  </MadCap:xref>.
+     <strong xmlns="http://www.w3.org/1999/xhtml">
+      Delete the old file</strong> <kbd xmlns="http://www.w3.org/1999/xhtml">    sqljdbc4.jar     </kbd>
+     you find
+in the
+     <kbd>lib</kbd>
+     folder of the Apache Tomcat directory.
+    </li>
+                <li>
+     If you use an Oracle database and update from version 9.x to
+version 10.x or higher, download the new Oracle JDBC driver as
+described in
+    <MadCap:xref href="installation/install-jdbc-driver.htm#Down2">
+ Download JDBC driver for Oracle
+  </MadCap:xref>and replace the old driver with the
+downloaded files.
+    </li>
+                <li>
+     If you are using approval workflows in Signavio Process Manager,
+please ensure the to-be-installed version of Signavio Process Manager
+is compatible with the Signavio Workflow Accelerator version you are
+using. You find a corresponding compatibility list in the <a href="https://docs.signavio.com/adminguide/workflow/en/signavio.html#compatibility-list" xmlns="http://www.w3.org/1999/xhtml">Workflow Accelerator administrator guide</a>. To avoid
+problems with some features, please ensure nobody works with Signavio
+Workflow Accelerator while Signavio Process Manager is being updated
+(and vice versa).
+    </li>
+            </ul>
+        </div>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <p>
+    The Apache Tomcat team announced that support for Apache Tomcat
+8.0.x ended on 30th June 2018. Therefore, Signavio only supports Tomcat
+version 8.5.x.
+   </p>
+        </div>
+        <p>
+   This section contains step-by-step instructions on how to update
+Signavio Process Manager. To run the update, you need a .zip archive
+that contains the new version.
+  </p>
+        <p><strong>Please ensure nobody tries to use the system during the
+update.
+   </strong>
+        </p>
+        <ol style="list-style-type: decimal;">
+            <li>
+    Stop the Apache Tomcat server.
+   </li>
+            <li>
+    Create a backup of the database and the current program files. You
+will find the program files in the deployment folder
+(<kbd>webapps</kbd>) of the Apache Tomcat directory. You might also
+want to clean the Tomcat
+    <kbd>work</kbd>
+    and
+    <kbd>conf/Catalina</kbd> folders.
+   </li>
+            <li><strong xmlns="http://www.w3.org/1999/xhtml">
+     In case you are updating from version 8.6.0 or
+older</strong>, please follow the instructions in the chapter <MadCap:xref href="installation/install-jdbc-driver.htm">   Installing the JDBC driver </MadCap:xref>
+    additionally.
+   </li>
+            <li>
+    Copy the update archive
+    <kbd>SignavioEnterpriseX.X.X.zip</kbd>
+    to
+the server.
+   </li>
+            <li>
+    Unpack the .zip archive. It contains the directory
+    <kbd>files</kbd>
+    and the new program files in it.
+   </li>
+        </ol>
+        <ol start="6" style="list-style-type: decimal;">
+            <li><strong>
+In case you are updating from a version older than
+9.7.0</strong>, integrate the configuration files and the license file
+into the new installation files. You need to copy the files from
+several locations within
+      <strong>
+       Tomcat’s root directory</strong>
+      to the folder
+      <kbd>       conf</kbd> within Tomcat’s root directory.
+Below, the tomcat’s root directory is written as
+      <kbd>$TOMCAT_DIR</kbd>. Accordingly, the target directory is
+      <kbd>$TOMCAT_DIR/conf</kbd>.
+     <strong xmlns="http://www.w3.org/1999/xhtml">Copy the following files to $TOMCAT_DIR/conf:</strong></li>
+            <ul>
+                <li><kbd>$TOMCAT_DIR/webapps/ROOT/WEB-INF/classes/configuration.xml</kbd>
+                </li>
+                <li><kbd>$TOMCAT_DIR/webapps/ROOT/WEB-INF/classes/configuration_signed.xml</kbd>
+                </li>
+            </ul>
+            <li>
+      If available:
+     </li>
+            <ul>
+                <li><kbd>$TOMCAT_DIR/webapps/ROOT/WEB-INF/classes/simulation.xml</kbd>
+                </li>
+            </ul>
+            <li>
+      If available and if you are using HTTPS, copy the following file and
+paste it into its original destination
+             <b>after you moved the new
+program files to the new installation directory</b>:
+     </li>
+            <ul>
+                <li><kbd>$TOMCAT_DIR/webapps/solr/META-INF/context.xml</kbd>
+                </li>
+            </ul>
+            <li>
+      In addition, go to
+      <kbd>$TOMCAT_DIR/conf</kbd>
+      to add the
+following information inside the
+     <kbd>&lt;Context&gt;</kbd>
+      tag of
+the file
+      <kbd>context.xml</kbd>:
+     </li><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;Parameter name="configfile" value="${catalina.base}/conf/configuration.xml" /&gt;
+
+
+&lt;Parameter name="licensefile" value="${catalina.base}/conf/configuration_signed.xml" /&gt;
+
+
+&lt;Parameter name="configfile.simulation"
+
+value="${catalina.base}/conf/simulation.xml" /&gt;</code></pre>
+            <li>
+     Delete the old program files from
+     <kbd>$TOMCAT_DIR/webapps</kbd>.
+    </li>
+            <li><a name="Mo" xmlns="http://www.w3.org/1999/xhtml"></a>
+     Move the new program files from the directory
+     <kbd xmlns="http://www.w3.org/1999/xhtml">files</kbd>
+     to
+     <kbd xmlns="http://www.w3.org/1999/xhtml">$TOMCAT_DIR/webapps</kbd>. Check if the system user that runs
+the Tomcat has access to newly copied files. If this is not the case,
+update the corresponding permissions accordingly.
+</li>
+            <li><strong xmlns="http://www.w3.org/1999/xhtml">
+					Optional:</strong> If you are using the SAP Solution Manager 7.2 connector you have to update the file <kbd xmlns="http://www.w3.org/1999/xhtml">solman72.yml</kbd> which is located in the Tomcat´s conf folder. Follow the instructions:<ul xmlns="http://www.w3.org/1999/xhtml"><li>Replace a part of the code with another snippet.
+						Take out the excisting code:
+							<pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh" xmlns="http://www.w3.org/1999/xhtml">mine:
+   poolSize: 30</code></pre></li><li>
+						Insert the following snippet instead:
+							<pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh" xmlns="http://www.w3.org/1999/xhtml">hikari:
+   maximum-pool-size: 30</code></pre></li><li>
+						Add following snippet at the end of the file by copying and pasting:
+					<br xmlns="http://www.w3.org/1999/xhtml" /><code class="language-sh" xmlns="http://www.w3.org/1999/xhtml"><em># disables error logs created every minute if no influx-DB to log metrics is configured.</em>
+<br xmlns="http://www.w3.org/1999/xhtml" />management.metrics.export.influx.enabled: false</code></li><li xmlns="">Ensure that the environment name <kbd xmlns="http://www.w3.org/1999/xhtml">spring.config.location</kbd> was set as described <a href="installation/configure-solution-manager.htm#%0Aspring.config.location" title="configuring the connector" alt="configuring the connector" xmlns="http://www.w3.org/1999/xhtml">here.</a></li></ul></li>
+            <li>
+     Start the Apache Tomcat server.
+    </li>
+        </ol>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>
+     Never stop the Tomcat server while data migrations are running after
+an update, even if parts of the application can’t be used due to
+configuration errors. To check if a data migration is running, check
+the logs of the Tomcat. If you are using a Tomcat cluster, only start
+one of the Tomcat servers and wait until all migrations have
+finished.
+    </p>
+        </div>
+        <ol start="10" style="list-style-type: decimal;" MadCap:continue="true">
+            <li>
+    Use the <MadCap:xref href="installation/run-systems-diagnostics.htm">Diagnostics Tool</MadCap:xref> to ensure the system is configured
+correctly.
+   </li>
+            <li>
+    Delete the archive
+    <kbd>SignavioEnterpriseX.X.X.zip</kbd>
+    and the
+    <kbd>SignavioEnterpriseX.X.X</kbd> folder.
+   </li>
+        </ol>
+        <p>
+   Should the appliance of the update fail on any purpose, exchange the
+database, program and runtime files with the backups to be able to
+continue work with the saved data.
+  </p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>
+    Since version 8.3.0 the search index will be recreated after each
+update (not on each restart, only on updates). This may take several
+minutes. Note that the search may not work in that time and you
+won’t be able to access the content of the Dictionary.
+   </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Updating to Signavio Workflow Accelerator 3.85</h1>
+        <h2>For Signavio Process Manager integration</h2>
+        <p>
+   If you use Workflow Accelerator in combination with Signavio Process
+Manager, you must update Process Manager to version 12.12.
+</p>
+        <p>From this version on, it is necessary to set the <kbd>sharedJwtSecret</kbd> in both the Workflow Accelerator configuration file and the Process Manager configuration file. See <MadCap:xref href="../process-manager-integration/setup.htm#top">Setup</MadCap:xref> for details.</p>
+        <h2>Data format of data sent from connectors</h2>
+        <p>Version 3.85 introduces a validation for data retrieved via a custom data connector.</p>
+        <p>If you are using a custom data connector which stores <a href="https://docs.signavio.com/userguide/workflow/en/integration/connectors.html#record-storage">records by value</a>, verify that the data type and the data format provided by the connector matches the data specified by your connector descriptor (Read more about <a href="https://docs.signavio.com/userguide/workflow/en/integration/connectors.html#data-types-and-formats">data types and formats</a>). Data that does not match  is no longer accepted. If the connector sends mismatching data, users are not able to select the relevant records from the drop-down list but will see an error message.</p>
+        <h2 xmlns="http://www.w3.org/1999/xhtml">
+   Updating Node.js
+</h2>
+        <p>For this version of Workflow Accelerator, update to Node.js 10.x LTS</p>
+        <MadCap:snippetBlock src="../_snippets/Updating Node.js.flsnp" />
+    </body>
+</html>

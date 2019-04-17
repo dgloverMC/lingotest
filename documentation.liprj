@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LingoProject TargetLanguage="de" xml:lang="de" SourceLanguage="en-us" FileFormatVersion="6" CreatedInVersion="10" flattenSnippets="false" SelectedTarget="" statsLanguages="false" SourceControlBound="false">
+    <ProjectFile Source="Target/documentation.flprj" Target="Target/documentation.flprj" />
+    <TMConnection Connection="EN-DE-Merged-05-04-19-16_40.db" ReadOnly="false" Type="StandAlone" />
+    <TMConnection Connection="21_03_2018_documentation.db" ReadOnly="false" Type="StandAlone" />
+</LingoProject>

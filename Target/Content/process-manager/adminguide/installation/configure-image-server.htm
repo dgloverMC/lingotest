@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="configure-image-server-optional" name="configure-image-server-optional">
+   Configure image server
+(optional)
+  </h1>
+        <p>
+   The configuration procedure of the image server is similar to the
+configuration of the Solr server.
+  </p>
+        <p>
+   Follow the instructions in   <MadCap:xref href="configure-apache-solr.htm">
+   Configuring the Apache Solr server (optional)  </MadCap:xref>.
+  </p>
+        <p>
+   This time, move the folder
+   <kbd>imageservice</kbd>
+   from the
+   <kbd>webapps</kbd>
+   directory of the Signavio Tomcat to the
+   <kbd>webapps</kbd>
+   directory of the image service Tomcat and add the
+following line to the
+   <kbd>configuration.xml</kbd>
+   file:
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;imageServiceHost&gt;http://localhost:8080&lt;/imageServiceHost&gt;</code></pre>
+        <p>
+   Replace the URL
+   <kbd>http://localhost:8080</kbd> with the URL of
+your image server.
+  </p>
+    </body>
+</html>

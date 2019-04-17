@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="configure-process-manager.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="configure-process-manager.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">3</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Configuring
+Signavio Process Manager as a user</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configuring Signavio Process Manager as a user</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Den Signavio Process Manager als Nutzer konfigurieren</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Signavio Process Manager provides extensive configuration options to
+adjust its functionality to the unique needs of your organization.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio Process Manager provides extensive configuration options to adjust its functionality to the unique needs of your organization.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Der Signavio Process Manager bietet Ihnen umfangreiche Konfigurationsmöglichkeiten, um das System an die individuellen Anforderungen Ihrer Organisation anzupassen.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>For detailed instructions on how to configure Signavio Process
+Manager as a
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    workspace administrator
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+   user, read
+   <bpt
+            id="2"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://editor.signavio.com/userguide/en/workspace_admin/index.html" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    https://editor.signavio.com/userguide/en/workspace_admin/index.html
+   <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>
+   .</source><seg-source><mrk
+            mtype="seg"
+            mid="1">For detailed instructions on how to configure Signavio Process Manager as a <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> workspace administrator <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> user, read <bpt
+              id="2"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://editor.signavio.com/userguide/en/workspace_admin/index.html" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> https://editor.signavio.com/userguide/en/workspace_admin/index.html <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> .</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Detaillierte Anweisungen bezüglich der Konfiguration des Systems über das User Interface durch einen <bpt
+              id="1">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Arbeitsbereichsadministrator<ept
+              id="1">&lt;/em&gt;</ept> finden Sie unter <bpt
+              id="2"
+              ctype="link">&lt;a href="https://editor.signavio.com/userguide/en/workspace_admin/index.html" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://editor.signavio.com/userguide/de/workspace_admin/index.html<ept
+              id="2">&lt;/a&gt;</ept>.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

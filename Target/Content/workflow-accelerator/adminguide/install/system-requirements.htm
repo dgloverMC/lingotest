@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" MadCap:onlyLocalStylesheets="True" xml:space="preserve">
+    <head><title></title>
+        <style type="text/css">
+        </style>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 name="system-requirements">
+   System requirements
+  </h1>
+        <h2 name="operating-system">
+   Operating system
+  </h2>
+        <p>
+   The Workflow Accelerator system can be deployed on different
+operating systems. Officially supported are the following operating
+systems:
+  </p>
+        <ul>
+            <li>
+    Debian Stable Release 64-bit
+   </li>
+            <li>
+    Microsoft Windows Server 64-bit
+   </li>
+        </ul>
+        <div xmlns="" class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p xmlns="http://www.w3.org/1999/xhtml">
+    In general, it is possible to install Workflow Accelerator on other
+Linux distributions. However, the installation process can differ from
+the following instructions and the Signavio team cannot offer official
+support in case of an installation problem.
+   </p>
+        </div>
+        <p>
+   You are advised to use a 64-bit operating system in order to be able
+to assign more than 1.5 GB of heap space to the Java VM. Furthermore,
+MongoDB is limited to 2 GB of content on 32-bit operating systems.
+  </p>
+        <h2 name="hardware-requirements">
+   Hardware requirements
+  </h2>
+        <p>
+   The described installation in this administrator's guide will set up
+the database and the application server on the same system. However, it
+is also possible to set up the database and application server on
+separate systems. For instance, if you already have an infrastructure
+that provides MongoDB instances for different applications, you can
+simply reuse your infrastructure and just create another database for
+Workflow Accelerator.
+  </p>
+        <p>
+   The minimal hardware requirements for the combined system of
+application and database server are:
+  </p>
+        <ul>
+            <li>
+    8 GB RAM
+   </li>
+            <li>
+    4 core CPU
+   </li>
+            <li>
+    50 GB disk space
+   </li>
+        </ul>
+        <p>
+   The required disk space depends on how you will use Workflow
+Accelerator. 50 GB should be sufficient disk space for most scenarios.
+However, if you plan on using a lot of file uploads in your processes
+the required disk space depends largely on the number and size of the
+uploaded files.
+  </p>
+        <p>
+   Note that the required disk space does not include the space
+necessary for backups. If you plan on storing the backups on the same
+server, you should add more.
+  </p>
+        <h2 name="other-systems">
+   Other systems
+  </h2>
+        <p>
+   The Workflow Accelerator system relies on a SMTP mail server to send
+notifications and invite users. You can simply reuse any existing mail
+server in your organization that supports access via SMTP.
+  </p>
+        <h2 name="software-requirements">
+   Software requirements
+  </h2>
+        <p>
+   In order to run Workflow Accelerator on your server, you will need
+to install some additional software. Depending on your deployment
+strategy (combined or separate system for application and database),
+you have to install the following required software either on the same
+server or the respective separate servers.
+  </p>
+        <p>
+   The following sections contain detailed instructions on how to
+install and configure the additional software components.
+  </p>
+        <p>
+   The application server requires the following additional
+software:
+  </p>
+        <ul>
+            <li>Java: Oracle JSE version 8 (1.8.0_66+)</li>
+        </ul>
+        <div class="important" xmlns="http://www.w3.org/1999/xhtml" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>Pay attention to the version number. Signavio Workflow Accelerator
+does not yet support Java 9.</p>
+        </div>
+        <ul>
+            <li>
+    Apache Tomcat 8.5 64-bit
+   </li>
+        </ul>
+        <p>
+   The database server requires the following additional software:
+  </p>
+        <li>
+    MongoDB version 3.4.x or version 3.6.x
+   </li>
+        <p>
+   The optional script engine requires the following additional
+software:
+  </p>
+        <li>
+    Node.js 8.x LTS
+ </li>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <p>We recommend updating to Node.js 10.x LTS. Only update to LTS versions.</p>
+        </div>
+        <h2 name="supported-browsers"><a name="Web" xmlns="http://www.w3.org/1999/xhtml"></a>
+   Web browser
+  </h2>
+        <MadCap:snippetBlock src="../_snippets/Browser list.flsnp" />
+    </body>
+</html>

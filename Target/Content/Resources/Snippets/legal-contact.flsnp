@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <body>
+        <div class="home-footer">
+            <p class="footer">
+                <a href="https://www.signavio.com/legal-info/">Legal</a> | <a href="https://www.signavio.com/contact/">Contact</a></p>
+            <p class="footer">
+                <MadCap:variable name="General.Copyright" /> All rights reserved</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" MadCap:onlyLocalStylesheets="True" xml:space="preserve">
+    <head><title></title>
+        <style type="text/css">
+        </style>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 name="installing-the-workflow-accelerator-web-application">
+   Installing the Workflow Accelerator web application
+  </h1>
+        <p>
+   The Workflow Accelerator web application, which can be found in the
+directory <kbd>$WORKFLOW_HOME/workflow/ROOT</kbd>, needs to be copied
+to the Tomcat’s <kbd>webapps</kbd>
+   directory. Remove any files and
+directories that are located in
+   <kbd>$TOMCAT_HOME/webapps</kbd>
+   and copy the <kbd>ROOT</kbd>
+   directory to
+   <kbd>$TOMCAT_HOME/webapps/</kbd>.
+  </p>
+        <p>
+   The Workflow Accelerator application needs to run as the ROOT
+application in the Tomcat. Running it in parallel with another
+application that requires to run as the ROOT application in the same
+Tomcat is currently not possible.
+  </p>
+    </body>
+</html>

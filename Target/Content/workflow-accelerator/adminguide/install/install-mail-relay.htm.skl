@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" MadCap:onlyLocalStylesheets="True" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/TableStyles/Alternate-Row-Color.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <style type="text/css">
+        </style>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 name="install-mail-relay">砻קยด3ตว融</h1>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <p>砻קยด4ตว融</p>
+        </div>
+        <p>砻קยด5ตว融</p>
+        <p>砻קยด6ตว融</p>
+        <ol>
+            <li>砻קยด7ตว融</li>
+            <li>砻קยด8ตว融</li>
+            <li>砻קยด9ตว融</li>
+        </ol>
+        <h2 name="create-an-email-domain-for-the-mail-relay">砻קยด10ตว融</h2>
+        <p>砻קยด11ตว融</p>
+        <p>砻קยด12ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"> <code class="language-sh">process-5702854fd1dfff250dc57994@mail.yourcompany.com</code></pre>
+        <p>砻קยด13ตว融</p>
+        <p>砻קยด14ตว融</p>
+        <h2 name="install-and-configure-the-mail-relay">砻קยด15ตว融</h2>
+        <p>砻קยด16ตว融</p>
+        <p>砻קยด17ตว融</p>
+        <ol>
+            <li>砻קยด18ตว融</li>
+            <li>砻קยด19ตว融</li>
+            <li>砻קยด20ตว融</li>
+            <li>砻קยด21ตว融<pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;property name="LOG_DIR" value="."/&gt;</code></pre></li>
+            <li>砻קยด22ตว融</li>
+        </ol>
+        <p>砻קยด23ตว融</p>
+        <ol MadCap:continue="true">
+            <li>砻קยด24ตว融</li>
+        </ol>
+        <p>砻קยด25ตว融</p>
+        <table class="TableStyle-Alternate-Row-Color" style="mc-table-style: url('../../../Resources/TableStyles/Alternate-Row-Color.css');" cellspacing="21">
+            <tbody>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>砻קยด26ตว融</kbd></td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">砻קยด27ตว融</td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>砻קยด28ตว融</kbd></td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2">砻קยด29ตว融</td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body1"><kbd>砻קยด30ตว融</kbd></td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyA-Column2-Body1">砻קยด31ตว融</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>砻קยด32ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-javascript">java -jar $MAIL_RELAY_HOME/mail-relay.jar</code></pre>
+        <p>砻קยด33ตว融</p>
+        <p>砻קยด34ตว融</p>
+        <h3 name="windows-6">砻קยด35ตว融</h3>
+        <p>砻קยด36ตว融</p>
+        <ol>
+            <li>砻קยด37ตว融<pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">nssm install mail-relay</code></pre></li>
+            <li>
+                <p>砻קยด38ตว融</p>
+                <table style="margin-left: 0; margin-right: auto;" xmlns="http://www.w3.org/1999/xhtml">
+                    <col style="width: 35%;" />
+                    <col style="width: 65%;" />
+                    <tbody>
+                        <tr>
+                            <td><em>砻קยด39ตว融</em></td>
+                            <td>砻קยด40ตว融</td>
+                        </tr>
+                        <tr>
+                            <td><em>砻קยด41ตว融</em></td>
+                            <td>砻קยด42ตว融</td>
+                        </tr>
+                        <tr>
+                            <td><em>砻קยด43ตว融</em></td>
+                            <td>砻קยด44ตว融</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    <img alt="砻קยด1ตว融" class="align-center" src="../_images/nssm/nssm03.png" />
+                </p>
+            </li>
+            <li>砻קยด45ตว融<p><img alt="砻קยด2ตว融" class="align-center" src="../_images/nssm/nssm04.png" /></p></li>
+        </ol>
+        <p>砻קยด46ตว融</p>
+        <h3 name="linux-1">砻קยด47ตว融</h3>
+        <p>砻קยด48ตว融</p>
+        <p>砻קยด49ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-javascript">java -jar $MAIL_RELAY_HOME/mail-relay.jar</code></pre>
+        <p>砻קยด50ตว融</p>
+        <p>砻קยด51ตว融</p>
+        <h2 name="configure-the-web-application">砻קยด52ตว融</h2>
+        <p>砻קยด53ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">effektif.mail.receiver.enabled = true
+
+effektif.mail.receiver.domain = mail.yourcompany.com</code></pre>
+        <p>砻קยด54ตว融</p>
+        <h2 name="testing-the-mail-relay">砻קยด55ตว融</h2>
+        <p>砻קยด56ตว融</p>
+        <ol>
+            <li>砻קยด57ตว融</li>
+            <li>砻קยด58ตว融</li>
+            <li>砻קยด59ตว融</li>
+            <li>砻קยด60ตว融</li>
+            <li>砻קยด61ตว融</li>
+        </ol>
+        <p>砻קยด62ตว融</p>
+        <p>砻קยด63ตว融</p>
+        <h3 name="windows-7">砻קยด64ตว融</h3>
+        <p>砻קยด65ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">Send-MailMessage -SMTPServer localhost -To process-123@mail.yourcompany.com -From you@yourcompany.com -Subject "This is a test email" -Body "This is the test message"</code></pre>
+        <p>砻קยด66ตว融</p>
+        <h3 name="linux-2">砻קยด67ตว融</h3>
+        <p>砻קยด68ตว融</p>
+        <p>砻קยด69ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">telnet localhost 25</code></pre>
+        <p>砻קยด70ตว融</p>
+        <p>砻קยด71ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">helo me
+
+mail from:&lt;john.doe@yourcompany.com&gt;
+
+rcpt to:&lt;process-123@mail.yourcompany.com&gt;
+
+data
+
+From: john.doe@yourcompany.com
+
+Subject: test subject
+
+
+This is the body.
+
+quit</code></pre>
+    </body>
+</html>

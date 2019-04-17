@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="solr" name="solr">
+   Configuring the Apache Solr server (optional)
+  </h1>
+        <p>
+   To search diagrams, folders, uploaded documents and dictionary items
+the Signavio application server employs Apache Solr. Usually, the Solr
+server is deployed on the same Tomcat as the rest of the
+application.
+  </p>
+        <p>
+   However, you can deploy the Solr server on a separate web server. If
+your Signavio system fulfills one the following conditions, it may be
+useful to employ a separate server for better performance:
+  </p>
+        <ul>
+            <li>
+    You are using the system with more than 1,000 modelling users.
+   </li>
+            <li>
+    You are using the system with more than 50,000 Collaboration Hub
+users.
+   </li>
+            <li>
+    Your process landscape contains more than 5,000 diagrams.
+   </li>
+            <li>
+    You are running Signavio on a web server cluster.
+   </li>
+        </ul>
+        <p>
+   To run the Solr server on a separate Tomcat, install the Tomcat and
+configure it just as the Signavio Tomcat (see: <MadCap:xref href="configure-web-server.htm">Configuring the web server</MadCap:xref>).
+  </p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>
+    In case the second Tomcat runs on the same server/VM, please make
+sure it it runs on a different port than the Signavio Tomcat.
+   </p>
+        </div>
+        <p>
+   Afterwards, proceed as follows:
+  </p>
+        <ol>
+            <li>
+    Stop the Tomcats (if running).
+   </li>
+            <li><strong>
+     Move
+    </strong>
+    (not copy!) the folder solr from the
+webapps-directory of the Signavio Tomcat to the webapps-directory of
+the Solr Tomcat.
+   </li>
+            <li>
+     Adjust the file
+     <kbd>
+      configuration.xml</kbd>, located at
+     <kbd>&lt;signavio-tomcat&gt;/conf/</kbd>. Add the following line at
+the end of the file, but before the line
+     <kbd>&lt;/configuration&gt;</kbd>:
+    <dd><kbd>
+      &lt;solrUrl&gt;http://localhost:8080/solr&lt;/solrUrl&gt;
+     </kbd></dd><dd>
+     Replace the URL
+     <kbd>http://localhost:8080/solr</kbd>
+     with the URL
+of the Solr server. Please ensure you also define the context path of
+the web application (default is
+     <kbd>solr</kbd>).
+    </dd></li>
+            <li>
+    Start the Solr Tomcat.
+   </li>
+            <li>
+    Start the Signavio Tomcat.
+   </li>
+        </ol>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>
+    Before you start the Signavio server, always ensure the Solr server
+is running. Otherwise, system cannot create the search index.
+   </p>
+        </div>
+    </body>
+</html>

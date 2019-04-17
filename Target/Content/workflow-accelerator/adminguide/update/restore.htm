@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Restore an older version
+  </h1>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   In case of exceptional problems you might want to restore an older
+version of Workflow Accelerator. Be aware, if you revert Workflow
+Accelerator to an older version, it is not guaranteed that you can keep
+on using your current database. The upgrade to a newer version can
+involve schema changes that render the database incompatible with older
+versions of Workflow Accelerator. In this situation, the Workflow
+Accelerator system will not start if it detects a newer version of the
+database schema which it doesn't support. This is the reason why you
+should create a backup before updating the system.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   In order to restore an older version, you can follow the
+instructions in this chapter again. However, instead of creating a
+backup you should restore an older backup.
+  </p>
+        <ol xmlns="http://www.w3.org/1999/xhtml">
+            <li>Unpack the older version of Workflow Accelerator, see <MadCap:xref href="../install/unpack.htm#top">
+			Unpack Signavio Workflow
+			Accelerator
+		</MadCap:xref></li>
+            <li xmlns="http://www.w3.org/1999/xhtml">
+    Stop the Workflow Accelerator system, see <MadCap:xref href="../stop/stop.htm">
+   Stopping Signavio Workflow Accelerator
+  </MadCap:xref></li>
+            <li xmlns="http://www.w3.org/1999/xhtml">
+    Restore an earlier back up that was taken while the old Workflow
+Accelerator version was deployed. See <MadCap:xref href="../restore-backups/restore-backups.htm">
+   Restoring backups
+  </MadCap:xref>    
+    for more information
+on how to restore a backup.
+   </li>
+            <li xmlns="http://www.w3.org/1999/xhtml">
+    Backup the configuration files, see
+    <MadCap:xref href="backup-configuration-files.htm#Back">
+   Backup the configuration
+files
+  </MadCap:xref></li>
+            <li xmlns="http://www.w3.org/1999/xhtml">
+    Install the older version of the webapp in
+    <kbd>$TOMCAT_HOME/webapps</kbd>, see
+    <MadCap:xref href="install-new-version.htm#Inst">
+   Install a new version
+  </MadCap:xref></li>
+            <li xmlns="http://www.w3.org/1999/xhtml">
+    Install the older version of the script engine in
+    <kbd>$SCRIPT_ENGINE_HOME</kbd>, see <MadCap:xref href="install-new-version.htm#Inst">
+   Install a new version
+  </MadCap:xref></li>
+            <li>
+    Install the older version of the mail relay in
+    <kbd>$MAIL_RELAY_HOME</kbd>, see
+   <MadCap:xref href="install-new-version.htm#Inst">
+   Install a new version
+  </MadCap:xref></li>
+            <li>
+    Check the configuration files again, see
+    <MadCap:xref href="revisit-configuration-files.htm#Revi">
+   Revisit the configuration
+files
+  </MadCap:xref></li>
+            <li>
+    Start the Workflow Accelerator system, see
+    <MadCap:xref href="../start/intro.htm">
+   Starting Signavio Workflow Accelerator
+  </MadCap:xref></li>
+        </ol>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Now, the Workflow Accelerator system should be running with the
+older version again.
+</p>
+    </body>
+</html>

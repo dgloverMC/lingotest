@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:sourceDocument="C:\Users\Dana\Documents\adminguide_editor\editor\docs\installation\install_signavio.htm" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="installing-signavio-process-manager" name="installing-signavio-process-manager">
+   Installing Signavio
+Process Manager
+  </h1>
+        <p>
+   Installing the program files for Signavio Process Manager requires
+only a few steps.
+  </p>
+        <ol>
+            <li>
+    Look for the directory webapps in the Tomcat installation directory
+(we'll refer to it as <kbd>$TOMCAT_DIR</kbd>). This directory
+contains the web applications’ program files that have to be executed
+by Apache Tomcat. We recommend and assume that for the initial
+installation of Signavio Process Manager a newly installed Apache
+Tomcat is used, with no other web applications running.
+   </li>
+            <li>
+    Stop the Apache Tomcat (if running).
+   </li>
+            <li>
+    Delete all files from the directory
+    <kbd>$TOMCAT_DIR/webapps</kbd>.
+   </li>
+            <li>
+    Delete the directory
+    <kbd>$TOMCAT_DIR/conf/Catalina</kbd>.
+   </li>
+            <li>
+    Delete the directory
+    <kbd>$TOMCAT_DIR/work/Catalina</kbd>.
+   </li>
+            <li>
+    Unpack the ZIP archive containing the installation files.
+   </li>
+            <li>
+    Copy the whole content of the directory
+    <kbd>files</kbd>
+    that
+contains the installation files into the folder $TOMCAT_DIR/webapps.
+Copy
+    <strong>
+     only the content of the directory
+    </strong>
+    but not the
+directory itself!
+   </li>
+        </ol>
+    </body>
+</html>

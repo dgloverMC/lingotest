@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="update-to-3.56.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="update-to-3.56.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">46</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Updating to Signavio Workflow Accelerator 3.56</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Updating to Signavio Workflow Accelerator 3.56</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Auf Signavio Workflow Accelerator 3.56 aktualisieren</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you use Workflow Accelerator in combination with Signavio Process
+Manager, you must update Process Manager to version 11.14. Furthermore,
+you must update the Workflow Accelerator configuration file to support
+new integration scenarios. See the following section for more
+information.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you use Workflow Accelerator in combination with Signavio Process Manager, you must update Process Manager to version 11.14.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Furthermore, you must update the Workflow Accelerator configuration file to support new integration scenarios.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">See the following section for more information.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie Workflow Accelerator in Kombination mit Signavio Process Manager benutzen, dann müssen Sie Process Manager auf Version 11.14 aktualisieren.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Zusätzlich müssen Sie die Workflow Accelerator Konfigurationsdatei aktualisieren, damit alle neuen Integrationsfunktionen funktionieren.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der folgende Abschnitt enthält weitere Informationen.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Workflow Accelerator 3.56 now supports MongoDB version 3.6.x which
+comes with improved performance and functionality. Workflow Accelerator
+still supports MongoDB 3.4.x. Therefore, an upgrade to MongoDB 3.6.x is
+not yet required.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Workflow Accelerator 3.56 now supports MongoDB version 3.6.x which comes with improved performance and functionality.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Workflow Accelerator still supports MongoDB 3.4.x.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Therefore, an upgrade to MongoDB 3.6.x is not yet required.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Workflow Accelerator 3.56 unterstützt nun MongoDB Version 3.6.x, welche eine verbesserte Performance und erweiterte Funktionalität bietet.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Workflow Accelerator unterstützt auch weiterhin MongoDB 3.4.x.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Dementsprechend müssen Sie MongoDB noch nicht auf Version 3.6.x aktualisieren.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you use Workflow Accelerator Script Engine to execute custom
+JavaScript tasks in your workflows you are required to update Node.js
+to version 8 LTS (Long Term Support). In November 2017, Node.js 8
+replaced Node.js 6 as the Long Term Support version. Workflow
+Accelerator 3.56 still supports Node.js 6. However, future versions
+will assume you are using Node.js 8. See the following section for more
+information.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you use Workflow Accelerator Script Engine to execute custom JavaScript tasks in your workflows you are required to update Node.js to version 8 LTS (Long Term Support).</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">In November 2017, Node.js 8 replaced Node.js 6 as the Long Term Support version.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Workflow Accelerator 3.56 still supports Node.js 6.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">However, future versions will assume you are using Node.js 8.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">See the following section for more information.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wenn Sie Workflow Accelerator Script Engine verwenden um eigene JavaScript-Tasks in Ihren Workflows auszuführen, dann müssen Sie auch Node.js auf Version 8 LTS (Long Term Support) aktualisieren.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Im November 2017 hat Node.js 8 offiziell Node.js 6 als Long Term Support Version abgelöst.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Workflow Accelerator unterstützt weiterhin Node.js 6.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Zukünftige Versionen setzen jedoch voraus, dass Sie Node.js auf Version 8 aktualisiert haben.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der folgende Abschnitt enthält weitere Informationen.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Updating the configuration
+file</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Updating the configuration file</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Konfigurationsdatei aktualisieren</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You only need to update the configuration file if your Workflow
+Accelerator system is integrated with Signavio Process Manager. To
+update the configuration open
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/effektif-onpremise.properties<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.
+You can either update your existing configuration file or use the new
+version provided with the release and fill in your settings.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You only need to update the configuration file if your Workflow Accelerator system is integrated with Signavio Process Manager.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">To update the configuration open <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/effektif-onpremise.properties<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">You can either update your existing configuration file or use the new version provided with the release and fill in your settings.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Sie müssen die Konfigurationsdatei nur aktualisieren, wenn Ihr Workflow Accelerator-System in Signavio Process Manager integriert ist.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Um die Konfiguration zu aktualisieren, öffnen Sie <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/effektif-onpremise.properties<ept
+              id="1">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sie können entweder Ihre bestehende Konfigurationsdatei anpassen oder die neue Version nutzen, die im Release enthalten ist, und Ihre Konfigurationsoptionen erneut eintragen.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The following three entries have been renamed. You only need to
+change the part left of the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> = <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>sign.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The following three entries have been renamed.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You only need to change the part left of the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> = <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>sign.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die folgenden drei Einträge wurden umbenannt.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Sie müssen nur den Teil links vom <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>=<ept
+              id="1">&lt;/kbd&gt;</ept> Zeichen anpassen.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-th"
+        phase-name="pretrans"><source>old name</source><seg-source><mrk
+            mtype="seg"
+            mid="1">old name</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Alter Name</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-th"
+        phase-name="pretrans"><source>new name</source><seg-source><mrk
+            mtype="seg"
+            mid="1">new name</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Neuer Name</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.com.<ph
+            id="2"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>effektif.model.<ph
+            id="3"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>service.signavio.<ph
+            id="4"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>SignavioAuthenticationProvider<ph
+            id="5"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>.serviceBaseUrl</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.com.<ph
+              id="2"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>effektif.model.<ph
+              id="3"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>service.signavio.</mrk><mrk
+            mtype="seg"
+            mid="2"><ph
+              id="4"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>SignavioAuthenticationProvider<ph
+              id="5"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>.serviceBaseUrl</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.com.<ph
+              id="2"
+              ctype="lb">&lt;br&gt;&lt;/br&gt;</ph>effektif.model.<ph
+              id="3"
+              ctype="lb">&lt;br&gt;&lt;/br&gt;</ph>service.signavio.</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><ph
+              id="4"
+              ctype="lb">&lt;br&gt;&lt;/br&gt;</ph>SignavioAuthenticationProvider<ph
+              id="5"
+              ctype="lb">&lt;br&gt;&lt;/br&gt;</ph>.serviceBaseUrl</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.process.<ph
+            id="2"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>manager.baseUrl</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.process.<ph
+              id="2"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>manager.baseUrl</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.process.<ph
+              id="2"
+              ctype="lb">&lt;br&gt;&lt;/br&gt;</ph>manager.baseUrl</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.com.<ph
+            id="2"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>effektif.model.<ph
+            id="3"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>service.signavio.<ph
+            id="4"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>SignavioAuthenticationProvider.<ph
+            id="5"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>clientId</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.com.<ph
+              id="2"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>effektif.model.<ph
+              id="3"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>service.signavio.</mrk><mrk
+            mtype="seg"
+            mid="2"><ph
+              id="4"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>SignavioAuthenticationProvider.<ph
+              id="5"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>clientId</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">effektif.com.<ph
+              id="2"
+              ctype="lb">&lt;br&gt;&lt;/br&gt;</ph>effektif.model.<ph
+              id="3"
+              ctype="lb">&lt;br&gt;&lt;/br&gt;</ph>service.signavio.</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><ph
+              id="4"
+              ctype="lb">&lt;br&gt;&lt;/br&gt;</ph>SignavioAuthenticationProvider.<ph
+              id="5"
+              ctype="lb">&lt;br&gt;&lt;/br&gt;</ph>clientId</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.<ph
+            id="2"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>process.manager.<ph
+            id="3"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>authentication.<ph
+            id="4"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>clientId</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.<ph
+              id="2"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>process.manager.<ph
+              id="3"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>authentication.<ph
+              id="4"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>clientId</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.<ph
+              id="2"
+              ctype="lb">&lt;br&gt;&lt;/br&gt;</ph>process.manager.<ph
+              id="3"
+              ctype="lb">&lt;br&gt;&lt;/br&gt;</ph>authentication.<ph
+              id="4"
+              ctype="lb">&lt;br&gt;&lt;/br&gt;</ph>clientId</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.com.<ph
+            id="2"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>effektif.model.<ph
+            id="3"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>service.signavio.<ph
+            id="4"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>SignavioAuthenticationProvider.<ph
+            id="5"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>clientSecret.effektif</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.com.<ph
+              id="2"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>effektif.model.<ph
+              id="3"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>service.signavio.</mrk><mrk
+            mtype="seg"
+            mid="2"><ph
+              id="4"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>SignavioAuthenticationProvider.<ph
+              id="5"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>clientSecret.effektif</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">effektif.com.<ph
+              id="2"
+              ctype="lb">&lt;br&gt;&lt;/br&gt;</ph>effektif.model.<ph
+              id="3"
+              ctype="lb">&lt;br&gt;&lt;/br&gt;</ph>service.signavio.</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><ph
+              id="4"
+              ctype="lb">&lt;br&gt;&lt;/br&gt;</ph>SignavioAuthenticationProvider.<ph
+              id="5"
+              ctype="lb">&lt;br&gt;&lt;/br&gt;</ph>clientSecret.effektif</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.<ph
+            id="2"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>process.manager.<ph
+            id="3"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>authentication.<ph
+            id="4"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>clientSecret</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.<ph
+              id="2"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>process.manager.<ph
+              id="3"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>authentication.<ph
+              id="4"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;</ph>clientSecret</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.<ph
+              id="2"
+              ctype="lb">&lt;br&gt;&lt;/br&gt;</ph>process.manager.<ph
+              id="3"
+              ctype="lb">&lt;br&gt;&lt;/br&gt;</ph>authentication.<ph
+              id="4"
+              ctype="lb">&lt;br&gt;&lt;/br&gt;</ph>clientSecret</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Furthermore, add the following new entry:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Furthermore, add the following new entry:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Zusätzlich fügen Sie folgenden Eintrag hinzu:</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The new value represents a secret that is used for the communication
+with Process Manager. Its value has to match the value you configured
+in Process Managers <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   for the entry <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>sharedJwtSecret<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The new value represents a secret that is used for the communication with Process Manager.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Its value has to match the value you configured in Process Managers <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> for the entry <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>sharedJwtSecret<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der neue Eintrag repräsentiert einen Schlüssel der für die Kommunikation mit Process Manager benötigt wird.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Der eingetragene Wert muss dem Wert entsprechen, den Sie in der Process Manager-Konfigurationsdatei <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+              id="1">&lt;/kbd&gt;</ept> für den Eintrag <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>sharedJwtSecret<ept
+              id="2">&lt;/kbd&gt;</ept> festgelegt haben.</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Updating Node.js</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Updating Node.js</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Node.js aktualisieren</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>For this version of Workflow Accelerator, update to Node.js 8.x LTS</source><seg-source><mrk
+            mtype="seg"
+            mid="1">For this version of Workflow Accelerator, update to Node.js 8.x LTS</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Für diese Version von Workflow Accelerator aktualisieren Sie auf Node.js 8.x LTS.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

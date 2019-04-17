@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="restore.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="restore.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">25</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Restore an older version</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Restore an older version</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Eine ältere Version wieder herstellen</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In case of exceptional problems you might want to restore an older
+version of Workflow Accelerator. Be aware, if you revert Workflow
+Accelerator to an older version, it is not guaranteed that you can keep
+on using your current database. The upgrade to a newer version can
+involve schema changes that render the database incompatible with older
+versions of Workflow Accelerator. In this situation, the Workflow
+Accelerator system will not start if it detects a newer version of the
+database schema which it doesn't support. This is the reason why you
+should create a backup before updating the system.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In case of exceptional problems you might want to restore an older version of Workflow Accelerator.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Be aware, if you revert Workflow Accelerator to an older version, it is not guaranteed that you can keep on using your current database.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The upgrade to a newer version can involve schema changes that render the database incompatible with older versions of Workflow Accelerator.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">In this situation, the Workflow Accelerator system will not start if it detects a newer version of the database schema which it doesn't support.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">This is the reason why you should create a backup before updating the system.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Im Falle eines außergewöhnlichen Fehlers kann es notwendig sein, das System wieder auf eine ältere Version von Workflow Accelerator zurückzusetzen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Seien Sie sich bewusst, dass es keine Garantie gibt, dass Sie eine ältere Version von Workflow Accelerator mit der aktuellen Datenbank betreiben können.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Aktualisierung von Workflow Accelerator auf eine neuere Version kann Änderungen im Datenbankschema nach sich ziehen, die wiederum die Datenbank inkompatibel zu älteren Versionen von Workflow Accelerator machen.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">In dieser Situation wird das Workflow Accelerator-System nicht starten, wenn es eine neuere Datenbankversion als die vom System unterstützte Version erkennt.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Aus diesem Grund sollten Sie vor jeder Aktualisierung ein Backup der Datenbank anlegen.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In order to restore an older version, you can follow the
+instructions in this chapter again. However, instead of creating a
+backup you should restore an older backup.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In order to restore an older version, you can follow the instructions in this chapter again.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">However, instead of creating a backup you should restore an older backup.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Um eine ältere Version wieder herzustellen, können Sie den Anweisungen in diesem Kapitel folgen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Statt ein Backup anzulegen, müssen Sie nun ein zuvor erstelltes Backup wiederherstellen.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Unpack the older version of Workflow Accelerator, see <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../install/unpack.htm#top" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+			Unpack Signavio Workflow
+			Accelerator
+		&lt;/MadCap:xref&gt;</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Unpack the older version of Workflow Accelerator, see <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../install/unpack.htm#top" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+			Unpack Signavio Workflow
+			Accelerator
+		&lt;/MadCap:xref&gt;</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Entpacken Sie die ältere Version von Workflow Accelerator, vgl. <ph
+              id="1">&lt;MadCap:xref href="../install/unpack.htm#top" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+			Unpack Signavio Workflow
+			Accelerator
+		&lt;/MadCap:xref&gt;</ph></mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Stop the Workflow Accelerator system, see <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../stop/stop.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Stopping Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Stop the Workflow Accelerator system, see <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../stop/stop.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Stopping Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Stoppen Sie das Workflow Accelerator-System, vgl. <ph
+              id="1">&lt;MadCap:xref href="../stop/stop.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Stopping Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph></mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Restore an earlier back up that was taken while the old Workflow
+Accelerator version was deployed. See <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../restore-backups/restore-backups.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Restoring backups
+  &lt;/MadCap:xref&gt;</ph>    
+    for more information
+on how to restore a backup.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Restore an earlier back up that was taken while the old Workflow Accelerator version was deployed.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">See <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../restore-backups/restore-backups.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Restoring backups
+  &lt;/MadCap:xref&gt;</ph> for more information on how to restore a backup.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Stellen Sie nun ein Backup der Datenbank wieder her, welches erstellt wurde, während die alte Workflow Accelerator-Version installiert war.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="90">In Kapitel <ph
+              id="1">&lt;MadCap:xref href="../restore-backups/restore-backups.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Restoring backups
+  &lt;/MadCap:xref&gt;</ph> finden Sie mehr Informationen dazu, wie Sie ein Backup anlegen.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Backup the configuration files, see
+    <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="backup-configuration-files.htm#Back" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Backup the configuration
+files
+  &lt;/MadCap:xref&gt;</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Backup the configuration files, see <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="backup-configuration-files.htm#Back" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Backup the configuration
+files
+  &lt;/MadCap:xref&gt;</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sichern Sie die Konfigurationsdateien, vgl. <ph
+              id="1">&lt;MadCap:xref href="backup-configuration-files.htm#Back" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Backup the configuration
+files
+  &lt;/MadCap:xref&gt;</ph></mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Install the older version of the webapp in
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, see
+    <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="install-new-version.htm#Inst" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Install a new version
+  &lt;/MadCap:xref&gt;</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Install the older version of the webapp in <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, see <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="install-new-version.htm#Inst" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Install a new version
+  &lt;/MadCap:xref&gt;</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Installieren Sie die ältere Version der Webanwendung in <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps<ept
+              id="1">&lt;/kbd&gt;</ept> , vgl. <ph
+              id="1">&lt;MadCap:xref href="install-new-version.htm#Inst" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Install a new version
+  &lt;/MadCap:xref&gt;</ph></mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Install the older version of the script engine in
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, see <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="install-new-version.htm#Inst" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Install a new version
+  &lt;/MadCap:xref&gt;</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Install the older version of the script engine in <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, see <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="install-new-version.htm#Inst" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Install a new version
+  &lt;/MadCap:xref&gt;</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Installieren Sie die ältere Version der Script Engine in <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+              id="1">&lt;/kbd&gt;</ept> , vgl. <ph
+              id="1">&lt;MadCap:xref href="install-new-version.htm#Inst" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Install a new version
+  &lt;/MadCap:xref&gt;</ph></mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Install the older version of the mail relay in
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$MAIL_RELAY_HOME<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, see
+   <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="install-new-version.htm#Inst" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Install a new version
+  &lt;/MadCap:xref&gt;</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Install the older version of the mail relay in <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$MAIL_RELAY_HOME<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, see <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="install-new-version.htm#Inst" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Install a new version
+  &lt;/MadCap:xref&gt;</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Installieren Sie die ältere Version des Mail Relay in <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$MAIL_RELAY_HOME<ept
+              id="1">&lt;/kbd&gt;</ept>, vgl. <ph
+              id="1">&lt;MadCap:xref href="install-new-version.htm#Inst" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Install a new version
+  &lt;/MadCap:xref&gt;</ph></mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Check the configuration files again, see
+    <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="revisit-configuration-files.htm#Revi" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Revisit the configuration
+files
+  &lt;/MadCap:xref&gt;</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Check the configuration files again, see <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="revisit-configuration-files.htm#Revi" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Revisit the configuration
+files
+  &lt;/MadCap:xref&gt;</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Überprüfen Sie die Konfigurationsdateien erneut, vgl. <ph
+              id="1">&lt;MadCap:xref href="revisit-configuration-files.htm#Revi" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Revisit the configuration
+files
+  &lt;/MadCap:xref&gt;</ph></mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Start the Workflow Accelerator system, see
+    <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../start/intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Starting Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Start the Workflow Accelerator system, see <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../start/intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Starting Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Starten Sie das Workflow Accelerator-System, vgl. <ph
+              id="1">&lt;MadCap:xref href="../start/intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Starting Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph></mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Now, the Workflow Accelerator system should be running with the
+older version again.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Now, the Workflow Accelerator system should be running with the older version again.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Jetzt sollte das Workflow Accelerator-System wieder mit der alten Version laufen.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+    <Variable Comment="" Name="WA" EvaluatedDefinition="3.85">砻קยด1ตว融</Variable>
+    <Variable Name="SPM" Comment="" EvaluatedDefinition="12.13.0">砻קยด2ตว融</Variable>
+    <Variable Name="SPM on-prem" Comment="" EvaluatedDefinition="12.12.0">砻קยด3ตว融</Variable>
+    <Variable Name="WA on-prem" Comment="" EvaluatedDefinition="3.85">砻קยด4ตว融</Variable>
+</CatapultVariableSet>

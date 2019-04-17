@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/PDFs/Signavio Process Manager Administrator Guide.fltoc"
+  PatchHeadingLevels="true"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles_PDF.css"
+  CentralLinkIds=""
+  TargetLanguage="en-us">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <DocumentProperties
+    Author="Signavio GmbH"
+    Title="Signavio Process Manager Admin Guide" />
+  <PDF
+    InitialMagnification="Fit"
+    PageMode="UseOutlines"
+    PageLayout="SinglePage"
+    TitleBar="DocumentTitle" />
+  <Glossaries />
+</CatapultTarget>

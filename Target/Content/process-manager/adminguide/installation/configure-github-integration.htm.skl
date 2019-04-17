@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="configuring-the-github-integration-for-redhat-jboss-brms-projects-optional" name="configuring-the-github-integration-for-redhat-jboss-brms-projects-optional">砻קยด1ตว融</h1>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <p>砻קยด2ตว融</p>
+        </div>
+        <p>砻קยด3ตว融</p>
+        <p>砻קยด4ตว融</p>
+        <ol style="list-style-type: decimal;">
+            <li>砻קยด5ตว融</li>
+            <li>砻קยด6ตว融<p><img src="../_static/_images/en/register_github_app.png" /></p></li>
+            <li>砻קยด7ตว融</li>
+            <li>砻קยด8ตว融</li>
+        </ol>
+        <figure>
+            <img src="../_static/_images/en/tokens.png" xmlns="http://www.w3.org/1999/xhtml" />
+        </figure>
+        <ol start="3" style="list-style-type: decimal;">
+            <li>砻קยด9ตว融</li>
+            <li>砻קยด10ตว融</li>
+            <li>砻קยด11ตว融</li>
+            <li><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh"><a class="sourceLine" data-line-number="1" id="cb1-1" name="cb1-1"></a><span class="kw">&lt;githubClientId&gt;&lt;myClientID&gt;&lt;/githubClientId&gt;</span>
+
+
+<a class="sourceLine" data-line-number="2" id="cb1-2" name="cb1-2"></a><span class="kw">&lt;githubClientSecret&gt;&lt;myClientSecret&gt;&lt;/githubClientSecret&gt;</span></code></pre>砻קยด12ตว融</li>
+        </ol>
+    </body>
+</html>

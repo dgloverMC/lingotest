@@ -1,0 +1,780 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="configure-share-point.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="configure-share-point.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">49</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Configuring Signavio Collaboration Hub SharePoint component
+(optional)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configuring Signavio Collaboration Hub SharePoint component (optional)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die Signavio Collaboration Hub SharePoint-Komponente konfigurieren (optional)</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>This section describes the installation process of the optional
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    Signavio Collaboration Hub Web Part
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+   . With the Signavio
+Web Part, you can embed Collaboration Hub into a Microsoft SharePoint
+system.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">This section describes the installation process of the optional <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Signavio Collaboration Hub Web Part <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> . With the Signavio Web Part, you can embed Collaboration Hub into a Microsoft SharePoint system.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Dieser Abschnitt beschreibt die Installation der optionalen Komponente <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Signavio Collaboration Hub Webpart<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> für die Integration des Collaboration Hub in ein Microsoft SharePoint System.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You need a Microsoft Office SharePoint Server (<bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://products.office.com/en-us/sharepoint/collaboration" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://products.office.com/en-us/sharepoint/collaboration<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>   )
+for the installation</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You need a Microsoft Office SharePoint Server (<bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://products.office.com/en-us/sharepoint/collaboration" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://products.office.com/en-us/sharepoint/collaboration<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> ) for the installation</mrk></seg-source><target
+          state="needs-review-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="65"
+            MadCap:diff="ContentChanged" /></target><alt-trans
+          match-quality="65"
+          origin="previous-version"><seg-source>You need a Microsoft Office SharePoint Server ( <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://sharepoint.microsoft.com" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> http://sharepoint.microsoft.com <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> ) for the installation</seg-source><target
+            MadCap:segmentStatus="Untranslated">Für die Installation benötigen Sie einen Microsoft Office SharePoint Server (<bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://sharepoint.microsoft.com" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>http://sharepoint.microsoft.com<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>).</target></alt-trans></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Integrating
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     SharePoint for Office 365
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+    (SharePoint
+Online) is only possible with our software-as-a-service offer.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Integrating <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> SharePoint for Office 365 <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> (SharePoint Online) is only possible with our software-as-a-service offer.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Eine Integration von <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>SharePoint for Office 365<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> (SharePoint Online) ist lediglich mit dem Software-as-a-Service-Angebot von Signavio möglich.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Since Microsoft<bpt
+            id="1"
+            ctype="x-superscript" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;sup xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>®<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/sup&gt;</ept> stopped supporting Microsoft<bpt
+            id="2"
+            ctype="x-superscript" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;sup xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>®<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/sup&gt;</ept> SharePoint<bpt
+            id="3"
+            ctype="x-superscript" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;sup xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>®<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/sup&gt;</ept> 2007 and
+2010 on
+    
+October 9, 2012, respectively on
+    
+     October 13, 2015, it is getting increasingly difficult to provide Collaboration
+Hub for these SharePoint versions. As we want to keep Collaboration Hub
+up to date and to provide the best features possible, we dropped
+support for Microsoft<bpt
+            id="4"
+            ctype="x-superscript" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;sup xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>®<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/sup&gt;</ept> SharePoint<bpt
+            id="5"
+            ctype="x-superscript" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;sup xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>®<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/sup&gt;</ept> 2007 and 2010 on
+    <bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>April 1,2017<ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Since Microsoft<bpt
+              id="1"
+              ctype="x-superscript" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;sup xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>®<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/sup&gt;</ept> stopped supporting Microsoft<bpt
+              id="2"
+              ctype="x-superscript" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;sup xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>®<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/sup&gt;</ept> SharePoint<bpt
+              id="3"
+              ctype="x-superscript" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;sup xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>®<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/sup&gt;</ept> 2007 and 2010 on October 9, 2012, respectively on October 13, 2015, it is getting increasingly difficult to provide Collaboration Hub for these SharePoint versions.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">As we want to keep Collaboration Hub up to date and to provide the best features possible, we dropped support for Microsoft<bpt
+              id="4"
+              ctype="x-superscript" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;sup xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>®<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/sup&gt;</ept> SharePoint<bpt
+              id="5"
+              ctype="x-superscript" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;sup xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>®<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/sup&gt;</ept> 2007 and 2010 on <bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>April 1,2017<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The Web Part allows a preconfigured view of Collaboration Hub. The
+Web Part needs to be purchased as a separate component.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Web Part allows a preconfigured view of Collaboration Hub.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The Web Part needs to be purchased as a separate component.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Diese Komponente ist ein Webpart, welches eine vorkonfigurierte Sicht auf den Collaboration Hub ermöglicht.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Das Webpart muss als separate Komponente erworben werden.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Download the Web Part from the Signavio Explorer at
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    Setup
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+   -
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    Download SharePoint Web
+Part
+   <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+   :</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Download the Web Part from the Signavio Explorer at <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Setup <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> - <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Download SharePoint Web Part <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> :</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Laden Sie die Webpart-Datei aus dem Signavio Explorer unter <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Setup <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>- <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>SharePoint Webpart<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> herunter:</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>
+    Download the Signavio SharePoint Web Part
+   </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">Download the Signavio SharePoint Web Part</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Laden Sie den Signavio Web Part herunter.</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Copy the file
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>SignavioViewer2013_2016.wsp<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   into a
+directory of your choice on the SharePoint server. Install the
+SharePoint Solution as described in the corresponding SharePoint
+manual.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Copy the file <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>SignavioViewer2013_2016.wsp<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> into a directory of your choice on the SharePoint server.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Install the SharePoint Solution as described in the corresponding SharePoint manual.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Installieren Sie die SharePoint Solution nach der Anleitung ihrer Microsoft SharePoint Version.</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Installing the Web Part</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Installing the Web Part</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Installation des Webparts</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The following section explains how to install the Web Part with
+different Microsoft SharePoint Server versions. In our examples, the
+parameter
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;SharePointServerURL&gt;
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   represents the
+SharePoint server’s web application URL.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The following section explains how to install the Web Part with different Microsoft SharePoint Server versions.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">In our examples, the parameter <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;SharePointServerURL&gt; <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> represents the SharePoint server’s web application URL.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Dieser Abschnitt beschreibt die Installation mit den verschiedenen SharePoint Server-Versionen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The Signavio Hub Web Part uses an SSL connection to communicate with
+the Signavio server. In case you configured very strict security
+policies for your SharePoint server, you might need to import the SSL
+certificate authority used by Signavio into Microsoft SharePoint's
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    Trusted Root Certificate Store<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>. The certificate file
+(<bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>geotrust.cer<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>) can be downloaded at</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Signavio Hub Web Part uses an SSL connection to communicate with the Signavio server.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">In case you configured very strict security policies for your SharePoint server, you might need to import the SSL certificate authority used by Signavio into Microsoft SharePoint's <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Trusted Root Certificate Store<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The certificate file (<bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>geotrust.cer<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>) can be downloaded at</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Das Signavio Collaboration Hub-Webpart verwendet eine SSL-Verbindung für die Kommunikation mit dem Signavio-Service.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-li"
+        phase-name="pretrans"><source><bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://editor.signavio.com/sharepoint/geotrust.zip" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     https://editor.signavio.com/sharepoint/geotrust.zip
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>
+    (Europe),</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://editor.signavio.com/sharepoint/geotrust.zip" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> https://editor.signavio.com/sharepoint/geotrust.zip <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> (Europe),</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://editor.signavio.com/sharepoint/geotrust.zip" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> https://editor.signavio.com/sharepoint/geotrust.zip <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> (Europa),</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-li"
+        phase-name="pretrans"><source><bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://app-us.signavio.com/sharepoint/geotrust.zip" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     https://app-us.signavio.com/sharepoint/geotrust.zip
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>
+    (US) or</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://app-us.signavio.com/sharepoint/geotrust.zip" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> https://app-us.signavio.com/sharepoint/geotrust.zip <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> (US) or</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101"><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://app-us.signavio.com/sharepoint/geotrust.zip" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> https://app-us.signavio.com/sharepoint/geotrust.zip <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> (USA) oder</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-li"
+        phase-name="pretrans"><source><bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://app-au.signavio.com/sharepoint/geotrust.zip" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     https://app-au.signavio.com/sharepoint/geotrust.zip
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>
+    (Australia/APAC).</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://app-au.signavio.com/sharepoint/geotrust.zip" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> https://app-au.signavio.com/sharepoint/geotrust.zip <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> (Australia/APAC).</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101"><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://app-au.signavio.com/sharepoint/geotrust.zip" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> https://app-au.signavio.com/sharepoint/geotrust.zip <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> (Australien/APAC).</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Follow these steps to install the geotrust certificate:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Follow these steps to install the geotrust certificate:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Um das geotrust-Zertifikat zu installieren, führen Sie bitte die folgenden Schritte durch:</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Ensure the Windows service
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     SharePoint
+Administration
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+    runs.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Ensure the Windows service <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> SharePoint Administration <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> runs.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Stellen Sie sicher, dass der Windows Dienst <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>SharePoint Administration<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> ausgeführt wird.</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Open the
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Microsoft SharePoint 2013/2016 Central
+Administration<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Open the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Microsoft SharePoint 2013/2016 Central Administration<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Navigate to
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Security
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>&gt;<bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Manage trust
+settings
+    <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+    and click
+    <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>New<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Navigate to <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Security <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>&gt;<bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Manage trust settings <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> and click <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>New<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Enter a name, for example
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Signavio
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>, and browse to the <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>geotrust.cer<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    file.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Enter a name, for example <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Signavio <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>, and browse to the <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>geotrust.cer<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> file.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To install the Web Part, please open the management shell of the
+SharePoint server and execute the following commands:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To install the Web Part, please open the management shell of the SharePoint server and execute the following commands:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Um den Webpart zu installieren, öffnen Sie die SharePoint Verwaltungs-Shell und führen Sie die folgenden Befehle aus:</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You can check the status of the installation through the following
+   </source><seg-source><mrk
+            mtype="seg"
+            mid="1">You can check the status of the installation through the following</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You find further information about installing a .wsp file on a
+Microsoft SharePoint Server at
+   <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://technet.microsoft.com/en-us/library/cc262995.aspx?f=255&amp;amp;mspperror=-2147217396" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    https://technet.microsoft.com/en-us/library/cc262995.aspx?f=255&amp;mspperror=-2147217396
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">You find further information about installing a .wsp file on a Microsoft SharePoint Server at <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://technet.microsoft.com/en-us/library/cc262995.aspx?f=255&amp;amp;mspperror=-2147217396" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> https://technet.microsoft.com/en-us/library/cc262995.aspx?f=255&amp;mspperror=-2147217396 <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Weitere Information über die Installation einer .wsp-Datei auf einem Microsoft SharePoint Server finden Sie unter <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://technet.microsoft.com/en-us/library/cc262995.aspx?f=255&amp;amp;mspperror=-2147217396" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>http://technet.microsoft.com/de-de/library/cc262995.aspx<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Configuring the Web Part</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configuring the Web Part</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Den Webpart konfigurieren</mrk></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>After installing the SharePoint Solution on a SharePoint Server, you
+can include the Web Part in the desired SharePoint page(s).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">After installing the SharePoint Solution on a SharePoint Server, you can include the Web Part in the desired SharePoint page(s).</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Nachdem Sie die SharePoint Solution auf Ihrem SharePoint Server installiert haben, können Sie auf der gewünschten Seite die Signavio-Komponente einbinden.</mrk></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Navigate to
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Page
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+    and click
+    <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Edit
+page<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Navigate to <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Page <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> and click <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Edit page<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Now, click
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Add a Web Part<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Now, click <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Add a Web Part<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Select
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Signavio Collaboration Hub Web Part
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+    and add
+it.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Select <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Signavio Collaboration Hub Web Part <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> and add it.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Wählen Sie <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Signavio Collaboration Hub Web Part<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> und fügen Sie es hinzu.</mrk></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Use
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Edit
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+    to add the
+    <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Signavio URL
+    <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+    to the section
+    <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Signavio
+    <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+    on the right. It either
+directs to the Signavio server or defines an URL to a specific start
+diagram (as an URL from Collaboration Hub preview). Additionally, you
+can customize the look and feel of the Signavio component, for example
+by configuring the title or size.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Use <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Edit <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> to add the <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Signavio URL <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> to the section <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Signavio <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> on the right.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">It either directs to the Signavio server or defines an URL to a specific start diagram (as an URL from Collaboration Hub preview).</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Additionally, you can customize the look and feel of the Signavio component, for example by configuring the title or size.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Verwenden Sie <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Bearbeiten<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>, um die <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Signavio-URL<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> zum Abschnitt <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Signavio<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> auf der rechten Seite hinzuzufügen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Sie deutet entweder auf den Signavio-Server oder definiert eine URL zu einem bestimmten Startdiagramm (als URL aus der Collaboration Hub-Vorschau).</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Darüber hinaus können Sie das Erscheinungsbild der Signavio-Komponente anpassen, indem Sie z. B. den Titel oder die Größe konfigurieren.</mrk></target></trans-unit><trans-unit
+        id="30"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You find more information about embedding a Web Part at:
+   <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://office.microsoft.com/de/HA010097463.aspx" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    http://office.microsoft.com/de/HA010097463.aspx<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You find more information about embedding a Web Part at: <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://office.microsoft.com/de/HA010097463.aspx" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> http://office.microsoft.com/de/HA010097463.aspx<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

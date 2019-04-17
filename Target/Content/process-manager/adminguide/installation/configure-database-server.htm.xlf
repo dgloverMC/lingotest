@@ -1,0 +1,1060 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="configure-database-server.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="configure-database-server.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">79</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Configuring the database server</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configuring the database server</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Den Datenbankserver konfigurieren</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The database system should be installed by an experienced database
+administrator. The various database systems differ in terms of
+installation and configuration and will not be explained in detail in
+this manual.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The database system should be installed by an experienced database administrator.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The various database systems differ in terms of installation and configuration and will not be explained in detail in this manual.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Die Installation eines Datenbanksystems sollte von einem Datenbank-Administrator durchgeführt werden, da hierfür in der Regel Expertenwissen erforderlich ist.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die Installation und Konfiguration der verschiedenen Datenbanksysteme unterscheidet sich sehr stark und wird hier nicht näher erläutert.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>This section describes how to configure the database server.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">This section describes how to configure the database server.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">In diesem Abschnitt wird beschrieben, wie der Datenbankserver konfiguriert wird.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>We recommend you use MySQL Standard Edition 5.x (InnoDB Storage
+Engine) or MySQL Enterprise Edition 5.x (InnoDB Storage Engine), as
+long as your organization doesn’t specifically require you to use a
+different database system.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">We recommend you use MySQL Standard Edition 5.x (InnoDB Storage Engine) or MySQL Enterprise Edition 5.x (InnoDB Storage Engine), as long as your organization doesn’t specifically require you to use a different database system.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Falls Sie keine spezifischen Anforderungen bezüglich des Datenbanksystems haben, empfehlen wir Ihnen die Verwendung von MySQL Standard Edition 5.x (InnoDB Storage Engine) oder MySQL Enterprise Edition 5.x (InnoDB Storage Engine).</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The database system is required to support <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>transactions<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The database system is required to support <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>transactions<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Wichtig ist, dass das Datenbanksystem <bpt
+              id="1">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Transaktionen<ept
+              id="1">&lt;/strong&gt;</ept> unterstützt.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you are running a database cluster in your company, a database
+for the Signavio System can be created there, too.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you are running a database cluster in your company, a database for the Signavio System can be created there, too.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Wenn Sie in Ihrem Unternehmen ein Datenbank-Cluster betreiben, können Sie auch in dem Cluster eine Datenbank für den Signavio Process Manager anlegen.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>A user account for Signavio Process Manager has to be created in the
+database.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">A user account for Signavio Process Manager has to be created in the database.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Sie müssen für den Signavio Process Manager in Ihrer Datenbank einen Nutzer anlegen.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Apart from the standard SQL commands
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>SELECT<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>,
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>UPDATE<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>,
+   <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>INSERT<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   and
+   <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>DELETE<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>,
+Signavio Process Manager user must be able to
+   <bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>create<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>,
+   <bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>edit<ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   and
+   <bpt
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>delete<ept
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> <bpt
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>tables<ept
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept><bpt
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>views<ept
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   and
+   <bpt
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>indexes<ept
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   and to set
+   <bpt
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>locks<ept
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Apart from the standard SQL commands <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>SELECT<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>UPDATE<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>INSERT<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>DELETE<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, Signavio Process Manager user must be able to <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>create<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, <bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>edit<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and <bpt
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>delete<ept
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> <bpt
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>tables<ept
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept><bpt
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>views<ept
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and <bpt
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>indexes<ept
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and to set <bpt
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>locks<ept
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Neben den Standard-SQL-Befehlen <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>SELECT<ept
+              id="1">&lt;/kbd&gt;</ept>, <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>UPDATE<ept
+              id="2">&lt;/kbd&gt;</ept>, <bpt
+              id="3">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>INSERT<ept
+              id="3">&lt;/kbd&gt;</ept> und <bpt
+              id="4">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>DELETE<ept
+              id="4">&lt;/kbd&gt;</ept> muss der Nutzer des Signavio Process Managers <bpt
+              id="9">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Tabellen<ept
+              id="9">&lt;/kbd&gt;</ept>, <bpt
+              id="10">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Sichten <ept
+              id="10">&lt;/kbd&gt;</ept>und <bpt
+              id="11">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Indexe <ept
+              id="11">&lt;/kbd&gt;</ept><bpt
+              id="5">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>erstellen<ept
+              id="5">&lt;/kbd&gt;</ept>, <bpt
+              id="6">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>bearbeiten<ept
+              id="6">&lt;/kbd&gt;</ept> und <bpt
+              id="7">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>löschen<ept
+              id="7">&lt;/kbd&gt;</ept> sowie <bpt
+              id="8">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Locks<ept
+              id="8">&lt;/kbd&gt;</ept> setzen können.</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    Routines<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> (stored procedures) are not created by the
+Signavio Process Manager account. Moreover, the system doesn’t change
+any database user account settings.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Routines<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> (stored procedures) are not created by the Signavio Process Manager account.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Moreover, the system doesn’t change any database user account settings.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101"><bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Routines <ept
+              id="1">&lt;/kbd&gt;</ept>(gespeicherte Prozeduren) werden nicht vom Signavio Process Manager-Konto erstellt.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Darüber hinaus ändert das System keine Kontoeinstellungen von Datenbanknutzern.</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To use the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd data-role="ref" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    Diagnostics tool for system administrators
+&lt;diagnostics&gt;
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, your database user needs to be able to
+create views. You can configure this right with the following command
+(all supported database systems):</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To use the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd data-role="ref" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Diagnostics tool for system administrators &lt;diagnostics&gt; <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, your database user needs to be able to create views.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You can configure this right with the following command (all supported database systems):</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Um das <bpt
+              id="1">&lt;kbd data-role="ref" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Diagnostics-Tool &lt;diagnostics&gt;<ept
+              id="1">&lt;/kbd&gt;</ept> verwenden zu können, muss Ihr Datenbanknutzer zudem Sichten erstellen können.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Dies können Sie mit dem folgenden Befehl sicherstellen (alle unterstützen Datenbanksysteme):</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>with
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;dbuser&gt;<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   being a placeholder for your
+database user and
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;db_schema&gt;<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   being a placeholder
+for your database schema name.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">with <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;dbuser&gt;<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> being a placeholder for your database user and <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;db_schema&gt;<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> being a placeholder for your database schema name.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">, wobei <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;dbuser&gt;<ept
+              id="1">&lt;/kbd&gt;</ept> für Ihren Datenbanknutzer und <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;db_schema&gt;<ept
+              id="2">&lt;/kbd&gt;</ept> für den Namen des Datenbankschemas steht.</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Furthermore, you need to grant the database user permission to read
+out information from a set of meta data tables:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Furthermore, you need to grant the database user permission to read out information from a set of meta data tables:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Zudem ist es für die Verwendung des Diagnostic-Tools notwendig, die folgenden Leseberechtigungen auf Metadatentabellen zu erteilen:</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>
+    Oracle
+   </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">Oracle</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Oracle</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>
+    MySQL
+   </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">MySQL</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">MySQL</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>
+    SQL Server
+   </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">SQL Server</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">SQL-Server</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>with <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;dbuser&gt;<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> being a placeholder for your database user.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">with <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;dbuser&gt;<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> being a placeholder for your database user.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">wobei  <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;dbuser&gt;<ept
+              id="1">&lt;/kbd&gt;</ept> als Platzhalter für Ihren Datenbanknutzer steht.</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Signavio Process Manager is linked to the database server via a JDBC
+driver. Please ensure that the database is accessible for the Signavio
+server through your network.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio Process Manager is linked to the database server via a JDBC driver.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Please ensure that the database is accessible for the Signavio server through your network.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die Kommunikation zwischen dem Signavio Process Manager und dem Datenbankserver erfolgt über einen JDBC-Treiber.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Stellen Sie sicher, dass die Datenbank über das Netzwerk vom Server des Signavio Process Managers aus erreichbar ist.</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You need the JDBC-URL of the database to configure it. Please
+request such an URL from the responsible database administrator.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You need the JDBC-URL of the database to configure it.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Please request such an URL from the responsible database administrator.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Für die Konfiguration der Datenbankanbindung benötigen Sie eine JDBC-URL für Ihre Datenbank.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Bitte erfragen Sie die JDBC-URL bei dem zuständigen Datenbankadministrator.</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Configuring MySQL</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configuring MySQL</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">MySQL konfigurieren</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Only required when using a MySQL database</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Only required when using a MySQL database</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Nur bei dem Einsatz einer MySQL Datenbank erforderlich.</mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Please ensure that by default the MySQL database is encoded with
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>UTF-8<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   and uses the
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>InnoDB<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> storage engine.
+This is the only storage engine delivered by MySQL that supports
+transactions. Additionally, the maximum package size must be set to 16
+MB.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Please ensure that by default the MySQL database is encoded with <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>UTF-8<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and uses the <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>InnoDB<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> storage engine.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">This is the only storage engine delivered by MySQL that supports transactions.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Additionally, the maximum package size must be set to 16 MB.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Stellen Sie sicher, dass die MySQL Datenbank standardmäßig die <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>InnoDB<ept
+              id="1">&lt;/kbd&gt;</ept> Storage Engine und <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>UTF-8<ept
+              id="2">&lt;/kbd&gt;</ept> als Kodierung benutzt.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Das ist die einzige Storage Engine im Lieferumfang von MySQL, die Transaktionen unterstützt.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Setzen Sie außerdem die maximale Paketgröße auf 16 MB.</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>We recommend to also install the MySQL Workbench. The administration
+of the MySQL server is much easier with it.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">We recommend to also install the MySQL Workbench.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The administration of the MySQL server is much easier with it.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Wir empfehlen Ihnen, die MySQL Workbench zu installieren.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Die Administration des MySQL-Servers ist damit viel einfacher.</mrk></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Those configurations are made by changing the following variables in
+the MySQL configuration file (<bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>my.ini<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   or
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>my.cnf<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Those configurations are made by changing the following variables in the MySQL configuration file (<bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>my.ini<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> or <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>my.cnf<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>).</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Konfigurieren Sie die folgenden Variablen in der MySQL-Konfigurationsdatei (<bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>my.ini<ept
+              id="1">&lt;/kbd&gt;</ept>  oder <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>my.cnf<ept
+              id="2">&lt;/kbd&gt;</ept>).</mrk></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The file should be found in the respective folder (e.g.
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C:\ProgramData \MySQL\MySQL Server 5.5<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   on Windows and
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/etc/mysql<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   on Debian-based Linux distributions).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The file should be found in the respective folder (e.g. <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C:\ProgramData \MySQL\MySQL Server 5.5<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> on Windows and <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/etc/mysql<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> on Debian-based Linux distributions).</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die Datei sollte sich in dem entsprechenden Programmverzeichnis befinden (zum Beispiel <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C:\\ ProgramData\\MySQL\\MySQL Server 5.5<ept
+              id="1">&lt;/kbd&gt;</ept> unter Windows und <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/etc/mysql<ept
+              id="2">&lt;/kbd&gt;</ept> unter Debian-basierten Linux-Distributionen).</mrk></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Use the following configuration, if you are running
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    MySQL up
+to version 5.5.2<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Use the following configuration, if you are running <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> MySQL up to version 5.5.2<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Wenn Sie <bpt
+              id="1">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>MySQL bis einschließlich Version 5.5.2<ept
+              id="1">&lt;/strong&gt;</ept> einsetzen, verwenden Sie die folgende Konfiguration:</mrk></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Use the following configuration, if you are running
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    MySQL
+version 5.5.3 or later<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Use the following configuration, if you are running <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> MySQL version 5.5.3 or later<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Wenn Sie <bpt
+              id="1">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>MySQL ab der Version 5.5.3<ept
+              id="1">&lt;/strong&gt;</ept> einsetzen, verwenden Sie die folgende Konfiguration:</mrk></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Create an empty database scheme for Signavio Process Manager.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create an empty database scheme for Signavio Process Manager.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Erstellen Sie anschließend ein leeres Datenbankschema für den Signavio Process Manager.</mrk></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Ensure to overwrite older entries or make sure that no older entries
+are below their new corresponding ones. Replace if necessary, or use
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>#<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    to comment the lines out.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Ensure to overwrite older entries or make sure that no older entries are below their new corresponding ones.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Replace if necessary, or use <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>#<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> to comment the lines out.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Stellen Sie sicher, dass ältere Einträge überschrieben werden oder dass sich keine älteren Einträge unter den neuen entsprechenden Einträgen befinden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Kommentieren Sie diese gegebenenfalls mit dem Zeichen <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>#<ept
+              id="1">&lt;/kbd&gt;</ept> am Zeilenbeginn aus.</mrk></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you can’t locate the configuration files, you can also edit this
+attributes in the MySQL Workbench.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you can’t locate the configuration files, you can also edit this attributes in the MySQL Workbench.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Sollten Sie die entsprechenden Konfigurationsdateien nicht finden, können diese Einstellungen auch komplett innerhalb der MySQL Workbench angepasst werden.</mrk></target></trans-unit><trans-unit
+        id="30"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Configuring Microsoft SQL
+Server</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configuring Microsoft SQL Server</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Microsoft SQL-Server konfigurieren</mrk></target></trans-unit><trans-unit
+        id="31"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Only required when using a Microsoft SQL database</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Only required when using a Microsoft SQL database</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Nur bei Einsatz einer Microsoft SQL-Server-Datenbank erforderlich.</mrk></target></trans-unit><trans-unit
+        id="32"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you are not hosting the MSSQL Server on MS Windows, ensure
+that the host system supports
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>UTF-8<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   encoding.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you are not hosting the MSSQL Server on MS Windows, ensure that the host system supports <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>UTF-8<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> encoding.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Falls Sie dem MSSQL-Server nicht über ein Microsoft Windows-Betriebssystem bereitstellen, stellen Sie bitte sicher, dass das Hostsystem <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>UTF-8<ept
+              id="1">&lt;/kbd&gt;</ept> Enkodierung unterstützt.</mrk></target></trans-unit><trans-unit
+        id="33"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Moreover, the TCP/IP protocol must be enabled for the database
+instance. To enable this, start the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    SQL Server Configuration
+Manager
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+   and selecting
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    SQL-Server-Network
+configuration
+   <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+   -
+   <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    Protocols for ‘INSTANCE_NAME’
+   <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+   in the list and activate the TCP/IP protocol. After this configuration
+the SQL Server must be restarted.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Moreover, the TCP/IP protocol must be enabled for the database instance.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">To enable this, start the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> SQL Server Configuration Manager <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> and selecting <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> SQL-Server-Network configuration <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> - <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Protocols for ‘INSTANCE_NAME’ <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> in the list and activate the TCP/IP protocol.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">After this configuration the SQL Server must be restarted.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Aktivieren Sie außerdem das Protokoll TCP/IP für Ihre Datenbankinstanz.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Starten Sie hierzu das Programm <bpt
+              id="1">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>SQL Server Configuration Manager<ept
+              id="1">&lt;/strong&gt;</ept> und wählen Sie in der Liste <bpt
+              id="2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>SQL Server-Netzwerkkonfiguratio<ept
+              id="2">&lt;/strong&gt;</ept>n - <bpt
+              id="3">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Protokolle für ‘INSTANZNAME‘<ept
+              id="3">&lt;/strong&gt;</ept> aus. Aktivieren Sie das TCP/IP-Protokoll.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Starten Sie den SQL-Server nach der Aktivierung neu.</mrk></target></trans-unit><trans-unit
+        id="34"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Create a database user account which uses SQL Server authentication.
+The user name and password are required to configure the Signavio
+Process Manager later on. Please check, if the option
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    SQL
+Server- and Windows-authentication mode
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+   is enabled in the
+security settings of your Microsoft SQL Server instance.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create a database user account which uses SQL Server authentication.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The user name and password are required to configure the Signavio Process Manager later on.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Please check, if the option <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> SQL Server- and Windows-authentication mode <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> is enabled in the security settings of your Microsoft SQL Server instance.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Legen Sie einen Datenbanknutzeran, der die SQL Server Authentifizierung nutzt.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Den hier eingestellten Nutzernamen und das Passwort müssen Sie später in der Konfiguration des Signavio Process Managers hinterlegen.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Stellen Sie sicher, dass in den Sicherheitseinstellungen des Microsoft SQL Servers die Option <bpt
+              id="1">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>SQL Server- und Windows Authentifizierungsmodus<ept
+              id="1">&lt;/strong&gt;</ept> aktiviert ist.</mrk></target></trans-unit><trans-unit
+        id="35"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Create an empty database for the Signavio Process Explorer and
+assign the user account the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    membership
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>db_owner<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   for the database. Set
+   <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>dbo<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   as the
+   <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>default scheme<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   for the user account. Use
+   <bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Latin1_General_CI_AS
+   <ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   as the database’s
+   <bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>collation<ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create an empty database for the Signavio Process Explorer and assign the user account the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> membership <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>db_owner<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> for the database.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Set <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>dbo<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> as the <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>default scheme<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> for the user account.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Use <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Latin1_General_CI_AS <ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> as the database’s <bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>collation<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Erstellen Sie eine leere Datenbank für den Signavio Process Manager und weisen Sie dem Datenbanknutzer für die Datenbank die <bpt
+              id="1">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Mitgliedschaft<ept
+              id="1">&lt;/strong&gt;</ept> <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>db_owner<ept
+              id="2">&lt;/kbd&gt;</ept> zu.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Stellen Sie für den Datenbanknutzer als <bpt
+              id="4">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Standardschema<ept
+              id="4">&lt;/kbd&gt;</ept> <bpt
+              id="3">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>dbo<ept
+              id="3">&lt;/kbd&gt;</ept> ein.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Konfigurieren Sie als <bpt
+              id="6">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Collation<ept
+              id="6">&lt;/em&gt;</ept> der Datenbank <bpt
+              id="5">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Latin1_General_CI_AS<ept
+              id="5">&lt;/kbd&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="36"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>Enabling snapshot isolation for Microsoft SQL Server</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Enabling snapshot isolation for Microsoft SQL Server</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Aktivieren der Snapshot-Isolation für Microsoft SQL Server</mrk></target></trans-unit><trans-unit
+        id="37"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Some database transactions in Signavio Process Manager require <bpt
+            id="1"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>snapshot isolation<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> to prevent <bpt
+            id="2"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/ms191242(v=sql.105)#Anchor_4" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>database deadlocks<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>. To enable snapshot isolation, execute the following SQL statements all at once (<bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;DbName&gt;<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> represents the name of your database):</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Some database transactions in Signavio Process Manager require <bpt
+              id="1"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>snapshot isolation<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> to prevent <bpt
+              id="2"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/ms191242(v=sql.105)#Anchor_4" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>database deadlocks<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">To enable snapshot isolation, execute the following SQL statements all at once (<bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;DbName&gt;<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> represents the name of your database):</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Einige Datenbanktransaktionen in Signavio Process Manager erfordern die <bpt
+              id="1"
+              ctype="bold">&lt;b xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>snapshot isolation, <ept
+              id="1">&lt;/b&gt;</ept>um <bpt
+              id="2"
+              ctype="link">&lt;a href="https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/ms191242(v=sql.105)#Anchor_4" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Datenbank-Deadlocks<ept
+              id="2">&lt;/a&gt;</ept> zu verhindern.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Um die Snapshot-Isolation zu aktivieren, führen Sie die folgenden SQL-Anweisungen auf einmal aus (<bpt
+              id="3">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;DbName&gt;<ept
+              id="3">&lt;/kbd&gt;</ept> steht für den Namen Ihrer Datenbank):</mrk></target></trans-unit><trans-unit
+        id="38"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Configuring Oracle database</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configuring Oracle database</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Oracle Datenbanksystem konfigurieren</mrk></target></trans-unit><trans-unit
+        id="39"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Only required when using an Oracle database</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Only required when using an Oracle database</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Nur bei Einsatz einer Oracle Datenbank erforderlich.</mrk></target></trans-unit><trans-unit
+        id="40"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Please ensure the database is using
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>UFT-8<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   as standard
+encoding and create an empty database for Signavio Process Manager.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Please ensure the database is using <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>UFT-8<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> as standard encoding and create an empty database for Signavio Process Manager.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Stellen Sie sicher, dass die Datenbank <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>UTF-8<ept
+              id="1">&lt;/kbd&gt;</ept> als Kodierung benutzt und legen Sie eine leere Datenbank für den Signavio Process Manager an.</mrk></target></trans-unit><trans-unit
+        id="41"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>When using a Linux operating system you find the configuration file
+by default at
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>oracle/network/admin/sqlnet.ora<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">When using a Linux operating system you find the configuration file by default at <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>oracle/network/admin/sqlnet.ora<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Unter Linux finden Sie die Konfigurationsdatei standardmäßig in der Datei <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>oracle/network/admin/sqlnet.ora<ept
+              id="1">&lt;/kbd&gt;</ept>.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

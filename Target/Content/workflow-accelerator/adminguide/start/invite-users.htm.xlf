@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="in-progress">
+  <file
+    xml:space="preserve"
+    original="invite-users.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="invite-users.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">21</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Invite other users</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Invite other users</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Weitere Nutzer einladen</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In case this is an integrated installation with Signavio Process
+Manager, see section<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../process-manager-integration/process-manager-integration.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Signavio Process Manager integration
+  &lt;/MadCap:xref&gt;</ph>
+   for setting up
+synchronization of users.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In case this is an integrated installation with Signavio Process Manager, see section<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../process-manager-integration/process-manager-integration.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Signavio Process Manager integration
+  &lt;/MadCap:xref&gt;</ph> for setting up synchronization of users.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="92">Falls Sie Workflow Accelerator in Kombination mit dem Signavio Process Manager erworben haben und daher beide System integrieren möchten, wechseln Sie für weitere Informationen in den Abschnitt <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../process-manager-integration/process-manager-integration.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Signavio Process Manager integration
+  &lt;/MadCap:xref&gt;</ph> .</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To invite other users, go to the organization configuration panel.
+That's located in the dropdown under your name in the top right corner
+named
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    Organization settings
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>. In section Invitations you can
+enter email addresses of users you want to invite. The amount of users
+that can be invited to your organization depends on the number of user
+licenses you have acquired. All organizations on an on-premise system
+share the same license pool. This means the shown number of unused
+licenses is the same in every organization. If one organization invites
+another user the count of unused licenses in all organizations
+decreases.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To invite other users, go to the organization configuration panel.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">That's located in the dropdown under your name in the top right corner named <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Organization settings <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">In section Invitations you can enter email addresses of users you want to invite.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">The amount of users that can be invited to your organization depends on the number of user licenses you have acquired.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">All organizations on an on-premise system share the same license pool.</mrk><mrk
+            mtype="protected"
+            mid="10"> </mrk><mrk
+            mtype="seg"
+            mid="11">This means the shown number of unused licenses is the same in every organization.</mrk><mrk
+            mtype="protected"
+            mid="12"> </mrk><mrk
+            mtype="seg"
+            mid="13">If one organization invites another user the count of unused licenses in all organizations decreases.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="60"
+            MadCap:diff="ContentChanged" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Im Abschnitt Einladungen können Sie nun die E-Mail-Adressen von Nutzern eingeben und so weitere Nutzer in Ihren Arbeitsbereich einladen.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Dies setzt voraus, dass Sie freie Nutzerlizenzen zur Verfügung stehen haben.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Auf Ihrem On-Premise System teilen sich alle Organisationen die Anzahl der Nutzerlizenzen.</mrk><mrk
+            mtype="protected"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /><mrk
+            mtype="protected"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="55"
+            MadCap:diff="ContentChanged" /></target><alt-trans
+          mid="2"
+          match-quality="60"
+          origin="previous-version"><seg-source>To invite other users, go to the organization configuration panel. That's located in the dropdown under your name in the top right corner named <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Organization settings <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Öffnen Sie die Konfigurationsoberfläche im Auswahlmenü unterhalb Ihres Namens unter <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Organisationseinstellungen<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>, um weitere Nutzer einzuladen.</target></alt-trans><alt-trans
+          mid="12"
+          match-quality="55"
+          origin="previous-version"><seg-source>This means the shown number of unused licenses is the same in every organization. If one organization invites another user the count of unused licenses in all organizations decreases.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Wenn eine Organisation auf dem System weitere Nutzer einlädt, schränkt dies also die Zahl der auf dem System zu Verfügung stehenden Nutzerlizenzen organisationsübergreifend ein.</target></alt-trans></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>A user can be invited to multiple organizations. If a user is part
+of two organizations, he will require two user licenses, one for each
+organization he is part of.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">A user can be invited to multiple organizations.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If a user is part of two organizations, he will require two user licenses, one for each organization he is part of.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Ein Nutzer kann darüber hinaus in mehrere Organisationen eingeladen werden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">In diesem Fall belegt der Nutzer für jede Organisation eine Nutzerlizenz – falls ein Nutzer in zwei Organisationen existiert, benötigt er also zwei Lizenzen.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Besides the manual invitation of every user, the enterprise version
+of Workflow Accelerator offers the possibility to synchronize users and
+groups with Active Directory. See <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../optional-configuration/synchronisation-active-directory.htm#User" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;User and group synchronisation with Active Directory&lt;/MadCap:xref&gt;</ph>   for more information.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Besides the manual invitation of every user, the enterprise version of Workflow Accelerator offers the possibility to synchronize users and groups with Active Directory.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">See <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../optional-configuration/synchronisation-active-directory.htm#User" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;User and group synchronisation with Active Directory&lt;/MadCap:xref&gt;</ph> for more information.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Neben der Möglichkeit jeden Nutzer manuell einzuladen, bietet die Enterprise-Version von Workflow Accelerator die Möglichkeit Nutzer und Gruppen mit einem Active Directory zu synchronisieren.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="97">Weitere Information dazu finden Sie in <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../optional-configuration/synchronisation-active-directory.htm#User" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;User and group synchronisation with Active Directory&lt;/MadCap:xref&gt;</ph>.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

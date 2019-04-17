@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/TableStyles/Alternate-Row-Color.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1><a name="Back" xmlns="http://www.w3.org/1999/xhtml"></a>砻קยด1ตว融</h1>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด2ตว融</p>
+        <table class="TableStyle-Alternate-Row-Color" style="mc-table-style: url('../../../Resources/TableStyles/Alternate-Row-Color.css');" cellspacing="21" xmlns="http://www.w3.org/1999/xhtml">
+            <tbody>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>砻קยด3ตว融</kbd></td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">砻קยด4ตว融</td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>砻קยด5ตว融</kbd></td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2">砻קยด6ตว融</td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body1"><kbd>砻קยด7ตว融</kbd></td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyA-Column2-Body1">砻קยด8ตว融</td>
+                </tr>
+            </tbody>
+        </table>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด9ตว融</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด10ตว融</p>
+    </body>
+</html>

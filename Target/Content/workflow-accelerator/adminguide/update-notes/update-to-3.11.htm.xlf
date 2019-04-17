@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="update-to-3.11.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="update-to-3.11.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">20</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Updating to Signavio Workflow 3.11</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Updating to Signavio Workflow 3.11</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Auf Signavio Workflow 3.11 aktualisieren</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Effektif has been renamed to Signavio Workflow. Along with this
+change, the colors of the default theme have changed as well. You may
+notice the name of the database and database user in the examples in
+this manual have been changed from <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   to <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>signavio<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. You don't need to change any of the names in
+your production environment. But keep in mind that you might have to
+adjust any examples in this manual to your actual naming.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Effektif has been renamed to Signavio Workflow.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Along with this change, the colors of the default theme have changed as well.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">You may notice the name of the database and database user in the examples in this manual have been changed from <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> to <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>signavio<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">You don't need to change any of the names in your production environment.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">But keep in mind that you might have to adjust any examples in this manual to your actual naming.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Effektif wurde umbenannt in Signavio Workflow.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Als Teil dieser Änderungen wurden auch die Farben der Nutzeroberfläche angepasst.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Evlt. wird Ihnen auffallen, dass sich die Namen für die Datenbank und den Datenbanknutzer in den Beispielen in diesem Handbuch von <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif<ept
+              id="1">&lt;/kbd&gt;</ept> zu <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>signavio<ept
+              id="2">&lt;/kbd&gt;</ept> geändert haben.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sie müssen keinen der Namen in Ihrer Produktivumgebung ändern.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Merken Sie sich jedoch, dass die Benennungen in den Beispielen von Ihren aktuellen Benennungen abweichen kann.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>With the new version of Signavio Workflow you are now able to
+configure a Node.js server to execute script tasks in a workflow. Note,
+you only need to configure this component if your version of Signavio
+Workflow supports script tasks. In general, you can use script tasks
+only with a full version of Signavio Workflow and not as part of the
+Signavio Approval Workflow. Refer to section <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../install/install-script-engine.htm#InstallingWAScriptE" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Installing the Workflow Accelerator
+Script Engine
+  &lt;/MadCap:xref&gt;</ph>
+   for more information on
+how to setup the Signavio Workflow Script Engine.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">With the new version of Signavio Workflow you are now able to configure a Node.js server to execute script tasks in a workflow.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Note, you only need to configure this component if your version of Signavio Workflow supports script tasks.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">In general, you can use script tasks only with a full version of Signavio Workflow and not as part of the Signavio Approval Workflow.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">Refer to section <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../install/install-script-engine.htm#InstallingWAScriptE" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Installing the Workflow Accelerator
+Script Engine
+  &lt;/MadCap:xref&gt;</ph> for more information on how to setup the Signavio Workflow Script Engine.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die neue Version von Signavio Workflow bietet nun die Möglichkeit einen Node.js Server zu konfigurieren um JavaScript-Tasks in einem Workflow auszuführen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Beachten Sie, dass Sie diese Komponente nur konfigurieren müssen, wenn Ihre Version von Signavio Workflow JavaScript-Tasks unterstützt.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Im Allgemeinen können Sie die JavaScript-Tasks nur mit einer Vollversion von Signavio Workflow nutzen und nicht als Teil des Signavio Freigabe-Workflows.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Abschnitt <ph
+              id="1">&lt;MadCap:xref href="../install/install-script-engine.htm#InstallingWAScriptE" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Installing the Workflow Accelerator
+Script Engine
+  &lt;/MadCap:xref&gt;</ph> gibt Ihnen weitere Informationen, wie Sie die Signavio Workflow Script Engine aufsetzen müssen.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you update from a version prior to Effektif 3.4, please follow
+the instructions in the next section to update your Java, Tomcat and
+MongoDB version as well. You don't need to do an intermediate update to
+Effektif version 3.4 and can directly update to version 3.11 of
+Signavio Workflow.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you update from a version prior to Effektif 3.4, please follow the instructions in the next section to update your Java, Tomcat and MongoDB version as well.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You don't need to do an intermediate update to Effektif version 3.4 and can directly update to version 3.11 of Signavio Workflow.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wenn Sie Ihr System von einer Version älter als 3.4 aktualisieren, folgen Sie bitte auch den Anweisungen im nächsten Abschnitt, um Java, Tomcat und MongoDB ebenfalls zu aktualisieren.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sie müssen die Anwendung jedoch nicht erst auf Version 3.4 aktualisieren, sondern können direkt Version 3.11 installieren.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

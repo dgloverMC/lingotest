@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head><title>Backup for Windows Signavio Workflow Accelerator </title>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Windows</h1>
+        <p xmlns="http://www.w3.org/1999/xhtml">The <kbd xmlns="http://www.w3.org/1999/xhtml">mongodump.exe</kbd>
+can be found in the MongoDB installation directory,
+   <kbd>$MONGO_HOME\bin\mongodump.exe</kbd>. You
+just have to create a directory where the backups should be stored and
+make sure the user doing the backups has the necessary read / write
+permissions. If you followed the instructions within this guide to
+setup MongoDB, the command to execute mongodump would look like this:
+			</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">C:\MongoDB\bin\mongodump.exe -u signavio -p &lt;SignavioUserPassword&gt; -o C:\path\to\dumps</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   In the example above, adjust the location of your MongoDB
+installation accordingly. The parameter -u defines the username and -p
+the password of the Workflow Accelerator MongoDB user, replace them
+with your chosen values. The parameter -o specifies the output
+directory.
+  </p>
+    </body>
+</html>

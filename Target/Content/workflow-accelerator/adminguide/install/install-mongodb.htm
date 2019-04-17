@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" MadCap:onlyLocalStylesheets="True" xml:space="preserve">
+    <head><title></title>
+        <style type="text/css">
+        </style>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 name="install-mongodb">
+   Installing MongoDB
+  </h1>
+        <p>
+   MongoDB is currently the only database system that Workflow
+Accelerator supports. If you already have infrastructure that can
+provide a MongoDB version 3.4.x or 3.6.x instance, simply create a new
+instance for Workflow Accelerator and skip to 
+<MadCap:xref href="configure-mongoDB.htm#ConfiguringMongoDB">Configuring MongoDB
+  </MadCap:xref>. Otherwise
+continue with the installation instructions.
+  </p>
+        <p>
+   General information about installing MongoDB on different operating
+systems can be found at:
+  </p>
+        <p><a href="https://docs.mongodb.com/manual/installation/">
+    https://docs.mongodb.com/manual/installation/
+   </a>
+        </p>
+        <p>
+   There are two versions of MongoDB,
+   <em>MongoDB Community Edition</em> and <em> MongoDB Enterprise</em>.
+   <em>MongoDB Community Edition</em> can be used free of charge even in a commercial context,
+whereas <em>MongoDB Enterprise</em>
+   is a commercial product that offers
+additional tooling and support. You can use either version with
+Workflow Accelerator.
+  </p>
+        <p>
+   In case you are using Linux, you have the possibilities to install
+MongoDB using either a package manager like
+   <kbd>apt-get</kbd>
+   or
+downloading the binaries directly. It is recommended to use the package
+manager because it will also set up scripts that will allow you to
+easily start and stop the server. However, you have to ensure the
+correct version is installed.</p>
+        <p>
+            <MadCap:xref href="#Debi">
+   Debian
+  </MadCap:xref> explains in more detail how to set
+up MongoDB on Debian, and might work as an example for other Linux
+distributions.
+  </p>
+        <h2 name="remarks-for-downloading-the-binaries">
+   Remarks for downloading
+the binaries
+  </h2>
+        <p>
+   You can find a version of MongoDB for your operating system
+here:
+  </p>
+        <p><a href="https://www.mongodb.com/download-center">https://www.mongodb.com/download-center</a>
+        </p>
+        <h2 name="windows-2">Windows</h2>
+        <p>Windows requires you to download the binaries. Consider the remarks
+			of the last subsection when doing so. If you are using any version
+			older than Windows Server 2008 R2, you have to download the 64-bit
+			legacy release.
+		</p>
+        <p>You can find more details about installing MongoDB on Windows in the
+documentation:</p>
+        <p><a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/">https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/</a>
+        </p>
+        <p>When you have finished downloading MongoDB, follow these steps:</p>
+        <ol>
+            <li>Start the installation by double-clicking the downloaded MongoDB <kbd>.msi</kbd>
+				and following the instructions. <ul><li>You can select another install directory, e.g. <kbd>C:\MongoDB</kbd>, if you choose the <em>Custom</em>	installation option.</li></ul></li>
+            <li>Create a data directory for the MongoDB files, e.g. <kbd>C:\MongoDB\data</kbd>.</li>
+            <ul>
+                <li>
+				This directory will need the most disk space. Make sure the drive
+				has sufficient disk space.
+			</li>
+            </ul>
+            <li>Create a logs directory for the MongoDB log files, e.g.<kbd>C:\MongoDB\logs</kbd>.
+</li>
+            <li>Copy the file <kbd>$WORKFLOW_HOME\db\mongod.cfg</kbd> to your MongoDB directory <br /><kbd>C:\MongoDB\mongod.cfg</kbd> and edit the file. <ul><li>The <kbd>dbPath</kbd> under <kbd>storage</kbd>
+						must contain the absolute path to the data directory, e.g.
+					<kbd>C:\MongoDB\data </kbd>.</li><li>The <kbd>path</kbd> under <kbd>systemLog</kbd>
+						must contain the absolute path to the log file, e.g.
+						<kbd>C:\MongoDB\logs\mongodb.log</kbd>. The log file will be created
+					once MongoDB is started.</li><li>The configuration file needs to be in a valid
+						<a href="http://yaml.org">YAML</a>
+						format. You can use an online checker like
+						<a href="http://www.yamllint.com/">YAML Lint</a>
+						to verify the
+					validity. </li><li>See
+						<MadCap:xref href="configure-mongoDB.htm#ConfiguringMongoDB">Configuring MongoDB
+  </MadCap:xref>
+						for more information about the other
+			configuration values.</li></ul></li>
+            <li> Open the command line <kbd>cmd</kbd>
+				with administrative
+				privileges and execute the following command. Make sure to use absolute
+				paths and replace them with the matching ones on your system.			<ul><li><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">C:\MongoDB\bin\mongod.exe --config C:\MongoDB\mongod.cfg --install</code></pre></li><li>
+						The command line should tell you that the service MongoDB was
+						properly created.
+					</li><li>You can unregister the service again by executing:<br /><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">C:\MongoDB\bin\mongod.exe --remove</code></pre></li><li>
+						The registered service should start MongoDB automatically on
+						startup of Windows.
+					</li></ul></li>
+            <li>You can start MongoDB by executing the following command: <pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">net start MongoDB</code></pre></li>
+            <li> You can stop MongoDB by calling:
+			<pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">net stop MongoDB</code></pre></li>
+            <ul>
+                <li>
+					The service is also listed in the services window that can be
+					opened by running <pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">services.msc</code></pre></li>
+            </ul>
+        </ol>
+        <h2 name="install-mongodb-debian"><a name="Debi" xmlns="http://www.w3.org/1999/xhtml"></a>
+   Debian
+  </h2>
+        <p>
+   If you are installing MongoDB on a Debian system, you are advised to
+use the method described in the MongoDB configuration:
+  </p>
+        <p><a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/">
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/</a>
+        </p>
+        <p>
+   For convenience, the script <kbd>$WORKFLOW_HOME/mongodb.install.debian.sh</kbd>
+   wraps the necessary commands for installing the correct version of MongoDB on
+   <em>Debian 8 Jessie</em> using <kbd>apt-get</kbd>. Simply execute it from the command line by opening
+   <kbd>$WORKFLOW_HOME</kbd>
+   and calling:</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">sudo ./mongodb.install.debian.sh</code></pre>
+        <p>
+   This will add the MongoDB repositories to your package sources and
+install the version 3.4.x of MongoDB. Note that this script only works
+with Debian 8 Jessie. The official documentation offers instructions
+for Debian 7 Wheezy as well. You can now simply start and stop the
+MongoDB server by calling :
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code>sudo service mongod start</code></pre>
+        <p>
+   or  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code>sudo service mongod stop</code></pre>
+        <p>
+   The server will use the default configuration file
+   <kbd>/etc/mongod.conf</kbd>. See the next section for more
+information on how to configure MongoDB for Workflow Accelerator and
+create the required user. Note that the installation probably already
+started the MongoDB server. You will need to restart the MongoDB server
+after you edit the configuration.
+  </p>
+    </body>
+</html>

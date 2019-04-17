@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <ol style="list-style-type: decimal;" xmlns="http://www.w3.org/1999/xhtml">
+            <li><a href="https://nodejs.org/en/download/" xmlns="">
+     Download the required Node.js LTS version</a>
+            </li>
+            <li>
+    Stop your Workflow Accelerator Script Engine - see section <MadCap:xref href="../stop/stop.htm">
+   Stopping Signavio Workflow Accelerator
+  </MadCap:xref>.</li>
+            <li>
+    Uninstall your old Node.js version   </li>
+            <li>
+    Install the new Node.js 
+LTS version  </li>
+            <li>
+    (Optional) Update your startup script / service for Workflow
+Accelerator Script Engine if the install directory for Node.js
+changed.
+   </li>
+        </ol>
+        <ul xmlns="http://www.w3.org/1999/xhtml">
+            <li><em>
+      Windows
+     </em>
+     : If you are using NSSM to run the service, open
+the command line <kbd>cmd</kbd>
+     with administrative privileges,
+execute
+     <kbd>nssm edit script-engine</kbd>
+     and update the location of
+Node.js in the dialog.
+    </li>
+        </ul>
+        <ol start="6" style="list-style-type: decimal;" xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Start Workflow Accelerator Script Engine - see section <MadCap:xref href="../start/intro.htm">
+   Starting Signavio Workflow Accelerator
+  </MadCap:xref>.
+</li>
+        </ol>
+    </body>
+</html>

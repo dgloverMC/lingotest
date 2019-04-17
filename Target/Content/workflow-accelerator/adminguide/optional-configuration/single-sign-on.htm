@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head><title>Single Sign-On </title>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 name="single-sign-on-using-windows-and-kerberosspnego" xmlns="http://www.w3.org/1999/xhtml">Single Sign-On
+using Windows and Kerberos/SPNEGO
+  </h1>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Use this configuration to enable Single Sign-On (SSO) in a Windows
+environment that supports user authentication using
+   <a href="https://en.wikipedia.org/wiki/Kerberos_%28protocol%29">
+    Kerberos
+   </a>
+   and
+   <a href="https://en.wikipedia.org/wiki/SPNEGO">
+    SPNEGO
+   </a>.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Before you start, check that you have the following
+pre-requisites.
+  </p>
+        <ul xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Windows domain users added to Workflow Accelerator, e.g. using LDAP
+synchronisation.
+   </li>
+            <li>
+    A Windows domain for authenticating users.
+   </li>
+            <li>
+    A domain account for running Workflow Accelerator - its username
+and password.
+   </li>
+            <li>
+    Workflow Accelerator is installed on a Windows Server that is on
+the domain.
+   </li>
+        </ul>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Configuring SSO in Apache Tomcat consists of the following
+steps.
+  </p>
+        <ol xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Install the SPNEGO library’s JAR file.
+   </li>
+            <li>
+    Configure the SPNEGO SSO Servlet filter.
+   </li>
+            <li>
+    Add the
+<kbd>krb5.conf</kbd>and
+<kbd>login.conf</kbd>
+    configuration files to
+<kbd>$TOMCAT_HOME/</kbd>.
+   </li>
+            <li>
+    Register Tomcat’s Service Principal Name (SPN)
+   </li>
+            <li>
+    Configure Tomcat to be executed with a domain account.
+   </li>
+            <li>
+    Restart Tomcat.
+   </li>
+        </ol>
+        <h2 name="install-the-spnego-library" xmlns="http://www.w3.org/1999/xhtml">
+   Install the SPNEGO library
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The SPNEGO library makes it possible to authenticate users by
+connecting to an Active Directory server.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   To install, copy two files to
+<kbd>$TOMCAT_HOME/lib/</kbd>:
+  </p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code>$WORKFLOW_HOME/optional/spnego/spnego.jar
+
+$WORKFLOW_HOME/optional/spnego/signavio-cfc.jar</code></pre>
+        <h2 name="configure-sso-filter" xmlns="http://www.w3.org/1999/xhtml"><a name="ConfiguringSPNEGO" xmlns="http://www.w3.org/1999/xhtml"></a>Configuring the SPNEGO SSO Servlet
+filter
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The SSO Servlet filter uses Windows authentication to automatically
+log in when a user accesses Workflow Accelerator.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   To configure, edit
+<kbd>$TOMCAT_HOME/conf/web.xml</kbd>
+   and add
+the following lines immediately before the final line
+(<kbd>&lt;/web-app&gt;</kbd>), from <kbd>$WORKFLOW_HOME/optional/spnego/filter-configuration.xml</kbd>.
+  </p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code>&lt;filter&gt;
+
+    &lt;filter-name&gt;cfc&lt;/filter-name&gt;
+
+    &lt;filter-class&gt;ConditionalFilterChain&lt;/filter-class&gt;
+
+&lt;/filter&gt;
+
+&lt;filter-mapping&gt;
+
+    &lt;filter-name&gt;cfc&lt;/filter-name&gt;
+
+    &lt;url-pattern&gt;/*&lt;/url-pattern&gt;
+
+&lt;/filter-mapping&gt;
+
+
+&lt;filter&gt;
+
+    &lt;filter-name&gt;SpnegoHttpFilter&lt;/filter-name&gt;
+
+    &lt;filter-class&gt;net.sourceforge.spnego.SpnegoHttpFilter&lt;/filter-class&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.allow.basic&lt;/param-name&gt;
+
+        &lt;param-value&gt;false&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.allow.localhost&lt;/param-name&gt;
+
+        &lt;param-value&gt;false&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.allow.unsecure.basic&lt;/param-name&gt;
+
+        &lt;param-value&gt;false&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.login.client.module&lt;/param-name&gt;
+
+        &lt;param-value&gt;spnego-client&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.krb5.conf&lt;/param-name&gt;
+
+        &lt;param-value&gt;krb5.conf&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.login.conf&lt;/param-name&gt;
+
+        &lt;param-value&gt;login.conf&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.login.server.module&lt;/param-name&gt;
+
+        &lt;param-value&gt;spnego-server&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.prompt.ntlm&lt;/param-name&gt;
+
+        &lt;param-value&gt;false&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.logger.level&lt;/param-name&gt;
+
+        &lt;param-value&gt;1&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.preauth.username&lt;/param-name&gt;
+
+        &lt;param-value&gt;???&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.preauth.password&lt;/param-name&gt;
+
+        &lt;param-value&gt;???&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+&lt;/filter&gt;
+
+&lt;filter-mapping&gt;
+
+    &lt;filter-name&gt;SpnegoHttpFilter&lt;/filter-name&gt;
+
+    &lt;url-pattern&gt;/*&lt;/url-pattern&gt;
+
+&lt;/filter-mapping&gt;</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Near the bottom, replace two occurrences of
+<kbd>???</kbd>
+   with
+the domain account’s username and password, respectively.
+  </p>
+        <h2 name="adding-spnego-configuration-files" xmlns="http://www.w3.org/1999/xhtml">
+   Adding SPNEGO configuration
+files
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Copy
+<kbd>krb5.conf</kbd>
+   to
+<kbd>$TOMCAT_HOME/</kbd>, and edit
+the file:
+  </p>
+        <ul xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    replace five occurrences of
+<kbd>ADTEST</kbd>
+    with the Windows
+domain name
+   </li>
+            <li>
+    replace
+<kbd>123.45.6.7</kbd>
+    with the host name or IP address of
+the Active Directory server.
+   </li>
+        </ul><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">[libdefaults]
+
+    default_tkt_enctypes = aes128-cts rc4-hmac des3-cbc-sha1 des-cbc-md5 des-cbc-crc
+
+    default_tgs_enctypes = aes128-cts rc4-hmac des3-cbc-sha1 des-cbc-md5 des-cbc-crc
+
+    permitted_enctypes   = aes128-cts rc4-hmac des3-cbc-sha1 des-cbc-md5 des-cbc-crc
+
+    default_realm = ADTEST.LOCAL
+
+
+[realms]
+
+    ADTEST.LOCAL  = {
+
+        kdc = 123.45.6.7
+
+        default_domain = ADTEST.LOCAL 
+
+}
+
+
+[domain_realm]
+
+    .ADTEST.LOCAL = ADTEST.LOCAL </code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Copy
+<kbd>login.conf</kbd>
+   to
+<kbd>$TOMCAT_HOME/</kbd>.
+  </p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">spnego-client {
+
+    com.sun.security.auth.module.Krb5LoginModule required;
+
+};
+
+
+spnego-server {
+
+    com.sun.security.auth.module.Krb5LoginModule required
+
+    storeKey=true
+
+    isInitiator=false;
+
+};</code></pre>
+        <h2 name="registering-tomcats-service-principal-name-spn" xmlns="http://www.w3.org/1999/xhtml">
+   Registering
+Tomcat’s Service Principal Name (SPN)
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The
+   <a href="https://msdn.microsoft.com/en-us/library/ms677949(v=vs.85).aspx">
+    SPN
+   </a>
+   is the identifier used by Kerberos authentication to associate a
+service instance with a service logon account. You will have to
+associate the domain account for Workflow Accelerator with the
+service’s fully-qualified domain name (FQDN). Therefore, you should
+register a SPN for every possible alias of the service, including the
+computer name of the server with and without domain name, as well as
+any other DNS entries that point to this server. In order to define a
+SPN, use
+<kbd>setspn.exe</kbd>
+   - part of the<a href="https://en.wikipedia.org/wiki/Windows_Support_Tools">
+    Windows Support
+Tools</a>.
+  </p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code>setspn.exe -A HTTP/computer-name.domain-name domain-user-account</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   For example, our domain is called
+<kbd>ADTEST.LOCAL</kbd>, the
+computer name of the server is
+<kbd>VM-42</kbd>, Workflow Accelerator
+will be available under the domain <br></br><kbd>http://workflow.intranet:8080</kbd>
+   and the domain user account
+is
+<kbd>tomcat@adtest.local</kbd>. Then we would have to register the
+following SPNs:
+  </p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">setspn.exe -A HTTP/vm-42 tomcat
+
+setspn.exe -A HTTP/vm-42.adtest.local tomcat
+
+setspn.exe -A HTTP/workflow.intranet tomcat</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   For more information see the
+   <a href="https://msdn.microsoft.com/en-us/library/cc281382.aspx">
+    Microsoft
+documentation</a>.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   You can list all registered SPNs which are associated to a domain
+account with the following command:
+  </p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve">
+<code class="language-sh">setspn.exe -L domain-user-account</code></pre>
+        <h2 name="configuring-the-tomcat-user" xmlns="http://www.w3.org/1999/xhtml">
+   Configuring the Tomcat user
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   By default the Tomcat application server is executed with a local
+system account. The SSO setup requires the Tomcat to be executed with a
+domain account. You should use the same domain account which you
+already configured in
+   
+   <MadCap:xref href="#ConfiguringSPNEGO">
+   Configuring the SPNEGO SSO Servlet
+filter</MadCap:xref>.
+  </p>
+        <ol xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Open the Windows services dialogue
+<kbd>services.msc</kbd></li>
+            <li>
+    Select your Apache Tomcat service and open the properties
+   </li>
+            <li>
+    Select the
+    <em>Log On</em>
+    tab
+   </li>
+            <li>
+    Choose the option
+    <em>This account</em>
+    and fill in the domain
+account credentials
+   </li>
+        </ol>
+        <h2 name="troubleshooting" xmlns="http://www.w3.org/1999/xhtml">
+   Troubleshooting
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   First follow the steps in the
+   <a href="http://spnego.sourceforge.net/pre_flight.html">
+    SPNEGO Pre-flight
+checklist</a>. Run the
+<kbd>HelloKDC</kbd>
+   connection test in the
+<kbd>$TOMCAT_HOME/</kbd>
+   directory to use the
+<kbd>krb5.conf</kbd>
+   and
+<kbd>login.conf</kbd>
+   you configured above.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Note that in the
+   <span class="title-ref">Pre-flight
+checklist</span>, the
+   <span class="title-ref">
+    Do we know the address of
+the KDC?</span>
+   section recommends using the KDC host name instead of
+the IP address.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you have completed the setup described here and the SSO is still
+not working, please make sure you are accessing the web application
+from a different machine than the one that runs the Tomcat server.
+Furthermore, check if
+   <a href="https://en.wikipedia.org/wiki/Integrated_Windows_Authentication">
+    Integrated
+Windows Authentication
+   </a>
+   is activated and the Workflow Accelerator
+system is a trusted service, for instance by adding the address to the
+local intranet.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you see an error page with the following error message:
+  </p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">GSSException: Failure unspecified at GSS-API level (Mechanism level: Clock skew too great (37))</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The time difference between the computer accessing Workflow
+Accelerator and the Kerberos server is bigger than 5 minutes. You will
+need to synchronise the time on all machines, e.g. by running ntp to
+fix the issue.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Additionally, you can check the log files in
+<kbd>$TOMCAT_HOME/logs</kbd>
+   for further error messages. These error
+messages may offer hints about why the SSO set-up is failing.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If the log files contain the error message
+<kbd>Request header is too large</kbd>, the size of the Kerberos tickets issued by your KDC
+and sent in the request header are too large for the default Tomcat
+settings. You have to set the
+<kbd>maxHttpHeaderSize</kbd>
+   option in
+the Tomcat
+<kbd>server.xml</kbd>.
+  </p>
+        <ol xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Open
+<kbd>$TOMCAT_HOME/conf/server.xml</kbd></li>
+            <li>
+    Locate the
+<kbd>Connector</kbd>
+    configuration in the file
+   </li>
+            <li>
+                <p>
+     Add the value
+<kbd>maxHttpHeaderSize="65536"</kbd>:
+    </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;Connector port="8080" maxHttpHeaderSize="65536" protocol="HTTP/1.1" ... /&gt;</code></pre>
+            </li>
+            <li>
+    Save the file and restart Tomcat
+</li>
+        </ol>
+    </body>
+</html>

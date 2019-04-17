@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="in-progress">
+  <file
+    xml:space="preserve"
+    original="common-problems.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="common-problems.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">71</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Common problems</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Common problems</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Häufige Fehler</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>This section lists some common problems that can arise during the
+setup of the Workflow Accelerator system and gives instructions on how
+to solve them.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">This section lists some common problems that can arise during the setup of the Workflow Accelerator system and gives instructions on how to solve them.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">In diesem Abschnitt sind häufige Probleme, die im Zuge der Betreibung von Workflow Accelerator auftreten können, zusammen mit Lösungsansätzen aufgeführt:</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-dt"
+        phase-name="pretrans"><source>Problem:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Problem:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Problem:</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-dd"
+        phase-name="pretrans"><source>The Workflow Accelerator site shows a HTTP Status 500 error
+including the message
+     <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>root cause java.lang.RuntimeException: Cannot find license.xml<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Workflow Accelerator site shows a HTTP Status 500 error including the message <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>root cause java.lang.RuntimeException: Cannot find license.xml<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Die Workflow Accelerator-Seite zeigt einen HTTP Status 500 Error mit der folgenden Fehlermeldung an: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>root cause java.lang.RuntimeException: Cannot find license.xml<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> .</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-dt"
+        phase-name="pretrans"><source>Solution:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Solution:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Lösung:</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-dd"
+        phase-name="pretrans"><source>You have not installed the Workflow Accelerator license.xml at all
+or placed it in the wrong directory. See<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../install/configure.htm#Inst2" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Install the license file
+  &lt;/MadCap:xref&gt;</ph> to solve the issue.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You have not installed the Workflow Accelerator license.xml at all or placed it in the wrong directory.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">See<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../install/configure.htm#Inst2" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Install the license file
+  &lt;/MadCap:xref&gt;</ph> to solve the issue.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Sie haben die Workflow Accelerator-Lizenzdatei license.xml nicht eingespielt oder an einem falschen Ort abgelegt.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Im Abschnitt <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../install/configure.htm#Inst2" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Install the license file
+  &lt;/MadCap:xref&gt;</ph> finden Sie Informationen, um das Problem zu beheben.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-dt"
+        phase-name="pretrans"><source>Problem:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Problem:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Problem:</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-dd"
+        phase-name="pretrans"><source>The Workflow Accelerator site shows a HTTP Status 500 error
+including the message
+     <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>com/effektif/EffektifServlet : Unsupported
+major.minor version 51.0 (unable to load class
+com.effektif.EffektifServlet)<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Workflow Accelerator site shows a HTTP Status 500 error including the message <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>com/effektif/EffektifServlet : Unsupported major.minor version 51.0 (unable to load class com.effektif.EffektifServlet)<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Die Workflow Accelerator-Seite zeigt einen HTTP Status 500 Error mit der folgenden Fehlermeldung an: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>com/effektif/EffektifServlet : Unsupported major.minor version 51.0 (unable to load class com.effektif.EffektifServlet)<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-dt"
+        phase-name="pretrans"><source>Solution:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Solution:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Lösung:</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-dd"
+        phase-name="pretrans"><source>The Tomcat server is using the wrong Java version. Workflow
+Accelerator requires Java 8. Make sure you have installed the correct
+Java version. You can check your Java version by executing:<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-javascript" xmlns="http://www.w3.org/1999/xhtml"&gt;java -version&lt;/code&gt;&lt;/pre&gt;&lt;MadCap:xref href="../install/install-java.htm#Inst3" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Installing Java
+  &lt;/MadCap:xref&gt;</ph> explains how to install the correct
+Java version.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Tomcat server is using the wrong Java version.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Workflow Accelerator requires Java 8.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Make sure you have installed the correct Java version.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">You can check your Java version by executing:<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-javascript" xmlns="http://www.w3.org/1999/xhtml"&gt;java -version&lt;/code&gt;&lt;/pre&gt;&lt;MadCap:xref href="../install/install-java.htm#Inst3" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Installing Java
+  &lt;/MadCap:xref&gt;</ph> explains how to install the correct Java version.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der Tomcat Server verwendet die falsche Java-Version.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Workflow Accelerator benötigt Java 8.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Stellen Sie sicher, dass Sie die korrekte Java-Version installiert haben.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="51"
+            MadCap:diff="ContentChanged" /></target><alt-trans
+          mid="6"
+          match-quality="51"
+          origin="previous-version"><seg-source>explains how to install the correct Java version.</seg-source><target
+            MadCap:segmentStatus="Untranslated">erklärt, wie Sie die korrekte Java-Version installieren.</target></alt-trans></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-dt"
+        phase-name="pretrans"><source>Problem:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Problem:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Problem:</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-dd"
+        phase-name="pretrans"><source>Executing a MongoDB command yields the error message
+     <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>errmsg: “unauthorized”<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     or
+     <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>errmsg: “auth fails”<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Executing a MongoDB command yields the error message <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>errmsg: “unauthorized”<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> or <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>errmsg: “auth fails”<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Die Ausführung eines MongoDB-Befehls erzeugt den folgenden Fehler: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>errmsg: “unauthorized”<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> or <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>errmsg: “auth fails<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-dt"
+        phase-name="pretrans"><source>Solution:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Solution:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Lösung:</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-dd"
+        phase-name="pretrans"><source>Either the username / password combination that is used to execute
+the command is wrong or the respective MongoDB user lacks some required
+roles.
+    
+     The first issue can be checked by executing:
+    
+
+     Windows:
+     <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;mongo.exe admin -u signavio -p
+&amp;lt;yourSignavioUserPassword&amp;gt;&lt;/code&gt;&lt;/pre&gt;</ph>
+
+     Debian:
+     <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;mongo admin -u signavio -p
+&amp;lt;yourSignavioUserPassword&amp;gt;&lt;/code&gt;&lt;/pre&gt;</ph>
+     If this command fails with the error message
+     <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>exception: login failed<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     you know that your username / password combination is
+wrong. Please, make sure you spelled the username and password
+correctly.
+    
+     In order to check the second issue, see <ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../install/configure-mongoDB.htm#Add" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Add a database user for Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph>.
+This section lists all necessary roles and explains how to verify that
+the Workflow Accelerator user has all the required roles. Especially
+the restore and backup commands require certain roles to work
+properly.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Either the username / password combination that is used to execute the command is wrong or the respective MongoDB user lacks some required roles.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The first issue can be checked by executing: Windows: <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;mongo.exe admin -u signavio -p
+&amp;lt;yourSignavioUserPassword&amp;gt;&lt;/code&gt;&lt;/pre&gt;</ph> Debian: <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;mongo admin -u signavio -p
+&amp;lt;yourSignavioUserPassword&amp;gt;&lt;/code&gt;&lt;/pre&gt;</ph> If this command fails with the error message <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>exception: login failed<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> you know that your username / password combination is wrong.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Please, make sure you spelled the username and password correctly.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">In order to check the second issue, see <ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../install/configure-mongoDB.htm#Add" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Add a database user for Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph>.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">This section lists all necessary roles and explains how to verify that the Workflow Accelerator user has all the required roles.</mrk><mrk
+            mtype="protected"
+            mid="10"> </mrk><mrk
+            mtype="seg"
+            mid="11">Especially the restore and backup commands require certain roles to work properly.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Es ist entweder Nutzername/Passwort des ausführenden MongoDB-Nutzers falsch, oder der ausführende Nutzer verfügt nicht über die notwendigen Rollen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="66"
+            MadCap:diff="ContentChanged" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Überprüfen Sie in diesem Fall die entsprechenden Daten noch einmal.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Die zweite Fehlerursache können Sie überprüfen, indem Sie zu <ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../install/configure-mongoDB.htm#Add" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Add a database user for Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph> wechseln.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Dieser Abschnitt listet alle notwendigen Rollen auf und erläutert wie Sie überprüfen können, ob der Nutzer über die notwendigen Rollen verfügt.</mrk><mrk
+            mtype="protected"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Vor allem Backup und Wiederherstellung setzen bestimmte Rollen voraus.</mrk></target><alt-trans
+          mid="2"
+          match-quality="66"
+          origin="previous-version"><seg-source>If this command fails with the error message <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>exception: login failed<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> you know that your username / password combination is wrong.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Falls dieser Befehl mit der Meldung <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>exception: login failed<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> fehlschlägt, wissen Sie, dass Ihre Nutzername/Passwort-Kombination nicht korrekt ist.</target></alt-trans></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-dt"
+        phase-name="pretrans"><source>Problem:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Problem:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Problem:</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-dd"
+        phase-name="pretrans"><source>Workflow Accelerator does not start and the log file contains the
+error message
+     <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>INFO LockingDbExecutor Database is locked by another executor. Wait...<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Workflow Accelerator does not start and the log file contains the error message <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>INFO LockingDbExecutor Database is locked by another executor.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Wait...<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Workflow Accelerator startet nicht und die Logdatei enthält folgende Fehlermeldung: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>INFO LockingDbExecutor Database is locked by another executor.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wait...<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-dt"
+        phase-name="pretrans"><source>Solution:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Solution:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Lösung:</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-dd"
+        phase-name="pretrans"><source>The problem with the LockingDbExecutor arises when the application
+server is shut down during the initialization (update of licenses and
+migration of database) before the lock can be released again. You have
+to manually remove the lock from the database. We recommend using a
+tool like Robo 3T for this purpose. <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../Tooling/MongoDB.htm#Mong" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   MongoDB
+  &lt;/MadCap:xref&gt;</ph> explains how to install
+Robo 3T and set-up a connection to your MongoDB.
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ol style="list-style-type: decimal;" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Open Robo 3T.
+     <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Establish a connection to MongoDB.
+     <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Open the content of the Workflow Accelerator DB on the left side of
+the application.
+     <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Under Collections you will find the table <bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>properties<ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.
+     <ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      A double click on
+      <bpt
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>properties<ept
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+      shows all entries. In
+case of an error you will see three entries, if everything is normal
+there will be only two.
+     <ept
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Out of the three entries in the list, select the one that contains
+the value
+      <bpt
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>schema.lock<ept
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+      for the key <bpt
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>k<ept
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.
+     <ept
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Use a right click to open the context menu for the respective entry
+and choose „Delete Document…“ to remove the entry.
+     <ept
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ol&gt;</ept>
+     IMPORTANT: Only the entry for
+     <bpt
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>schema.lock<ept
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     must be
+deleted. You are advised to create a backup of the database
+upfront.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The problem with the LockingDbExecutor arises when the application server is shut down during the initialization (update of licenses and migration of database) before the lock can be released again.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You have to manually remove the lock from the database.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">We recommend using a tool like Robo 3T for this purpose.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../Tooling/MongoDB.htm#Mong" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   MongoDB
+  &lt;/MadCap:xref&gt;</ph> explains how to install Robo 3T and set-up a connection to your MongoDB.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ol style="list-style-type: decimal;" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="10"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Open Robo 3T.</mrk><mrk
+            mtype="protected"
+            mid="11"> </mrk><mrk
+            mtype="seg"
+            mid="12"><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="13"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Establish a connection to MongoDB.</mrk><mrk
+            mtype="protected"
+            mid="14"> </mrk><mrk
+            mtype="seg"
+            mid="15"><ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="16"><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Open the content of the Workflow Accelerator DB on the left side of the application.</mrk><mrk
+            mtype="protected"
+            mid="17"> </mrk><mrk
+            mtype="seg"
+            mid="18"><ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="19"><bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Under Collections you will find the table <bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>properties<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="20"> </mrk><mrk
+            mtype="seg"
+            mid="21"><ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="22"><bpt
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> A double click on <bpt
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>properties<ept
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> shows all entries.</mrk><mrk
+            mtype="protected"
+            mid="23"> </mrk><mrk
+            mtype="seg"
+            mid="24">In case of an error you will see three entries, if everything is normal there will be only two.</mrk><mrk
+            mtype="protected"
+            mid="25"> </mrk><mrk
+            mtype="seg"
+            mid="26"><ept
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="27"><bpt
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Out of the three entries in the list, select the one that contains the value <bpt
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>schema.lock<ept
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> for the key <bpt
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>k<ept
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="28"> </mrk><mrk
+            mtype="seg"
+            mid="29"><ept
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="30"><bpt
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Use a right click to open the context menu for the respective entry and choose „Delete Document…“ to remove the entry.</mrk><mrk
+            mtype="protected"
+            mid="31"> </mrk><mrk
+            mtype="seg"
+            mid="32"><ept
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ol&gt;</ept> IMPORTANT: Only the entry for <bpt
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>schema.lock<ept
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> must be deleted.</mrk><mrk
+            mtype="protected"
+            mid="33"> </mrk><mrk
+            mtype="seg"
+            mid="34">You are advised to create a backup of the database upfront.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Das Problem mit dem LockingDbExecutor tritt dann auf, wenn der Server während der anfänglichen Initialisierung (Lizenzupdate oder Migration) beendet wurde, bevor der Lock wieder freigegeben wurde.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Man muss nun den entsprechenden Lock manuell aus der Datenbank entfernen.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wir empfehlen, hierfür ein Programm wie Robo 3T zu nutzen.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Abschnitt <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../Tooling/MongoDB.htm#Mong" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   MongoDB
+  &lt;/MadCap:xref&gt;</ph> beschreibt woher Robo 3T bezogen werden kann und wie damit eine Verbindung zu MongoDB aufgebaut werden kann.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Öffnen Sie Robo 3T.</mrk><mrk
+            mtype="protected"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Stellen Sie eine Verbindung zu MongoDB her.</mrk><mrk
+            mtype="protected"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="16"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Klappen Sie auf der linken Seite den Inhalt der Workflow Accelerator DB auf.</mrk><mrk
+            mtype="protected"
+            mid="17"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="18"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="19"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Unter Collections befindet sich dann die Tabelle <bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>properties<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="20"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="21"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="22"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>Ein Doppelklick auf <bpt
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>properties<ept
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> zeigt alle Einträge an.</mrk><mrk
+            mtype="protected"
+            mid="23"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="24"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Im Fehlerfall sind es drei Einträge, im Normalfall sind es nur zwei.</mrk><mrk
+            mtype="protected"
+            mid="25"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="26"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="27"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>Wählen Sie sus den drei Einträgen in der Liste ist denjenigen aus, der für den Schlüssel <bpt
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>k<ept
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> den Wert <bpt
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>schema.lock<ept
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> enthält.</mrk><mrk
+            mtype="protected"
+            mid="28"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="29"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="30"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>Mit einem Rechtsklick auf den entsprechenden Eintrag und der Auswahl von „Delete Document…“ kann der Eintrag gelöscht werden.</mrk><mrk
+            mtype="protected"
+            mid="31"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="32"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><ept
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ol&gt;</ept>WICHTIG: Es darf nur der Eintrag für <bpt
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>schema.lock<ept
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> gelöscht werden.</mrk><mrk
+            mtype="protected"
+            mid="33"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="34"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Es ist außerdem ratsam vorher ein Backup der Datenbank zu erstellen.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

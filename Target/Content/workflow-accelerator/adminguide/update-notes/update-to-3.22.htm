@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Updating to Signavio Workflow Accelerator 3.22</h1>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Signavio Workflow has been renamed to Signavio Workflow Accelerator.
+If you use Workflow Accelerator in combination with Signavio Process
+Manager, you must update Process Manager to version 10.15.
+  </p>
+        <div class="important" xmlns="http://www.w3.org/1999/xhtml" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>
+    To update Workflow Accelerator from a version prior to 3.11, you
+MUST first update the system to version 3.15 before you can update to
+version 3.22. Download
+    <a href="https://download.signavio.com/onpremise/latest/workflow/signavio-workflow-v3.15.11.zip">
+     Signavio Workflow 3.15
+    </a>
+    and follow the respective previous update
+instructions, before you continue with this section.
+   </p>
+        </div>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   As well as upgrading the application, you should upgrade MongoDB.
+See the following section for more information.
+  </p>
+        <h2 name="updating-mongodb" xmlns="http://www.w3.org/1999/xhtml">
+   Updating MongoDB
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Workflow Accelerator 3.22 now supports the latest version of MongoDB
+(3.4.x) which comes with improved performance and functionality. You
+should upgrade to MongoDB version 3.4, as Workflow Accelerator releases
+will require it.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   You can only update to MongoDB 3.4 if you are currently using
+version 3.2. The official MongoDB documentation contains for more
+information about the update:
+   <a href="https://docs.mongodb.com/manual/release-notes/3.4-upgrade-standalone/">
+    https://docs.mongodb.com/manual/release-notes/3.4-upgrade-standalone/
+   </a></p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   To update your standalone MongoDB 3.2 to version 3.4 follow these
+steps:
+  </p>
+        <ol xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Stop the Tomcat application server - see section <MadCap:xref href="../stop/stop.htm">
+   Stopping Signavio Workflow Accelerator</MadCap:xref>.
+   </li>
+            <li>
+    Create a backup of your database using
+    <kbd xmlns="http://www.w3.org/1999/xhtml">mongodump</kbd>
+    - see section <MadCap:xref href="../backup/backup.htm">
+   Backup</MadCap:xref>.
+   </li>
+            <li>
+    Stop MongoDB - see <MadCap:xref href="../stop/stop.htm">
+				Stopping Signavio Workflow Accelerator</MadCap:xref>.
+   </li>
+            <li><em>
+     Windows only:
+    </em>
+    manually remove the created MongoDB service
+by executing
+    <pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">$MONGO_HOME\bin\mongod.exe --remove</code></pre>
+
+    with
+administrator privileges on the command line
+    <kbd>cmd</kbd></li>
+            <li>
+    Uninstall MongoDB 3.2.x, but ensure you don't delete the data
+directory and configuration file of your database as well as the
+backup!
+   </li>
+            <li>
+     Install MongoDB 3.4.x.
+    <ul><li>
+       You can find a suitable version for your operating system in the
+MongoDB download center:
+       <a href="https://www.mongodb.com/download-center">
+        https://www.mongodb.com/download-center
+       </a></li></ul></li>
+            <li><em>
+      Windows only:
+     </em>
+     Open the command line
+     <kbd>cmd</kbd>
+     with
+administrative privileges and execute the following command. Make sure
+to use absolute paths and replace them with the matching paths on your
+system.
+    <ul><li><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">C:\MongoDB\bin\mongod.exe --config C:\MongoDB\mongod.cfg --install</code></pre></li><li>
+       The referenced configuration file is the one you have created
+previously for the old version of MongoDB and should still be in the
+same location.
+      </li></ul></li>
+            <li>
+    Start the new MongoDB instance.
+   </li>
+            <li>
+    Enable new functionality for version 3.4 by executing the following
+command on the command line.
+   </li>
+        </ol>
+        <h3 name="windows" xmlns="http://www.w3.org/1999/xhtml">
+   Windows
+  </h3>
+        <ol xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Open a command line with administrative privileges
+   </li>
+            <li>
+     Navigate to the MongoDB bin directory
+    <ul><li>
+       For example
+       <kbd>C:\MongoDB\bin</kbd></li></ul></li>
+            <li>
+     Execute the following command:
+    <ul><li>
+       Replace
+       <kbd>&lt;username&gt;</kbd>
+       with your MongoDB user, e.g.
+       <kbd>signavio</kbd></li><li>
+       Replace
+       <kbd>&lt;password&gt;</kbd>
+       with your MongoDB user
+password
+      </li></ul></li>
+        </ol><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">mongo.exe admin -u &lt;username&gt; -p &lt;password&gt; --eval "db.adminCommand( { setFeatureCompatibilityVersion: '3.4' } )"</code></pre>
+        <h3 name="debian" xmlns="http://www.w3.org/1999/xhtml">
+   Debian
+  </h3>
+        <ol xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Open a command line
+   </li>
+            <li>
+     Execute the following command:
+    <ul><li>
+       Replace
+       <kbd>&lt;username&gt;</kbd>
+       with your MongoDB user, e.g.
+       <kbd>signavio</kbd></li><li>
+       Replace
+       <kbd>&lt;password&gt;</kbd>
+       with your MongoDB user
+password
+      </li></ul></li>
+        </ol><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">mongo admin -u &lt;username&gt; -p &lt;password&gt; --eval "db.adminCommand( { setFeatureCompatibilityVersion: '3.4' } )"</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   You finished the MongoDB update successfully.
+</p>
+    </body>
+</html>

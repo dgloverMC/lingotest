@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" MadCap:onlyLocalStylesheets="True" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/TableStyles/Alternate-Row-Color.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Installing the Workflow Accelerator Script Engine</title>
+        <style type="text/css">
+        </style>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 name="install-script-engine"><a name="InstallingWAScriptE" xmlns="http://www.w3.org/1999/xhtml"></a>Installing the Workflow Accelerator
+Script Engine
+  </h1>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <p>
+    You only need to install and configure the Script Engine if you
+purchased a version of Workflow Accelerator which allows you to use
+JavaScript tasks.
+   </p>
+        </div>
+        <p>
+   The Workflow Accelerator Script Engine uses Node.js to execute
+JavaScript tasks within a workflow and an embedded HTTP server to
+communicate with the Workflow Accelerator web application. You can
+install the Script Engine on either the same machine as the Workflow
+Accelerator web application or on a separate machine. However, if you
+use a separate machine to run the script engine, you have to make sure
+the web application can connect over HTTP to the configured port of the
+script engine and vice versa. In order to install the script engine,
+follow these instructions:
+  </p>
+        <ol>
+            <li>
+     Create new local directory for the script engine, <br />e.g.
+     <kbd>C:\Program Files\Script Engine</kbd>
+     or
+     <kbd>/var/lib/script-engine</kbd>.
+                <ul><li>
+       We will refer to this directory as
+<kbd>$SCRIPT_ENGINE_HOME</kbd>.
+      </li></ul></li>
+            <li>
+   Copy the content of the directory
+     <kbd>$WORKFLOW_HOME/script-engine/</kbd>
+     to your newly created
+directory.
+                <ul><li>
+       You should find the file
+       <kbd>server.js</kbd>
+       directly within
+your directory:
+       <kbd>$SCRIPT_ENGINE_HOME/server.js</kbd>.
+</li></ul></li>
+        </ol>
+        <p>Next, edit two configuration files.</p>
+        <ol MadCap:continue="true">
+            <li>
+      
+     in the Script Engine configuration file
+     <kbd xmlns="http://www.w3.org/1999/xhtml">$SCRIPT_ENGINE_HOME/configuration.onpremise.js</kbd>
+     edit the values for the port, the log files and the Workflow Accelerator
+URL.
+                <ul xmlns="http://www.w3.org/1999/xhtml"><li>
+       Ensure that the port for the script engine is not used by any other
+application.
+      </li></ul></li>
+        </ol>
+        <table class="TableStyle-Alternate-Row-Color" style="mc-table-style: url('../../../Resources/TableStyles/Alternate-Row-Color.css');" cellspacing="21">
+            <col style="width: 25%;" class="TableStyle-Alternate-Row-Color-Column-Column1" />
+            <col style="width: 75%;" class="TableStyle-Alternate-Row-Color-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>port</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      Defines the port the script engine will bind to and listen for
+incoming HTTP requests.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>log file</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2">
+      Defines the location and name of the script engine log file. You
+can an absolute or relative path. By default, the log files are stored
+in the same directory as the script engine.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>log errorFile</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      Defines the location and name of the script engine error log
+file.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body2"><kbd>workflowUrl</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyA-Column2-Body2">
+      Defines the URL of the Workflow Accelerator system (including
+port), e.g.
+      <kbd>http://localhost:8080</kbd></td>
+                </tr>
+            </tbody>
+        </table>
+        <ol xmlns="http://www.w3.org/1999/xhtml" MadCap:continue="true">
+            <li xmlns="http://www.w3.org/1999/xhtml">
+     In the the Workflow Accelerator
+configuration file <kbd xmlns="http://www.w3.org/1999/xhtml">$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/effektif-onpremise.properties</kbd>, add the URL of the script engine. </li>
+        </ol>
+        <ul>
+            <li>This URL is not part of the configuration file template, you need to add the complete property.      </li>
+            <li>If you run the script engine on the same machine as the web
+application and use the default port the URL will be
+       <kbd xmlns="http://www.w3.org/1999/xhtml">http://localhost:8081</kbd>.
+</li>
+        </ul>
+        <table class="TableStyle-Alternate-Row-Color" style="mc-table-style: url('../../../Resources/TableStyles/Alternate-Row-Color.css');" cellspacing="21" xmlns="http://www.w3.org/1999/xhtml">
+            <tbody>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body1"><kbd>effektif.javascript.server.url</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyA-Column2-Body1">
+      (Optional) The URL of the Workflow Accelerator Script Engine, e.g.
+      <kbd>http://localhost:8081</kbd></td>
+                </tr>
+            </tbody>
+        </table>
+        <p>After the successful set-up you can start the script engine by
+opening the <br /><kbd>$SCRIPT_ENGINE_HOME&gt;</kbd>
+directory on a command
+line and executing the following command:
+</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-javascript"> node server.js</code></pre>
+        <h2 name="wrap-into-service"><a name="Wrapping" xmlns="http://www.w3.org/1999/xhtml"></a>Wrapping the Script Engine into a
+service
+  </h2>
+        <p>
+   The script engine can be executed as shown above by running the
+command on a command line. However, it might be useful for production
+systems to run the script engine as a service or daemon. The following
+sub sections describe one possibility for each supported operating
+system which can be used the accomplish this goal. Note that Signavio
+offers no support for any third-party tools. Use them at your own
+discretion.
+  </p>
+        <h3 name="windows-5">
+   Windows
+  </h3>
+        <p>
+   For Windows, there are several software tools which allow you to
+wrap a script into a service and monitor the execution. The
+   <a href="http://nssm.cc/">
+    Non-Sucking Service Manager
+   </a>
+   (NSSM) is such a free
+tool which allows you to wrap any executable into a Windows
+service.
+  </p>
+        <ol>
+            <li>
+    Download NSSM from
+    <a href="http://nssm.cc/download">http://nssm.cc/download</a></li>
+            <li>
+    Create a new local installation directory for NSSM, e.g.
+    <kbd>C:\Program Files\NSSM</kbd>.
+   </li>
+            <li>
+    Unzip the downloaded file and copy either the 64-bit
+    <kbd>win64\nssm.exe</kbd>
+    or the 32-bit
+    <kbd>win32\nssm.exe</kbd>
+    file to your new local directory.
+   </li>
+            <li>
+          
+     Add the installation directory of NSSM to the environment variable
+     <kbd>PATH</kbd>
+     in the Windows system settings.
+                <ul><li>
+       This is necessary to use the
+       <kbd>nssm</kbd>
+       executable on the
+command line without an absolute path.
+      </li></ul></li>
+            <li>
+    Open the command line
+    <kbd>cmd</kbd>
+    with administrative
+privileges.
+   </li>
+            <li>
+Execute <pre xml:space="preserve" madcap-space-after-export="preserve"><code class="languages-sh">nssm install script-engine</code></pre></li>
+            <li>
+    The NSSM configuration dialog opens
+   </li>
+            <li>
+     In the
+     <em>
+      Application
+     </em>
+     tab fill in the following
+information:
+                <table style="margin-left: 0; margin-right: auto;" xmlns="http://www.w3.org/1999/xhtml"><col style="width: 35%;" /><col style="width: 65%;" /><tbody><tr><td><em xmlns="http://www.w3.org/1999/xhtml">Path</em></td><td> the path to the Node.js .exe file, e.g. <br /><kbd>C:\Program Files\nodejs\node.exe</kbd></td></tr><tr><td><em xmlns="http://www.w3.org/1999/xhtml">
+        Startup directory
+       </em></td><td> the value of <kbd>$SCRIPT_ENGINE_HOME</kbd>, e.g.
+<kbd>C:\Program Files\Script Engine</kbd>.
+      </td></tr><tr><td><em>
+        Arguments
+       </em></td><td> the exact value <kbd>server.js</kbd></td></tr></tbody></table><p><img alt="image" class="align-center" src="../_images/nssm/nssm01.png" /></p></li>
+            <li>
+                <p>
+     In the
+     <em>Details</em>
+     tab fill in the following information:
+    </p>
+                <table style="margin-left: 0; margin-right: auto;" xmlns="http://www.w3.org/1999/xhtml">
+                    <col style="width: 35%;" />
+                    <col style="width: 65%;" />
+                    <tbody>
+                        <tr>
+                            <td><em xmlns="http://www.w3.org/1999/xhtml">
+        Display name
+       </em>
+                            </td>
+                            <td> the name of the service shown in
+       <kbd>services.msc</kbd></td>
+                        </tr>
+                        <tr>
+                            <td><em xmlns="http://www.w3.org/1999/xhtml">Description</em>
+                            </td>
+                            <td> a description which will help you to
+recognize the service
+      </td>
+                        </tr>
+                        <tr>
+                            <td><em>Startup type</em>
+                            </td>
+                            <td> choose if the service shall start
+automatically on startup or if you want to start it manually</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    <img alt="image" class="align-center" src="../_images/nssm/nssm02.png" />
+                </p>
+            </li>
+            <li>
+    Fill in any other service configuration settings you deem
+appropriate for your system in the other tabs.
+   </li>
+            <li>
+    Click on
+    <em>
+     Install service
+    </em>.
+   </li>
+        </ol>
+        <p>
+   Now you can start the script engine with the following command: </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">nssm start script-engine</code></pre>
+        <p>
+   You can check the status of the script engine by executing: </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">nssm status script-engine</code></pre>
+        <p>
+   In order to stop the script engine again, execute the following
+command: </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">nssm stop script-engine</code></pre>
+        <p>
+   While it is running, you can open your browser and go to the URL you
+have configured for the script engine, by default this
+   <kbd>http://localhost:8081</kbd>. If the engine is running, you will
+see a blank page with this content: <kbd>{}</kbd></p>
+        <p>
+   Besides using <kbd>nssm</kbd> on the command line, you will find a
+new service when you open the
+   <kbd>services.msc</kbd>. The script
+engine will show up under the name you configured as display name. You
+can start and stop the script engine from here as well.
+  </p>
+        <h3 name="linux">
+   Linux
+  </h3>
+        <p>
+   On Linux this task is usually accomplished with Init scripts using
+the respective Init system of your Linux distribution. Because there
+are several different Init systems, Signavio will not provide a
+template. However, if you don't already have a template, you can find
+lots of matching templates for your Init system on the internet.
+  </p>
+        <p>
+   As mentioned before, the script engine can be started from within <kbd>$SCRIPT_ENGINE_HOME</kbd> by executing: <pre xml:space="preserve" madcap-space-after-export="preserve"><code>node server.js</code></pre>
+   You have to ensure your Init script starts the Node.js executable
+   <kbd>node</kbd> and uses the JavaScript file <kbd>$SCRIPT_ENGINE_HOME/server.js</kbd>
+   as an argument. Note, if you
+use a restricted user to execute the command, make sure the user has
+appropriate access to the
+   <kbd>$SCRIPT_ENGINE_HOME</kbd>
+   directory.
+  </p>
+    </body>
+</html>

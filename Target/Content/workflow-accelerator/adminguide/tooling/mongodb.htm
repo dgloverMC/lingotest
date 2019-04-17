@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head><title>MongoDB</title>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 name="tooling-mongodb" xmlns="http://www.w3.org/1999/xhtml"><a name="Mong" xmlns="http://www.w3.org/1999/xhtml"></a>
+   MongoDB
+  </h1>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Robo 3T is a good tool for managing your MongoDB installation. It is
+free and available for different operating systems. Use it at your own
+discretion. Be careful when you use a tool to manipulate the database.
+Workflow Accelerator does not guarantee that any manipulated data can
+be restored. The tool can be downloaded from:
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml"><a href="https://robomongo.org/">
+    https://robomongo.org/
+   </a>
+        </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The download site offers two different applications. Robo 3T (former
+Robomongo) and Studio 3T a commercial tool for MongoDB, which offers an
+extended feature set.
+  </p>
+        <h2 name="connect-to-mongodb" xmlns="http://www.w3.org/1999/xhtml">
+   Connecting to MongoDB using Robo 3T
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   This section shows how to connect to your MongoDB server using Robo
+3T. Note that MongoDB 3.2 requires you to use the latest version of
+Robo 3T.
+  </p>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;" xmlns="http://www.w3.org/1999/xhtml">
+            <p>
+    If you try to connect to your MongoDB from a remote system, ensure
+the MongoDB configuration has either no value defined for
+    <kbd>bindIp</kbd>
+    or lists the IP address you are trying to connect
+to.
+   </p>
+        </div>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Make sure your MongoDB server is running and open Robo 3T.
+  </p>
+        <figure xmlns="http://www.w3.org/1999/xhtml">
+            <img alt="In the upper-left corner, click the icon to open a new connection." class="align-center" src="../_images/robomongo/robo01.png" />
+            <figcaption>
+    In the upper-left corner, click the icon to open a new
+connection.
+   </figcaption>
+        </figure>
+        <figure xmlns="http://www.w3.org/1999/xhtml">
+            <img alt="Click, the Create link to set-up a new connection." class="align-center" src="../_images/robomongo/robo02.png" />
+            <figcaption>
+    Click, the
+    <em>Create</em>
+    link to set-up a new
+connection.
+   </figcaption>
+        </figure>
+        <figure xmlns="http://www.w3.org/1999/xhtml">
+            <img alt="In the dialog that opens up you can rename the connection. Change the address if you are connecting to a remote server, otherwise leave localhost there." class="align-center" src="../_images/robomongo/robo03.png" />
+            <figcaption>
+    In the dialog you can rename the connection.
+Change the address if you are connecting to a remote server, otherwise
+leave
+    <kbd xmlns="http://www.w3.org/1999/xhtml">localhost</kbd>
+    there.
+   </figcaption>
+        </figure>
+        <figure xmlns="http://www.w3.org/1999/xhtml">
+            <img alt="If you enabled authorization for your MongoDB server, select the Authentication tab and activate the Perform authentication option. Then enter the User Name (signavio) and the Password you have chosen before." class="align-center" src="../_images/robomongo/robo04.png" />
+            <figcaption>
+    If you enabled authorization for your MongoDB server,
+select the
+    <em>Authentication</em>
+    tab and activate the
+    <em>Perform authentication</em> option. Then enter the
+    <em>User Name</em> (<kbd>signavio</kbd>) and the
+    <em>Password</em> you have chosen before.
+   </figcaption>
+        </figure>
+        <figure xmlns="http://www.w3.org/1999/xhtml">
+            <img alt="If you click Test, you should see a similar success message. Then click Save." class="align-center" src="../_images/robomongo/robo05.png" />
+            <figcaption>
+    If you click
+    <em>Test</em>, you should see a similar
+success message. Then click
+    <em>
+     Save
+    </em>.
+   </figcaption>
+        </figure>
+        <figure xmlns="http://www.w3.org/1999/xhtml">
+            <img alt="Select the new item in the list and click Connect." class="align-center" src="../_images/robomongo/robo06.png" />
+            <figcaption>
+    Select the new item in the list and click
+    <em>
+     Connect
+    </em>
+.
+   </figcaption>
+        </figure>
+        <figure xmlns="http://www.w3.org/1999/xhtml">
+            <img alt="You will see the connection in the left-hand panel and the two Workflow Accelerator databases below it." class="align-center" src="../_images/robomongo/robo07.png" />
+            <figcaption>
+    You will see the connection in the left-hand panel and the
+two Workflow Accelerator databases below it.
+   </figcaption>
+        </figure>
+    </body>
+</html>

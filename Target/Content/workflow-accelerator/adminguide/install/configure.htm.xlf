@@ -1,0 +1,1089 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="in-progress">
+  <file
+    xml:space="preserve"
+    original="configure.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="configure.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">108</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>
+   Configuring Workflow Accelerator</source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">Configuring Workflow Accelerator</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Workflow Accelerator konfigurieren</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>
+   Install the license file</source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">Install the license file</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Lizenzinstallation</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You have received the Workflow Accelerator license file,
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>license.xml<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, along with the Workflow Accelerator
+application. Before you can start the Workflow Accelerator system, you
+have to add the license file to the application. Copy the license file
+into the directory
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. The Workflow
+Accelerator system will check your license file on startup and set up
+the defined number of licenses.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You have received the Workflow Accelerator license file, <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>license.xml<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, along with the Workflow Accelerator application.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Before you can start the Workflow Accelerator system, you have to add the license file to the application.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Copy the license file into the directory <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">The Workflow Accelerator system will check your license file on startup and set up the defined number of licenses.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Mit der Workflow Accelerator-Anwendung haben Sie die Lizenzdatei <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>license.xml<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> erhalten.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Bevor Sie das System starten können,müssen Sie die Lizenzdatei der Applikation hinzufügen.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Fügen Sie die Lizenzdatei in das Verzeichnis <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> ein.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Workflow Accelerator überprüft die Datei, wenn das System startet, und stellt die entsprechenden Lizenzen zur Verfügung.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Update the Workflow Accelerator
+configuration file</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Update the Workflow Accelerator configuration file</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Workflow Accelerator-Konfigurationsdatei aktualisieren</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Before you can start Workflow Accelerator for the first time, you
+need to configure some mandatory properties in the Workflow Accelerator
+configuration file. Make sure you have copied the Workflow Accelerator
+web application to the Tomcat’s webapps directory before continuing.
+The configuration file can be found here <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/effektif-onpremise.properties<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Before you can start Workflow Accelerator for the first time, you need to configure some mandatory properties in the Workflow Accelerator configuration file.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Make sure you have copied the Workflow Accelerator web application to the Tomcat’s webapps directory before continuing.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The configuration file can be found here <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/effektif-onpremise.properties<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Bevor Workflow Accelerator zum ersten Mal gestartet werden kann, müssen einige Variablen in der Workflow Accelerator-Konfigurationsdatei gesetzt werden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Stellen Sie sicher, dass Sie die Workflow Accelerator-Webanwendung in das webapps-Verzeichnis von Tomcat kopiert haben.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Die Konfigurationsdatei befindet sich nun unter <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/effektif-onpremise.properties<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In general, the configuration allows to configure the base URL of
+the Workflow Accelerator system, the mail server, the database
+connection and integrations with third party systems (e.g. Signavio).
+If you installed the Workflow Accelerator Script Engine, you need to
+configure the URL to the script engine as well. As described in
+   <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="install-script-engine.htm#InstallingWAScriptE" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Installing the Workflow Accelerator
+Script Engine
+  &lt;/MadCap:xref&gt;</ph> the URL derives from the domain
+(<bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>localhost<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> for the same machine) and port the script
+engine is running on. If you installed the Workflow Accelerator Mail
+Relay, you need to enable the email trigger and set the email domain
+that you created during the set-up.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In general, the configuration allows to configure the base URL of the Workflow Accelerator system, the mail server, the database connection and integrations with third party systems (e.g. Signavio).</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If you installed the Workflow Accelerator Script Engine, you need to configure the URL to the script engine as well.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">As described in <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="install-script-engine.htm#InstallingWAScriptE" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Installing the Workflow Accelerator
+Script Engine
+  &lt;/MadCap:xref&gt;</ph> the URL derives from the domain (<bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>localhost<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> for the same machine) and port the script engine is running on.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">If you installed the Workflow Accelerator Mail Relay, you need to enable the email trigger and set the email domain that you created during the set-up.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Konfigurationsdatei erlaubt die Konfiguration der Basis-URL, des Mail-Servers, der Datenbankverbindung und der Integration von Drittsystemen, zum Beispiel vom Signavio Process Manager.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Falls Sie die Workflow Accelerator Script Engine installiert haben, müssen Sie zusätzlich die URL der Script Engine konfigurieren.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wie in <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="install-script-engine.htm#InstallingWAScriptE" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Installing the Workflow Accelerator
+Script Engine
+  &lt;/MadCap:xref&gt;</ph> beschrieben, wird die URL aus der Domain (<bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>localhost<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> für die gleiche Maschine) und dem Port gebildet unter dem die Script Engine läuft.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Falls Sie das Workflow Accelerator Mail Relay installiert haben, müssen den E-Mail-Auslöser aktivieren und die E-Mail-Domain festlegen, die Sie während der Installation festgelegt haben.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.baseUrl</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.baseUrl</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.baseUrl</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>(Required) The IP address or server name (including the port) of
+the server running the Workflow Accelerator Tomcat application server.
+E.g. <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>http://workflow.yourdomain.com:8080<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> If the server
+is running on port 80, the port can be omitted.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">(Required) The IP address or server name (including the port) of the server running the Workflow Accelerator Tomcat application server.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">E.g.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>http://workflow.yourdomain.com:8080<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> If the server is running on port 80, the port can be omitted.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">(Pflichtvariable) Die IP-Adresse oder der Servername (inkl.Port) der Workflow Accelerator-Webanwendung.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">z.B.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="61"
+            MadCap:diff="ContentChanged" /></target><alt-trans
+          mid="4"
+          match-quality="61"
+          origin="previous-version"><seg-source>If the server is running on port 80, the port can be omitted.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Falls der Server auf Port 80 läuft, kann auf die Angabe des Ports verzichtet werden.</target></alt-trans></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.smtp.host</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.smtp.host</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.smtp.host</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>(Required) The IP address or server name of the outgoing email
+server.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">(Required) The IP address or server name of the outgoing email server.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">(Pflichtvariable) Die IP-Addresse oder der Servername des Emailservers</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.smtp.port</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.smtp.port</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.smtp.port</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>The port on which the outgoing SMTP server listens</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The port on which the outgoing SMTP server listens</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der Port des Emailservers</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.smtp.ssl</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.smtp.ssl</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.smtp.ssl</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>If SSL should be used ( true or false )</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If SSL should be used ( true or false )</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Ob SSL verwendet werden soll ( true oder false )</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.smtp.tls</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.smtp.tls</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.smtp.tls</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>If TLS should be used ( true or false )</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If TLS should be used ( true or false )</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Ob TLS verwendet werden soll ( true oder false )</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.smtp.user</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.smtp.user</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.smtp.user</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>The username for authentication</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The username for authentication</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der Nutzername zur Authentifizierung am Emailserver</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.smtp.password</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.smtp.password</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.smtp.password</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>The password for authentication</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The password for authentication</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Das Passwort zur Authentifizierung am Emailserver</mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.mail.from</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.mail.from</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.mail.from</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>This email address is used as the sender when the Workflow
+Accelerator system sends out notifications.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">This email address is used as the sender when the Workflow Accelerator system sends out notifications.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Sender-E-Mail-Adresse von Workflow Accelerator-Benachrichtigungen und Einladungen.</mrk></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.mail.feedback</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.mail.feedback</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.mail.feedback</mrk></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>This email address will receive all feedback which is sent using
+the feedback functionality in the application.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">This email address will receive all feedback which is sent using the feedback functionality in the application.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Bei dieser E-Mail-Adresse gehen alle Feedback-Nachrichten ein, die über die integrierte Feedback-Funktion in der Anwendung gesendet werden.</mrk></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.mongodb.servers</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.mongodb.servers</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.mongodb.servers</mrk></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>A comma-separated list of MongoDB servers (hostnames). If you have
+MongodDB running on the same server as Tomcat, the default value of
+localhost is okay.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">A comma-separated list of MongoDB servers (hostnames).</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If you have MongodDB running on the same server as Tomcat, the default value of localhost is okay.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Eine kommagetrennte Liste von MongoDB-Servern (Hostnamen).</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Falls MongoDB und Tomcat auf derselben Maschine laufen, kann der Standardwert localhost beibehalten werden.</mrk></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.mongodb.username</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.mongodb.username</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.mongodb.username</mrk></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>The Workflow Accelerator MongoDB user name. If you created the user
+following the instructions in this guide, the name is <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>signavio<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Workflow Accelerator MongoDB user name.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If you created the user following the instructions in this guide, the name is <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>signavio<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der Workflow Accelerator-MongoDB-Nutzername.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Falls Sie den Nutzer entsprechend der Anweisungen erstellt haben, ist der Name <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>signavio<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.mongodb.password</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.mongodb.password</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.mongodb.password</mrk></target></trans-unit><trans-unit
+        id="30"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>The password of the Workflow Accelerator MongoDB user. This is the
+password you defined during user creation.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The password of the Workflow Accelerator MongoDB user.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">This is the password you defined during user creation.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="53"
+            MadCap:diff="ContentChanged" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /></target><alt-trans
+          match-quality="56"
+          origin="previous-version"><seg-source>The name of the database Workflow Accelerator should use.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Der Name der Datenbank, die von Workflow Accelerator verwendet werden soll.</target></alt-trans><alt-trans
+          match-quality="53"
+          origin="previous-version"><seg-source>The Workflow Accelerator MongoDB user name.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Der Workflow Accelerator-MongoDB-Nutzername.</target></alt-trans></trans-unit><trans-unit
+        id="31"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.mongodb.database</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.mongodb.database</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.mongodb.database</mrk></target></trans-unit><trans-unit
+        id="32"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>The name of the database Workflow Accelerator should use. The
+default value <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>signavio<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> is okay.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The name of the database Workflow Accelerator should use.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The default value <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>signavio<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> is okay.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der Name der Datenbank, die von Workflow Accelerator verwendet werden soll.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Der Standardwert <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>signavio<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> kann beibehalten werden.</mrk></target></trans-unit><trans-unit
+        id="33"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.javascript.server.url</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.javascript.server.url</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.javascript.server.url</mrk></target></trans-unit><trans-unit
+        id="34"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>(Optional) The URL of the Workflow Accelerator Script Engine, e.g.
+      <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>http://localhost:8081<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">(Optional) The URL of the Workflow Accelerator Script Engine, e.g. <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>http://localhost:8081<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">(Optional) Die URL der Workflow Accelerator Script Engine, z.B. <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>http://localhost:8081<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="35"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.mail.receiver.enabled</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.mail.receiver.enabled</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.mail.receiver.enabled</mrk></target></trans-unit><trans-unit
+        id="36"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>(Optional) Activates the email trigger if set to
+      <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>true<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.
+You have to set up the mail relay for the trigger to work
+properly.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">(Optional) Activates the email trigger if set to <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>true<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You have to set up the mail relay for the trigger to work properly.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">(Optional) Aktiviert den E-Mail-Auslöser wenn der Wert auf <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>true<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> gesetzt wird.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sie müssen das Mail Relay installieren, damit der Auslöser benutzt werden kann.</mrk></target></trans-unit><trans-unit
+        id="37"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.mail.receiver.domain</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.mail.receiver.domain</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.mail.receiver.domain</mrk></target></trans-unit><trans-unit
+        id="38"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>(Optional) The email domain which is used to receive emails for the
+email trigger. The same value must be configured for the mail
+relay.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">(Optional) The email domain which is used to receive emails for the email trigger.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The same value must be configured for the mail relay.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">(Optional) Die E-Mail-Domain, die genutzt wird, um E-Mails für den E-Mail-Auslöser zu empfangen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der gleiche Wert muss auch in der Konfiguration des Mail Relay gesetzt sein.</mrk></target></trans-unit><trans-unit
+        id="39"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>effektif.google.secrets.location</source><seg-source><mrk
+            mtype="seg"
+            mid="1">effektif.google.secrets.location</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">effektif.google.secrets.location</mrk></target></trans-unit><trans-unit
+        id="40"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>(Optional) Absolute path to the Google APIs OAuth 2.0 credentials
+file, see
+      <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../optional-configuration/google-service-actions.htm#ConfigureGoogleService" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Configure Google service
+actions
+  &lt;/MadCap:xref&gt;</ph>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">(Optional) Absolute path to the Google APIs OAuth 2.0 credentials file, see <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../optional-configuration/google-service-actions.htm#ConfigureGoogleService" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Configure Google service
+actions
+  &lt;/MadCap:xref&gt;</ph>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">(Optional) Absoluter Pfad zu der Datei mit den Google APIs OAuth 2.0-Zugangsdaten, vgl. <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../optional-configuration/google-service-actions.htm#ConfigureGoogleService" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Configure Google service
+actions
+  &lt;/MadCap:xref&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="41"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The following properties are only relevant if your Workflow
+Accelerator installation is connected to your Signavio installation.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The following properties are only relevant if your Workflow Accelerator installation is connected to your Signavio installation.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die folgenden Eigenschaften sind nur relevant, falls Workflow Accelerator mit Ihrer Process Manager-Installation verbunden werden soll:</mrk></target></trans-unit><trans-unit
+        id="42"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>See
+   <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../process-manager-integration/process-manager-integration.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Signavio Process Manager integration
+  &lt;/MadCap:xref&gt;</ph>
+   for more information on how to set up
+the integration.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">See <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../process-manager-integration/process-manager-integration.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Signavio Process Manager integration
+  &lt;/MadCap:xref&gt;</ph> for more information on how to set up the integration.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Mehr Informationen zur Signavio-Integration erhalten Sie im Abschnitt <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../process-manager-integration/process-manager-integration.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Signavio Process Manager integration
+  &lt;/MadCap:xref&gt;</ph></mrk></target></trans-unit><trans-unit
+        id="43"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Configure logging</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configure logging</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Logging konfigurieren</mrk></target></trans-unit><trans-unit
+        id="44"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The Workflow Accelerator system has its own application log file
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.log<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. You need to define the directory where this
+log file is stored. The directory is specified in the file
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/logback.xml<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.
+Open the file and update the following line:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Workflow Accelerator system has its own application log file <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.log<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You need to define the directory where this log file is stored.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The directory is specified in the file <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/logback.xml<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">Open the file and update the following line:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Das Workflow Accelerator-System hat mit <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.log<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> ein eigenes Logfile.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Sie müssen das Verzeichnis definieren, in dem diese Log-Datei gespeichert ist.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="52">Sie finden die entsprechenden Dateien im Verzeichnis <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> .</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Öffnen Sie die Datei und passen Sie die folgende Zeile an:</mrk></target></trans-unit><trans-unit
+        id="45"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The value should contain an absolute path. Make sure the user
+executing Tomcat has the required read / write permissions for the
+directory.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The value should contain an absolute path.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Make sure the user executing Tomcat has the required read / write permissions for the directory.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der Wert sollte einen absoluten Pfad darstellen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Stellen Sie sicher, dass der Nutzer, der Tomcat ausführt, Lese- und Schreibzugriff auf das entsprechende Verzeichnis hat.</mrk></target></trans-unit><trans-unit
+        id="46"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>On Windows it necessary to escape all "\". An example value could
+like this:
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>"C:\\Logs\\Signavio"<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">On Windows it necessary to escape all "\".</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">An example value could like this: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>"C:\\Logs\\Signavio"<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="57"
+            MadCap:diff="ContentChanged" /></target><alt-trans
+          mid="2"
+          match-quality="57"
+          origin="previous-version"><seg-source>On Windows it necessary to escape all "\". An example value could like this: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>"C:\\Logs\\Signavio"<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Unter Windows ist es notwendig, alle “\” zu escapen, sodass sich zum Beispiel der folgende Wert ergibt: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>"C:\\Logs\\Signavio"<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</target></alt-trans></trans-unit><trans-unit
+        id="47"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>This configuration file also enables you to change the log level in
+this file. By default, the log level is INFO. However, in a scenario
+where you require official support, you will be asked to set the log
+level to DEBUG. In order to so, update the following:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">This configuration file also enables you to change the log level in this file.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">By default, the log level is INFO.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">However, in a scenario where you require official support, you will be asked to set the log level to DEBUG.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">In order to so, update the following:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">In der Konfigurationsdatei können Sie zudem das Loglevel festlegen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Standardmäßig ist das Loglevel INFO.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Falls Sie zum Beispiel beim Troubleshooting Support benötigen, ist es sinnvoll, das Loglevel auf DEBUG zu erhöhen.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Hierfür muss die folgende Zeile angepasst werden:</mrk></target></trans-unit><trans-unit
+        id="48"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Change it to:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Change it to:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der geänderte Eintrag sollte wie folgt aussehen:</mrk></target></trans-unit><trans-unit
+        id="49"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You will need to restart the Tomcat server for the changes to take
+effect. You can find more detailed information on how to start the
+Tomcat server in the next section.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You will need to restart the Tomcat server for the changes to take effect.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You can find more detailed information on how to start the Tomcat server in the next section.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Sie müssen Tomcat neustarten, damit die Änderungen wirksam werden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Der nächste Abschnitt gibt Ihnen detailliertere Hinweise, wie sie den Tomcat-Server starten können.</mrk></target></trans-unit><trans-unit
+        id="50"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The log file is configured to do a roll over. Every day, a new log
+file is created which contains a timestamp in the filename similar to
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif-2014-10-09.log<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. The most recent log entries can
+still be found in the file
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.log<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. After 30 days,
+the log files will be removed automatically.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The log file is configured to do a roll over.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Every day, a new log file is created which contains a timestamp in the filename similar to <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif-2014-10-09.log<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The most recent log entries can still be found in the file <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.log<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">After 30 days, the log files will be removed automatically.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Logdatei ist für einen „Roll Over“ konfiguriert.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Dies bedeutet, das jeden Tag ein neues Logfile mit einem entsprechenden Zeitstempel erstellt wird, zum Beispiel: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif-2014-10-09.log<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> .</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Die neuesten Einträge können zudem in der Datei <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.log<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> eingesehen werden.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Logfiles, die älter als 30 Tage sind, werden automatisch gelöscht.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

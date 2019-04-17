@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" MadCap:onlyLocalStylesheets="True" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/TableStyles/Alternate-Row-Color.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <style type="text/css">
+        </style>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 name="configuring-tomcat">
+   Configuring Tomcat
+  </h1>
+        <p>
+   This section will point the configuration options that are required
+to run Workflow Accelerator. However, Tomcat offers more configuration
+options that can be found in the official documentation:
+  </p>
+        <p><a href="https://tomcat.apache.org/tomcat-8.5-doc/">https://tomcat.apache.org/tomcat-8.5-doc/</a>
+        </p>
+        <h2 name="java-options">
+   Java options
+  </h2>
+        <p>
+   There are some Java options that need to be configured before
+starting the Tomcat server. These options are configured using the <kbd>JAVA_OPTS</kbd> environment variable. It should contain the
+following values:
+  </p>
+        <table class="TableStyle-Alternate-Row-Color" style="mc-table-style: url('../../../Resources/TableStyles/Alternate-Row-Color.css');margin-left: 0;margin-right: auto;" cellspacing="21">
+            <col class="TableStyle-Alternate-Row-Color-Column-Column1" style="width: 40%;" />
+            <col class="TableStyle-Alternate-Row-Color-Column-Column2" style="width: 60%;" />
+            <tbody>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>-Xms1536m</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      minimum RAM, should be at least 1.5GB
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>-Xmx2048m</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2">
+      maximum RAM, should be at least 2GB but more is recommended
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>-Dfile.encoding=UTF-8</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      sets UTF-8 as Apache Tomcat’s default encoding mechanism
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>-XX:PermSize=128m</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2">
+      initial permanent generation space in MB
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body1"><kbd>-XX:MaxPermSize=256m</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyA-Column2-Body1">
+      maximum permanent generation space in MB
+     </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+   In order to allocate sufficient RAM to the Tomcat server you have to
+set the
+   <kbd>Xms</kbd> and <kbd>Xmx</kbd> options, followed by the number of MB allocated and a literal
+   <kbd>m</kbd>. <kbd>Xms</kbd> defines the initial/minimum amount of RAM that is used and
+   <kbd>Xmx</kbd> the allowed maximum. You are advised to allocate at
+least 2GB of RAM to the Tomcat. However, it is recommended to use more
+RAM. For example, if you want to assign 4GB of maximum RAM the option
+would be <kbd> -Xmx4096m</kbd>.
+  </p>
+        <p>
+   The values for the permanent generation space have to be increased
+as well, these are defined by the values
+   <kbd> -XX:PermSize=128m </kbd>
+   and
+   <kbd> -XX:MaxPermSize=256m</kbd>.
+  </p>
+        <h2 name="windows-1">
+   Windows
+  </h2>
+        <p>
+   If you installed Tomcat using the Windows service installer, you can
+open the configuration dialog by opening the Windows start menu and
+selecting <br /><kbd>Program Files\Apache Tomcat\Configure Tomcat</kbd></p>
+        <figure>
+            <img alt="The Java tab of the Tomcat configuration dialog" class="align-left" src="../_images/Configure_Tomcat_Windows.png" style="width: 389px;height: 373px;" />
+        </figure>
+        <p>
+   The Java tab offers the possibility to set the options and define
+the memory pool (minimum and maximum RAM usage). Fill in the values for
+Xms and Xmx into the fields for memory pool and add the other options
+to the text area labeled as Java Options.
+  </p>
+        <h2 name="debian-1">
+   Debian
+  </h2>
+        <p>
+   One way to define the
+   <kbd>JAVA_OPTS</kbd>
+   under Debian and other Linux distributions is to create the file
+   <kbd>setenv.sh</kbd> in the Tomcat
+   <kbd>/bin/</kbd> directory. This directory contains also other
+files like the <kbd>catalina.sh</kbd>, the
+   <kbd>startup.sh</kbd>
+   or the
+  <kbd>shutdown.sh</kbd>
+   und is for instance located in <kbd>/usr/share/tomcat8</kbd>
+   or a similar directory. Create
+or extend any existing setenv.sh file and add the line for the <kbd>JAVA_OPTS</kbd>:
+		</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">export JAVA_OPTS="$JAVA_OPTS -Xms1536m [... add the other options]"</code></pre>
+        <p>
+   In case you have created a new
+   <kbd>setenv.sh</kbd>
+   file, you have to make sure it is executable using the
+   <kbd>chmod</kbd>
+   command: </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">chmod a+x setenv.sh</code></pre>
+        <h2 name="set-up-the-tomcat-connector">
+   Set up the Tomcat connector
+  </h2>
+        <p>
+   By default the Tomcat server will start up using port 8080 and 8005.
+Port 8080 is used for serving the Workflow Accelerator web application.
+Port 8005 is used to shut down the Tomcat instance. You can change the
+port in the server.xml which is located in
+   <kbd>$TOMCAT_HOME/conf/server.xml</kbd>.
+  </p>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <p>
+    If the server is running on any other port than port 80, your users
+will have to enter the port in the address line of the web browser,
+e.g.
+<kbd>http://workflow.yourdomain.com:8080/</kbd>.
+   </p>
+        </div>
+        <p>
+   Locate the HTTP connector and change the value of port to your
+preferred port. Furthermore, make sure the connector contains the entry
+   <kbd>URIEnconding="UTF-8"</kbd>. For example, the connector could
+look like this:
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-html">&lt;Connector port="80" protocol="HTTP/1.1"
+
+    connectionTimeout="20000"
+
+    redirectPort="8443"
+
+    URIEncoding="UTF-8" /&gt;</code></pre>
+    </body>
+</html>

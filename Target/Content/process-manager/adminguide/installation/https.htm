@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="https" name="https">
+   Using HTTPS (optional)
+  </h1>
+        <p>
+   Signavio Process Manager supports encrypted communication via HTTPS.
+We recommend using HTTPS for example, if the users access the Signavio
+system via an insecure network connection.
+  </p>
+        <p>
+   If you want to use the HTTPS protocol, some further configurations
+in the software are necessary. It is required that the respective
+administrator has some knowledge in the usage of HTTPS in combination
+with the Apache Tomcat. For further information and help regarding the
+installation and configuration please consult the documentation of the
+Apache Tomcat.
+  </p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>
+    Please make sure that the certificate is issued by a trusted
+Certificate Authority (CA) and please make sure that the JVM is
+trusting that certificate and CA. Therefore, both certificates must be
+added to the Java Truststore.
+   </p>
+        </div>
+        <p>
+   An incorrectly configured HTTPS connection usually typically causes
+the following problems:
+  </p>
+        <ul>
+            <li>
+    The search of diagrams and dictionary entries returns no
+results.
+   </li>
+            <li>
+    The Dictionary is empty.
+   </li>
+            <li>
+    Diagrams can’t be exported as a PNG, the diagram preview in the
+explorer shows no picture of the diagram, the BPM Collaboration Portal
+shows no graphical representation and in the Simulation and Comparator
+no diagram is displayed.
+   </li>
+            <li>
+    The Simulation can’t be executed.
+   </li>
+            <li>
+    The system doesn’t send notification emails.
+   </li>
+        </ul>
+        <p>
+   The reason for these effects is that the different features are
+provided by different web services that communicate via HTTP(S).
+  </p>
+        <p>
+   To ensure a stable connection, the JVM instance must accept the used
+certificate. If you observe one or more of these effects, please check
+the Tomcat log files. Usually, the error messages contain helpful
+information about the problem.
+  </p>
+        <h2 id="tomcat-ssl-certification" name="tomcat-ssl-certification">
+   Tomcat SSL Certification
+  </h2>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <p>
+    The Apache Tomcat team announced that support for Apache Tomcat
+8.0.x ended on 30th June 2018. Therefore, Signavio only supports Tomcat
+version 8.5.x.
+   </p>
+        </div>
+        <p><strong>
+    For Tomcat 8.5
+   </strong>
+   , you will find detailed instructions
+for SSL certification in the official Apache Tomcat documentation
+at:
+  </p>
+        <p><a href="https://tomcat.apache.org/tomcat-8.5-doc/ssl-howto.html">
+    https://tomcat.apache.org/tomcat-8.5-doc/ssl-howto.html
+   </a>
+        </p>
+        <p>
+   Please make sure to set UTF-8 as the URIEncoding of the HTTPS
+connector.
+  </p>
+        <p>
+   A readily prepared connector configuration could look like this:
+  </p><pre class="sourceCode"><code class="language-sh">&lt;Connector port="443"
+
+protocol="org.apache.coyote.http11.Http11NioProtocol"
+
+  maxThreads="150"
+
+  SSLEnabled="true" scheme="https" secure="true"
+
+  keystoreFile="Path/to/.keystore"
+
+  keystorePass="mypassword"
+
+  clientAuth="false" sslProtocol="TLS"
+
+URIEncoding="UTF-8" /&gt;</code></pre>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <p>
+    For Tomcat 8.5, the SSL protocol has changed. The TLS protocol is no
+longer supported by all browsers. As a result, you will not be able to
+reach your application if you try to use the default TSL protocol. To
+fix this, you need to define an additional TLS version.
+   </p>
+        </div>
+        <p>
+   Your connector could look like this:
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;Connector
+
+  port="443"
+
+  protocol="org.apache.coyote.http11.Http11NioProtocol"
+
+  maxThreads="200"
+
+  SSLEnabled="true"
+
+  scheme="https"
+
+  secure="true"
+
+  keystoreFile="D:/cert/localhost.pfx"
+
+  keystorePass="123456"
+
+  clientAuth="false"
+
+  sslProtocol="TLSv1+TLSv1.1+TLSv1.2"
+
+  keystoreType="PKCS12"
+
+  URIEncoding="UTF-8"
+
+  compressableMimeType="text/css,text/plain.image/svg+xml,
+application/xhtml+xml,text/html,text/xml,text/javascript,
+application/xml.application/x-javascript,application/javascript”
+
+  compression="on"
+
+  compressionMinSize="2048"
+
+  maxHttpHeaderSize="16384"/&gt;</code></pre>
+        <p>
+   For really large active directories, you will need to double or
+quadruple the
+   <kbd>
+    maxHttpHeadersize
+   </kbd>
+   parameter. Otherwise,
+Tomcat 8.5 will time out.
+  </p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>
+    The
+    <kbd>
+     keystore
+    </kbd>
+    lines are optional, and can be changed
+depending on what kind of certificate you want to use (our example is
+for PFX). Edit your code accordingly.
+   </p>
+        </div>
+        <h2 id="using-an-apache-web-server-in-front-of-the-tomcat-to-enable-ssl-alternative-to-3.20.1" name="using-an-apache-web-server-in-front-of-the-tomcat-to-enable-ssl-alternative-to-3.20.1">
+   Using an Apache web server in front of the Tomcat to enable SSL
+(alternative to 3.20.1)
+  </h2>
+        <p>
+   Instead of configuring the Tomcat to use SSL, you can setup an
+Apache web server (that uses SSL) and have it handle the external
+traffic for the Tomcat.
+  </p>
+        <p>
+   The configuration procedure is described in the official Apache
+Tomcat documentation at
+   <a href="https://tomcat.apache.org/connectors-doc/webserver_howto/apache.html">
+    https://tomcat.apache.org/connectors-doc/webserver_howto/apache.html
+   </a></p>
+        <h2 id="signavio-system-configuration" name="signavio-system-configuration">
+   Signavio system
+configuration
+  </h2>
+        <p>
+   In addition to the regular installation procedures, please also
+follow these steps.
+  </p>
+        <p>
+   The Tomcat server must be stopped for this.
+  </p>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>
+    These instruction assume that the Signavio Application Server, the
+Mailing Server, the Image Server, the Simulation Server and Apache Solr
+run on the same machine. If this is not the case, adjust the
+corresponding URLs according to your system setup and
+    <strong>
+     don’t
+    </strong>
+    restrict the Tomcat Connector in step 1) to
+listen to localhost only (no
+    <kbd>
+     address=”127.0.0.1”</kbd>).
+Instead, you can restrict access with a
+    <a href="http://tomcat.apache.org/tomcat-8.0-doc/config/valve.html#Remote_Address_Filter">
+     Remote Address Filter
+    </a>, for example.
+   </p>
+            <p>
+    To configure the Signavio system to work properly with HTTPS,
+proceed as follows:
+   </p>
+        </div>
+        <ol style="list-style-type: decimal;">
+            <li>
+     Activate an
+     <strong>
+      HTTP connector
+     </strong>
+     in the
+     <kbd>
+      server.xml
+     </kbd>
+     file (in the
+     <kbd>
+      conf
+     </kbd>
+     directory of
+your tomcat) as described at
+     <strong>
+      Configure Apache Tomcat.
+     </strong>
+     Make sure to have the connector listening to local requests only
+(<kbd>address="127.0.0.1"</kbd>). A readily prepared connector
+configuration typically looks like this:
+    <pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;Connector
+
+  address="127.0.0.1"
+
+  port="80" protocol="HTTP/1.1"
+
+  connectionTimeout="20000"
+
+  redirectPort="8443"
+
+  URIEncoding="UTF-8"
+
+  compression="on"
+
+  compressionMinSize="2048"
+
+/&gt;</code></pre></li>
+        </ol>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>
+     It is important that all other services of the application make
+requests against this connector (see below). If they are configured to
+use the HTTPS connector instead, most probably some features will not
+be reliably available.
+    </p>
+        </div>
+        <ol start="2" style="list-style-type: decimal;">
+            <li>
+     Update the Signavio configuration file
+     <kbd>configuration.xml</kbd>
+     in the folder
+     <kbd>$TOMCAT_DIR/conf/</kbd>:
+    <ol style="list-style-type: lower-alpha;"><li>
+      Add the following lines at the end of the file but before the end
+tag
+      <kbd>
+       &lt;/configuration&gt;
+      </kbd>:
+     </li></ol><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;solrUrl&gt;
+
+  http://localhost/solr
+
+&lt;/solrUrl&gt;
+
+&lt;imageServiceHost&gt;
+
+  http://localhost
+
+&lt;/imageServiceHost&gt;
+
+&lt;platformHostForMailingService&gt;
+
+  http://localhost
+
+&lt;/platformHostForMailingService&gt;
+
+
+&lt;decisionTableVerificationHost&gt;
+
+  http://localhost
+
+&lt;/decisionTableVerificationHost&gt;
+
+
+&lt;bdmSimulationServiceHost&gt;
+
+  http://localhost
+
+&lt;/bdmSimulationServiceHost&gt;
+
+
+&lt;droolsExportServiceHost&gt;
+
+  http://localhost
+
+&lt;/droolsExportServiceHost&gt;</code></pre><ol start="2" style="list-style-type: lower-alpha;"><li>
+      In the same directory, in the file
+      <kbd>simulation.xml</kbd>,
+make sure the host entry looks like this:
+     </li></ol><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;entry
+key="host"&gt;http://localhost&lt;/entry&gt;</code></pre></li>
+            <li>
+    Update the Apache Solr server:
+    <ol style="list-style-type: lower-alpha;"><li>
+      Open the file
+      <kbd>
+       $TOMCAT_DIR/webapps/solr/META-INF/context.xml
+      </kbd></li><li>
+       Add your IP with a leading
+       <kbd xmlns="http://www.w3.org/1999/xhtml">|</kbd>
+       to the attribute
+       <kbd xmlns="http://www.w3.org/1999/xhtml">allow</kbd>
+       of the xml element
+       <kbd xmlns="http://www.w3.org/1999/xhtml">Valve</kbd>.
+
+       <br xmlns="http://www.w3.org/1999/xhtml" />For example, if the IP of the server is
+       <kbd xmlns="http://www.w3.org/1999/xhtml">192.168.80.152</kbd>,
+the entry should look like this:
+      <pre class="sourceCode" xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code>&lt;Valve className="org.apache.catalina.valves.RemoteAddrValve"
+
+  allow="localhost|127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1|
+
+  192.168.90.152"
+
+/&gt;</code></pre></li></ol></li>
+            <li>
+    Ensure your configuration is correct. Proceed as described at
+    <code class="interpreted-text" data-role="ref">
+     diagnostics
+    </code>
+    .
+   </li>
+        </ol>
+    </body>
+</html>

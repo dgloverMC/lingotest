@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" MadCap:onlyLocalStylesheets="True" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/TableStyles/Alternate-Row-Color.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <style type="text/css">
+        </style>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 name="configure-mongodb"><a name="ConfiguringMongoDB"></a>砻קยด1ตว融</h1>
+        <p>砻קยด2ตว融</p>
+        <p>砻קยด3ตว融</p>
+        <p>砻קยด4ตว融</p>
+        <p>砻קยด5ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">systemLog:
+
+  destination: file
+
+  path: /var/log/mongodbdb/mongodb.log
+
+  logAppend: true
+
+storage:
+
+  dbPath: /var/lib/mongodb
+
+security:
+
+  authorization: enabled</code></pre>
+        <table class="TableStyle-Alternate-Row-Color" style="mc-table-style: url('../../../Resources/TableStyles/Alternate-Row-Color.css');" cellspacing="21">
+            <col style="width: 25%;" class="TableStyle-Alternate-Row-Color-Column-Column1" />
+            <col style="width: 75%;" class="TableStyle-Alternate-Row-Color-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>砻קยด6ตว融</kbd></td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">砻קยด7ตว融</td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>砻קยด8ตว融</kbd></td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2">砻קยด9ตว融</td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>砻קยด10ตว融</kbd></td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">砻קยด11ตว融</td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body2"><kbd>砻קยด12ตว融</kbd></td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyA-Column2-Body2">砻קยด13ตว融</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>砻קยด14ตว融</p>
+        <p>砻קยด15ตว融</p>
+        <h2 name="add-mongodb-user"><a name="Add"></a>砻קยด16ตว融</h2>
+        <p>砻קยด17ตว融</p>
+        <table class="TableStyle-Alternate-Row-Color" style="mc-table-style: url('../../../Resources/TableStyles/Alternate-Row-Color.css');" cellspacing="21">
+            <tbody>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>砻קยด18ตว融</kbd></td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1"> </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>砻קยด19ตว融</kbd></td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2"> </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>砻קยด20ตว融</kbd></td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">砻קยด21ตว融</td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body2"><kbd>砻קยด22ตว融</kbd></td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyA-Column2-Body2">砻קยด23ตว融</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>砻קยด24ตว融</p>
+        <p>砻קยด25ตว融</p>
+        <p>砻קยด26ตว融</p>
+        <h3 name="windows-3">砻קยด27ตว融</h3>
+        <ol>
+            <li>砻קยด28ตว融<pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">cd C:\MongoDB\bin</code></pre></li>
+            <li>砻קยด29ตว融</li><pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">mongo.exe admin -u admin -p &lt;enterYourAdminPasswordHere&gt; --eval "db.createUser( { user: 'signavio', pwd: '&lt;enterSignavioPasswordHere&gt;', roles: ['dbAdminAnyDatabase', 'readWriteAnyDatabase', 'clusterAdmin', 'userAdminAnyDatabase'] } )"</code></pre>
+            <ul>
+                <li>砻קยด30ตว融</li>
+                <li>砻קยด31ตว融</li>
+            </ul>
+            <li>砻קยด32ตว融</li>
+            <li>砻קยด33ตว融</li>
+        </ol>
+        <h3 name="debian-3">砻קยด34ตว融</h3>
+        <p>砻קยด35ตว融</p>
+        <ol>
+            <li>砻קยด36ตว融</li>
+            <li>砻קยด37ตว融</li>
+            <li>砻קยด38ตว融</li>
+        </ol>
+        <p>砻קยด39ตว融</p>
+        <h2 name="backup-and-restore">砻קยด40ตว融</h2>
+        <p>砻קยด41ตว融</p>
+    </body>
+</html>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1><a name="Inst" xmlns="http://www.w3.org/1999/xhtml"></a>
+   Install a new version
+  </h1>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   In order to update the Workflow Accelerator system, you have to
+replace the
+   <kbd>ROOT</kbd>
+   folder in <kbd>$TOMCAT_HOME/webapps</kbd>
+   with the newer version you can find
+in the extracted directory
+   <kbd>$WORKFLOW_HOME/webapps</kbd>.
+  </p>
+        <ol xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Delete the directory
+    <kbd>$TOMCAT_HOME/webapps/ROOT</kbd>
+    completely.
+   </li>
+            <li>
+    Copy the directory
+    <kbd>$WORKFLOW_HOME/webapps/ROOT</kbd>
+    to
+    <kbd>$TOMCAT_HOME/webapps</kbd>.
+   </li>
+            <li>
+    Copy the configuration files you have backed up in subsection <MadCap:xref href="backup-configuration-files.htm#Back">
+   Backup the configuration
+files
+  </MadCap:xref>back into the directory
+    <kbd>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes</kbd>.
+   </li>
+            <li>
+    If you have been provided with a new
+    <kbd>license.xml</kbd>, copy
+the file into
+    <kbd>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes</kbd>
+    and replace the existing file. Otherwise, you can keep on using the old
+    <kbd>license.xml</kbd>.
+   </li>
+        </ol>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you have installed the Workflow Accelerator Script Engine, you
+need to update the content of the
+   <kbd>$SCRIPT_ENGINE_HOME</kbd>
+   directory with the newer version you can find in the extracted
+directory
+   <kbd>$WORKFLOW_HOME/script-engine</kbd>.
+  </p>
+        <ol xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Delete all files in the directory
+    <kbd>$SCRIPT_ENGINE_HOME</kbd>.
+   </li>
+            <li>
+    Copy the content of the directory
+    <kbd>$WORKFLOW_HOME/script-engine</kbd>
+    to your
+    <kbd>$SCRIPT_ENGINE_HOME</kbd>
+    directory.
+   </li>
+            <li>
+    Copy the configuration file
+    <kbd xmlns="">configuration.onpremise.js</kbd>
+    you have backed up in subsection
+    <MadCap:xref href="backup-configuration-files.htm#Back">
+   Backup the configuration
+files
+  </MadCap:xref>
+    back into the
+directory
+    <kbd xmlns="">$SCRIPT_ENGINE_HOME</kbd>.
+   </li>
+        </ol>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you have installed the Workflow Accelerator Mail Relay, you need
+to update the content of the
+   <kbd>mail-relay.jar</kbd>
+   file within
+the
+   <kbd>$MAIL_RELAY_HOME</kbd>
+   directory with the newer version you
+can find in the extracted directory
+   <kbd>$WORKFLOW_HOME/mail-relay</kbd>.
+  </p>
+        <ol xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Delete the file
+    <kbd>$MAIL_RELAY_HOME/mail-relay.jar</kbd></li>
+            <li>
+    Copy the file
+    <kbd xmlns="http://www.w3.org/1999/xhtml">$WORKFLOW_HOME/mail-relay/mail-relay.jar</kbd>
+    to your
+    <kbd xmlns="http://www.w3.org/1999/xhtml">$MAIL_RELAY_HOME</kbd>
+    directory.
+</li>
+        </ol>
+    </body>
+</html>

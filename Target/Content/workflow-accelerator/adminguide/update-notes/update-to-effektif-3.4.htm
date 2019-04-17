@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Updating to Effektif 3.4</h1>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Effektif 3.4 requires several infrastructure changes. Starting with
+version 3.4, Effektif requires Java 8. We also recommended upgrading
+MongoDB to version 3.2.x, because of the increased performance and
+functionality. Effektif 3.4 will still support MongoDB 2.4.x, but later
+releases will assume that you are using MongoDB 3.2. Last but not
+least, Effektif 3.4 supports Apache Tomcat 7 and 8. For now, you can
+use either version, but we recommend the optional upgrade to Tomcat
+8.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you are using Effektif in combination with a Signavio system, you
+are required to update your Signavio sytem as well to version 9.7 or
+higher.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   When updating Effektif and your infrastructure, follow the following
+sequence:
+  </p>
+        <ol xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Update Java to Java 8 (required)
+   </li>
+            <li>
+    Update Tomcat to Tomcat 8 (optional)
+   </li>
+            <li>
+    Update the Effektif application
+   </li>
+            <li>
+    Update MongoDB to MongoDB 3.2 (required)
+   </li>
+        </ol>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Be aware, the update to Effektif 3.4 contains multiple changes in
+the underlying data schema which require several long running
+migrations. Depending on the size of your database, the migrations
+might take several seconds, or up to 20 minutes.
+  </p>
+        <h2 name="updating-java-and-tomcat" xmlns="http://www.w3.org/1999/xhtml">
+   Updating Java and Tomcat
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The last Effektif release 2.27.x is already compatible with Java 8
+and Tomcat 8. Start by updating Java and Tomcat, because Effektif 3.4
+will not run on Java 7. You can install Tomcat 8 next to an existing
+Tomcat 7, and then switch between the application servers. <MadCap:xref href="../install/install-tomcat.htm#Inst">
+   Installing Tomcat
+  </MadCap:xref>
+   explains how
+to setup a Tomcat 8 server. After the successful setup, ensure none of
+the Tomcat servers is running. Then copy the
+   <kbd>$TOMCAT_HOME/webapps/ROOT</kbd>
+   directory from your Tomcat 7 to
+your Tomcat 8 directory and start the Tomcat 8 server. Now, you should
+be able to access the Effektif system again via a browser.
+  </p>
+        <h2 name="updating-effektif" xmlns="http://www.w3.org/1999/xhtml">
+   Updating Effektif
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   As mentioned before, the update to version 3.4 changes the data
+schema. Create a backup of your database before updating the
+application.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Data migrations might take from several seconds up to several
+minutes. These migrations are executed when the server starts, so the
+first start of Effektif might take longer than usual.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   See <MadCap:xref href="../update/intro.htm#top">Updating Signavio Workflow Accelerator
+  </MadCap:xref> for
+more information on how to update the Effektif application. After you
+have successfully updated Effektif, you can continue with the next
+section and update MongoDB.
+  </p>
+        <h2 name="updating-mongodb-1" xmlns="http://www.w3.org/1999/xhtml">
+   Updating MongoDB
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Effektif 3.4 now supports the latest version of MongoDB (3.2.x)
+which comes with improved performance and functionality. The usual
+upgrade from MongoDB 2.4.x to 3.2.x (
+   <a href="https://docs.mongodb.org/manual/release-notes/3.2-upgrade/">
+    https://docs.mongodb.org/manual/release-notes/3.2-upgrade/
+   </a>
+   )
+requires a stepwise approach, first upgrading from 2.4 to 2.6, then
+from 2.6 to 3.0 and at last from 3.0 to 3.2. Upgrading the database
+also changes the storage engine from the old MMAPv1 engine to the new
+WiredTiger engine.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   However, we will use a different approach to migrate your MongoDB
+2.4.x to version 3.2.x. This approach will simply import a backup of
+MongoDB 2.4.x into a completely fresh setup of MongoDB 3.2.x.
+  </p>
+        <ol xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Stop the Tomcat application server - see <MadCap:xref href="../stop/stop.htm">
+   Stopping Signavio Workflow Accelerator
+  </MadCap:xref>.
+   </li>
+            <li>
+     Create a backup of your database using
+     <kbd>mongodump</kbd>
+     - see
+<MadCap:xref href="../backup/backup.htm">
+   Backup.</MadCap:xref><ul><li>
+       You will later import this backup into a new MongoDB 3.2
+installation.
+      </li></ul></li>
+            <li>
+    Stop MongoDB - see
+<MadCap:xref href="../stop/stop.htm">
+   Stopping Signavio Workflow Accelerator
+  </MadCap:xref>.
+   </li>
+            <li><em>
+     Windows only:
+    </em>
+    manually remove the created MongoDB service
+by executing
+    <pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">$MONGO_HOME\bin\mongod.exe --remove</code></pre>
+
+    with
+administrator privileges on the command line
+    <kbd>cmd</kbd></li>
+            <li>
+     Uninstall MongoDB 2.4.x, but ensure you don't delete your
+backup!
+    <ul><li><em>
+        Windows:
+       </em>
+       Delete the MongoDB directory.
+      </li><li><em>
+        Debian:
+       </em>
+       Use your package manager and uninstall the package
+       <kbd>mongodb-10gen</kbd>.
+      </li></ul></li>
+            <li>
+     Install MongoDB 3.2.x and recreate the Effektif database user
+again.
+    <ul><li><kbd>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/effektif-onpremise.properties</kbd>
+       contains the current name and password of the Effektif database
+user
+      </li><li>
+       You can install the new version in the same place as the old one,
+please ensure the data directory of the new database is empty before
+you start it.
+      </li><li>
+       Note that the the MongoDB configuration file format has
+changed.
+      </li><li><kbd>install-mongodb</kbd>
+       contains more information on how to setup
+MongoDB 3.2.x
+      </li></ul></li>
+            <li>
+    Start the new MongoDB instance.
+   </li>
+            <li>
+     Restore the backup partially to your new MongoDB instance using
+     <kbd>mongorestore</kbd>. Your backup from step 1 should contain
+multiple folders, one for each database in the MongoDB instance. You
+only need to restore the two that contain Effektif’s data. Their
+default names are
+     <kbd>effektif</kbd>
+     and
+     <kbd>effektif-files</kbd>. You might have chosen a different name by
+defining another value for
+     <kbd>effektif.mongodb.database</kbd>
+     in
+your Effektif configuration file. The value there represents the name
+of the first database and the name of the second database is generated
+by adding
+     <kbd>-files</kbd>. You have to execute the restore command
+for both of the directories separately. The following lines show
+examples for the restore commands, assuming your MongoDB user and
+database are both called
+     <kbd>effektif</kbd>.
+    <ul><li>
+       The database name is specified by the
+       <kbd>--db</kbd>
+       parameter
+and also by the existing backup directory name.
+      </li><li><em>Windows:</em><ul><li><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">$MONGO_HOME\bin\mongorestore.exe -u effektif -p
+&lt;password&gt; --authenticationDatabase admin --db effektif
+C:\path\to\dumps\effektif</code></pre></li><li><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">$MONGO_HOME\bin\mongorestore.exe -u effektif -p
+&lt;password&gt; --authenticationDatabase admin --db effektif-files
+C:\path\to\dumps\effektif-files</code></pre></li></ul></li><li><em>Debian:</em><ul><li><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">mongorestore -u effektif -p &lt;password&gt;
+--authenticationDatabase admin --db effektif
+/path/to/dumps/effektif</code></pre></li><li><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">mongorestore -u effektif -p &lt;password&gt;
+--authenticationDatabase admin --db effektif-files
+/path/to/dumps/effektif-files</code></pre></li></ul></li></ul></li>
+            <li>
+    Restart Effektif and MongoDB - see .
+   </li>
+        </ol>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Your Effektif system has been updated successfully. You can now
+access the Effektif application again via a browser.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Note: if you use Robomongo to access MongoDB, download the latest
+version in order to be able to connect to MongoDB 3.2.
+</p>
+    </body>
+</html>

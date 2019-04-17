@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/TableStyles/Alternate-Row-Color.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>砻קยด1ตว融</h1>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด2ตว融</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด3ตว融</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด4ตว融</p>
+        <h2 name="updating-the-configuration-file" xmlns="http://www.w3.org/1999/xhtml">砻קยด5ตว融</h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด6ตว融</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด7ตว融</p>
+        <table class="TableStyle-Alternate-Row-Color" style="mc-table-style: url('../../../Resources/TableStyles/Alternate-Row-Color.css');" cellspacing="21" xmlns="http://www.w3.org/1999/xhtml">
+            <thead>
+                <tr class="TableStyle-Alternate-Row-Color-Head-Header1">
+                    <th class="TableStyle-Alternate-Row-Color-HeadE-Column1-Header1">砻קยด8ตว融</th>
+                    <th class="TableStyle-Alternate-Row-Color-HeadD-Column2-Header1">砻קยด9ตว融</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>砻קยด10ตว融</kbd></td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1"><kbd>砻קยด11ตว融</kbd></td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>砻קยด12ตว融</kbd></td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2"><kbd>砻קยด13ตว融</kbd></td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body1"><kbd>砻קยด14ตว融</kbd></td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyA-Column2-Body1"><kbd>砻קยด15ตว融</kbd></td>
+                </tr>
+            </tbody>
+        </table>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด16ตว融</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">effektif.process.manager.authentication.jwt.secret = SHARED_SECRET_CHANGE_ME</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด17ตว融</p>
+        <h2 name="updating-node.js" xmlns="http://www.w3.org/1999/xhtml">砻קยด18ตว融</h2>
+        <p>砻קยด19ตว融</p>
+        <MadCap:snippetBlock src="../_snippets/Updating Node.js.flsnp" />
+    </body>
+</html>

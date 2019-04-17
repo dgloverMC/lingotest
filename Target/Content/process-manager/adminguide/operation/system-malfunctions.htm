@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:sourceDocument="C:\Users\Dana\Documents\adminguide_editor\editor\docs\operation\malfunctions.htm" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="typical-malfunctions" name="typical-malfunctions">
+   Typical malfunctions
+  </h1>
+        <p>
+   This section provides an overview over the most frequent causes for
+system malfunctions and their possible solutions:
+  </p>
+        <dl>
+            <dt><strong>
+     The Tomcat server or the database don't start up after
+maintenance activities.
+    </strong>
+            </dt>
+            <dd>
+                <p>
+     Try to login each time after maintenance activities to check whether
+the system started properly.
+    </p>
+            </dd>
+            <dt><strong>
+     Not enough disk space is available for the
+database.
+    </strong>
+            </dt>
+            <dd>
+                <p>
+     Each diagram version requires approximately 1 MB disc space. If a
+diagram is saved ten times, 10 MB of data are used. We recommend
+calculating enough disk space and monitoring it on operating system
+level. For example, a note could be sent to the administrator if the
+system is running out of disc space.
+    </p>
+            </dd>
+            <dt><strong>
+     There was not enough memory allocated to the Tomcat
+server.
+    </strong>
+            </dt>
+            <dd>
+                <p>
+     This manifests in frequent swapping and slow diagram accesses – even
+     <code>OutOfMemoryExceptions</code>
+     and a crash of the Tomcat server may
+occur. Allocate more memory to the Tomcat server. See chapter
+     <code class="interpreted-text" data-role="ref">
+      conf_web_server
+     </code>
+     .
+    </p>
+            </dd>
+            <dt><strong>
+     Your browser redirects you to localhost when you enter the
+Signavio server URL into the web browser.
+    </strong>
+            </dt>
+            <dd>
+                <p>
+     You didn't configure the server correctly. Please ensure that the
+installation instructions have been followed correctly and restart the
+Apache Tomcat.
+    </p>
+            </dd>
+            <dt><strong>
+     Umlauts are not displayed as expected in Signavio Process
+Manager UI and exported documents or pictures (PNG, PDF
+etc.)
+    </strong>
+            </dt>
+            <dd>
+                <p>
+     The Apache Tomcat is not using UTF-8 encoding. Please check the
+operating system, database and web server configuration (see
+installation instructions).
+    </p>
+            </dd>
+            <dt><strong>
+     The system doesn't send notification emails.
+    </strong>
+            </dt>
+            <dd>
+                <p>
+     Re-check the server’s SMTP configuration (see installation
+instructions).
+    </p>
+            </dd>
+            <dt><strong>
+     Users within your company/network receive notification
+emails, external users don’t.
+    </strong>
+            </dt>
+            <dd>
+                <p>
+     Some relay configuration of your email server prevents it from
+sending emails to external users. For most email servers allowing
+anonymous access (if no username and password was set during
+configuration of the email server integration) this is the default
+configuration. Contact the administrator who is responsible for your
+email server.
+    </p>
+            </dd>
+            <dt><strong>
+     The Tomcat server doesn’t start up properly and writes
+'Waiting for changelog lock...' into the log file.
+    </strong>
+            </dt>
+            <dd>
+                <p>
+     If the Tomcat startup was canceled previously (for example due to a
+lack of memory), this error may occur. Stop the server before fixing
+the defect. Afterwards, log into the database and open the table
+     <code>
+      DatabaseChangelogLock
+     </code>
+     . It usually contains just one line.
+Set the value of the variable
+     <code>
+      LOCKED
+     </code>
+     from
+     <code>
+      1
+     </code>
+     to
+     <code>
+      0
+     </code>
+     . Start the Tomcat server again.
+    </p>
+            </dd>
+            <dt><strong>
+     It is not possible to save very large
+diagrams
+    </strong>
+            </dt>
+            <dd>
+                <p>
+     With the default Tomcat settings, it is not possible to save very
+large diagrams (&gt; 2 MB of mere textual representation). You can
+increase the file size limit by adding the
+     <code>
+      maxPostSize
+     </code>
+     property to connector definitions in the Tomcat's
+     <code>
+      server.xml
+     </code>
+     file. Read more at
+     <code class="interpreted-text" data-role="ref">
+      conf_web_server
+     </code>
+     .
+    </p>
+            </dd>
+            <dt><strong>
+     Some features don't work as expected.
+    </strong>
+            </dt>
+            <dd>
+                <ul>
+                    <li>
+      The search of diagrams and Dictionary entries returns no
+results.
+     </li>
+                    <li>
+      The Dictionary is empty.
+     </li>
+                    <li>
+      Diagrams can’t be exported as a PNGs, the diagram preview in the
+explorer shows no picture of the diagram, the Collaboration Hub shows
+no graphical representation and in the BPMN Simulation and Diagram
+Comparison no diagrams are displyed.
+     </li>
+                    <li>
+      The BPMN Simulation can’t be executed.
+     </li>
+                    <li>
+      No daily notifications are sent out.
+     </li>
+                </ul>
+                <p>
+     The different features are provided by different web services which
+communicate via HTTP(S). For a smooth communication it is necessary
+that the JVM instance accepts the used certificate. If you observe one
+or more of these effects please check the Tomcat log files. Probably,
+the error messages contain helpful hints on what the problem is.
+    </p>
+            </dd>
+        </dl>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+			Unzip signavio-workflow-{version}.zip to a directory of your
+			choice, e.g. <br xmlns="http://www.w3.org/1999/xhtml" /><kbd xmlns="http://www.w3.org/1999/xhtml">/yourlocation/signavio-workflow-{version}</kbd>.
+			In
+			the rest of this guide, we'll refer to the Workflow Accelerator home
+			directory as <kbd xmlns="http://www.w3.org/1999/xhtml">$WORKFLOW_HOME</kbd>. The directory will contain
+		the following files:</p>
+        <ul>
+            <li>*.sh - Linux shell scripts</li>
+            <li>db - directory that contains MongoDB configuration files
+			<ul><li>mongod.conf - configuration file for Linux</li><li>mongod.cfg - configuration file for Windows</li></ul></li>
+            <li>mail-relay - directory that contains the mail relay</li>
+            <li>script-engine - directory that contains the script engine</li>
+            <li>optional - directory that contains optional resources
+			<ul><li>spnego - directory that contains resources to setup SSO with SPNEGO</li></ul></li>
+            <li> webapps - directory</li>
+            <li>ROOT - this directory contains the web application</li>
+        </ul>
+        <p>On Linux systems you need to make the scripts executable with the
+			<kbd>chmod</kbd> command like this:
+		</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">chmod a+x $WORKFLOW_HOME/*.sh</code></pre>
+    </body>
+</html>

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="Updating Node.js.flsnp"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="x-flsnp"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="Updating Node.js.flsnp.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">8</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>
+     Download the required Node.js LTS version</source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">Download the required Node.js LTS version</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Laden Sie die erforderliche LTS-Version von Node.js herunter.</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Stop your Workflow Accelerator Script Engine - see section <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../stop/stop.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Stopping Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Stop your Workflow Accelerator Script Engine - see section <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../stop/stop.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Stopping Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Stoppen Sie Workflow Accelerator Script Engine - siehe <ph
+              id="1">&lt;MadCap:xref href="../stop/stop.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Stopping Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Uninstall your old Node.js version</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uninstall your old Node.js version</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Deinstallieren Sie ihre alte Node.js-Version.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Install the new Node.js 
+LTS version</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Install the new Node.js LTS version</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Installieren  Sie die neue Node.js-Version.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>(Optional) Update your startup script / service for Workflow
+Accelerator Script Engine if the install directory for Node.js
+changed.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">(Optional) Update your startup script / service for Workflow Accelerator Script Engine if the install directory for Node.js changed.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">(Optional) Aktualisieren Sie Ihr Start-Skript / Ihren Dienst für Workflow Accelerator Script Engine insofern sich das Installationsverzeichnis für Node.js geändert hat.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-li"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      Windows
+     <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+     : If you are using NSSM to run the service, open
+the command line <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>cmd<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     with administrative privileges,
+execute
+     <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>nssm edit script-engine<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     and update the location of
+Node.js in the dialog.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Windows <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> : If you are using NSSM to run the service, open the command line <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>cmd<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> with administrative privileges, execute <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>nssm edit script-engine<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and update the location of Node.js in the dialog.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="1">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Windows<ept
+              id="1">&lt;/em&gt;</ept>: Wenn Sie NSSM verwenden, um den Dienst auszuführen, öffnen Sie die Kommandozeile <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>cmd<ept
+              id="2">&lt;/kbd&gt;</ept> mit Administratorenrechten, führen Sie <bpt
+              id="3">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>nssm edit script-engine<ept
+              id="3">&lt;/kbd&gt;</ept> aus und aktualisieren das Verzeichnis von Node.js in dem Dialog.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Start Workflow Accelerator Script Engine - see section <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../start/intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Starting Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Start Workflow Accelerator Script Engine - see section <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../start/intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Starting Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Stoppen Sie Workflow Accelerator Script Engine - siehe <ph
+              id="1">&lt;MadCap:xref href="../start/intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Starting Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph>.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

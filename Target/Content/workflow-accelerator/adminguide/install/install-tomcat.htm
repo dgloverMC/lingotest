@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" MadCap:onlyLocalStylesheets="True" xml:space="preserve">
+    <head><title></title>
+        <style type="text/css">
+        </style>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 name="install-tomcat"><a name="Inst" xmlns="http://www.w3.org/1999/xhtml"></a>
+   Installing Tomcat
+  </h1>
+        <p>
+   The Java backend of the Workflow Accelerator system is executed
+using Apache Tomcat. Workflow Accelerator supports Apache Tomcat 64-bit
+version 8.5. It does not support Apache Tomcat 64-bit 9.
+  </p>
+        <p>
+   You can download the latest installation files for different
+operating systems from the following site:
+  </p>
+        <p><a href="https://tomcat.apache.org/download-80.cgi">https://tomcat.apache.org/download-80.cgi</a>
+        </p>
+        <p>
+   In general, please make sure the user executing the Tomcat has
+read/write permissions for the <kbd xmlns="http://www.w3.org/1999/xhtml">$TOMCAT_HOME/webapps</kbd>
+   directory and its sub-directories.
+</p>
+        <h2 name="windows" xmlns="http://www.w3.org/1999/xhtml"><a name="Wind" xmlns="http://www.w3.org/1999/xhtml"></a>
+   Windows
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you are using a Windows system, the download site offers a
+Windows Service Installer (<cite>32-bit/64-bit Windows Service Installer</cite>).
+This installer will install the Apache Tomcat as a Windows service
+which can be started, stopped and configured over a graphical user
+interface. The service installer is the recommended way for Windows
+users to install the Tomcat server. Make sure you execute the installer
+with administrator privileges.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Furthermore, it is recommended to install the Apache Tomcat into a
+root directory on
+   <kbd>C:\</kbd>.
+  </p>
+        <h2 name="debian" xmlns="http://www.w3.org/1999/xhtml"><a name="Debian" xmlns="http://www.w3.org/1999/xhtml"></a>Debian
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you are using Linux, consider installing Apache Tomcat using a
+package manager. On Debian, you can use the Advanced Packaging Tool
+(APT) and execute one of the following commands:</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">apt-get install tomcat8</code></pre>
+    </body>
+</html>

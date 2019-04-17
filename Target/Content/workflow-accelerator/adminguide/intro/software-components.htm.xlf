@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="in-progress">
+  <file
+    xml:space="preserve"
+    original="software-components.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="software-components.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">21</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Software components</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Software components</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Software-Komponenten</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In order to setup and work with Workflow Accelerator, several
+software components are necessary.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In order to setup and work with Workflow Accelerator, several software components are necessary.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Um Workflow Acceleratorzu installieren und mit Workflow Accelerator zu arbeiten, werden mehrere Software-Komponenten benötigt.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Workflow Accelerator system</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Workflow Accelerator system</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Workflow Accelerator-System</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The Workflow Accelerator system refers to the application that you
+will run on your server and that consists of a Java web archive (WAR)
+that is deployed on Tomcat and a MongoDB database.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Workflow Accelerator system refers to the application that you will run on your server and that consists of a Java web archive (WAR) that is deployed on Tomcat and a MongoDB database.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Das Workflow Accelerator-System ist eine Webanwendung, die als Java Web Archive (WAR) in einer Apache Tomcat-Instanz eingesetzt wird und mit einem MongoDB-Datenbanksystem verbunden wird.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Apache Tomcat</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Apache Tomcat</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Apache Tomcat</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The Apache Tomcat is an application server that hosts the Workflow
+Accelerator web application. The Workflow Accelerator web application
+serves the Workflow Accelerator application to the users’ browser and
+it also includes the backend of the Workflow Accelerator system.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Apache Tomcat is an application server that hosts the Workflow Accelerator web application.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The Workflow Accelerator web application serves the Workflow Accelerator application to the users’ browser and it also includes the backend of the Workflow Accelerator system.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Apache Tomcat ist ein Applikationsserver, in dem die Workflow Accelerator-Webanwendung bereitgestellt wird.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Durch die Workflow Accelerator-Webanwendung werden die Frontend-Applikationsdateien für die Browser der Nutzer verfügbar gemacht und über Request Handler mit der im Tomcat ausgeführten Backend-Anwendung verbunden.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>MongoDB</source><seg-source><mrk
+            mtype="seg"
+            mid="1">MongoDB</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">MongoDB</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>MongoDB is a document-oriented database system. It is the only
+database system that Workflow Accelerator supports. You can find more
+detailed information in the
+   <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.mongodb.org/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>MongoDB documentation<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">MongoDB is a document-oriented database system.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">It is the only database system that Workflow Accelerator supports.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">You can find more detailed information in the <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.mongodb.org/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>MongoDB documentation<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="57"
+            MadCap:diff="ContentChanged" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Detaillierte Information erhalten Sie in der <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.mongodb.org/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>MongoDB Dokumentation <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk></target><alt-trans
+          mid="2"
+          match-quality="57"
+          origin="previous-version"><seg-source>MongoDB is a document-oriented database system. It is the only database system that Workflow Accelerator supports.</seg-source><target
+            MadCap:segmentStatus="Untranslated">MongoDB ist ein Dokument-basiertes Datenbanksystem, das notwendig ist um Workflow Accelerator auf dem Server erfolgreich auszuführen.</target></alt-trans></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Node.js</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Node.js</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Node.js</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Node.js is a runtime environment for JavaScript which is used by
+Workflow Accelerator to execute custom JavaScript tasks created by the
+user.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Node.js is a runtime environment for JavaScript which is used by Workflow Accelerator to execute custom JavaScript tasks created by the user.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Node.js ist eine Ausführungsumgebung für JavaScript, welche von Workflow Accelerator genutzt wird, um benutzerdefinierte JavaScript-Tasks auszuführen.</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Mail server (SMTP)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Mail server (SMTP)</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Mail server (SMTP)</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The mail server is necessary to send notifications and invitation
+requests to users. Any server that is accessible via SMTP can be
+used.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The mail server is necessary to send notifications and invitation requests to users.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Any server that is accessible via SMTP can be used.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Um Benachrichtungen und Einladungen zu versenden, muss Workflow Accelerator mit einem E-Mail-Server verbunden werden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Hierfür kann ein beliebiger Server verwendet werden, der SMTP unterstützt.</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Web browser</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Web browser</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Browser</mrk></target></trans-unit></body>
+  </file>
+</xliff>

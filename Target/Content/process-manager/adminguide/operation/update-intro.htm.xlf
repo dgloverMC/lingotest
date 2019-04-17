@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="update-intro.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="update-intro.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">7</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Updating the
+database or operating system</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Updating the database or operating system</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Das Datenbank- oder Betriebssystem aktualisieren</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The Signavio application employs JDBC and Apache Tomcat to abstract
+from the database system, respectively the operating system.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Signavio application employs JDBC and Apache Tomcat to abstract from the database system, respectively the operating system.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Der Signavio-Server verwendet JDBC und Apache Tomcat, um vom Datenbank- und Betriebssystem zu abstrahieren.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Generally, an update of your database or operating system can be
+conducted without consulting the Signavio Support Team.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Generally, an update of your database or operating system can be conducted without consulting the Signavio Support Team.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Daher sollte das Einspielen von Patches im Regelfall zu keiner Beeinträchtigung im Betrieb des Signavio-Systems führen und keine Hilfe vom Signavio Support-Team benötigen.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>However, you need to ensure the target version of the
+database/operating system is supported.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">However, you need to ensure the target version of the database/operating system is supported.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Stellen Sie vor einem Update jedoch sicher, dass das gewünschte Datenbank- oder Betriebssystem unterstützt wird.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Always backup your data before you update. On shut down, stop the
+Tomcat server before stopping the database system.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Always backup your data before you update.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">On shut down, stop the Tomcat server before stopping the database system.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Sicheren Sie vor dem Update auf jeden Fall Ihre Daten.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Beachten Sie bitte, dass vor dem Herunterfahren des Datenbanksystems der Tomcat Server heruntergefahren werden muss.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

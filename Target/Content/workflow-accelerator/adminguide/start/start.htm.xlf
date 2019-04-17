@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="in-progress">
+  <file
+    xml:space="preserve"
+    original="start.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="start.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">61</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Start Workflow Accelerator</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Start Workflow Accelerator</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Workflow Accelerator starten</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>After completing the installation as described above, both the
+MongoDB database and the Tomcat application server must be started for
+Workflow Accelerator to run properly. This section will give you more
+details on how to start them.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">After completing the installation as described above, both the MongoDB database and the Tomcat application server must be started for Workflow Accelerator to run properly.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">This section will give you more details on how to start them.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Nachdem die Installation wie oben beschrieben abgeschlossen ist, ist es notwendig MongoDB und Tomcat zu starten, um Workflow Accelerator erfolgreich auszuführen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Im darauffolgenden Abschnitt findet sich eine Startanleitung.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Windows</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Windows</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Windows</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>MongoDB</source><seg-source><mrk
+            mtype="seg"
+            mid="1">MongoDB</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">MongoDB</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you followed the instructions in this guide and registered a
+service for MongoDB, you can simply start the MongoDB server by opening
+a command line with administrator privileges and execute the following
+command:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you followed the instructions in this guide and registered a service for MongoDB, you can simply start the MongoDB server by opening a command line with administrator privileges and execute the following command:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Falls Sie den Anweisungen in diesem Handbuch gefolgt sind und MongoDB als Windows Service registriert haben, können Sie den MongoDB Server einfach über die Kommandozeile mit dem folgenden Befehl ausführen:</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The registration also defined the startup type of the MongoDB
+service as “Automatic” which means it will start automatically if you
+restart the Windows system. Alternatively, you can manage the MongoDB
+service by opening the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>services.msc<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. There, MongoDB will
+be listed among the other services and can be started and stopped.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The registration also defined the startup type of the MongoDB service as “Automatic” which means it will start automatically if you restart the Windows system.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Alternatively, you can manage the MongoDB service by opening the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>services.msc<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">There, MongoDB will be listed among the other services and can be started and stopped.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Im Zuge der Serviceregistrierung wurde zudem der Startup-Typ als “automatisch” festgelegt, sodas MongoDB nach jedem Windows-Start automatisch ausgeführt wird.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="51"
+            MadCap:diff="ContentChanged" /></target><alt-trans
+          mid="4"
+          match-quality="51"
+          origin="previous-version"><seg-source>Alternatively, you can manage the MongoDB service by opening the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>services.msc<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. There, MongoDB will be listed among the other services and can be started and stopped.</seg-source><target
+            MadCap:segmentStatus="Untranslated">MongoDB kann zudem über Windows “Dienste”-Benutzeroberfläche (<bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>services.msc<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>) gestartet, gestoppt und konfiguriert werden.</target></alt-trans></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>Tomcat</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Tomcat</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Tomcat</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Assuming you installed Tomcat using the Windows service installer,
+you can open the Tomcat configuration dialog again by opening the
+Windows start menu and selecting
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Program Files\Apache Tomcat\Configure Tomcat<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. The tab General contains respective
+buttons to start and stop the Tomcat service.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Assuming you installed Tomcat using the Windows service installer, you can open the Tomcat configuration dialog again by opening the Windows start menu and selecting <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Program Files\Apache Tomcat\Configure Tomcat<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The tab General contains respective buttons to start and stop the Tomcat service.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Falls Sie Tomcat mit Hilfe des Windows Service Installers installiert haben, können Sie den Tomcat Konfigurationsdialog öffnen indem Sie das Windows Startmenü öffnen und unter <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Programme\\Apache Tomcat\\ Configure Tomcat<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> auswählen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Im Tab “General” befinden sich die Schaltflächen zum Starten und Stoppen des Tomcats.</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Furthermore, you have the option to define the startup type of the
+service. By default, this should be “Manual” which means you have to
+start the Tomcat server manually each time the server restarts. You can
+change the type to “Automatic”. Then the Tomcat server will start
+automatically each time you restart your Windows server.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Furthermore, you have the option to define the startup type of the service.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">By default, this should be “Manual” which means you have to start the Tomcat server manually each time the server restarts.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">You can change the type to “Automatic”.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">Then the Tomcat server will start automatically each time you restart your Windows server.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Zudem können Sie den Startup-Typ des Services festlegen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Standardmäßig ist dies “Manuell”, Sie müssen den Service nach jedem Systemstart manuell starten.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="69"
+            MadCap:diff="ContentChanged" /></target><alt-trans
+          mid="6"
+          match-quality="69"
+          origin="previous-version"><seg-source>You can change the type to “Automatic”. Then the Tomcat server will start automatically each time you restart your Windows server.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Es ist empfehlenswert, diese Einstellung auf „Automatisch“ zu ändern, damit der Tomcat-Server nach einem Reboot des Betriebssystems automatisch wieder läuft.</target></alt-trans></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Script Engine</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Script Engine</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Script Engine</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you installed the script engine and wrapped it into a service,
+you can open the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>services.msc<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, locate the Signavio Script
+Engine service and start it there. Otherwise open a command line,
+navigate to the
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   directory and execute:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you installed the script engine and wrapped it into a service, you can open the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>services.msc<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, locate the Signavio Script Engine service and start it there.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Otherwise open a command line, navigate to the <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> directory and execute:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie die Script Engine installiert und als Service registriert haben, können Sie <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>services.msc<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> öffnen und den Script Engine Service von dort starten.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Andernfalls öffnen Sie die Kommandozeile, navigieren Sie zum Verzeichnis <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> und führen Sie folgenden Befehl aus:</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Note, you cannot close the command line as long as the script engine
+is running.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Note, you cannot close the command line as long as the script engine is running.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Beachten Sie, dass Sie die Kommandozeile nicht beenden können, solange die Script Engine ausgeführt wird.</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Mail Relay</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Mail Relay</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Mail Relay</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you installed the mail relay and wrapped it into a service, you
+can open the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>services.msc<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, locate the Signavio Mail Relay
+service and start it there. Otherwise open a command line and execute
+(replace the placeholder with the absolute path):</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you installed the mail relay and wrapped it into a service, you can open the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>services.msc<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, locate the Signavio Mail Relay service and start it there.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Otherwise open a command line and execute (replace the placeholder with the absolute path):</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie das Mail Relay installiert und als Service registriert haben, können Sie <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>services.msc<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> öffnen und den Mail Relay-Service von dort starten.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Ansonsten öffnen Sie die Kommandozeile und führen Sie folgendes Kommando aus (ersetzen Sie bitte den Platzhalter mit dem absoluten Dateipfad):</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Note, you cannot close the command line as long as the mail relay is
+running.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Note, you cannot close the command line as long as the mail relay is running.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Beachten Sie, dass Sie die Kommandozeile nicht beenden können, solange das Mail Relay ausgeführt wird.</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Debian</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Debian</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Debian</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>MongoDB</source><seg-source><mrk
+            mtype="seg"
+            mid="1">MongoDB</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">MongoDB</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you followed the instructions in this guide to setup MongoDB
+using a packet manager, some additional scripts have been installed
+that allow you to start, stop and restart the database very easily. Be
+aware, the execution of those scripts require root privileges. :</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you followed the instructions in this guide to setup MongoDB using a packet manager, some additional scripts have been installed that allow you to start, stop and restart the database very easily.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Be aware, the execution of those scripts require root privileges.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">:</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Falls Sie MongoDB wie in diesem Handbuch beschrieben über einen Paketmanager installiert haben, können Sie MongoDB nun wie Tomcat mit einem Befehl auf der Kommandozeile starten.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Für die Ausführung benötigen Sie Root-Rechte.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If MongoDB is already running, you can restart the database by
+executing:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If MongoDB is already running, you can restart the database by executing:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Falls MongoDB bereits läuft, können Sie den Service mit folgendem Befehl neustarten:</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In order to determine whether MongoDB is running or not, you can
+check upon the status with the following command:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In order to determine whether MongoDB is running or not, you can check upon the status with the following command:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Um den Status von MongoDB herauszufinden und zu prüfen ob der Service läuft oder nicht, führen Sie folgenden Befehl aus:</mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Be aware, in earlier versions of MongoDB, e.g. 2.4.x, the scripts
+had a different name
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/etc/init.d/mongodb<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Be aware, in earlier versions of MongoDB, e.g. 2.4.x, the scripts had a different name <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/etc/init.d/mongodb<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Beachten Sie, in früheren Versionen von MongoDB, z.B. 2.4.x, hatten die Skripte einen anderen Namen <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/etc/init.d/mongodb<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>Tomcat</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Tomcat</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Tomcat</mrk></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The recommended way to install Tomcat is to use a packet manager.
+Installing Tomcat under Debian with APT will install additional scripts
+to start, stop and restart the server. Be aware, the execution of those
+scripts might require root privileges:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The recommended way to install Tomcat is to use a packet manager.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Installing Tomcat under Debian with APT will install additional scripts to start, stop and restart the server.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Be aware, the execution of those scripts might require root privileges:</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="62"
+            MadCap:diff="ContentChanged" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Zum Ausführen der Skripte sind eventuell Root-Rechte erforderlich:</mrk></target><alt-trans
+          mid="2"
+          match-quality="62"
+          origin="previous-version"><seg-source>The recommended way to install Tomcat is to use a packet manager. Installing Tomcat under Debian with APT will install additional scripts to start, stop and restart the server.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Auch Tomcat sollte über einen Paketmanager wie APT installiert worden sein, der automatisch die Skripte zum Starten, Stoppen und Restarten von Tomcat hinterlegt.</target></alt-trans></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You can restart the Tomcat server if it is already running by
+executing:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You can restart the Tomcat server if it is already running by executing:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sie können Tomcat mit folgendem Befehl neustarten:</mrk></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Furthermore, you can check upon the status of the Tomcat and
+determine whether it is running or not with the following command:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Furthermore, you can check upon the status of the Tomcat and determine whether it is running or not with the following command:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Außerdem können Sie den aktuellen Status von Tomcat mit folgenden Befehl überprüfen und so herausfinden, ob der Server läuft:</mrk></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>Script Engine</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Script Engine</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Script Engine</mrk></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you installed the script engine and setup an Init script, execute
+the respective start command for the Init script. Otherwise open a
+command line, navigate to the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   directory and execute:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you installed the script engine and setup an Init script, execute the respective start command for the Init script.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Otherwise open a command line, navigate to the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> directory and execute:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wenn Sie die Script Engine installiert und ein Init-Skript aufgesetzt haben, starten Sie die Script Engine mit dem entsprechenden Befehl für das Init-Skript.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Ansonsten öffnen Sie die Kommandozeile, navigieren Sie zum Verzeichnis <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$SCRIPT_ENGINE_HOME<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> und führen Sie folgenden Befehl aus:</mrk></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Note, you cannot close the command line as long as the script engine
+is running.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Note, you cannot close the command line as long as the script engine is running.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Beachten Sie, dass Sie die Kommandozeile nicht beenden können, solange die Script Engine ausgeführt wird.</mrk></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>Mail Relay</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Mail Relay</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Mail Relay</mrk></target></trans-unit><trans-unit
+        id="30"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you installed the mail relay and setup an Init script, execute
+the respective start command for the Init script. Otherwise open a
+command line and execute (replace the placeholder with the absolute
+path):</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you installed the mail relay and setup an Init script, execute the respective start command for the Init script.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Otherwise open a command line and execute (replace the placeholder with the absolute path):</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wenn Sie das Mail Relay installiert und ein Init-Skript aufgesetzt haben, starten Sie das Mail Relay mit dem entsprechenden Befehl für das Init-Skript.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Ansonsten öffnen Sie die Kommandozeile und führen Sie folgendes Kommando aus (ersetzen Sie bitte den Platzhalter mit dem absoluten Dateipfad):</mrk></target></trans-unit><trans-unit
+        id="31"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Note, you cannot close the command line as long as the mail relay is
+running.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Note, you cannot close the command line as long as the mail relay is running.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Beachten Sie, dass Sie die Kommandozeile nicht beenden können, solange das Mail Relay ausgeführt wird.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

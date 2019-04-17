@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="log-in.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="log-in.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">8</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Accessing
+Signavio Process Manager as a user</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Accessing Signavio Process Manager as a user</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Als Nutzer auf den Signavio Process Manager zugreifen</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You access Signavio Process Manager with any modern web browser (see
+   <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.signavio.com/browser-compatibility/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    https://www.signavio.com/browser-compatibility/
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>
+   for a list of supported browsers).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You access Signavio Process Manager with any modern web browser (see <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.signavio.com/browser-compatibility/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> https://www.signavio.com/browser-compatibility/ <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> for a list of supported browsers).</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Sie können mit jedem Browser auf den Signavio Process Manager zugreifen. Unter <bpt
+              id="1"
+              ctype="link">&lt;a href="https://www.signavio.com/browser-compatibility/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> http://www.signavio.com/de/browser-compatibility/ <ept
+              id="1">&lt;/a&gt;</ept> finden Sie eine Liste aller unterstützten Browser.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In case you have problems connecting to Signavio Process Manager,
+make sure your browser's network and proxy settings are correct.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In case you have problems connecting to Signavio Process Manager, make sure your browser's network and proxy settings are correct.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Falls Sie beim Zugriff auf den Signavio Process Manager auf Probleme stoßen, überprüfen Sie die Netzwerk- und Proxy-Einstellungen Ihres Browsers.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To login to the Signavio web application you need to have a
+registered user (and their email address and password).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To login to the Signavio web application you need to have a registered user (and their email address and password).</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Für den Zugriff auf Inhalte ist die Eingabe der E-Mail-Adresse und des Passworts eines zuvor registrierten Nutzers notwendig.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Collaboration Hub without single-sign-on allows any user who can
+access the Signavio server's URL to view published diagrams in your
+browser. If some users within your network shouldn't have access to
+Collaboration Hub, you have to manage these access restrictions on
+network level.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Collaboration Hub without single-sign-on allows any user who can access the Signavio server's URL to view published diagrams in your browser.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If some users within your network shouldn't have access to Collaboration Hub, you have to manage these access restrictions on network level.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Bei der Verwendung des Collaboration Hub ohne die Single-Sign-On Funktion können in jedem Browser die zuvor veröffentlichten Diagramme betrachtet werden, von dem aus der Signavio Server erreichbar ist.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Wenn Personen, Gruppen oder ganze Unternehmensbereiche die veröffentlichten Diagramme im Collaboration Hub nicht sehen sollen, muss der Zugriff auf Netzwerkebene verhindert werden.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In contrast, Collaboration Hub with single-sign-on allows you to
+define user and group specific access rights for each diagram based on
+your Active Directory service.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In contrast, Collaboration Hub with single-sign-on allows you to define user and group specific access rights for each diagram based on your Active Directory service.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Bei der Nutzung der Single-Sign-On-Funktion des Collaboration Hubs haben hingegen die Nutzer des Signavio Process Managers die Möglichkeit, auf Basis eines Active Directorys detailliert einzustellen, für welche Personen bzw. Gruppen ein Diagramm veröffentlicht wird.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

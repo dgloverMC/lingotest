@@ -1,0 +1,949 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="synchronisation-active-directory.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="synchronisation-active-directory.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">79</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>User and group synchronisation with Active Directory</source><seg-source><mrk
+            mtype="seg"
+            mid="1">User and group synchronisation with Active Directory</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Nutzer- und Gruppensynchronisation mit Active Directory</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The enterprise version of Signavio Workflow Accelerator offers user
+and group synchronisation with an Active Directory Server using the
+LDAP V3 protocol.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The enterprise version of Signavio Workflow Accelerator offers user and group synchronisation with an Active Directory Server using the LDAP V3 protocol.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Enterprise-Version von Signavio Workflow Accelerator bietet die Nutzer- und Gruppensynchronisationen mit einem Active Directory Server unter der Verwendung des LDAP V3 Protokolls.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Before you can configure the synchronisation, check that you have
+the following pre-requisites.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Before you can configure the synchronisation, check that you have the following pre-requisites.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Bevor Sie mit der Konfiguration für die Synchronisation beginnen, überprüfen Sie ob die folgende Vorbedingungen erfüllt sind.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Workflow Accelerator is installed.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Workflow Accelerator is installed.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Workflow Accelerator ist installiert.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>The first Workflow Accelerator user is registered, see
+    <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../start/create-initial-user.htm#CreateInitialUser" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Create the initial user
+  &lt;/MadCap:xref&gt;</ph>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The first Workflow Accelerator user is registered, see <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../start/create-initial-user.htm#CreateInitialUser" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Create the initial user
+  &lt;/MadCap:xref&gt;</ph>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Der erste Workflow Accelerator-Nutzer wurde registriert, vgl. <ph
+              id="1">&lt;MadCap:xref href="../start/create-initial-user.htm#CreateInitialUser" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Create the initial user
+  &lt;/MadCap:xref&gt;</ph></mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>A domain account for querying the Active Directory - its username
+and password.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">A domain account for querying the Active Directory - its username and password.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Ein Domänenkonto um Anfragen an das Active Directory zu stellen - Nutzername und Passwort</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Configuring the synchronisation consists of the following steps.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configuring the synchronisation consists of the following steps.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Konfiguration der Synchronisation umfasst die folgenden Schritte.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Create an Active Directory group that contains all Workflow
+Accelerator users as members.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create an Active Directory group that contains all Workflow Accelerator users as members.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Legen Sie eine Active Directory-Gruppe an, welche alle Workflow Accelerator-Nutzer als Mitglieder enthält.</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Create an Active Directory group that contains all Workflow
+Accelerator administrators as members.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create an Active Directory group that contains all Workflow Accelerator administrators as members.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Legen Sie eine Active Directory-Gruppe an, die alleWorkflow Accelerator-Administratoren als Mitglieder enthält.</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>(Optional) Create an Active Directory group that contains all
+groups as members.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">(Optional) Create an Active Directory group that contains all groups as members.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">(Optional) Legen Sie eine Active Directory-Gruppe an, die alle Gruppen als Mitglieder enthält.</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Log in to Workflow Accelerator with your initial user.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Log in to Workflow Accelerator with your initial user.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Loggen Sie sich in Workflow Accelerator mit dem initialen Nutzer ein.</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Open the
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Organization settings
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+    and select the
+    <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     LDAP
+    <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+    tab.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Open the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Organization settings <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> and select the <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> LDAP <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> tab.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Öffnen Sie die <bpt
+              id="1">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Organisationseinstellungen <ept
+              id="1">&lt;/em&gt;</ept> und wählen Sie den Tab <bpt
+              id="2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>LDAP<ept
+              id="2">&lt;/em&gt;</ept> aus.</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Create a new Active Directory configuration.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create a new Active Directory configuration.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Erstellen Sie eine neue Active Directory-Konfiguration.</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Validate your configuration.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Validate your configuration.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Validieren Sie Ihre Konfiguration.</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Synchronise the users and groups.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Synchronise the users and groups.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Synchronisieren Sie die Nutzer und Gruppen.</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Creating the Active
+Directory groups</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Creating the Active Directory groups</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Active Directory-Gruppen erstellen</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Active Directory users and groups that should be synchronised with
+Workflow Accelerator are managed within Active Directory by adding them
+to specific Active Directory groups. There are two groups for users,
+one which contains all Workflow Accelerator users and one which
+contains only administrators. All members of the administrator group
+must be members of the user group as well. Nested groups are not
+supported. All users and administrators need to be direct members of
+their groups.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Active Directory users and groups that should be synchronised with Workflow Accelerator are managed within Active Directory by adding them to specific Active Directory groups.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">There are two groups for users, one which contains all Workflow Accelerator users and one which contains only administrators.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">All members of the administrator group must be members of the user group as well.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">Nested groups are not supported.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">All users and administrators need to be direct members of their groups.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Active Directory-Nutzer und Gruppen, die mit Workflow Accelerator synchronisiert werden sollen, werden innerhalb des Active Directory verwaltet, in dem sie zu speziellen Active Directory-Gruppen hinzugefügt werden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Es gibt zwei Gruppen für Nutzer. Die erste Gruppe enthält alle Workflow Accelerator-Nutzer. Die zweite Gruppe enthält nur die Administratoren.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Alle Mitglieder der Administratorengruppe müssen auch Mitglieder der Nutzergruppe sein.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Geschachtelte Gruppen werden nicht unterstützt.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Alle Nutzer und Administratoren müssen direkte Mitglieder Ihrer Gruppen sein.</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The synchronisation will copy the attributes <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>givenName<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>sn<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>mail<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>dn<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, <bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>objectGUID<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, <bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>sAMAccountName<ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and <bpt
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>userPrincipalName<ept
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> to the user in Workflow Accelerator. It is required that every user has the <bpt
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>mail<ept
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> attribute defined.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The synchronisation will copy the attributes <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>givenName<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>sn<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>mail<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>dn<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>objectGUID<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, <bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>sAMAccountName<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and <bpt
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>userPrincipalName<ept
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> to the user in Workflow Accelerator.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">It is required that every user has the <bpt
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>mail<ept
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> attribute defined.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Die Synchronisation wird die Attribute <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>givenName<ept
+              id="1">&lt;/kbd&gt;</ept>, <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>sn<ept
+              id="2">&lt;/kbd&gt;</ept>, <bpt
+              id="3">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>mail<ept
+              id="3">&lt;/kbd&gt;</ept>, <bpt
+              id="4">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>dn<ept
+              id="4">&lt;/kbd&gt;</ept>, <bpt
+              id="5">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>objectGUID<ept
+              id="5">&lt;/kbd&gt;</ept>, <bpt
+              id="6">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>sAMAccountName<ept
+              id="6">&lt;/kbd&gt;</ept> und <bpt
+              id="7">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>userPrincipalName<ept
+              id="7">&lt;/kbd&gt;</ept> zum Nutzer in Workflow Accelerator kopieren.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Jeder Nutzer muss das Attribut <bpt
+              id="8">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>mail<ept
+              id="8">&lt;/kbd&gt;</ept> definiert haben.</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Optionally, you can define a third group that contains all Active
+Directory groups that should be synchronised. All members of this group
+should be Active Directory groups as well. Again nested groups are not
+supported. Users must be direct members of the synchronised groups. The
+synchronisation will copy the attributes
+<bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>cn<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>dn<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>objectGUID<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   to the group in Workflow
+Accelerator. Every group member that is not a Workflow Accelerator user
+will be ignored.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Optionally, you can define a third group that contains all Active Directory groups that should be synchronised.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">All members of this group should be Active Directory groups as well.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Again nested groups are not supported.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">Users must be direct members of the synchronised groups.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">The synchronisation will copy the attributes <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>cn<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>dn<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>objectGUID<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> to the group in Workflow Accelerator.</mrk><mrk
+            mtype="protected"
+            mid="10"> </mrk><mrk
+            mtype="seg"
+            mid="11">Every group member that is not a Workflow Accelerator user will be ignored.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Optional können Sie eine dritte Gruppe definieren, welche alle Active Directory-Gruppen enthält, die synchronisiert werden sollen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Alle Mitglieder dieser Gruppe sollten Active Directory-Gruppen sein.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Auch hier werden geschachtelte Gruppen nicht unterstützt.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Nutzer müssen direkte Mitglieder der synchronisierten Gruppen sein.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Die Synchronisation wird die Attribute <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>cn<ept
+              id="1">&lt;/kbd&gt;</ept>, <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>dn<ept
+              id="2">&lt;/kbd&gt;</ept> und <bpt
+              id="3">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>objectGUID<ept
+              id="3">&lt;/kbd&gt;</ept> zur Gruppe in Workflow Accelerator kopieren.</mrk><mrk
+            mtype="protected"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Jedes Gruppenmitglied, das kein Nutzer in Workflow Accelerator ist, wird ignoriert.</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Creating a new configuration</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Creating a new configuration</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Eine neue Konfiguration erstellen</mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In the LDAP configuration tab, select
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    Create
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+   to start the
+configuration. Enter the configuration details on the configuration
+form.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In the LDAP configuration tab, select <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Create <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> to start the configuration.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Enter the configuration details on the configuration form.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Im Tab LDAP, wählen Sie <bpt
+              id="1">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Erstellen<ept
+              id="1">&lt;/em&gt;</ept> um mit der Konfiguration zu beginnen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Fügen Sie dann die entsprechenden Konfigurationsdetails in das Formular ein.</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-li"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     URL
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+    - the location of your Active Directory server, e.g.
+<bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>ldap://adtest.local:389<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> URL <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> - the location of your Active Directory server, e.g. <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>ldap://adtest.local:389<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="1">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>URL<ept
+              id="1">&lt;/em&gt;</ept> - die Adresse des Active Directory Servers, z.B. <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>ldap://adtest.local:389<ept
+              id="2">&lt;/kbd&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-li"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     username
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+    and
+    <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     password
+    <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+    - the login credentials of
+the domain account</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> username <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> and <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> password <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> - the login credentials of the domain account</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="1">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Nutzername<ept
+              id="1">&lt;/em&gt;</ept> und <bpt
+              id="2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Passwort<ept
+              id="2">&lt;/em&gt;</ept> - die Zugangsdaten des Domänenkontos</mrk></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-li"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     User group DN
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+    - the distinguished name (DN) of the Active
+Directory group which contains all users</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> User group DN <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> - the distinguished name (DN) of the Active Directory group which contains all users</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="1">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> DN der Nutzergruppe <ept
+              id="1">&lt;/em&gt;</ept> - der Distinguished Name (DN) der Active Directory-Gruppe, die alle Nutzer enthält</mrk></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-li"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Admin group DN
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+    - the DN of the Active Directory group
+which contains all administrators</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Admin group DN <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> - the DN of the Active Directory group which contains all administrators</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="1">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> DN der Administratorengruppe <ept
+              id="1">&lt;/em&gt;</ept>  - der Distinguished Name (DN) der Active Directory-Gruppe, die alle Administratoren enthält</mrk></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-li"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Group group DN
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+    - (optional) the DN of the Active Directory
+group which contains all groups</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Group group DN <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> - (optional) the DN of the Active Directory group which contains all groups</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="1">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> DN der Gruppe der Gruppen <ept
+              id="1">&lt;/em&gt;</ept> - der Distinguished Name (DN) der Active Directory-Gruppe, die alle Gruppen enthält</mrk></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-li"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     License
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+    - the license that will be assigned to every
+synchronised user</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> License <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> - the license that will be assigned to every synchronised user</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="1">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Lizenz<ept
+              id="1">&lt;/em&gt;</ept> - die Lizenz, die jedem synchronisierten Nutzer zugewiesen wird</mrk></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The last field of the configuration form will show you if the
+configuration was already validated.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The last field of the configuration form will show you if the configuration was already validated.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Das letzte Feld des Konfigurationsformulars zeigt Ihnen an, ob die Konfiguration bereits validiert wurde.</mrk></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Validating a configuration</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Validating a configuration</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Konfiguration validieren</mrk></target></trans-unit><trans-unit
+        id="30"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Before synchronisation can start, the configuration must be
+validated. Validation includes the following checks.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Before synchronisation can start, the configuration must be validated.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Validation includes the following checks.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Bevor die Synchronisation ausgeführt werden kann, muss die Konfiguration validiert werden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Validierung umfasst die folgenden Kontrollen.</mrk></target></trans-unit><trans-unit
+        id="31"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Workflow Accelerator can connect to the Active Directory.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Workflow Accelerator can connect to the Active Directory.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Workflow Accelerator kann sich mit dem Active Directory verbinden.</mrk></target></trans-unit><trans-unit
+        id="32"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>The configured groups are proper Active Directory groups.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The configured groups are proper Active Directory groups.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die konfigurierten Gruppen sind korrekte Active Directory-Gruppen</mrk></target></trans-unit><trans-unit
+        id="33"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>There is at least one user.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">There is at least one user.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Es gibt wenigstens einen Nutzer.</mrk></target></trans-unit><trans-unit
+        id="34"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>There is at least one administrator.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">There is at least one administrator.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Es wenigstens einen Administrator.</mrk></target></trans-unit><trans-unit
+        id="35"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>The users have the
+<bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>mail<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    attribute defined.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The users have the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>mail<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> attribute defined.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Für die Nutzer ist das Attribute <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>mail<ept
+              id="1">&lt;/kbd&gt;</ept> definiert.</mrk></target></trans-unit><trans-unit
+        id="36"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>There are sufficient licenses.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">There are sufficient licenses.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Es gibt genügend Lizenzen.</mrk></target></trans-unit><trans-unit
+        id="37"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>(Optional) There are groups defined.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">(Optional) There are groups defined.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">(Optional) Die Gruppen sind festgelegt.</mrk></target></trans-unit><trans-unit
+        id="38"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Start the validation by selecting
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    Validate
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>. If the
+configuration is valid, the
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    Synchronise
+   <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+   button is enabled. If
+the configuration is not valid, the page shows a list with more
+detailed information. In that case fix the issues and run the
+validation again.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Start the validation by selecting <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Validate <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If the configuration is valid, the <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Synchronise <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> button is enabled.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">If the configuration is not valid, the page shows a list with more detailed information.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">In that case fix the issues and run the validation again.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Starten Sie die Validierung, indem Sie <bpt
+              id="1">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Validieren<ept
+              id="1">&lt;/em&gt;</ept> auswählen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Sobald die Konfiguration gültig ist, wird die Schaltfläche <bpt
+              id="2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Synchronisieren<ept
+              id="2">&lt;/em&gt;</ept> aktiviert.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wenn die Konfiguration ungültig ist, zeigt Ihnen die Seite eine Liste mit detaillierten Informationen an.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">In diesem Fall beheben Sie die Probleme und führen danach die Validierung erneut aus.</mrk></target></trans-unit><trans-unit
+        id="39"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Every time you change the configuration, the validation must be
+executed again.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Every time you change the configuration, the validation must be executed again.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Jede Änderung der Konfiguration erfordert, dass die Validierung erneut ausgeführt werden muss.</mrk></target></trans-unit><trans-unit
+        id="40"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Note the validation might take several seconds depending on the
+number of users you want to synchronise and the perfomance of the
+Active Directory server.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Note the validation might take several seconds depending on the number of users you want to synchronise and the perfomance of the Active Directory server.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Beachten Sie, die Validierung kann einige Sekunden in Anspruch nehmen, abhängig von der Anzahl der Nutzer, die Sie synchronisieren möchten und der Performance Ihres Active Directory Servers.</mrk></target></trans-unit><trans-unit
+        id="41"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Synchronising users and
+groups</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Synchronising users and groups</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Nutzer und Gruppen synchronisieren</mrk></target></trans-unit><trans-unit
+        id="42"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If the configuration is valid, you can synchronise the users and
+groups. Start the synchronisation by clicking on
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    Synchronise
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.
+If the synchronisation was successful, you will see a report of the
+added / updated users and groups. If the synchronisation failed, a list
+with more detailed information will be shown.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If the configuration is valid, you can synchronise the users and groups.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Start the synchronisation by clicking on <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Synchronise <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">If the synchronisation was successful, you will see a report of the added / updated users and groups.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">If the synchronisation failed, a list with more detailed information will be shown.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Nutzer und Gruppen können synchronisiert werden, sobald die Konfiguration gültig ist.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Starten Sie die Synchronisation, in dem Sie auf <bpt
+              id="1">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Synchronisieren<ept
+              id="1">&lt;/em&gt;</ept> klicken.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn die Synchronisation erfolgreich war, sehen Sie einen Bericht über die hinzugefügten/aktualisierten Nutzer und Gruppen.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wenn die Synchronisation nicht erfolgreich war, sehen Sie eine Liste mit detaillierteren Informationen.</mrk></target></trans-unit><trans-unit
+        id="43"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Note the synchronisation might take several seconds or minutes
+depending on the number of users you want to synchronise and the
+perfomance of the Active Directory.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Note the synchronisation might take several seconds or minutes depending on the number of users you want to synchronise and the perfomance of the Active Directory.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Die Synchronisation kann einige Sekunden oder Minuten in Anspruch nehmen, abhängig von der Anzahl der Nutzer, die Sie synchronisieren möchten und der Performanz Ihres Active Directory Servers.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

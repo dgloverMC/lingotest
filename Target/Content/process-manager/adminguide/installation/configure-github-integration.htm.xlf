@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="configure-github-integration.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="configure-github-integration.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">19</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Configuring the GitHub integration for RedHat JBoss BRMS projects
+(optional)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configuring the GitHub integration for RedHat JBoss BRMS projects (optional)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Die GitHub-Integration für RedHat JBoss BRMS-Projekte konfigurieren (optional)</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Configure this integration only if you plan to use the Signavio
+Process Manager to push diagrams to your RedHat JBoss BRMS projects on
+GitHub.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configure this integration only if you plan to use the Signavio Process Manager to push diagrams to your RedHat JBoss BRMS projects on GitHub.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Konfigurieren Sie die Integration nur, wenn Sie planen, mit dem Signavio Process Manager Diagramme in Ihre RedHat JBoss BRMS-Projekte auf GitHub zu überführen.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The
+   <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://editor.signavio.com/userguide/en/explorer/export/redhat_to_github.html" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    Signavio Process Manager integration with GitHub
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>
+   allows you to push
+diagrams from the Signavio Process Manager to your RedHat JBoss BRMS
+projects for seamless updates.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://editor.signavio.com/userguide/en/explorer/export/redhat_to_github.html" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Signavio Process Manager integration with GitHub <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> allows you to push diagrams from the Signavio Process Manager to your RedHat JBoss BRMS projects for seamless updates.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die <bpt
+              id="1"
+              ctype="link">&lt;a href="https://editor.signavio.com/userguide/en/explorer/export/redhat_to_github.html" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Integration des Signavio Process Managers mit GitHub<ept
+              id="1">&lt;/a&gt;</ept> ermöglicht es Ihnen, Diagramme nahtlos vom Signavio Process Manager in RedHat JBoss BRMS-Projekte auf GitHub zu überführen.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To configure your system for the GitHub integration, proceed as
+follows:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To configure your system for the GitHub integration, proceed as follows:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Gehen Sie wie folgt vor, um die GitHub-Integration mit Ihrem System zu konfigurieren:</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Create a GitHub OAuth application.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create a GitHub OAuth application.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Erstellen Sie eine GitHub OAuth-Anwendung.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Log into your GitHub account and open <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://github.com/settings/applications/new" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      https://github.com/settings/applications/new<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.
+Enter an <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Application name<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>, a <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Homepage URL<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+     and an
+     <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Application description<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>. Also enter
+the base URL of your On Premise as the
+     <bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Authorization callback URL<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>, for example
+     <bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://mysignavio.acme.com:8080<ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.
+    </source><seg-source><mrk
+            mtype="seg"
+            mid="1">Log into your GitHub account and open <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://github.com/settings/applications/new" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> https://github.com/settings/applications/new<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Enter an <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Application name<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>, a <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Homepage URL<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> and an <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Application description<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Also enter the base URL of your On Premise as the <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Authorization callback URL<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>, for example <bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://mysignavio.acme.com:8080<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="protected"
+            mid="7" /></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Loggen Sie sich in Ihren GitHub-Account ein und öffnen Sie <bpt
+              id="1"
+              ctype="link">&lt;a href="https://github.com/settings/applications/new" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://github.com/settings/applications/new<ept
+              id="1">&lt;/a&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Fügen Sie nun einen <bpt
+              id="2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Anwendungsnamen<ept
+              id="2">&lt;/strong&gt;</ept>, eine <bpt
+              id="3">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Homepage<ept
+              id="3">&lt;/strong&gt;</ept> und eine <bpt
+              id="4">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Applikations-Beschreibung<ept
+              id="4">&lt;/strong&gt;</ept> hinzu.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Tragen Sie als <bpt
+              id="5">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Authorization callback URL<ept
+              id="5">&lt;/strong&gt;</ept> die Grund-URL Ihres On-Premise-Systems ein - zum Beispiel <bpt
+              id="6">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://mysignavio.acme.com:8080<ept
+              id="6">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Click <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Register application<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Click <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Register application<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Klicken Sie auf <bpt
+              id="1">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Register application<ept
+              id="1">&lt;/strong&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Keep the website open to copy the tokens
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Client ID<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    and
+    <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Client Secret<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    later.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Keep the website open to copy the tokens <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Client ID<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Client Secret<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> later.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Lassen Sie die Website offen, um die Token <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Client ID<ept
+              id="1">&lt;/kbd&gt;</ept> und <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Client Secret<ept
+              id="2">&lt;/kbd&gt;</ept> später zu kopieren.</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Add the GitHub application credentials to your Signavio Process
+Manager configuration.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Add the GitHub application credentials to your Signavio Process Manager configuration.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Hinterlegen Sie die Authentifizierungsdaten der GitHub-Anwendung in der Konfigurationsdatei des Signavio Process Managers.</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Open the file
+     <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     in the folder
+     <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR/conf/<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, with
+     <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     being
+your Tomcat's root directory.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Open the file <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> in the folder <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR/conf/<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, with <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> being your Tomcat's root directory.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Öffnen Sie die Datei <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+              id="1">&lt;/kbd&gt;</ept> in dem Verzeichnis <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR/conf/<ept
+              id="2">&lt;/kbd&gt;</ept>. <bpt
+              id="3">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR<ept
+              id="3">&lt;/kbd&gt;</ept> bezeichnet hierbei das Root-Verzeichnis Ihres Tomcats.</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Add the following lines above the closing
+     <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      &lt;/configuration&gt;
+     <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     tag.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Add the following lines above the closing <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> &lt;/configuration&gt; <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> tag.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Fügen Sie die folgenden Zeilen über dem abschließenden <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;/configuration&gt;<ept
+              id="1">&lt;/kbd&gt;</ept>-Tag hinzu.</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>
+     Replace
+     <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      &lt;myClientID&gt;
+     <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     with your
+     <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Client ID
+     <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+     and
+     <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;myClientSecret&gt;<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     with your
+     <bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      Client Secret<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.</source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">Replace <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> &lt;myClientID&gt; <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> with your <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Client ID <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> and <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;myClientSecret&gt;<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> with your <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Client Secret<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Ersetzen Sie <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;myClientID&gt;<ept
+              id="2">&lt;/kbd&gt;</ept> mit Ihrer <bpt
+              id="3">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Client ID<ept
+              id="3">&lt;/em&gt;</ept> und <bpt
+              id="4">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>&lt;myClientSecret&gt;<ept
+              id="4">&lt;/kbd&gt;</ept> mit Ihrem <bpt
+              id="5">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Client Secret<ept
+              id="5">&lt;/em&gt;</ept>.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

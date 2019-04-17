@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="configuring-collaboration-hub-active-directory-optional" name="configuring-collaboration-hub-active-directory-optional">砻קยด1ตว融</h1>
+        <p>砻קยด2ตว融</p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <ul>
+                <li>砻קยด3ตว融</li>
+                <li>砻קยด4ตว融</li>
+                <li><a href="http://www.ldapbrowser.com/download.htm">砻קยด5ตว融</a></li>
+                <li>砻קยด6ตว融</li>
+            </ul>
+        </div>
+        <p>砻קยด7ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;ldap&gt;
+
+
+  &lt;ldapHost&gt;ldap://192.168.0.100/&lt;/ldapHost&gt;
+
+
+  &lt;ldapSearchRoots&gt;
+
+
+    &lt;ldapSearchRoot&gt;CN=Users,DC=company,DC=com&lt;/ldapSearchRoot&gt;
+
+
+    &lt;ldapSearchRoot&gt;CN=Groups,DC=company,DC=com&lt;/ldapSearchRoot&gt;
+
+
+  &lt;/ldapSearchRoots&gt;
+
+
+  &lt;ldapUser&gt;CN=LdapUser,CN=Users,DC=company,DC=com&lt;/ldapUser&gt;
+
+
+  &lt;ldapPw&gt;password&lt;/ldapPw&gt;
+
+
+  &lt;ldapSsoMode&gt;KERBEROS&lt;/ldapSsoMode&gt;
+
+
+  &lt;ldapModelerSsoSupported&gt;true&lt;/ldapModelerSsoSupported&gt;
+
+
+  &lt;ldapAdminMail&gt;admin@company.com&lt;/ldapAdminMail&gt;
+
+
+&lt;/ldap&gt;</code></pre>
+        <p>砻קยด8ตว融</p>
+        <ul>砻קยด9ตว融</ul>
+        <p>砻קยด10ตว融</p>
+        <p>砻קยด11ตว融</p>
+        <p>砻קยด12ตว融</p>
+        <p>砻קยด13ตว融</p>
+        <p>砻קยด14ตว融</p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>砻קยด15ตว融</p>
+        </div>
+        <p>砻קยด16ตว融</p>
+    </body>
+</html>

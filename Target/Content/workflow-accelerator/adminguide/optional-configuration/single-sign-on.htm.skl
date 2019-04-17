@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head><title>砻קยด1ตว融</title>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 name="single-sign-on-using-windows-and-kerberosspnego" xmlns="http://www.w3.org/1999/xhtml">砻קยด2ตว融</h1>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด3ตว融</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด4ตว融</p>
+        <ul xmlns="http://www.w3.org/1999/xhtml">
+            <li>砻קยด5ตว融</li>
+            <li>砻קยด6ตว融</li>
+            <li>砻קยด7ตว融</li>
+            <li>砻קยด8ตว融</li>
+        </ul>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด9ตว融</p>
+        <ol xmlns="http://www.w3.org/1999/xhtml">
+            <li>砻קยด10ตว融</li>
+            <li>砻קยด11ตว融</li>
+            <li>砻קยด12ตว融</li>
+            <li>砻קยด13ตว融</li>
+            <li>砻קยด14ตว融</li>
+            <li>砻קยด15ตว融</li>
+        </ol>
+        <h2 name="install-the-spnego-library" xmlns="http://www.w3.org/1999/xhtml">砻קยด16ตว融</h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด17ตว融</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด18ตว融</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code>$WORKFLOW_HOME/optional/spnego/spnego.jar
+
+$WORKFLOW_HOME/optional/spnego/signavio-cfc.jar</code></pre>
+        <h2 name="configure-sso-filter" xmlns="http://www.w3.org/1999/xhtml"><a name="ConfiguringSPNEGO"></a>砻קยด19ตว融</h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด20ตว融</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด21ตว融</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code>&lt;filter&gt;
+
+    &lt;filter-name&gt;cfc&lt;/filter-name&gt;
+
+    &lt;filter-class&gt;ConditionalFilterChain&lt;/filter-class&gt;
+
+&lt;/filter&gt;
+
+&lt;filter-mapping&gt;
+
+    &lt;filter-name&gt;cfc&lt;/filter-name&gt;
+
+    &lt;url-pattern&gt;/*&lt;/url-pattern&gt;
+
+&lt;/filter-mapping&gt;
+
+
+&lt;filter&gt;
+
+    &lt;filter-name&gt;SpnegoHttpFilter&lt;/filter-name&gt;
+
+    &lt;filter-class&gt;net.sourceforge.spnego.SpnegoHttpFilter&lt;/filter-class&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.allow.basic&lt;/param-name&gt;
+
+        &lt;param-value&gt;false&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.allow.localhost&lt;/param-name&gt;
+
+        &lt;param-value&gt;false&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.allow.unsecure.basic&lt;/param-name&gt;
+
+        &lt;param-value&gt;false&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.login.client.module&lt;/param-name&gt;
+
+        &lt;param-value&gt;spnego-client&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.krb5.conf&lt;/param-name&gt;
+
+        &lt;param-value&gt;krb5.conf&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.login.conf&lt;/param-name&gt;
+
+        &lt;param-value&gt;login.conf&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.login.server.module&lt;/param-name&gt;
+
+        &lt;param-value&gt;spnego-server&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.prompt.ntlm&lt;/param-name&gt;
+
+        &lt;param-value&gt;false&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.logger.level&lt;/param-name&gt;
+
+        &lt;param-value&gt;1&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.preauth.username&lt;/param-name&gt;
+
+        &lt;param-value&gt;???&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+    &lt;init-param&gt;
+
+        &lt;param-name&gt;spnego.preauth.password&lt;/param-name&gt;
+
+        &lt;param-value&gt;???&lt;/param-value&gt;
+
+    &lt;/init-param&gt;
+
+&lt;/filter&gt;
+
+&lt;filter-mapping&gt;
+
+    &lt;filter-name&gt;SpnegoHttpFilter&lt;/filter-name&gt;
+
+    &lt;url-pattern&gt;/*&lt;/url-pattern&gt;
+
+&lt;/filter-mapping&gt;</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด22ตว融</p>
+        <h2 name="adding-spnego-configuration-files" xmlns="http://www.w3.org/1999/xhtml">砻קยด23ตว融</h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด24ตว融</p>
+        <ul xmlns="http://www.w3.org/1999/xhtml">
+            <li>砻קยด25ตว融</li>
+            <li>砻קยด26ตว融</li>
+        </ul><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">[libdefaults]
+
+    default_tkt_enctypes = aes128-cts rc4-hmac des3-cbc-sha1 des-cbc-md5 des-cbc-crc
+
+    default_tgs_enctypes = aes128-cts rc4-hmac des3-cbc-sha1 des-cbc-md5 des-cbc-crc
+
+    permitted_enctypes   = aes128-cts rc4-hmac des3-cbc-sha1 des-cbc-md5 des-cbc-crc
+
+    default_realm = ADTEST.LOCAL
+
+
+[realms]
+
+    ADTEST.LOCAL  = {
+
+        kdc = 123.45.6.7
+
+        default_domain = ADTEST.LOCAL 
+
+}
+
+
+[domain_realm]
+
+    .ADTEST.LOCAL = ADTEST.LOCAL </code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด27ตว融</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">spnego-client {
+
+    com.sun.security.auth.module.Krb5LoginModule required;
+
+};
+
+
+spnego-server {
+
+    com.sun.security.auth.module.Krb5LoginModule required
+
+    storeKey=true
+
+    isInitiator=false;
+
+};</code></pre>
+        <h2 name="registering-tomcats-service-principal-name-spn" xmlns="http://www.w3.org/1999/xhtml">砻קยด28ตว融</h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด29ตว融</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code>setspn.exe -A HTTP/computer-name.domain-name domain-user-account</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด30ตว融</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">setspn.exe -A HTTP/vm-42 tomcat
+
+setspn.exe -A HTTP/vm-42.adtest.local tomcat
+
+setspn.exe -A HTTP/workflow.intranet tomcat</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด31ตว融</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด32ตว融</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve">
+<code class="language-sh">setspn.exe -L domain-user-account</code></pre>
+        <h2 name="configuring-the-tomcat-user" xmlns="http://www.w3.org/1999/xhtml">砻קยด33ตว融</h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด34ตว融</p>
+        <ol xmlns="http://www.w3.org/1999/xhtml">
+            <li>砻קยด35ตว融</li>
+            <li>砻קยด36ตว融</li>
+            <li>砻קยด37ตว融</li>
+            <li>砻קยด38ตว融</li>
+        </ol>
+        <h2 name="troubleshooting" xmlns="http://www.w3.org/1999/xhtml">砻קยด39ตว融</h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด40ตว融</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด41ตว融</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด42ตว融</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด43ตว融</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">GSSException: Failure unspecified at GSS-API level (Mechanism level: Clock skew too great (37))</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด44ตว融</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด45ตว融</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">砻קยด46ตว融</p>
+        <ol xmlns="http://www.w3.org/1999/xhtml">
+            <li>砻קยด47ตว融</li>
+            <li>砻קยด48ตว融</li>
+            <li>
+                <p>砻קยด49ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;Connector port="8080" maxHttpHeaderSize="65536" protocol="HTTP/1.1" ... /&gt;</code></pre>
+            </li>
+            <li>砻קยด50ตว融</li>
+        </ol>
+    </body>
+</html>

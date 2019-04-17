@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Name="TOC_only" Width="800" Height="800" Padding="20px" PageSize="A4" PageType="normal" PaddingLeft="2.5cm" PaddingRight="2.5cm" PaddingTop="2.5cm" PaddingBottom="2.5cm" BleedBottom="0" BleedLeft="0" BleedTop="0" BleedRight="0">
+        <Frame Flow="body" ColumnCount="1" Anchors="" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="0mm" Y="0px" Right="1px" Bottom="70px" Width="160.0729mm" Height="228.8646mm">
+        </Frame>
+        <Frame Flow="footer" Anchors="" Right="1px" Bottom="-69px" X="0in" Y="25.32063cm" ColumnCount="1" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" FlowIndex="1" Height="1.243542cm" VerticalAlign="top" TextAlign="center" BorderTopStyle="solid" BorderTopWidth="1pt" BorderTopColor="#ad0f5b" Width="160.0729mm">
+            <Content>
+                <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;margin-left: auto;margin-right: 0;">
+                            <xhtml:col />
+                            <xhtml:col />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td>Version <MadCap:variable xhtml:name="Versions.WA" /> </xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;"><MadCap:variable xhtml:name="System.PageNumber" />
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="1px" Y="-67px" Width="160.0729mm" Height="55px" Flow="header" Right="0px" Bottom="947px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p><MadCap:variable xhtml:name="System.Title" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Width="800" Height="800" Padding="20px" PageSize="A4" PageType="empty" Name="Empty" PaddingRight="3.5cm" PaddingLeft="2.5cm" PaddingTop="2.5cm" PaddingBottom="2.5cm">
+    </Page>
+</PageStyles>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="debian.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="debian.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">6</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-title"
+        phase-name="pretrans"><source>Debian</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Debian</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Debian</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Debian</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Debian</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Debian</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Using Debian, the command to restore a backup stored in
+/path/to/dump would look like this:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Using Debian, the command to restore a backup stored in /path/to/dump would look like this:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Unter Debian kann das Wiederherstellungskommando, um ein Backup aus dem Pfad /path/to/dump wieder herzustellen, wie folgt ausgeführt werden:</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>As you can see, you have to fill in the credentials of the Workflow
+Accelerator MongoDB user again. Furthermore, you need to specify where
+the backup is located.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">As you can see, you have to fill in the credentials of the Workflow Accelerator MongoDB user again.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Furthermore, you need to specify where the backup is located.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="61"
+            MadCap:diff="ContentChanged" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /></target><alt-trans
+          match-quality="61"
+          origin="previous-version"><seg-source>As you can see, you have to fill in the credentials of the Workflow Accelerator MongoDB user again. Furthermore, you need to specify where the backup is located.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Sie müssen nun wieder die Zugangsdaten für den Workflow Accelerator-MongoDB-Nutzer, sowie den Speicherort der Backups angeben.</target></alt-trans><alt-trans
+          match-quality="61"
+          origin="previous-version"><seg-source>As you can see, you have to fill in the credentials of the Workflow Accelerator MongoDB user again. Furthermore, you need to specify where the backup is located.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Sie müssen nun wieder die Zugangsdaten für den Workflow Accelerator-MongoDB-Nutzer, sowie den Speicherort der Backups angeben.</target></alt-trans><alt-trans
+          match-quality="61"
+          origin="previous-version"><seg-source>As you can see, you have to fill in the credentials of the Workflow Accelerator MongoDB user again. Furthermore, you need to specify where the backup is located.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Sie müssen nun wieder die Zugangsdaten für den Workflow Accelerator-MongoDB-Nutzer, sowie den Speicherort der Backups angeben.</target></alt-trans><alt-trans
+          match-quality="61"
+          origin="previous-version"><seg-source>As you can see, you have to fill in the credentials of the Workflow Accelerator MongoDB user again. Furthermore, you need to specify where the backup is located.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Sie müssen nun wieder die Zugangsdaten für den Workflow Accelerator-MongoDB-Nutzer, sowie den Speicherort der Backups angeben.</target></alt-trans></trans-unit></body>
+  </file>
+</xliff>

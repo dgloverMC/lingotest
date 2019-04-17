@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="update-to-3.85.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="update-to-3.85.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">15</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Updating to Signavio Workflow Accelerator 3.85</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Updating to Signavio Workflow Accelerator 3.85</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Auf Signavio Workflow Accelerator 3.85 aktualisieren</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>For Signavio Process Manager integration</source><seg-source><mrk
+            mtype="seg"
+            mid="1">For Signavio Process Manager integration</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0"
+            MadCap:diff="New">Für die Integration mit Signavio Process Manager</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you use Workflow Accelerator in combination with Signavio Process
+Manager, you must update Process Manager to version 12.12.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you use Workflow Accelerator in combination with Signavio Process Manager, you must update Process Manager to version 12.12.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wenn Sie Workflow Accelerator in Kombination mit Signavio Process Manager benutzen, dann müssen Sie Process Manager auf Version 12.12 aktualisieren.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>From this version on, it is necessary to set the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>sharedJwtSecret<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> in both the Workflow Accelerator configuration file and the Process Manager configuration file. See <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../process-manager-integration/setup.htm#top" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Setup&lt;/MadCap:xref&gt;</ph> for details.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">From this version on, it is necessary to set the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>sharedJwtSecret<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> in both the Workflow Accelerator configuration file and the Process Manager configuration file.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">See <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../process-manager-integration/setup.htm#top" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Setup&lt;/MadCap:xref&gt;</ph> for details.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0"
+            MadCap:diff="New">Ab dieser Version ist es notwendig, das <bpt
+              id="1">&lt;kbd&gt;</bpt>sharedJwtSecret<ept
+              id="1">&lt;/kbd&gt;</ept> sowohl in der Konfigurationsdatei von Workflow Accelerator als auch in der Konfigurationsdatei von Process Manager anzupassen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="50"
+            MadCap:diff="New">Weitere Information dazu finden Sie in <ph
+              id="1">&lt;MadCap:xref href="../process-manager-integration/setup.htm#top" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Setup&lt;/MadCap:xref&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Data format of data sent from connectors</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Data format of data sent from connectors</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Datenformat der konfigurierbaren  Datenschnittstelle</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Version 3.85 introduces a validation for data retrieved via a custom data connector.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Version 3.85 introduces a validation for data retrieved via a custom data connector.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Mit Version 3.85 wird eine Validierung eingeführt für Daten, die von einer konfigurierbaren  Datenschnittstelle zur Verfügung gestellt werden.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you are using a custom data connector which stores <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.signavio.com/userguide/workflow/en/integration/connectors.html#record-storage"&gt;</bpt>records by value<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>, verify that the data type and the data format provided by the connector matches the data specified by your connector descriptor (Read more about <bpt
+            id="2"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.signavio.com/userguide/workflow/en/integration/connectors.html#data-types-and-formats"&gt;</bpt>data types and formats<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>). Data that does not match  is no longer accepted. If the connector sends mismatching data, users are not able to select the relevant records from the drop-down list but will see an error message.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you are using a custom data connector which stores <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.signavio.com/userguide/workflow/en/integration/connectors.html#record-storage"&gt;</bpt>records by value<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>, verify that the data type and the data format provided by the connector matches the data specified by your connector descriptor (Read more about <bpt
+              id="2"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.signavio.com/userguide/workflow/en/integration/connectors.html#data-types-and-formats"&gt;</bpt>data types and formats<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>).</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Data that does not match is no longer accepted.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">If the connector sends mismatching data, users are not able to select the relevant records from the drop-down list but will see an error message.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie eine Datenschnittstelle verwenden, die <bpt
+              id="1"
+              ctype="link">&lt;a href="https://docs.signavio.com/userguide/workflow/en/integration/connectors.html#record-storage"&gt;</bpt>Einträge als wert speichert<ept
+              id="1">&lt;/a&gt;</ept>, stellen Sie sicher, dass der Datentyp und das Datenformat der gesendeten Daten der Definition im Deskriptor entsprechen. (Lesen Sie mehr über <bpt
+              id="2"
+              ctype="link">&lt;a href="https://docs.signavio.com/userguide/workflow/en/integration/connectors.html#data-types-and-formats"&gt;</bpt>Datentypen und Datenformate<ept
+              id="2">&lt;/a&gt;</ept>.)</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Daten, die nicht den Festlegungen im Deskriptor entsprechen werden nicht mehr akzeptiert.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Falls die Schnittstelle unpassende Daten sendet, können Nutzer die entsprechenden Einträge nicht mehr aus der Drop-Down-Liste auswählen und sehen stattdessen eine Fehlermeldung.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Updating Node.js</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Updating Node.js</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Node.js aktualisieren</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>For this version of Workflow Accelerator, update to Node.js 10.x LTS</source><seg-source><mrk
+            mtype="seg"
+            mid="1">For this version of Workflow Accelerator, update to Node.js 10.x LTS</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Für diese Version von Workflow Accelerator aktualisieren Sie auf Node.js 10.x LTS.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

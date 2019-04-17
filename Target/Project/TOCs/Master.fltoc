@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/home.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="Signavio Process Manager Administrator Guide"
+    Link="/Project/TOCs/Signavio Process Manager Administrator Guide.fltoc" />
+  <TocEntry
+    Title="Signavio Workflow Accelerator Administrator Guide"
+    Link="/Project/TOCs/Signavio Workflow Accelerator Administrator Guide.fltoc" />
+</CatapultToc>

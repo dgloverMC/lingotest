@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title>Enabling single sign-on via SAML</title>
+    </head>
+    <body>
+        <h1>Enabling single sign-on via SAML (optional)</h1>
+        <p>You can enable <b>single sign-on (SSO)</b> via <b>Security Assertion Markup Language (SAML)</b> for your on-premises installation. Read more about this topic in the Signavio Process Manager <a href="https://docs.signavio.com/userguide/editor/en/workspace_admin/manage_users_access/portal_and_editor_sso_via_saml.html" title="Enabling single sign-on via SAML" alt="Enabling single sign-on via SAML">User Guide</a>. The user guide article also explains, which steps to take on the side of your <b>service provider (SP)</b>, Signavio Process Manager.</p>
+        <p>On-premises customers have two options to configure SSO for an <b>identity provider (IdP)</b> which differ from the <a href="https://docs.signavio.com/userguide/editor/en/workspace_admin/manage_users_access/portal_and_editor_sso_via_saml.html#configuring-sso-for-an-identity-provider-idp" title="Configuring SSO for an identity provider for SaaS workspaces" alt="Configuring SSO for an identity provider for SaaS workspaces">description for SaaS workspaces</a>.</p>
+        <ol style="list-style-type: lower-alpha;">
+            <li>First option: To configure SSO for your IdP, follow your Idp´s specific configuration. You have to set Signavio Process Manager as a trusted party.</li>
+            <li>Second option: If XML metadata is required to configure SSO, open the following XML metadata template:<br /><br /><a href="../_static/download_ressources/template_xml_metadata.xml">XML metadata template</a><br /><br />You need to replace the following placeholders in the template with your specific data:<br />1. <kbd>###SERVER_PARAMETER_FROM_CONFIGURATION_XML_WITHOUT_PROTOCOL###</kbd>: Use the URL of your Signavio Process Manager system. You specified the URL in your <kbd>configuration.xml</kbd> when you <a href="configure-process-manager.htm">configured Signavio Process Manager</a>. An example is <kbd>example.com</kbd>.<br /><br />2. <kbd>###SERVER_PARAMETER_FROM_CONFIGURATION_XML_WITH_PROTOCOL###</kbd>: Use the URL, including the protocol, of your Signavio Process Manager system. You specified the URL and the protocol in your <kbd>configuration.xml</kbd> when you <a href="configure-process-manager.htm">configured Signavio Process Manager</a>.  An example is <kbd>https://example.com</kbd>.<br /><a href="../_static/download_ressources/template_xml_metadata.xml#sso_xml_metadata" title="XML metadata template" alt="XML metadata template"><br /></a></li>
+        </ol>
+        <p>Ensure to set the following SAML response attributes in your IdP configuration:<br /></p>
+        <ul>
+            <li><kbd>email</kbd>
+            </li>
+            <li><kbd>first_name</kbd>
+            </li>
+            <li><kbd>last_name</kbd>
+            </li>
+            <li><kbd>Name ID</kbd>
+            </li>
+        </ul>
+    </body>
+</html>

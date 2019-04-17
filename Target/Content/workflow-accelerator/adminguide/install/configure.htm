@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" MadCap:onlyLocalStylesheets="True" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/TableStyles/Alternate-Row-Color.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <style type="text/css">
+        </style>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 name="configure-effektif"><a name="Conf" xmlns="http://www.w3.org/1999/xhtml"></a>
+   Configuring Workflow Accelerator
+  </h1>
+        <h2 name="install-license"><a name="Inst2" xmlns="http://www.w3.org/1999/xhtml"></a>
+   Install the license file
+  </h2>
+        <p>
+   You have received the Workflow Accelerator license file,
+   <kbd>license.xml</kbd>, along with the Workflow Accelerator
+application. Before you can start the Workflow Accelerator system, you
+have to add the license file to the application. Copy the license file
+into the directory
+   <kbd>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes</kbd>. The Workflow
+Accelerator system will check your license file on startup and set up
+the defined number of licenses.
+  </p>
+        <h2 name="update-effektif-configuration"><a name="UpdateWorkflowAcc" xmlns="http://www.w3.org/1999/xhtml"></a>Update the Workflow Accelerator
+configuration file
+  </h2>
+        <p>
+   Before you can start Workflow Accelerator for the first time, you
+need to configure some mandatory properties in the Workflow Accelerator
+configuration file. Make sure you have copied the Workflow Accelerator
+web application to the Tomcat’s webapps directory before continuing.
+The configuration file can be found here <kbd>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/effektif-onpremise.properties</kbd>.
+  </p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Configuration file.flsnp" />
+        <p>
+   In general, the configuration allows to configure the base URL of
+the Workflow Accelerator system, the mail server, the database
+connection and integrations with third party systems (e.g. Signavio).
+If you installed the Workflow Accelerator Script Engine, you need to
+configure the URL to the script engine as well. As described in
+   <MadCap:xref href="install-script-engine.htm#InstallingWAScriptE">Installing the Workflow Accelerator
+Script Engine
+  </MadCap:xref> the URL derives from the domain
+(<kbd>localhost</kbd> for the same machine) and port the script
+engine is running on. If you installed the Workflow Accelerator Mail
+Relay, you need to enable the email trigger and set the email domain
+that you created during the set-up.
+  </p>
+        <table class="TableStyle-Alternate-Row-Color" style="mc-table-style: url('../../../Resources/TableStyles/Alternate-Row-Color.css');" cellspacing="21">
+            <tbody>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>effektif.baseUrl</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      (Required) The IP address or server name (including the port) of
+the server running the Workflow Accelerator Tomcat application server.
+E.g. <kbd>http://workflow.yourdomain.com:8080</kbd> If the server
+is running on port 80, the port can be omitted.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>effektif.smtp.host</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2">
+      (Required) The IP address or server name of the outgoing email
+server.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>effektif.smtp.port</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      The port on which the outgoing SMTP server listens
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>effektif.smtp.ssl</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2">
+      If SSL should be used ( true or false )
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>effektif.smtp.tls</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      If TLS should be used ( true or false )
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>effektif.smtp.user</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2">
+      The username for authentication
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>effektif.smtp.password</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      The password for authentication
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>effektif.mail.from</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2">
+      This email address is used as the sender when the Workflow
+Accelerator system sends out notifications.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>effektif.mail.feedback</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      This email address will receive all feedback which is sent using
+the feedback functionality in the application.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>effektif.mongodb.servers</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2">
+      A comma-separated list of MongoDB servers (hostnames). If you have
+MongodDB running on the same server as Tomcat, the default value of
+localhost is okay.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>effektif.mongodb.username</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      The Workflow Accelerator MongoDB user name. If you created the user
+following the instructions in this guide, the name is <kbd>signavio</kbd>.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>effektif.mongodb.password</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2">
+      The password of the Workflow Accelerator MongoDB user. This is the
+password you defined during user creation.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>effektif.mongodb.database</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      The name of the database Workflow Accelerator should use. The
+default value <kbd>signavio</kbd> is okay.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>effektif.javascript.server.url</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2">
+      (Optional) The URL of the Workflow Accelerator Script Engine, e.g.
+      <kbd>http://localhost:8081</kbd></td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>effektif.mail.receiver.enabled</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      (Optional) Activates the email trigger if set to
+      <kbd>true</kbd>.
+You have to set up the mail relay for the trigger to work
+properly.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>effektif.mail.receiver.domain</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2">
+      (Optional) The email domain which is used to receive emails for the
+email trigger. The same value must be configured for the mail
+relay.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body1"><kbd>effektif.google.secrets.location</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyA-Column2-Body1">
+      (Optional) Absolute path to the Google APIs OAuth 2.0 credentials
+file, see
+      <MadCap:xref href="../optional-configuration/google-service-actions.htm#ConfigureGoogleService">Configure Google service
+actions
+  </MadCap:xref>.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+   The following properties are only relevant if your Workflow
+Accelerator installation is connected to your Signavio installation.
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">effektif.process.manager.serviceBaseUrl
+
+effektif.process.manager.authentication.clientId
+
+effektif.process.manager.authentication.clientSecret
+
+effektif.process.manager.authentication.jwt.secret</code></pre>
+        <p>
+   See
+   <MadCap:xref href="../process-manager-integration/process-manager-integration.htm">
+   Signavio Process Manager integration
+  </MadCap:xref>
+   for more information on how to set up
+the integration.
+  </p>
+        <h2 name="configure-logging">
+   Configure logging
+  </h2>
+        <p>
+   The Workflow Accelerator system has its own application log file
+   <kbd>effektif.log</kbd>. You need to define the directory where this
+log file is stored. The directory is specified in the file
+   <kbd>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/logback.xml</kbd>.
+Open the file and update the following line:</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;property name="LOG_DIR" value="./log"/&gt;</code></pre>
+        <p>
+   The value should contain an absolute path. Make sure the user
+executing Tomcat has the required read / write permissions for the
+directory.
+  </p>
+        <p>
+   On Windows it necessary to escape all "\". An example value could
+like this:
+   <kbd>"C:\\Logs\\Signavio"</kbd>.
+  </p>
+        <p>
+   This configuration file also enables you to change the log level in
+this file. By default, the log level is INFO. However, in a scenario
+where you require official support, you will be asked to set the log
+level to DEBUG. In order to so, update the following: </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;root level="INFO"&gt;</code></pre>
+        <p>
+   Change it to:</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;root level="DEBUG"&gt;</code></pre>
+        <p>
+   You will need to restart the Tomcat server for the changes to take
+effect. You can find more detailed information on how to start the
+Tomcat server in the next section.
+  </p>
+        <p>
+   The log file is configured to do a roll over. Every day, a new log
+file is created which contains a timestamp in the filename similar to
+   <kbd>effektif-2014-10-09.log</kbd>. The most recent log entries can
+still be found in the file
+   <kbd>effektif.log</kbd>. After 30 days,
+the log files will be removed automatically.
+  </p>
+    </body>
+</html>

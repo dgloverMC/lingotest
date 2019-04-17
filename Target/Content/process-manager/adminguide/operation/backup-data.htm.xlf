@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="backup-data.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="backup-data.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">9</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Backing up your data</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Backing up your data</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Datenbackups durchführen</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The database contains all relevant data for a secure recovery of all
+your repository information.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The database contains all relevant data for a secure recovery of all your repository information.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Um eine sichere Wiederherstellung sämtlicher Repository-Daten zu gewährleisten reicht ein Backup sämtlicher in der Datenbank befindlichen Daten aus.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The only items that are not stored in the database are:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The only items that are not stored in the database are:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die folgenden Objekte werden nicht in der Datenbank gespeichert:</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>the search index (that will be generated automatically when you
+restart the Tomcat server,</source><seg-source><mrk
+            mtype="seg"
+            mid="1">the search index (that will be generated automatically when you restart the Tomcat server,</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">der Suchindex (der automatisch generiert wird, sobald der Tomcat neu gestartet wird),</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>user sessions (that means users have to login again after you
+restart the Tomcat sever).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">user sessions (that means users have to login again after you restart the Tomcat sever).</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Nutzer-Sessions (dies bedeutet, dass sich Nutzer nach einem Re-Deployment des Tomcats neu einloggen müssen).</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Based on your database system and existing infrastructure, a
+database backup may rely on existing backup strategies. We recommend
+you to execute at least one backup per day and implement a rotating
+backup strategy with monthly backups.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Based on your database system and existing infrastructure, a database backup may rely on existing backup strategies.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">We recommend you to execute at least one backup per day and implement a rotating backup strategy with monthly backups.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Je nach Datenbanksystem und bereits vorhandener Infrastruktur kann für das Datenbank-Backup auf bestehende Backup-Strategien zurückgegriffen werden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Wir empfehlen mindestens ein tägliches Backup sowie eine rotierende Backup-Strategie, die auch Monats-Backups vorhält.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You should store the backups on different hardware at another
+physical location or on external hardware, to protect the backups - for
+example - from fire.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You should store the backups on different hardware at another physical location or on external hardware, to protect the backups - for example - from fire.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die Backups sollten auf separater Hardware an einem separaten Ort oder auf externen Medien möglichst feuergeschützt vorgehalten werden.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

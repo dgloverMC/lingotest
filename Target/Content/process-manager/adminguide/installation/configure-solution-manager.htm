@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="configuring-sap-solution-manager-connector-optional" name="configuring-sap-solution-manager-connector-optional">
+   Configuring SAP Solution Manager Connector (optional)
+  </h1>
+        <p>
+   In order to use the SAP Solution Manager 7.2 (SolMan) connector, you
+must first install Apache Tomcat and Signavio Process Manager. Refer to
+the
+   <code class="interpreted-text" data-role="ref">
+    Installation
+&lt;requirements&gt;
+   </code>
+   chapter for instructions.
+  </p>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <p>  Make sure to create a new database schema named <kbd>solman72connector</kbd>
+				 for the SAP Solution Manager 7.2 connector.</p>
+            <p>You must run the connector on a different database schema than the
+one you use for Signavio Process Manager.
+   </p>
+        </div>
+        <h2 id="installing-the-connector" name="installing-the-connector">
+   Installing the connector
+  </h2>
+        <p>
+   To install the SAP Solution Manager connector, you need two files:
+   <kbd>solman72.yml
+   </kbd>
+   and
+   <kbd>configuration.xml</kbd>.
+   <kbd>solman72.yml</kbd>
+   is used to configure the SAP Solution Manager
+connector.
+   <kbd>configuration.xml
+   </kbd>
+   is the same file as the
+one used to configure Signavio Process Manager. Both are provided in
+the .zip file that comes with the on-premises edition of Signavio
+Process Manager.
+  </p>
+        <p>
+   First, copy
+   <kbd>solman72.yml</kbd>
+   into the Tomcat
+   <kbd>conf</kbd>
+   folder. Open the
+   <kbd>solman72.yml</kbd>
+   file, and follow the instructions and read the comments in it. The instructions give advices on how to configure the SAP Solution Manager 7.2 connector. </p>
+        <p>Instructions and comments within the file start with a hastag (<kbd>#</kbd>). Note that comments always refer to the following configuration parameter, e.g.:</p>
+        <p> </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh"># the shared secret for communication between Signavio Process Manager and solman72-service
+
+    # must be the same as the &lt;sharedJwtSecret&gt; in configuration.xml
+
+    sharedJwtSecret: SHARED_SECRET_CHANGE_ME
+</code>   </pre>
+        <h2 id="configuring-the-connector" name="configuring-the-connector">
+   Configuring the connector
+  </h2>
+        <p>
+   Configuring the connector is similar to the configuration used for
+Signavio Process Manager. You will use
+   <kbd>Environment</kbd>
+   instead
+of
+   <kbd>Parameter</kbd>
+   in the code.
+  </p>
+        <p>
+   Open
+   <kbd xmlns="http://www.w3.org/1999/xhtml">context.xml</kbd>
+   in the Tomcat
+   <kbd xmlns="http://www.w3.org/1999/xhtml">conf</kbd>
+   folder, and add the following code snippet within the
+   <kbd xmlns="http://www.w3.org/1999/xhtml">Context</kbd>
+   tag below the other parameters:
+<a name="&#xA;spring.config.location" xmlns="http://www.w3.org/1999/xhtml"></a>  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;Environment name="spring.config.location" 
+	value="${catalina.base}/conf/solman72.yml"
+	type="java.lang.String"/&gt;</code></pre>
+        <p>
+   Next, open
+   <kbd>configuration.xml</kbd>
+   and add the following:
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;sharedJwtSecret&gt;SHARED_SECRET_CHANGE_ME&lt;/sharedJwtSecret&gt;
+
+
+&lt;gatewaymappings&gt;solman72=http://localhost:8080/solman72&lt;/gatewaymappings&gt;</code></pre>
+        <p>
+   These parameters need to be configured:
+  </p>
+        <ul>
+            <li><kbd>sharedJwtSecret</kbd>: Just like with the template file,
+this is where you set the secret. It MUST be the same in both
+    <kbd>solman72.yml</kbd>
+    and
+    <kbd>configuration.xml</kbd>.
+   </li>
+            <li><kbd>gatewaymappings
+    </kbd>: This is your host and port.
+    <kbd>http://localhost:8080</kbd>
+    is the default.
+    <kbd>solman72</kbd>
+    is the name of the directory in the Tomcat
+    <kbd>webapps</kbd>
+    folder and should not be changed.
+   </li>
+        </ul>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>
+    Make sure to keep the parameters within the template and the
+configuration files consistent with each other.
+   </p>
+        </div>
+        <h2 id="using-solution-administration" name="using-solution-administration">
+   Using Solution
+Administration
+  </h2>
+        <p>
+   See the
+   <a href="https://docs.signavio.com/userguide/editor/en/workspace_admin/sap_solman/solman72/index.html#solution-administration">
+    Signavio user guide
+   </a>
+   for information on using the connector.
+  </p>
+        <h2 id="generating-the-ssl-certificate-optional" name="generating-the-ssl-certificate-optional">
+   Generating the SSL
+certificate (optional)
+  </h2>
+        <p>
+   This section is only relevant if you are using HTTPS with Signavio
+Process Manager. See the
+   <code class="interpreted-text" data-role="ref">
+    https
+   </code>
+   chapter for additional information.
+  </p>
+        <p>
+   If you are using HTTPS, then Apache Tomcat requires an SSL
+certificate with multiple DNS names in order to run the connector.
+  </p>
+        <p>
+   First, create a configuration file named
+   <kbd>
+    selfsigned.conf</kbd>, and use that to generate the SSL
+certificate. Below is a sample configuration file you can use as a
+template.
+  </p><pre class="sourceCode" xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">[ req ]
+
+default_bits = 2048
+
+default_keyfile = localhost.pem
+
+distinguished_name = subject
+
+req_extensions = req_ext
+
+x509_extensions = x509_ext
+
+string_mask = utf8only
+
+
+
+
+[ subject ]
+
+countryName = Country Name (2 letter code)
+
+countryName_default = US
+
+
+stateOrProvinceName = State or Province Name (full name)
+
+stateOrProvinceName_default = NY
+
+
+localityName = Locality Name (eg, city)
+
+localityName_default = New York
+
+
+organizationName = Organization Name (eg, company)
+
+organizationName_default = Example, LLC
+
+
+commonName = Common Name (e.g. server FQDN or YOUR name)
+
+commonName_default = Example Company
+
+
+emailAddress = Email Address
+
+emailAddress_default = test@example.com
+
+
+[ x509_ext ]
+
+subjectKeyIdentifier = hash
+
+authorityKeyIdentifier = keyid,issuer
+
+
+
+
+basicConstraints = CA:FALSE
+
+keyUsage = digitalSignature, keyEncipherment
+
+subjectAltName = @alternate_names
+
+nsComment = "OpenSSL Generated Certificate"
+
+
+[ req_ext ]
+
+subjectKeyIdentifier = hash
+
+
+basicConstraints = CA:FALSE
+
+keyUsage = digitalSignature, keyEncipherment
+
+subjectAltName = @alternate_names
+
+nsComment = "OpenSSL Generated Certificate"
+
+
+
+
+[ alternate_names ]
+
+DNS.1 = localhost
+
+DNS.2 = 127.0.0.1
+
+DNS.3 = mycompany.com
+
+DNS.4 = signavio.mycompany.com
+
+
+# Add these if you need them
+
+# DNS.5 = mycompany.de
+
+# DNS.6 = mycompany.co.uk
+
+# DNS.7 = 127.0.0.1
+
+
+# IPv6 localhost
+
+# DNS.8 = ::1
+
+# DNS.9 = fe80::1]</code></pre>
+        <p>
+   Next, change the DNS parameters to match the addresses you will use
+to access the platform. In the command line, use
+   <pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">openssl req
+-config selfsigned.conf -new -x509 -sha256 -newkey rsa:2048 -nodes
+-keyout localhost.key.pem -days 365 -out localhost.cert.pem</code></pre> to
+generate the certificate. Finally, use the command <pre xml:space="preserve" madcap-space-after-export="preserve"><code>openssl pkcs12
+-export -out localhost.pfx -inkey localhost.key.pem -in
+localhost.cert.pem</code></pre>
+   to generate a PFX file.
+  </p>
+        <h2 id="trusting-ssl-certificates-in-tomcat-optional" name="trusting-ssl-certificates-in-tomcat-optional">
+   Trusting SSL
+certificates in Tomcat (optional)
+  </h2>
+        <p>
+   The last step is to instruct your Tomcat to trust your self-signed
+certificate.
+  </p>
+        <p>
+   Create a trusted Java Keystore. In the command line, add the
+self-signed certificate to it using the command <pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">keytool
+-importcert -file localhost.cert.pem -keystore keystore.jks -alias
+"localhost"</code></pre>Choose a new password when prompted.
+  </p>
+        <p>
+   Configure your Tomcat to trust the keystore that you've just created
+by starting Tomcat with the Java parameters
+   <kbd>-Djavax.net.ssl.keyStore</kbd>,
+   <kbd>-Djavax.net.ssl.keyStorePassword</kbd>,
+   <kbd>-Djavax.net.ssl.trustStore</kbd>, and
+   <kbd>-Djavax.net.ssl.trustStorePassword</kbd>. One way of doing it is
+through the environment variable
+   <kbd>CATALINA_OPTS</kbd>, like so:
+
+  </p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">bash_profile
+
+export CLIENT_CERT=/path/to/keystore.jks
+
+export CATALINA_OPTS="$CATALINA_OPTS -Djavax.net.ssl.keyStore=$CLIENT_CERT -Djavax.net.ssl.keyStorePassword=mypassword -Djavax.net.ssl.trustStore=$CLIENT_CERT -Djavax.net.ssl.trustStorePassword=mypassword"</code></pre>
+        <p>
+   Finally, you need to configure your Tomcat to use your newly
+generate PFX file. Follow the instructions as specified in the
+   <code class="interpreted-text" data-role="ref">
+    Using HTTPS
+&lt;https&gt;
+   </code>
+   chapter.
+  </p>
+        <h2 id="system-diagnostics" name="system-diagnostics">
+   System diagnostics
+  </h2>
+        <p>
+   On-premise customers can use our system diagnostics page to check
+that their connector installation was successful. See the
+   <kbd>diagnostics</kbd>
+   chapter for
+further details.
+  </p>
+    </body>
+</html>

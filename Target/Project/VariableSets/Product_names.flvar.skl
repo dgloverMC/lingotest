@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+    <Variable Name="SWA" Comment="" OriginalName="PDFGuideTitle" EvaluatedDefinition="Workflow Accelerator">砻קยด1ตว融</Variable>
+    <Variable Name="SPM" Comment="" EvaluatedDefinition="Process Manager">砻קยด2ตว融</Variable>
+</CatapultVariableSet>

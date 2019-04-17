@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:sourceDocument="C:\Users\Dana\Documents\adminguide_editor\editor\docs\operation\monitor.htm" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="monitoring" name="monitoring">
+   Monitoring
+  </h1>
+        <p>
+   To avoid unnecessary downtime, you should continuously monitor both
+the database server and the Tomcat server. For the database server it
+is most important to monitor the used disc storage. You may set up an
+observation routine that checks if the server runs out of disk space or
+if there are problems with creating backups. If the database server
+responds slowly, you should re-check its configuration (for example, if
+the database caches are configured correctly or if the data needs to be
+read from disk each time a request occurs).
+  </p>
+        <p>
+   You can check the plain availability of the Apache Tomcat server by
+sending an
+   <kbd>
+    http
+   </kbd>
+   request and logging into the Signavio
+system. Additionally, you should monitor the Tomcat server's process
+and its memory usage. If the process has to touch the swap-section and
+needs to outsource memory pages to the disc, the system responds very
+slowly. In such a case, make further memory available.
+  </p>
+    </body>
+</html>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="configuring-the-signavio-simulation-server-optional" name="configuring-the-signavio-simulation-server-optional">
+   Configuring the Signavio Simulation Server (optional)
+  </h1>
+        <p>
+   The execution of process simulations is performed in a standalone
+web application that is usually deployed on the same Tomcat server as
+the rest of the application. To avoid an overload of the web server by
+a complex simulation scenario, a simulation instance will be canceled
+when reaching a preconfigured threshold. You can increase these
+thresholds on your own risk. To avoid an overload of the web server,
+you can also deploy the simulation component on a separate Tomcat
+server.
+  </p>
+        <h2 id="adjusting-properties-of-the-signavio-simulation-server" name="adjusting-properties-of-the-signavio-simulation-server">
+   Adjusting properties of the Signavio Simulation Server
+  </h2>
+        <p>
+   For this you need to adjust the file
+   <kbd>simulation.xml</kbd>
+   you
+find at
+   <kbd>$TOMCAT_DIR/conf/</kbd>.
+  </p>
+        <p>
+   Uncomment the respective XML-tags and fill the tags as follows:
+  </p>
+        <ul>
+            <li>
+                <dl>
+                    <dt><kbd>maxResults</kbd>:
+     </dt>
+                    <dd>
+       Defines the maximum number of simulation results that will be cached
+in the Simulation Server at a time. The default value is 100.
+      </dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt><kbd>maxCachedInstances</kbd>:
+     </dt>
+                    <dd>
+       Defines the maximum number of running simulation instances that will
+be cached in the Simulation Server at a time. The default value is
+100.
+      <br /><span class="math display">
+        $$\text{NrOfParallelNCaseRuns} \times
+\frac{maxLogEntries \times 15}{100.000}\text{MB}$$
+       </span><br /></dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt><kbd xmlns="http://www.w3.org/1999/xhtml">resultTimeout</kbd>:</dt>
+                    <dd>Defines the amount of time (seconds) until a simulation result is
+considered as old and can be deleted. The default value is 600.</dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt><kbd>instanceTimeout</kbd>:
+     </dt>
+                    <dd>
+       Defines the amount of time (seconds) until a simulation instance is
+considered as old and can be deleted. The default value is 600.
+      </dd>
+                </dl>
+            </li>
+        </ul>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>
+    If you want to run the simulation server with the defaults, you
+don’t need to edit the values after uncommenting them.
+   </p>
+        </div>
+        <h2 id="installing-signavio-simulation-server-in-a-separate-tomcat-instance-optional" name="installing-signavio-simulation-server-in-a-separate-tomcat-instance-optional">
+   Installing Signavio Simulation Server in a separate Tomcat instance
+(optional)
+  </h2>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>
+    In most cases it is not necessary to install the Signavio Simulation
+Server on a separate Tomcat. The only good reason for doing so is to
+prevent performance problems if both of the following conditions are
+valid:
+   </p>
+            <ul>
+                <li>
+     You have purchased the Enterprise Edition.
+    </li>
+                <li>
+     Many of your business process modelers are frequently using the
+n-case simulation feature.
+    </li>
+            </ul>
+        </div>
+        <p>
+   In order to run the Simulation server on a separate Tomcat, install
+the Tomcat and configure it just as the Signavio Tomcat (see: <MadCap:xref href="configure-web-server.htm">
+   Configuring the web server</MadCap:xref>).
+  </p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>
+    In case the second Tomcat runs on the same server/VM, please make
+sure it is running on a different port than the Signavio Tomcat.
+   </p>
+        </div>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>
+    Make sure to always update Signavio Process Manager together with
+the Simulation Server. Different versions are incompatible with each
+other.
+   </p>
+        </div>
+        <p>
+   Now, proceed as follows:
+  </p>
+        <ol>
+            <li>
+    Stop the Tomcats (if running).
+   </li>
+            <li><strong>
+     Move
+    </strong>
+    (not copy!) the folder
+    <kbd>simulationservice</kbd>
+    from the webapps-directory of the
+Signavio Tomcat to the
+    <kbd>
+     webapps
+    </kbd>
+    directory of the Simulation
+Server Tomcat.
+   </li>
+            <li>
+
+     Adjust the file
+     <kbd>simulation.xml</kbd>
+     you find at <kbd>&lt;signavio-tomcat&gt;\conf</kbd>. Uncomment the corresponding
+XML-tags and fill the tags as follows:
+
+                <ul><li><kbd>
+        host
+       </kbd>: Defines the host name of the server where the
+Simulation Server is deployed, for example
+       <kbd>
+        http://mysignaviosimulationservice:8180
+       </kbd>.
+      </li><li><kbd>
+        path
+       </kbd>: Defines the URL path at which the Simulation
+Server is deployed, normally
+       <kbd>
+        /simulationservice/</kbd>.
+      </li></ul></li>
+            <li>
+    Start both Tomcats (the order does not matter).
+   </li>
+        </ol>
+    </body>
+</html>

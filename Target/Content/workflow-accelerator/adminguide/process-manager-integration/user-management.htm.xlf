@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="user-management.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="user-management.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">11</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>User management</source><seg-source><mrk
+            mtype="seg"
+            mid="1">User management</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Nutzerverwaltung</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you have purchased the OEM version of Workflow Accelerator that
+is shipped with Process Manager, user management will be handled by the
+Process Manager system. The Process Manager system will synchronize all
+users to Workflow Accelerator. Within Workflow Accelerator you will not
+be able to register any initial user nor invite more users.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you have purchased the OEM version of Workflow Accelerator that is shipped with Process Manager, user management will be handled by the Process Manager system.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The Process Manager system will synchronize all users to Workflow Accelerator.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Within Workflow Accelerator you will not be able to register any initial user nor invite more users.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Falls Sie die Workflow Accelerator OEM Version verwenden, die Sie zusammen mit dem Process Manager erhalten haben, werden die Nutzer vom Process Manager-System verwaltet.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Das Process Manager-System synchronisiert alle Nutzer mit Workflow Accelerator.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">In Workflow Accelerator selbst ist es in diesem Fall nicht möglich Nutzer einzuladen oder zu registrieren.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you have purchased a standalone version of Workflow Accelerator,
+you will be able to create an initial user and invite more users to
+Workflow Accelerator. However, we advise that you create your Workflow
+Accelerator organization by activating the approval workflow feature in
+Process Manager. This way, your Process Manager workspace and Workflow
+Accelerator organization will be linked automatically.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you have purchased a standalone version of Workflow Accelerator, you will be able to create an initial user and invite more users to Workflow Accelerator.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">However, we advise that you create your Workflow Accelerator organization by activating the approval workflow feature in Process Manager.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">This way, your Process Manager workspace and Workflow Accelerator organization will be linked automatically.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Falls Sie eine Standalone-Version von Workflow Accelerator verwenden, können Sie den ersten Nutzer registrieren und weitere Nutzer einladen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Allerdings empfehlen wir, die erste Workflow Accelerator-Organisation durch die Synchronisation mit dem Process Manager zu erstellen, indem Sie die Freigabe-Workflow-Funktion aktivieren.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Hierdurch wird der Process Manager-Arbeitsbereich automatisch mit Ihrer Workflow Accelerator-Organisation verbunden.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

@@ -1,0 +1,692 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="mongodb.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="mongodb.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">52</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">7</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xhtml-img-alt"
+        phase-name="pretrans"><source>In the upper-left corner, click the icon to open a new connection.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="">In the upper-left corner, click the icon to open a new connection.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Klicken sie auf das Symbol in der oberen linken Ecke um eine neue Verbindung zu öffnen.</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xhtml-img-alt"
+        phase-name="pretrans"><source>Click, the Create link to set-up a new connection.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="img">Click, the Create link to set-up a new connection.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Klicken Sie auf den Link Create um eine neue Verbindung zu erstellen.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xhtml-img-alt"
+        phase-name="pretrans"><source>In the dialog that opens up you can rename the connection. Change the address if you are connecting to a remote server, otherwise leave localhost there.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="img">In the dialog that opens up you can rename the connection.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            comment="img"> </mrk><mrk
+            mtype="seg"
+            mid="3"
+            comment="img">Change the address if you are connecting to a remote server, otherwise leave localhost there.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Im Dialog, der sich öffnet, können Sie die Verbindung umbenennen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Ändern Sie die Adresse, wenn Sie sich zu einem Remote-Server verbinden wollen, ansonsten behalten Sie den Wert localhost bei.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xhtml-img-alt"
+        phase-name="pretrans"><source>If you enabled authorization for your MongoDB server, select the Authentication tab and activate the Perform authentication option. Then enter the User Name (signavio) and the Password you have chosen before.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="img">If you enabled authorization for your MongoDB server, select the Authentication tab and activate the Perform authentication option.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            comment="img"> </mrk><mrk
+            mtype="seg"
+            mid="3"
+            comment="img">Then enter the User Name (signavio) and the Password you have chosen before.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie Authentifizierung für Ihren MongoDB-Server aktiviert haben, wählen Sie das Authentication Tab aus und aktivieren Sie die Option Perform authentication</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Geben Sie dann den Nutzernamen (signavio) unter User Name und das Passwort unter Password ein, welches Sie zuvor ausgewählt haben.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xhtml-img-alt"
+        phase-name="pretrans"><source>If you click Test, you should see a similar success message. Then click Save.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="img">If you click Test, you should see a similar success message.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            comment="img"> </mrk><mrk
+            mtype="seg"
+            mid="3"
+            comment="img">Then click Save.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie auf Test klicken, sollten Sie eine ähnliche Erfolgsnachricht sehen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Klicken Sie anschließend auf Save.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xhtml-img-alt"
+        phase-name="pretrans"><source>Select the new item in the list and click Connect.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="img">Select the new item in the list and click Connect.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wählen Sie den neuen Eintrag in der List aus und klicken Sie auf Connect.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xhtml-img-alt"
+        phase-name="pretrans"><source>You will see the connection in the left-hand panel and the two Workflow Accelerator databases below it.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="">You will see the connection in the left-hand panel and the two Workflow Accelerator databases below it.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sie sehen die hergestellte Verbindung in der linken Anzeige und darunter die zwei Workflow Accelerator-Datenbanken.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-title"
+        phase-name="pretrans"><source>MongoDB</source><seg-source><mrk
+            mtype="seg"
+            mid="1">MongoDB</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">MongoDB</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>
+   MongoDB</source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">MongoDB</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">MongoDB</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Robo 3T is a good tool for managing your MongoDB installation. It is
+free and available for different operating systems. Use it at your own
+discretion. Be careful when you use a tool to manipulate the database.
+Workflow Accelerator does not guarantee that any manipulated data can
+be restored. The tool can be downloaded from:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Robo 3T is a good tool for managing your MongoDB installation.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">It is free and available for different operating systems.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Use it at your own discretion.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">Be careful when you use a tool to manipulate the database.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">Workflow Accelerator does not guarantee that any manipulated data can be restored.</mrk><mrk
+            mtype="protected"
+            mid="10"> </mrk><mrk
+            mtype="seg"
+            mid="11">The tool can be downloaded from:</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Robo 3T ist ein gutes Tool zur Verwaltung Ihrer MongoDB Installation.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Es ist kostenfrei und für die gängigen Betriebssysteme verfügbar.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Nutzen Sie dieses Tool auf eigene Verantwortung.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="58"
+            MadCap:diff="ContentChanged" /><mrk
+            mtype="protected"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Das Tool kann unter dem folgenden Link heruntergeladen werden:</mrk></target><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans><alt-trans
+          mid="8"
+          match-quality="58"
+          origin="previous-version"><seg-source>Be careful when you use a tool to manipulate the database. Workflow Accelerator does not guarantee that any manipulated data can be restored.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Gehen Sie jedoch vorsichtig bei der Nutzung vor – beim eigenständigen Manipulieren der Datenbank kann es bei fahrlässiger Vorgehensweise natürlich vorkommen, dass Daten beschädigt werden, ohne dass das Workflow Accelerator-System eine Wiederherstellung garantieren kann.</target></alt-trans></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>
+    https://robomongo.org/
+   </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">https://robomongo.org/</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk></seg-source><target
+          state="translated"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">https://robomongo.org/</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The download site offers two different applications. Robo 3T (former
+Robomongo) and Studio 3T a commercial tool for MongoDB, which offers an
+extended feature set.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The download site offers two different applications.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Robo 3T (former Robomongo) and Studio 3T a commercial tool for MongoDB, which offers an extended feature set.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Download-Seite bietet zwei unterschiedliche Anwendungen an.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Robo 3T (ehemals Robomongo) und Studio 3T, ein kommerzielles Werkzeug für MongoDB, welches einen erweiterten Funktionsumfang bietet.</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Connecting to MongoDB using Robo 3T</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Connecting to MongoDB using Robo 3T</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Mit Robo 3T eine Verbindung zu MongoDB herstellen</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>This section shows how to connect to your MongoDB server using Robo
+3T. Note that MongoDB 3.2 requires you to use the latest version of
+Robo 3T.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">This section shows how to connect to your MongoDB server using Robo 3T.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Note that MongoDB 3.2 requires you to use the latest version of Robo 3T.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Dieser Abschnitt wird Ihnen zeigen, wie man eine Verbindung mit MongoDB unter Verwendung von Robo 3T herstellen kann.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Beachten Sie, MongoDB 3.2 benötigt die neueste Version von Robo 3T.</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you try to connect to your MongoDB from a remote system, ensure
+the MongoDB configuration has either no value defined for
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>bindIp<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    or lists the IP address you are trying to connect
+to.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you try to connect to your MongoDB from a remote system, ensure the MongoDB configuration has either no value defined for <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>bindIp<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> or lists the IP address you are trying to connect to.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie versuchen von einem anderen System aus auf MongoDB zuzugreifen, stellen Sie bitte sicher, dass die MongoDB Konfiguration den Eintrag <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>bindIp<ept
+              id="1">&lt;/kbd&gt;</ept> entweder nicht enthält oder die IP-Adresse auflistet zu der Sie sich verbinden möchten.</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Make sure your MongoDB server is running and open Robo 3T.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Make sure your MongoDB server is running and open Robo 3T.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Stellen Sie sicher, dass der MongoDB-Server läuft und öffnen Sie Robo 3T.</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-figcaption"
+        phase-name="pretrans"><source>In the upper-left corner, click the icon to open a new
+connection.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In the upper-left corner, click the icon to open a new connection.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Klicken sie auf das Symbol in der oberen linken Ecke um eine neue Verbindung zu öffnen.</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-figcaption"
+        phase-name="pretrans"><source>Click, the
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Create<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+    link to set-up a new
+connection.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Click, the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Create<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> link to set-up a new connection.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Klicken Sie auf den Link <bpt
+              id="1">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Create<ept
+              id="1">&lt;/em&gt;</ept> um eine neue Verbindung zu erstellen.</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-figcaption"
+        phase-name="pretrans"><source>In the dialog you can rename the connection.
+Change the address if you are connecting to a remote server, otherwise
+leave
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>localhost<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+    there.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In the dialog you can rename the connection.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Change the address if you are connecting to a remote server, otherwise leave <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>localhost<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> there.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Im Dialog, der sich öffnet, können Sie die Verbindung umbenennen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Ändern Sie die Adresse, wenn Sie sich zu einem Remote-Server verbinden wollen, ansonsten behalten Sie den Wert <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>localhost<ept
+              id="1">&lt;/kbd&gt;</ept> bei.</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-figcaption"
+        phase-name="pretrans"><source>If you enabled authorization for your MongoDB server,
+select the
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Authentication<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+    tab and activate the
+    <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Perform authentication<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> option. Then enter the
+    <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>User Name<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> (<bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>signavio<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>) and the
+    <bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Password<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> you have chosen before.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you enabled authorization for your MongoDB server, select the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Authentication<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> tab and activate the <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Perform authentication<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> option.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Then enter the <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>User Name<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> (<bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>signavio<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>) and the <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Password<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> you have chosen before.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie Authentifizierung für Ihren MongoDB-Server aktiviert haben, wählen Sie bitte das <bpt
+              id="1">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Authentication<ept
+              id="1">&lt;/em&gt;</ept> Tab aus und aktivieren Sie die Option <bpt
+              id="2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Perform authentication<ept
+              id="2">&lt;/em&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Geben Sie dann den Nutzernamen (<bpt
+              id="4">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>signavio<ept
+              id="4">&lt;/kbd&gt;</ept>) unter <bpt
+              id="3">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>User Name<ept
+              id="3">&lt;/em&gt;</ept> und das Passwort unter <bpt
+              id="5">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Password<ept
+              id="5">&lt;/em&gt;</ept> ein, welches Sie zuvor ausgewählt haben.</mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-figcaption"
+        phase-name="pretrans"><source>If you click
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Test<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>, you should see a similar
+success message. Then click
+    <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Save
+    <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you click <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Test<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>, you should see a similar success message.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Then click <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Save <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie auf <bpt
+              id="1">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Test<ept
+              id="1">&lt;/em&gt;</ept> klicken, sollten Sie eine ähnliche Erfolgsnachricht sehen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Klicken Sie anschließend auf <bpt
+              id="2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Save<ept
+              id="2">&lt;/em&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-figcaption"
+        phase-name="pretrans"><source>Select the new item in the list and click
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Connect
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Select the new item in the list and click <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Connect <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> .</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wählen Sie den neuen Eintrag in der List aus und klicken Sie auf <bpt
+              id="1">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Connect<ept
+              id="1">&lt;/em&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-figcaption"
+        phase-name="pretrans"><source>You will see the connection in the left-hand panel and the
+two Workflow Accelerator databases below it.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="img">You will see the connection in the left-hand panel and the two Workflow Accelerator databases below it.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sie sehen die hergestellte Verbindung in der linken Anzeige und darunter die zwei Workflow Accelerator-Datenbanken.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

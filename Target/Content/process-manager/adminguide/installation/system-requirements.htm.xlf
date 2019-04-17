@@ -1,0 +1,869 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="system-requirements.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="system-requirements.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">74</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>System requirements</source><seg-source><mrk
+            mtype="seg"
+            mid="1">System requirements</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Systemanforderungen</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Signavio Process Manager is a client-server application and requires
+at minimum two servers - a
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>web server<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> and a <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>database server<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+   - that may run on the same machine.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio Process Manager is a client-server application and requires at minimum two servers - a <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>web server<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> and a <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>database server<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> - that may run on the same machine.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>
+   Hardware
+minimum requirements for the web server</source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">Hardware minimum requirements for the web server</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Hardware-Mindestvoraussetzung für den Webserver</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The following hardware is required for Signavio Process Manager's
+web server:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The following hardware is required for Signavio Process Manager's web server:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Sie benötigen die folgende Hardware, um den Webserver des Signavio Process Manager auszuführen:</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>2 CPU cores (virtualization possible)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">2 CPU cores (virtualization possible)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">2 CPU-Kerne (Virtualisierung ist möglich)</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Support of 64 bit systems</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Support of 64 bit systems</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">64 Bit Unterstützung</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>4 GB RAM (dedicated to the application server)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">4 GB RAM (dedicated to the application server)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">4 GB RAM (dediziert für den Applikationsserver verfügbar)</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>20 GB hard-drive space</source><seg-source><mrk
+            mtype="seg"
+            mid="1">20 GB hard-drive space</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">20 GB Festplattenspeicher</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Hardware
+minimum requirements for the database server</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Hardware minimum requirements for the database server</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Hardware-Mindestvoraussetzung für den Datenbankserver</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The following hardware is required for Signavio Process Manager's
+database server:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The following hardware is required for Signavio Process Manager's database server:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Sie benötigen die folgende Hardware, um den Datenbankserver von Signavio Process Manager auszuführen:</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>2 CPU cores (virtualization possible)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">2 CPU cores (virtualization possible)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">2 CPU-Kerne (Virtualisierung ist möglich)</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Support of 64 bit systems</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Support of 64 bit systems</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">64 Bit Unterstützung</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>4 GB RAM (dedicated to the database)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">4 GB RAM (dedicated to the database)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">4 GB RAM (dediziert für die Datenbank verfügbar)</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>30 GB hard-drive space (enough for approx. 20,000 diagram revisions
+when using a MySQL database)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">30 GB hard-drive space (enough for approx. 20,000 diagram revisions when using a MySQL database)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">30 GB Festplattenspeicher (ausreichend für ca. 20.000 Diagramm-Revisionen bei der Verwendung einer MySQL-Datenbank)</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Of course it is possible to run the web server and the database
+server on one logical server. The hardware minimum requirements
+accumulate in this case.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Of course it is possible to run the web server and the database server on one logical server.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The hardware minimum requirements accumulate in this case.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Sie können den Webserver und den Datenbankserver auf einem logischen Server zusammen betreiben.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">In diesem Fall akkumulieren sich die Hardware-Mindestvoraussetzungen entsprechend.</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>When using an Oracle database, the minimum hard-drive space will be
+approx. 1.5 times higher, so that 20000 diagram revisions will require
+at least 45 GB.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">When using an Oracle database, the minimum hard-drive space will be approx. 1.5 times higher, so that 20000 diagram revisions will require at least 45 GB.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Rechnen Sie bei der Nutzung einer Oracle Datenbank bezüglich des Festplattenspeicherverbrauchs mit einem zusätzlichen Faktor 1,5 pro Diagramm. Für 20.000 Diagrammrevisionen müssen Sie also 45 GB einplanen.</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>
+   Software requirements for the web server</source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">Software requirements for the web server</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Software-Voraussetzungen für den Webserver</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>MacOS is not supported as operating system for the Signavio <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="Product_names.SPM" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> web server.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">MacOS is not supported as operating system for the Signavio <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="Product_names.SPM" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> web server.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The following software is required for Signavio Process Manager's
+web server:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The following software is required for Signavio Process Manager's web server:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Sie benötigen die folgende Software, um den Webserver des Signavio Process Manager auszuführen:</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Operating system:
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Debian Stable Release 64-Bit
+     <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Microsoft Windows 64-Bit
+     <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Operating system: </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Debian Stable Release 64-Bit <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Microsoft Windows 64-Bit <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"><bpt
+              id="2">&lt;li&gt;</bpt>Debian Stable Release 64 Bit<ept
+              id="2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Oracle Java 8 (64Bit)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Oracle Java 8 (64Bit)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Oracle Java 8 (64 Bit)</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Apache Tomcat 8.5.x</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Apache Tomcat 8.5.x</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Apache Tomcat 8.5.x</mrk></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>64 bit is required so that the Java VM is able to address more than
+1.5 GB of heap space.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">64 bit is required so that the Java VM is able to address more than 1.5 GB of heap space.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">64 Bit ist Voraussetzung, um der Java VM mehr als 1,5 GB Heap Space zuweisen zu können.</mrk></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Moreover, you need to connect Signavio Process Manager to an email
+server. Please make sure the email server can be reached within your
+network and create an account for Signavio Process Manager or allow
+anonymous access.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Moreover, you need to connect Signavio Process Manager to an email server.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Please make sure the email server can be reached within your network and create an account for Signavio Process Manager or allow anonymous access.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Zudem ist es notwendig, dass Sie den Signavio Process Manager mit einen E-Mail-Server verbinden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Stellen Sie hierfür sicher, dass der E-Mail-Server für den Signavio Process Manager erreichbar ist und richten Sie ein E-Mail-Konto für den Process Manager ein.</mrk></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In case you have purchased Collaboration Hub and want to use
+Kerberos authentication for single-sign-on, please make sure the web
+server connecting to your Active Directory is running on Microsoft
+Windows 64 bit.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In case you have purchased Collaboration Hub and want to use Kerberos authentication for single-sign-on, please make sure the web server connecting to your Active Directory is running on Microsoft Windows 64 bit.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Wenn Sie den Collaboration Hub erworben haben und Kerberos-Authentifizierung für Single-Sign-On verwenden möchten, müssen Sie den Webserver zur Anbindung an Ihr Active Directory auf einem Microsoft Windows 64 Bit Server installieren.</mrk></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Software requirements for the database server</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Software requirements for the database server</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Software-Voraussetzungen für den Datenbankserver</mrk></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>MacOS is not supported as operating system for the Signavio <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="Product_names.SPM" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> database server.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">MacOS is not supported as operating system for the Signavio <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="Product_names.SPM" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> database server.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The following software is required for Signavio Process Manager's
+database server:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The following software is required for Signavio Process Manager's database server:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Sie benötigen die folgende Software, um den Datenbankserver des Signavio Process Manager auszuführen:</mrk></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Operating system:
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Debian Stable Release 64 Bit
+     <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Microsoft Windows 64 Bit
+     <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Operating system: </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Debian Stable Release 64 Bit <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Microsoft Windows 64 Bit <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="30"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Database:
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       Recommended: MySQL Standard Edition 5.x (InnoDB Storage Engine)
+
+       or
+
+       <ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>MySQL Enterprise Edition 5.x (InnoDB Storage Engine)
+      <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Oracle 11g
+     <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Oracle 12
+     <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      MS SQL Server 2008
+(Note that the support will be discontinued after June 2019.)<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      MS SQL Server 2012
+     <ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      MS SQL Server 2014
+     <ept
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      MS SQL Server 2016
+     <ept
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Database: </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Recommended: MySQL Standard Edition 5.x (InnoDB Storage Engine) or <ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="4">MySQL Enterprise Edition 5.x (InnoDB Storage Engine) <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="5"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Oracle 11g <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="6"><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Oracle 12 <ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="7"><bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> MS SQL Server 2008 (Note that the support will be discontinued after June 2019.)<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="8"><bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> MS SQL Server 2012 <ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="9"><bpt
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> MS SQL Server 2014 <ept
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="10"><bpt
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> MS SQL Server 2016 <ept
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Datenbank:</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"><bpt
+              id="3">&lt;li&gt;</bpt>Oracle 11g<ept
+              id="3">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"><bpt
+              id="4">&lt;li&gt;</bpt> Oracle 12 <ept
+              id="4">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"><bpt
+              id="6">&lt;li&gt;</bpt> MS SQL Server 2012 <ept
+              id="6">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"><bpt
+              id="7">&lt;li&gt;</bpt> MS SQL Server 2014 <ept
+              id="7">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="31"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Hardware minimum
+requirements for the client</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Hardware minimum requirements for the client</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Mindestanforderungen an den Client (Hardware)</mrk></target></trans-unit><trans-unit
+        id="32"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Processor: 2,00 GHz or more</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Processor: 2,00 GHz or more</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Prozessor: 2,00 GHz oder mehr</mrk></target></trans-unit><trans-unit
+        id="33"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>4 GB RAM</source><seg-source><mrk
+            mtype="seg"
+            mid="1">4 GB RAM</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">4 GB RAM</mrk></target></trans-unit><trans-unit
+        id="34"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>1 GB empty disk storage</source><seg-source><mrk
+            mtype="seg"
+            mid="1">1 GB empty disk storage</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">1 GB freier Festplattenspeicher</mrk></target></trans-unit><trans-unit
+        id="35"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Software requirements for
+the client</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Software requirements for the client</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Software-Voraussetzungen für den Client</mrk></target></trans-unit><trans-unit
+        id="36"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Operating System:
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Microsoft Windows
+     <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Mac OS X
+     <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Linux
+     <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Operating System: </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Microsoft Windows <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Mac OS X <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="5"><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Linux <ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"><bpt
+              id="2">&lt;li&gt;</bpt> Microsoft Windows <ept
+              id="2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"><bpt
+              id="3">&lt;li&gt;</bpt> Mac OS X <ept
+              id="3">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="37"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Web Browser
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Microsoft Edge
+     <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Microsoft Internet Explorer 11
+     <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Mozilla Firefox from version 52
+     <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Apple Safari from version 10
+     <ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+      Google Chrome from version 50
+     <ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Web Browser </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Microsoft Edge <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Microsoft Internet Explorer 11 <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="5"><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Mozilla Firefox from version 52 <ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="6"><bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Apple Safari from version 10 <ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="7"><bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Google Chrome from version 50 <ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Browser</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"><bpt
+              id="2">&lt;li&gt;</bpt> Microsoft Edge <ept
+              id="2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"><bpt
+              id="3">&lt;li&gt;</bpt> Microsoft Internet Explorer 11 <ept
+              id="3">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"><bpt
+              id="4">&lt;li&gt;</bpt> Mozilla Firefox ab Version 52 <ept
+              id="4">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"><bpt
+              id="5">&lt;li&gt;</bpt> Apple Safari ab Version 10 <ept
+              id="5">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="38"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>System
+requirements for Signavio Workflow Accelerator (optional)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">System requirements for Signavio Workflow Accelerator (optional)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Systemvoraussetzungen für Signavio Workflow Accelerator (optional)</mrk></target></trans-unit><trans-unit
+        id="39"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You need to set up a Signavio Workflow Accelerator server to be able
+to use the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>approval workflow<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> feature of the Enterprise
+Edition. Signavio Workflow Accelerator has to be installed on a
+separate server. Refer to the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../../../workflow-accelerator/adminguide/intro/intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Signavio Workflow Accelerator Administrator Guide
+  &lt;/MadCap:xref&gt;</ph> for more information about the system requirements and the
+installation process.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You need to set up a Signavio Workflow Accelerator server to be able to use the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>approval workflow<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> feature of the Enterprise Edition.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Signavio Workflow Accelerator has to be installed on a separate server.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Refer to the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../../../workflow-accelerator/adminguide/intro/intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Signavio Workflow Accelerator Administrator Guide
+  &lt;/MadCap:xref&gt;</ph> for more information about the system requirements and the installation process.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Signavio Workflow Accelerator muss auf einem separaten Server installiert werden.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

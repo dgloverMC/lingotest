@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Common problems
+  </h1>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   This section lists some common problems that can arise during the
+setup of the Workflow Accelerator system and gives instructions on how
+to solve them.
+  </p>
+        <dl xmlns="http://www.w3.org/1999/xhtml">
+            <dt>
+    Problem:
+   </dt>
+            <dd>
+     The Workflow Accelerator site shows a HTTP Status 500 error
+including the message
+     <kbd>root cause java.lang.RuntimeException: Cannot find license.xml</kbd>.
+    </dd>
+            <dt>
+    Solution:
+   </dt>
+            <dd>
+     You have not installed the Workflow Accelerator license.xml at all
+or placed it in the wrong directory. See<MadCap:xref href="../install/configure.htm#Inst2">
+   Install the license file
+  </MadCap:xref> to solve the issue.
+    </dd>
+            <dt>
+    Problem:
+   </dt>
+            <dd>
+     The Workflow Accelerator site shows a HTTP Status 500 error
+including the message
+     <kbd>com/effektif/EffektifServlet : Unsupported
+major.minor version 51.0 (unable to load class
+com.effektif.EffektifServlet)</kbd>.
+    </dd>
+            <dt>
+    Solution:
+   </dt>
+            <dd>
+     The Tomcat server is using the wrong Java version. Workflow
+Accelerator requires Java 8. Make sure you have installed the correct
+Java version. You can check your Java version by executing:<pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-javascript" xmlns="http://www.w3.org/1999/xhtml">java -version</code></pre><MadCap:xref href="../install/install-java.htm#Inst3">
+   Installing Java
+  </MadCap:xref> explains how to install the correct
+Java version.
+    </dd>
+            <dt>
+    Problem:
+   </dt>
+            <dd>
+     Executing a MongoDB command yields the error message
+     <kbd>errmsg: “unauthorized”</kbd>
+     or
+     <kbd>errmsg: “auth fails”</kbd>.
+    </dd>
+            <dt>
+    Solution:
+   </dt>
+            <dd>
+     Either the username / password combination that is used to execute
+the command is wrong or the respective MongoDB user lacks some required
+roles.
+    
+     The first issue can be checked by executing:
+    
+
+     Windows:
+     <pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">mongo.exe admin -u signavio -p
+&lt;yourSignavioUserPassword&gt;</code></pre>
+
+     Debian:
+     <pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">mongo admin -u signavio -p
+&lt;yourSignavioUserPassword&gt;</code></pre>
+     If this command fails with the error message
+     <kbd>exception: login failed</kbd>
+     you know that your username / password combination is
+wrong. Please, make sure you spelled the username and password
+correctly.
+    
+     In order to check the second issue, see <MadCap:xref href="../install/configure-mongoDB.htm#Add">
+   Add a database user for Workflow Accelerator
+  </MadCap:xref>.
+This section lists all necessary roles and explains how to verify that
+the Workflow Accelerator user has all the required roles. Especially
+the restore and backup commands require certain roles to work
+properly.
+    </dd>
+            <dt>
+    Problem:
+   </dt>
+            <dd>
+     Workflow Accelerator does not start and the log file contains the
+error message
+     <kbd>INFO LockingDbExecutor Database is locked by another executor. Wait...</kbd>.
+    </dd>
+            <dt>
+    Solution:
+   </dt>
+            <dd>
+     The problem with the LockingDbExecutor arises when the application
+server is shut down during the initialization (update of licenses and
+migration of database) before the lock can be released again. You have
+to manually remove the lock from the database. We recommend using a
+tool like Robo 3T for this purpose. <MadCap:xref href="../Tooling/MongoDB.htm#Mong">
+   MongoDB
+  </MadCap:xref> explains how to install
+Robo 3T and set-up a connection to your MongoDB.
+    <ol style="list-style-type: decimal;"><li>
+      Open Robo 3T.
+     </li><li>
+      Establish a connection to MongoDB.
+     </li><li>
+      Open the content of the Workflow Accelerator DB on the left side of
+the application.
+     </li><li>
+      Under Collections you will find the table <kbd>properties</kbd>.
+     </li><li>
+      A double click on
+      <kbd>properties</kbd>
+      shows all entries. In
+case of an error you will see three entries, if everything is normal
+there will be only two.
+     </li><li>
+      Out of the three entries in the list, select the one that contains
+the value
+      <kbd>schema.lock</kbd>
+      for the key <kbd>k</kbd>.
+     </li><li>
+      Use a right click to open the context menu for the respective entry
+and choose „Delete Document…“ to remove the entry.
+     </li></ol>
+     IMPORTANT: Only the entry for
+     <kbd>schema.lock</kbd>
+     must be
+deleted. You are advised to create a backup of the database
+upfront.
+    </dd>
+        </dl>
+    </body>
+</html>

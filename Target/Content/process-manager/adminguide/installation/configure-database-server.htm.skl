@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="configure_db" name="configure_db">砻קยด1ตว融</h1>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>砻קยด2ตว融</p>
+        </div>
+        <p>砻קยด3ตว融</p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>砻קยด4ตว融</p>
+        </div>
+        <p>砻קยด5ตว融</p>
+        <p>砻קยด6ตว融</p>
+        <p>砻קยด7ตว融</p>
+        <p>砻קยด8ตว融</p>
+        <p>砻קยด9ตว融</p>
+        <p>砻קยด10ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">GRANT CREATE VIEW ON &lt;db_schema&gt; TO &lt;dbuser&gt;</code></pre>
+        <p>砻קยด11ตว融</p>
+        <p>砻קยด12ตว融</p>
+        <p><strong>砻קยด13ตว融</strong></p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">GRANT SELECT ON user_tab_columns TO &lt;dbuser&gt;
+
+GRANT SELECT ON user_tables TO &lt;dbuser&gt;
+
+GRANT SELECT ON user_ind_columns TO &lt;dbuser&gt;
+
+GRANT SELECT ON user_constraints TO &lt;dbuser&gt;
+
+GRANT SELECT ON user_cons_columns TO &lt;dbuser&gt;</code></pre>
+        <p><strong>砻קยด14ตว融</strong></p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">GRANT SELECT ON information_schema.columns TO &lt;dbuser&gt;
+
+GRANT SELECT ON information_schema.tables TO &lt;dbuser&gt;
+
+GRANT SELECT ON information_schema.statistics TO &lt;dbuser&gt;
+
+GRANT SELECT ON information_schema.table_constraints TO &lt;dbuser&gt;
+
+GRANT SELECT ON information_schema.key_column_usage TO &lt;dbuser&gt;</code></pre>
+        <p><strong>砻קยด15ตว融</strong></p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">GRANT SELECT ON information_schema.columns TO &lt;dbuser&gt;
+
+GRANT SELECT ON sys.dm_db_partition_stats TO &lt;dbuser&gt;
+
+GRANT SELECT ON sys.objects TO &lt;dbuser&gt;
+
+GRANT SELECT ON sys.indexes TO &lt;dbuser&gt;
+
+GRANT SELECT ON sys.index_columns TO &lt;dbuser&gt;
+
+GRANT SELECT ON sys.foreign_keys TO &lt;dbuser&gt;
+
+GRANT SELECT ON sys.foreign_key_columns TO &lt;dbuser&gt;
+
+GRANT CREATE PROCEDURE TO &lt;dbuser&gt;</code></pre>
+        <p>砻קยด16ตว融</p>
+        <p>砻קยด17ตว融</p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>砻קยด18ตว融</p>
+        </div>
+        <h2 id="configuring-mysql" name="configuring-mysql">砻קยด19ตว融</h2>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>砻קยด20ตว融</p>
+        </div>
+        <p>砻קยด21ตว融</p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>砻קยด22ตว融</p>
+        </div>
+        <p>砻קยด23ตว融</p>
+        <p>砻קยด24ตว融</p>
+        <p>砻קยด25ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">[mysqld]
+
+
+max_allowed_packet=16M
+
+
+default-character-set=utf8
+
+
+default-collation=utf8_general_ci
+
+
+default-storage-engine=innodb
+
+
+max_connections=160
+
+lower_case_table_names=1</code>
+</pre>
+        <p>砻קยด26ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">[mysql]
+
+
+default-character-set=utf8
+
+
+[mysqld]
+
+
+max_allowed_packet=16M
+
+
+character-set-server=utf8
+
+
+collation-server=utf8_general_ci
+
+
+default-storage-engine=INNODB
+
+
+max_connections=160
+
+
+query_cache_limit = 32M
+
+
+query_cache_size = 128M
+
+
+query_cache_type = 1
+
+lower_case_table_names=1</code></pre>
+        <p>砻קยด27ตว融</p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>砻קยด28ตว融</p>
+        </div>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>砻קยด29ตว融</p>
+        </div>
+        <h2 id="configuring-microsoft-sql-server" name="configuring-microsoft-sql-server">砻קยด30ตว融</h2>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>砻קยด31ตว融</p>
+        </div>
+        <p>砻קยด32ตว融</p>
+        <p>砻קยด33ตว融</p>
+        <p>砻קยด34ตว融</p>
+        <p>砻קยด35ตว融</p>
+        <h3><b>砻קยด36ตว融</b></h3>
+        <p>砻קยด37ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh" xmlns="http://www.w3.org/1999/xhtml">ALTER DATABASE [database] SET ALLOW_SNAPSHOT_ISOLATION ON;
+ALTER DATABASE [database] SET READ_COMMITTED_SNAPSHOT ON;</code></pre>
+        <h2 id="configuring-oracle-database" name="configuring-oracle-database">砻קยด38ตว融</h2>
+        <div class="important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;">
+            <p>砻קยด39ตว融</p>
+        </div>
+        <p>砻קยด40ตว融</p>
+        <p>砻קยด41ตว融</p>
+    </body>
+</html>

@@ -1,0 +1,1095 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="in-progress">
+  <file
+    xml:space="preserve"
+    original="install-mongodb.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="install-mongodb.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">100</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Installing MongoDB</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Installing MongoDB</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">MongoDB installieren</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>MongoDB is currently the only database system that Workflow
+Accelerator supports. If you already have infrastructure that can
+provide a MongoDB version 3.4.x or 3.6.x instance, simply create a new
+instance for Workflow Accelerator and skip to 
+<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="configure-mongoDB.htm#ConfiguringMongoDB" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Configuring MongoDB
+  &lt;/MadCap:xref&gt;</ph>. Otherwise
+continue with the installation instructions.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">MongoDB is currently the only database system that Workflow Accelerator supports.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If you already have infrastructure that can provide a MongoDB version 3.4.x or 3.6.x instance, simply create a new instance for Workflow Accelerator and skip to <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="configure-mongoDB.htm#ConfiguringMongoDB" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Configuring MongoDB
+  &lt;/MadCap:xref&gt;</ph>.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Otherwise continue with the installation instructions.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">MongoDB ist das einzige Datenbanksystem, welches momentan von Workflow Accelerator unterstützt wird.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Falls Sie bereits ein MongoDB 3.4.x oder 3.6.x System zur Verfügung stehen haben, können Sie einfach eine neue Instanz für Workflow Accelerator erstellen und zum Abschnitt  <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="configure-mongoDB.htm#ConfiguringMongoDB" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Configuring MongoDB
+  &lt;/MadCap:xref&gt;</ph> springen.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Folgen Sie andernfalls den folgenden Anweisungen.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>General information about installing MongoDB on different operating
+systems can be found at:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">General information about installing MongoDB on different operating systems can be found at:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Allgemeine Informationen zur Installation von MongoDB auf anderen Betriebssystemen erhalten Sie hier:</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>
+    https://docs.mongodb.com/manual/installation/
+   </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">https://docs.mongodb.com/manual/installation/</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk></seg-source><target
+          state="translated"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">https://docs.mongodb.com/manual/installation/</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>There are two versions of MongoDB,
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>MongoDB Community Edition<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> and <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> MongoDB Enterprise<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.
+   <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>MongoDB Community Edition<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> can be used free of charge even in a commercial context,
+whereas <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>MongoDB Enterprise<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+   is a commercial product that offers
+additional tooling and support. You can use either version with
+Workflow Accelerator.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">There are two versions of MongoDB, <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>MongoDB Community Edition<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> and <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> MongoDB Enterprise<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>MongoDB Community Edition<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> can be used free of charge even in a commercial context, whereas <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>MongoDB Enterprise<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> is a commercial product that offers additional tooling and support.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">You can use either version with Workflow Accelerator.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Es gibt zwei MongoDB-Versionen, <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>MongoDB Community Edition<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> und <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>MongoDB Enterprise<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>MongoDB Community Edition<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> kann kostenfrei auch in einem kommerziellen Umfeld genutzt werden, wohingegen <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>MongoDB Enterprise<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> ein kommerzielles Produkt ist, welches zusätzliche technische Unterstützung und Support bietet.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Für Workflow Accelerator können Sie beide Versionen verwenden.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In case you are using Linux, you have the possibilities to install
+MongoDB using either a package manager like
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>apt-get<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   or
+downloading the binaries directly. It is recommended to use the package
+manager because it will also set up scripts that will allow you to
+easily start and stop the server. However, you have to ensure the
+correct version is installed.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In case you are using Linux, you have the possibilities to install MongoDB using either a package manager like <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>apt-get<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> or downloading the binaries directly.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">It is recommended to use the package manager because it will also set up scripts that will allow you to easily start and stop the server.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">However, you have to ensure the correct version is installed.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Falls Sie Linux verwenden, können Sie entweder einen Paketmanager wie <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>apt-get<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> zum Download von MongoDB verwenden oder die Binary-Dateien direkt herunterladen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wir empfehlen den Download über einen Paketmanager, da hiermit zudem Skripts zum Starten und Stoppen der Anwendung automatisch heruntergeladen und konfiguriert werden.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Stellen Sie jedoch sicher, dass Sie die korrekte Version von MongoDB installiert haben.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#Debi" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Debian
+  &lt;/MadCap:xref&gt;</ph> explains in more detail how to set
+up MongoDB on Debian, and might work as an example for other Linux
+distributions.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#Debi" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Debian
+  &lt;/MadCap:xref&gt;</ph> explains in more detail how to set up MongoDB on Debian, and might work as an example for other Linux distributions.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Der Abschnitt <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#Debi" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Debian
+  &lt;/MadCap:xref&gt;</ph> erklärt genauer wie MongoDB unter Debian installiert werden kann und kann als Beispiel für andere Linux-Distributionen dienen.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Remarks for downloading
+the binaries</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Remarks for downloading the binaries</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Anmerkungen zum Download der Binary-Dateien</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You can find a version of MongoDB for your operating system
+here:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You can find a version of MongoDB for your operating system here:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sie finden eine Version von MongoDB für Ihr Betriebssystem hier:</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>https://www.mongodb.com/download-center</source><seg-source><mrk
+            mtype="seg"
+            mid="1">https://www.mongodb.com/download-center</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">https://www.mongodb.com/download-center</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Windows</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Windows</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Windows</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Windows requires you to download the binaries. Consider the remarks
+			of the last subsection when doing so. If you are using any version
+			older than Windows Server 2008 R2, you have to download the 64-bit
+			legacy release.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Windows requires you to download the binaries.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Consider the remarks of the last subsection when doing so.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">If you are using any version older than Windows Server 2008 R2, you have to download the 64-bit legacy release.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Unter Windows ist es notwendig, die Binär-Dateien herunterzuladen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Berücksichtigen Sie die oben stehenden Anmerkungen zur Bit Version (64-Bit).</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Falls Sie eine ältere Windows-Version als Windows Server 2008 R2 verwenden, laden Sie das 64-Bit Legacy Release herunter.</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You can find more details about installing MongoDB on Windows in the
+documentation:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You can find more details about installing MongoDB on Windows in the documentation:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Weitere Details zur Installation von MongoDB unter Windows finden Sie hier in der MongoDB Dokumenation:</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/</source><seg-source><mrk
+            mtype="seg"
+            mid="1">https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>When you have finished downloading MongoDB, follow these steps:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">When you have finished downloading MongoDB, follow these steps:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Folgen Sie diesen Schritten, nachdem Sie MongoDB heruntergeladen haben:</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Start the installation by double-clicking the downloaded MongoDB <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>.msi<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+				and following the instructions. <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>You can select another install directory, e.g. <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>C:\MongoDB<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, if you choose the <bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt>Custom<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>	installation option.<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Start the installation by double-clicking the downloaded MongoDB <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>.msi<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and following the instructions.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>You can select another install directory, e.g. <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>C:\MongoDB<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, if you choose the <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt>Custom<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept></mrk><mrk
+            mtype="protected"
+            mid="4">	</mrk><mrk
+            mtype="seg"
+            mid="5">installation option.<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Starten Sie die Installation indem Sie doppelt auf die heruntergeladene MongoDB <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>msi<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> klicken und folgen Sie den Anweisungen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="80"
+            MadCap:diff="ContentChanged" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /></target><alt-trans
+          mid="2"
+          match-quality="80"
+          origin="previous-version"><seg-source><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>You can select another install directory, e.g. <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>C:\MongoDB<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, if you choose the <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt>Custom<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>	installation option.<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></seg-source><target
+            MadCap:segmentStatus="Untranslated"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>Sie können ein anderes Installationsverzeichnis auswählen, z.B. <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>C:\MongoDB<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, wenn Sie die <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt>Custom<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> Installationsoption auswählen.<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></target></alt-trans></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Create a data directory for the MongoDB files, e.g. <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C:\MongoDB\data<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create a data directory for the MongoDB files, e.g. <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C:\MongoDB\data<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Erstellen Sie ein Datenverzeichnis für die MongoDB-Dateien, zum Beispiel: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C:\\MongoDB\\data<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> .</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>This directory will need the most disk space. Make sure the drive
+				has sufficient disk space.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">This directory will need the most disk space.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Make sure the drive has sufficient disk space.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Dieses Verzeichnis wird einen Großteil des benötigten Festplattenspeichers verwenden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Stellen Sie sicher, dass das Laufwerk ausreichend freien Speicherplatz hat.</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Create a logs directory for the MongoDB log files, e.g.<bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C:\MongoDB\logs<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create a logs directory for the MongoDB log files, e.g.</mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C:\MongoDB\logs<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Erstellen Sie ein Verzeichnis für die MongoDB Log-Dateien, zum Beispiel:</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C:\MongoDB\logs<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Copy the file <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME\db\mongod.cfg<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> to your MongoDB directory <ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C:\MongoDB\mongod.cfg<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and edit the file. <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>The <bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>dbPath<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> under <bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>storage<ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+						must contain the absolute path to the data directory, e.g.
+					<bpt
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>C:\MongoDB\data <ept
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>The <bpt
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>path<ept
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> under <bpt
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>systemLog<ept
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+						must contain the absolute path to the log file, e.g.
+						<bpt
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>C:\MongoDB\logs\mongodb.log<ept
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. The log file will be created
+					once MongoDB is started.<ept
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>The configuration file needs to be in a valid
+						<bpt
+            id="13"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://yaml.org"&gt;</bpt>YAML<ept
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>
+						format. You can use an online checker like
+						<bpt
+            id="14"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://www.yamllint.com/"&gt;</bpt>YAML Lint<ept
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>
+						to verify the
+					validity. <ept
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>See
+						<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="configure-mongoDB.htm#ConfiguringMongoDB" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Configuring MongoDB
+  &lt;/MadCap:xref&gt;</ph>
+						for more information about the other
+			configuration values.<ept
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Copy the file <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME\db\mongod.cfg<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> to your MongoDB directory <ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C:\MongoDB\mongod.cfg<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and edit the file.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="4"><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>The <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>dbPath<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> under <bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>storage<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> must contain the absolute path to the data directory, e.g. <bpt
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>C:\MongoDB\data <ept
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="seg"
+            mid="5"><ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="6"><bpt
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>The <bpt
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>path<ept
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> under <bpt
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>systemLog<ept
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> must contain the absolute path to the log file, e.g. <bpt
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>C:\MongoDB\logs\mongodb.log<ept
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="7"> </mrk><mrk
+            mtype="seg"
+            mid="8">The log file will be created once MongoDB is started.</mrk><mrk
+            mtype="seg"
+            mid="9"><ept
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="10"><bpt
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>The configuration file needs to be in a valid <bpt
+              id="13"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://yaml.org"&gt;</bpt>YAML<ept
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> format.</mrk><mrk
+            mtype="protected"
+            mid="11"> </mrk><mrk
+            mtype="seg"
+            mid="12">You can use an online checker like <bpt
+              id="14"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://www.yamllint.com/"&gt;</bpt>YAML Lint<ept
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> to verify the validity.</mrk><mrk
+            mtype="protected"
+            mid="13"> </mrk><mrk
+            mtype="seg"
+            mid="14"><ept
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="15"><bpt
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>See <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="configure-mongoDB.htm#ConfiguringMongoDB" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Configuring MongoDB
+  &lt;/MadCap:xref&gt;</ph> for more information about the other configuration values.<ept
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Kopieren Sie die Konfigurationsdatei aus <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME\\db\\mongod.cfg<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> in das MongoDB-Verzeichnis <ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>C:\\MongoDB\\mongod.cfg<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> und bearbeiten Sie die Datei.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>Die Variable <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>dbPath<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>unter  <bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>storage<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> muss den absoluten Pfad zum Datenverzeichnis enthalten, zum Beispiel <bpt
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>C:\\MongoDB\\data<ept
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>Die Variable <bpt
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>path<ept
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> unter <bpt
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>systemLog<ept
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> muss den absoluten Pfad zum Logverzeichnis enthalten, zum Beispiel <bpt
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>C:\MongoDB\logs\mongodb.log<ept
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Logdatei wird beim Starten von MongoDB erstellt (beziehungsweise, falls vorhanden, ergänzt).</mrk><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>Die Konfigurationsdatei muss einem gültigen <bpt
+              id="13"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://yaml.org"&gt;</bpt>YAML<ept
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>  Format entsprechen.</mrk><mrk
+            mtype="protected"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Sie können einen Online Checker wie <bpt
+              id="14"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://www.yamllint.com/"&gt;</bpt>YAML Lint<ept
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> verwenden, um das Format zu überprüfen.</mrk><mrk
+            mtype="protected"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>Unter <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="configure-mongoDB.htm#ConfiguringMongoDB" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Configuring MongoDB
+  &lt;/MadCap:xref&gt;</ph> finden Sie Informationen zu den restlichen Konfigurationseinstellungen.<ept
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Open the command line <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>cmd<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+				with administrative
+				privileges and execute the following command. Make sure to use absolute
+				paths and replace them with the matching ones on your system.			<bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;C:\MongoDB\bin\mongod.exe --config C:\MongoDB\mongod.cfg --install&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;</bpt><bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+						The command line should tell you that the service MongoDB was
+						properly created.
+					<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>You can unregister the service again by executing:<ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;C:\MongoDB\bin\mongod.exe --remove&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;</ept><bpt
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+						The registered service should start MongoDB automatically on
+						startup of Windows.
+					<ept
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Open the command line <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>cmd<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> with administrative privileges and execute the following command.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Make sure to use absolute paths and replace them with the matching ones on your system.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;C:\MongoDB\bin\mongod.exe --config C:\MongoDB\mongod.cfg --install&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="6"><bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> The command line should tell you that the service MongoDB was properly created.</mrk><mrk
+            mtype="protected"
+            mid="7"> </mrk><mrk
+            mtype="seg"
+            mid="8"><ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="9"><bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>You can unregister the service again by executing:<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;C:\MongoDB\bin\mongod.exe --remove&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="10"><bpt
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> The registered service should start MongoDB automatically on startup of Windows.</mrk><mrk
+            mtype="protected"
+            mid="11"> </mrk><mrk
+            mtype="seg"
+            mid="12"><ept
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Öffnen Sie das Windows Kommandozeilentool <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>cmd<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> mit Administratorenrechten und führen Sie das folgende Kommando aus.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Stellen Sie dabei sicher, dass die Pfade den von Ihnen konfigurierten absoluten Pfaden entsprechen.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>Das Kommandozeilentool sollte Ihnen bestätigen, dass der MongoDB Service erfolgreich registriert wurde.</mrk><mrk
+            mtype="protected"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>Mit dem folgenden Befehl können Sie den Service wieder entfernen:<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;C:\MongoDB\bin\mongod.exe --remove&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>Der Service wird MongoDB nach dem Starten von Windows automatisch ausführen.</mrk><mrk
+            mtype="protected"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>You can start MongoDB by executing the following command: </source><seg-source><mrk
+            mtype="seg"
+            mid="1">You can start MongoDB by executing the following command:</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Mit dem folgenden Befehl können Sie MongoDB nun direkt ausführen:</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>You can stop MongoDB by calling:
+			</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You can stop MongoDB by calling:</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Der folgende Befehl stoppt MongoDB:</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>The service is also listed in the services window that can be
+					opened by running </source><seg-source><mrk
+            mtype="seg"
+            mid="1">The service is also listed in the services window that can be opened by running</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Der MongoDB Service ist nun auch unter der Serviceverwaltung gelistet, die wie folgt aufgerufen werden kann:</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>
+   Debian</source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">Debian</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Debian</mrk></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you are installing MongoDB on a Debian system, you are advised to
+use the method described in the MongoDB configuration:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you are installing MongoDB on a Debian system, you are advised to use the method described in the MongoDB configuration:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Falls Sie MongoDB unter Debian installieren, halten Sie sich an die folgenden Anweisungen:</mrk></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/</source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/</mrk></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>For convenience, the script <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/mongodb.install.debian.sh<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   wraps the necessary commands for installing the correct version of MongoDB on
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Debian 8 Jessie<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> using <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>apt-get<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. Simply execute it from the command line by opening
+   <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   and calling:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">For convenience, the script <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/mongodb.install.debian.sh<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> wraps the necessary commands for installing the correct version of MongoDB on <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Debian 8 Jessie<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> using <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>apt-get<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Simply execute it from the command line by opening <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and calling:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Das Skript <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME/mongodb.install.debian.sh<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> enthält alle notwendigen Befehle, um die richtige Version von MongoDB mit <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>apt-get<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> auf <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Debian 8 Jessie<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> zu installieren.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Führen Sie das Skript aus, indem Sie in das Verzeichnis <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$WORKFLOW_HOME<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> wechseln und den folgenden Befehl ausführen:</mrk></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>This will add the MongoDB repositories to your package sources and
+install the version 3.4.x of MongoDB. Note that this script only works
+with Debian 8 Jessie. The official documentation offers instructions
+for Debian 7 Wheezy as well. You can now simply start and stop the
+MongoDB server by calling :</source><seg-source><mrk
+            mtype="seg"
+            mid="1">This will add the MongoDB repositories to your package sources and install the version 3.4.x of MongoDB.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Note that this script only works with Debian 8 Jessie.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The official documentation offers instructions for Debian 7 Wheezy as well.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">You can now simply start and stop the MongoDB server by calling :</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Hierdurch werden die MongoDB Repositories zu Ihren Package Sources hinzugefügt und Version 3.4.x von MongoDB installiert.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Beachten Sie, das bereitgestellte Skript funktioniert nur mit Debian 8 Jessie.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">In der offiziellen Dokumentation finden Sie weitere Hinweise für Debian 7 Wheezy.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Nun können Sie MongoDB mit den folgenden Befehlen stoppen und starten:</mrk></target></trans-unit><trans-unit
+        id="30"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>or</source><seg-source><mrk
+            mtype="seg"
+            mid="1">or</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">oder</mrk></target></trans-unit><trans-unit
+        id="31"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The server will use the default configuration file
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/etc/mongod.conf<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. See the next section for more
+information on how to configure MongoDB for Workflow Accelerator and
+create the required user. Note that the installation probably already
+started the MongoDB server. You will need to restart the MongoDB server
+after you edit the configuration.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The server will use the default configuration file <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/etc/mongod.conf<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">See the next section for more information on how to configure MongoDB for Workflow Accelerator and create the required user.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Note that the installation probably already started the MongoDB server.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">You will need to restart the MongoDB server after you edit the configuration.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Der Server greift dabei auf die Standardkonfiguration in der Datei unter <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>/etc/mongod.conf<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> zurück.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Der nächste Abschnitt enthält detaillierte Informationen zur Konfiguration und Nutzererstellung von MongoDB für Workflow Accelerator.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Beachten Sie, dass MongoDB nach der Installation wahrscheinlich schon gestartet wurde.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Stellen Sie sicher, dass Sie MongoDB nach Änderungen in der Konfiguration neu starten.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="configuring-the-github-integration-for-redhat-jboss-brms-projects-optional" name="configuring-the-github-integration-for-redhat-jboss-brms-projects-optional">
+   Configuring the GitHub integration for RedHat JBoss BRMS projects
+(optional)
+  </h1>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <p>
+    Configure this integration only if you plan to use the Signavio
+Process Manager to push diagrams to your RedHat JBoss BRMS projects on
+GitHub.
+   </p>
+        </div>
+        <p>
+   The
+   <a href="https://editor.signavio.com/userguide/en/explorer/export/redhat_to_github.html">
+    Signavio Process Manager integration with GitHub
+   </a>
+   allows you to push
+diagrams from the Signavio Process Manager to your RedHat JBoss BRMS
+projects for seamless updates.
+  </p>
+        <p>
+   To configure your system for the GitHub integration, proceed as
+follows:
+  </p>
+        <ol style="list-style-type: decimal;">
+            <li>
+     Create a GitHub OAuth application.
+
+     </li>
+            <li>Log into your GitHub account and open <a href="https://github.com/settings/applications/new">
+      https://github.com/settings/applications/new</a>.
+Enter an <strong>Application name</strong>, a <strong>Homepage URL</strong>
+     and an
+     <strong>Application description</strong>. Also enter
+the base URL of your On Premise as the
+     <strong>Authorization callback URL</strong>, for example
+     <kbd>https://mysignavio.acme.com:8080</kbd>.
+    <p><img src="../_static/_images/en/register_github_app.png" xmlns="http://www.w3.org/1999/xhtml" /></p></li>
+            <li>
+    Click <strong>Register application</strong>.
+</li>
+            <li>Keep the website open to copy the tokens
+    <kbd xmlns="http://www.w3.org/1999/xhtml">Client ID</kbd>
+    and
+    <kbd xmlns="http://www.w3.org/1999/xhtml">Client Secret</kbd>
+    later.
+   </li>
+        </ol>
+        <figure>
+            <img src="../_static/_images/en/tokens.png" xmlns="http://www.w3.org/1999/xhtml" />
+        </figure>
+        <ol start="3" style="list-style-type: decimal;">
+            <li>
+     Add the GitHub application credentials to your Signavio Process
+Manager configuration.
+
+     </li>
+            <li>Open the file
+     <kbd>configuration.xml</kbd>
+     in the folder
+     <kbd>$TOMCAT_DIR/conf/</kbd>, with
+     <kbd>$TOMCAT_DIR</kbd>
+     being
+your Tomcat's root directory.
+
+     </li>
+            <li>Add the following lines above the closing
+     <kbd>
+      &lt;/configuration&gt;
+     </kbd>
+     tag.
+</li>
+            <li><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh"><a class="sourceLine" data-line-number="1" id="cb1-1" name="cb1-1"></a><span class="kw">&lt;githubClientId&gt;&lt;myClientID&gt;&lt;/githubClientId&gt;</span>
+
+
+<a class="sourceLine" data-line-number="2" id="cb1-2" name="cb1-2"></a><span class="kw">&lt;githubClientSecret&gt;&lt;myClientSecret&gt;&lt;/githubClientSecret&gt;</span></code></pre>
+     Replace
+     <kbd xmlns="http://www.w3.org/1999/xhtml">
+      &lt;myClientID&gt;
+     </kbd>
+     with your
+     <em xmlns="http://www.w3.org/1999/xhtml">Client ID
+     </em>
+     and
+     <kbd xmlns="http://www.w3.org/1999/xhtml">&lt;myClientSecret&gt;</kbd>
+     with your
+     <em xmlns="http://www.w3.org/1999/xhtml">
+      Client Secret</em>.
+</li>
+        </ol>
+    </body>
+</html>

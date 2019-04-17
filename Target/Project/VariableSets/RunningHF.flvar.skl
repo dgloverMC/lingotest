@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet Comment="Running Headers and Footers for Adobe FrameMaker and MS Word support. The variables defined within this set should not be renamed.">
+    <Variable Comment="" Name="Running H/F 1">砻קยด1ตว融</Variable>
+    <Variable Comment="" Name="Running H/F 2">砻קยด2ตว融</Variable>
+    <Variable Comment="" Name="Running H/F 3">砻קยด3ตว融</Variable>
+    <Variable Comment="" Name="Running H/F 4">砻קยด4ตว融</Variable>
+    <Variable Comment="" Name="Running H/F 5">砻קยด5ตว融</Variable>
+    <Variable Comment="" Name="Running H/F 6">砻קยด6ตว融</Variable>
+</CatapultVariableSet>

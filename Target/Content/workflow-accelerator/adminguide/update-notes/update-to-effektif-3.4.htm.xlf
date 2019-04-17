@@ -1,0 +1,1166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="update-to-effektif-3.4.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="update-to-effektif-3.4.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">109</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Updating to Effektif 3.4</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Updating to Effektif 3.4</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Auf Effektif 3.4 aktualisieren</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Effektif 3.4 requires several infrastructure changes. Starting with
+version 3.4, Effektif requires Java 8. We also recommended upgrading
+MongoDB to version 3.2.x, because of the increased performance and
+functionality. Effektif 3.4 will still support MongoDB 2.4.x, but later
+releases will assume that you are using MongoDB 3.2. Last but not
+least, Effektif 3.4 supports Apache Tomcat 7 and 8. For now, you can
+use either version, but we recommend the optional upgrade to Tomcat
+8.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Effektif 3.4 requires several infrastructure changes.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Starting with version 3.4, Effektif requires Java 8.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">We also recommended upgrading MongoDB to version 3.2.x, because of the increased performance and functionality.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">Effektif 3.4 will still support MongoDB 2.4.x, but later releases will assume that you are using MongoDB 3.2.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">Last but not least, Effektif 3.4 supports Apache Tomcat 7 and 8.</mrk><mrk
+            mtype="protected"
+            mid="10"> </mrk><mrk
+            mtype="seg"
+            mid="11">For now, you can use either version, but we recommend the optional upgrade to Tomcat 8.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Effektif 3.4 erfordert einige Änderungen in der Infrastruktur.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Beginnend mit Version 3.4 erfordert Effektif Java 8.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Darüber hinaus empfehlen wir die Aktualisierung von MongoDB auf Version 3.2.x, aufgrund der erhöhten Performance und Funktionalität.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Effektif 3.4 unterstützt weiterhin MongoDB 2.4.x, jedoch werden spätere Releases davon ausgehen, dass Sie MongoDB 3.2.x verwenden.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Abschließend unterstützt Effektif 3.4 Version 7 und 8 vom Apache Tomcat.</mrk><mrk
+            mtype="protected"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Momentan können Sie eine von beiden Versionen verwenden, wir empfehlen jedoch die Aktualisierung auf Tomcat 8.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you are using Effektif in combination with a Signavio system, you
+are required to update your Signavio sytem as well to version 9.7 or
+higher.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you are using Effektif in combination with a Signavio system, you are required to update your Signavio sytem as well to version 9.7 or higher.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wenn Sie Effektif in Kombination mit Signavio verwenden, müssen Sie auch Ihr Signavio System auf Version 9.7 oder höher aktualisieren.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>When updating Effektif and your infrastructure, follow the following
+sequence:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">When updating Effektif and your infrastructure, follow the following sequence:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Wenn Sie Effektif und Ihre Infrastruktur aktualisieren, gehen Sie in folgender Reihenfolge vor:</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Update Java to Java 8 (required)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Update Java to Java 8 (required)</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Aktualisieren Sie Java auf Java 8 (erforderlich)</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Update Tomcat to Tomcat 8 (optional)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Update Tomcat to Tomcat 8 (optional)</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Aktualisieren Sie Tomcat auf Tomcat 8 (optional)</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Update the Effektif application</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Update the Effektif application</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Aktualisieren Sie die Effektif Webanwendung</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Update MongoDB to MongoDB 3.2 (required)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Update MongoDB to MongoDB 3.2 (required)</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Aktualisieren Sie MongoDB auf MongoDB 3.2 (erforderlich)</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Be aware, the update to Effektif 3.4 contains multiple changes in
+the underlying data schema which require several long running
+migrations. Depending on the size of your database, the migrations
+might take several seconds, or up to 20 minutes.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Be aware, the update to Effektif 3.4 contains multiple changes in the underlying data schema which require several long running migrations.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Depending on the size of your database, the migrations might take several seconds, or up to 20 minutes.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Bitte beachten Sie, die Aktualisierung auf Effektif 3.4 enthält mehrere Änderungen des verwendeten Datenschema, welche länger laufende Datenmigrationen erfordern.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Abhängig von der Größe Ihrer Datenbank dauern die Migrationen mehrere Sekunden bis hin zu 20 Minuten.</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Updating Java and Tomcat</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Updating Java and Tomcat</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Java und Tomcat aktualisieren</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The last Effektif release 2.27.x is already compatible with Java 8
+and Tomcat 8. Start by updating Java and Tomcat, because Effektif 3.4
+will not run on Java 7. You can install Tomcat 8 next to an existing
+Tomcat 7, and then switch between the application servers. <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../install/install-tomcat.htm#Inst" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Installing Tomcat
+  &lt;/MadCap:xref&gt;</ph>
+   explains how
+to setup a Tomcat 8 server. After the successful setup, ensure none of
+the Tomcat servers is running. Then copy the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   directory from your Tomcat 7 to
+your Tomcat 8 directory and start the Tomcat 8 server. Now, you should
+be able to access the Effektif system again via a browser.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The last Effektif release 2.27.x is already compatible with Java 8 and Tomcat 8.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Start by updating Java and Tomcat, because Effektif 3.4 will not run on Java 7.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">You can install Tomcat 8 next to an existing Tomcat 7, and then switch between the application servers.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../install/install-tomcat.htm#Inst" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Installing Tomcat
+  &lt;/MadCap:xref&gt;</ph> explains how to setup a Tomcat 8 server.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">After the successful setup, ensure none of the Tomcat servers is running.</mrk><mrk
+            mtype="protected"
+            mid="10"> </mrk><mrk
+            mtype="seg"
+            mid="11">Then copy the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> directory from your Tomcat 7 to your Tomcat 8 directory and start the Tomcat 8 server.</mrk><mrk
+            mtype="protected"
+            mid="12"> </mrk><mrk
+            mtype="seg"
+            mid="13">Now, you should be able to access the Effektif system again via a browser.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Das letzte Effektif Release 2.27.x ist bereits kompatibel mit Java 8 und Tomcat 8.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Beginnen Sie damit, Java und Tomcat zu aktualisieren, denn Effektif 3.4 wird nicht mit Java 7 starten.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Sie können Tomcat 8 zusätzlich zu einem bereits existierenden Tomcat 7 installieren und so zwischen den Applikationsservern wechseln.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><ph
+              id="1">&lt;MadCap:xref href="../install/install-tomcat.htm#Inst" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Installing Tomcat
+  &lt;/MadCap:xref&gt;</ph> erklärt Ihnen, wie Sie den Tomcat 8 Server aufsetzen.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Nach dem erfolgreichen Setup stellen Sie sicher, dass keiner der Tomcat Server ausgeführt wird.</mrk><mrk
+            mtype="protected"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Kopieren Sie anschließend den Ordner <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_HOME/webapps/ROOT<ept
+              id="1">&lt;/kbd&gt;</ept> von Ihrem Tomcat 7 zu Ihrem Tomcat 8 Verzeichnis und starten Sie den Tomcat 8 Server.</mrk><mrk
+            mtype="protected"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sie sollten nun Effektif wieder über einen Browser öffnen können.</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Updating Effektif</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Updating Effektif</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Effektif aktualisieren</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>As mentioned before, the update to version 3.4 changes the data
+schema. Create a backup of your database before updating the
+application.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">As mentioned before, the update to version 3.4 changes the data schema.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Create a backup of your database before updating the application.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wie bereits erwähnt, enthält die Aktualisierung auf Version 3.4 Änderungen am Datenschema.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Legen Sie dementsprechend ein Backup Ihrer Datenbank an, bevor Sie die Anwendung aktualisieren.</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Data migrations might take from several seconds up to several
+minutes. These migrations are executed when the server starts, so the
+first start of Effektif might take longer than usual.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Data migrations might take from several seconds up to several minutes.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">These migrations are executed when the server starts, so the first start of Effektif might take longer than usual.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Datenmigrationen können mehrere Sekunden bis hin zu mehreren Minuten beanspruchen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Diese Migrationen werden ausgeführt sobald der Server gestartet wird. Daher kann der erste Start von Effektif länger als gewöhnlich dauern.</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>See <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../update/intro.htm#top" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Updating Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph> for
+more information on how to update the Effektif application. After you
+have successfully updated Effektif, you can continue with the next
+section and update MongoDB.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">See <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../update/intro.htm#top" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Updating Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph> for more information on how to update the Effektif application.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">After you have successfully updated Effektif, you can continue with the next section and update MongoDB.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Der Abschnitt <ph
+              id="1">&lt;MadCap:xref href="../update/intro.htm#top" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Updating Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph> enthält weitere Informationen darüber, wie Sie die Effektif Anwendung aktualisieren.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Nachdem Sie Effektif erfolgreich aktualisiert haben, können Sie mit dem nächsten Punkt fortfahren und MongoDB aktualisieren.</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Updating MongoDB</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Updating MongoDB</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">MongoDB aktualisieren</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Effektif 3.4 now supports the latest version of MongoDB (3.2.x)
+which comes with improved performance and functionality. The usual
+upgrade from MongoDB 2.4.x to 3.2.x (
+   <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.mongodb.org/manual/release-notes/3.2-upgrade/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    https://docs.mongodb.org/manual/release-notes/3.2-upgrade/
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>
+   )
+requires a stepwise approach, first upgrading from 2.4 to 2.6, then
+from 2.6 to 3.0 and at last from 3.0 to 3.2. Upgrading the database
+also changes the storage engine from the old MMAPv1 engine to the new
+WiredTiger engine.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Effektif 3.4 now supports the latest version of MongoDB (3.2.x) which comes with improved performance and functionality.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The usual upgrade from MongoDB 2.4.x to 3.2.x ( <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.mongodb.org/manual/release-notes/3.2-upgrade/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> https://docs.mongodb.org/manual/release-notes/3.2-upgrade/ <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> ) requires a stepwise approach, first upgrading from 2.4 to 2.6, then from 2.6 to 3.0 and at last from 3.0 to 3.2.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Upgrading the database also changes the storage engine from the old MMAPv1 engine to the new WiredTiger engine.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Effektif 3.4 unterstützt nun die neueste Version von MongoDB (3.2.x), welche erhöhte Performance und Funktionalität bietet.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Die gewöhnliche Aktualisierung von MongoDB 2.4.x auf 3.2.x (<bpt
+              id="1"
+              ctype="link">&lt;a href="https://docs.mongodb.org/manual/release-notes/3.2-upgrade/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://docs.mongodb.org/manual/release-notes/3.2-upgrade/<ept
+              id="1">&lt;/a&gt;</ept>) erfordert einen Ansatz in mehreren Schritten, mit einer ersten Aktualisierung von 2.4 auf 2.6, dann einer Aktualisierung von 2.6 auf 3.0 und abschließend der Aktualisierung von 3.0 auf 3.2.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Während der Aktualisierung der Datenbank erfolgt auch eine Umstellung der Storage Engine von der alten MMAPv1 Engine auf die neue WiredTiger Engine.</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>However, we will use a different approach to migrate your MongoDB
+2.4.x to version 3.2.x. This approach will simply import a backup of
+MongoDB 2.4.x into a completely fresh setup of MongoDB 3.2.x.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">However, we will use a different approach to migrate your MongoDB 2.4.x to version 3.2.x.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">This approach will simply import a backup of MongoDB 2.4.x into a completely fresh setup of MongoDB 3.2.x.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wir werden jedoch einen anderen Ansatz wählen Ihre MongoDB 2.4.x zur Version 3.2.x zu migrieren.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Für diesen Ansatz werden Sie ein Backup von MongoDB 2.4.x in eine komplett neu aufgesetzte Instanz von MongoDB 3.2.x importieren.</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Stop the Tomcat application server - see <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../stop/stop.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Stopping Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Stop the Tomcat application server - see <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../stop/stop.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Stopping Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Stoppen Sie den Tomcat Server - siehe <ph
+              id="1">&lt;MadCap:xref href="../stop/stop.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Stopping Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Create a backup of your database using
+     <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>mongodump<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     - see
+<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../backup/backup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Backup.&lt;/MadCap:xref&gt;</ph><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>
+       You will later import this backup into a new MongoDB 3.2
+installation.
+      <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create a backup of your database using <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>mongodump<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> - see <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../backup/backup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Backup.&lt;/MadCap:xref&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt> You will later import this backup into a new MongoDB 3.2 installation.</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk><mrk
+            mtype="seg"
+            mid="4"><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Erstellen Sie ein backup Ihrer Datenbank unter Verwendung von <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>mongodump<ept
+              id="1">&lt;/kbd&gt;</ept> - siehe <ph
+              id="1">&lt;MadCap:xref href="../backup/backup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Backup.&lt;/MadCap:xref&gt;</ph>.</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt> Sie werden dieses Backup später in die neue MongoDB 3.2 Instanz importieren.</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Stop MongoDB - see
+<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../stop/stop.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Stopping Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Stop MongoDB - see <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../stop/stop.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Stopping Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Stoppen Sie MongoDB - siehe <ph
+              id="1">&lt;MadCap:xref href="../stop/stop.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Stopping Signavio Workflow Accelerator
+  &lt;/MadCap:xref&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-li"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Windows only:
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+    manually remove the created MongoDB service
+by executing
+    <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;$MONGO_HOME\bin\mongod.exe --remove&lt;/code&gt;&lt;/pre&gt;</ph>
+
+    with
+administrator privileges on the command line
+    <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>cmd<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Windows only: <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> manually remove the created MongoDB service by executing <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;$MONGO_HOME\bin\mongod.exe --remove&lt;/code&gt;&lt;/pre&gt;</ph> with administrator privileges on the command line <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>cmd<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="1">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Nur Windows:<ept
+              id="1">&lt;/em&gt;</ept> Entfernen Sie manuell den erstellten MongoDB Service, indem Sie <ph
+              id="2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve" xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;code class="language-sh"&gt;$MONGO_HOME\bin\mongod.exe --remove&lt;/code&gt;&lt;/pre&gt;</ph> mit Administratorenrechten auf der Kommandozeile <bpt
+              id="3">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>cmd<ept
+              id="3">&lt;/kbd&gt;</ept> ausführen.</mrk></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Uninstall MongoDB 2.4.x, but ensure you don't delete your
+backup!
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt><bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt>
+        Windows:
+       <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+       Delete the MongoDB directory.
+      <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt><bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt>
+        Debian:
+       <ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+       Use your package manager and uninstall the package
+       <bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>mongodb-10gen<ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.
+      <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uninstall MongoDB 2.4.x, but ensure you don't delete your backup!</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="4"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt> Windows: <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> Delete the MongoDB directory.</mrk><mrk
+            mtype="protected"
+            mid="5"> </mrk><mrk
+            mtype="seg"
+            mid="6"><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="7"><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt><bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt> Debian: <ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> Use your package manager and uninstall the package <bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>mongodb-10gen<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9"><ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Deinstallieren Sie MongoDB 2.4.x, aber stellen Sie sicher, dass Sie Ihr Backup nicht löschen!</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="2">&lt;li&gt;</bpt><bpt
+              id="3">&lt;em&gt;</bpt>Windows:<ept
+              id="3">&lt;/em&gt;</ept> Löschen Sie den MongoDB Ordner.</mrk><mrk
+            mtype="protected"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="4">&lt;li&gt;</bpt><bpt
+              id="5">&lt;em&gt;</bpt>Debian:<ept
+              id="5">&lt;/em&gt;</ept> Verwenden Sie Ihren Paketmanager und deinstallieren Sie das Paket <bpt
+              id="6">&lt;kbd&gt;</bpt>mongodb-10gen<ept
+              id="6">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Install MongoDB 3.2.x and recreate the Effektif database user
+again.
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt><bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/effektif-onpremise.properties<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+       contains the current name and password of the Effektif database
+user
+      <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       You can install the new version in the same place as the old one,
+please ensure the data directory of the new database is empty before
+you start it.
+      <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       Note that the the MongoDB configuration file format has
+changed.
+      <ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt><bpt
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>install-mongodb<ept
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+       contains more information on how to setup
+MongoDB 3.2.x
+      <ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Install MongoDB 3.2.x and recreate the Effektif database user again.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="4"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/effektif-onpremise.properties<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> contains the current name and password of the Effektif database user <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="5"><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> You can install the new version in the same place as the old one, please ensure the data directory of the new database is empty before you start it.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7"><ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="8"><bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Note that the the MongoDB configuration file format has changed.</mrk><mrk
+            mtype="protected"
+            mid="9"> </mrk><mrk
+            mtype="seg"
+            mid="10"><ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="11"><bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt><bpt
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>install-mongodb<ept
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> contains more information on how to setup MongoDB 3.2.x <ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Installieren Sie MongoDB 3.2.x und legen Sie den Effektif Datenbanknutzer erneut an.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="2">&lt;li&gt;</bpt><bpt
+              id="3">&lt;kbd&gt;</bpt>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/effektif-onpremise.properties<ept
+              id="3">&lt;/kbd&gt;</ept> enthält den aktuellen Namen und das Passwort des Effektif DatenbanknutzersSie können die neue Version in das gleiche Verzeichnis wie zuvor installieren.<ept
+              id="2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="4">&lt;li&gt;</bpt> Bitte stellen Sie sicher, dass das Datenverzeichnis der neuen Datenbank leer ist, bevor Sie sie starten.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="5">&lt;li&gt;</bpt>Beachten Sie bitte, dass sich das Format der MongoDB Konfigurationsdatei geändert hat.</mrk><mrk
+            mtype="protected"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="6">&lt;li&gt;</bpt><bpt
+              id="7">&lt;kbd&gt;</bpt>install-mongodb<ept
+              id="7">&lt;/kbd&gt;</ept> enthält weitere Informationen darüber, wie Sie MongoDB 3.2.x installieren können<ept
+              id="6">&lt;/li&gt;</ept><ept
+              id="1">&lt;/ul&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Start the new MongoDB instance.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Start the new MongoDB instance.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Starten Sie die neue MongoDB Instanz.</mrk></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Restore the backup partially to your new MongoDB instance using
+     <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>mongorestore<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. Your backup from step 1 should contain
+multiple folders, one for each database in the MongoDB instance. You
+only need to restore the two that contain Effektif’s data. Their
+default names are
+     <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     and
+     <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif-files<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. You might have chosen a different name by
+defining another value for
+     <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.mongodb.database<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     in
+your Effektif configuration file. The value there represents the name
+of the first database and the name of the second database is generated
+by adding
+     <bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>-files<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. You have to execute the restore command
+for both of the directories separately. The following lines show
+examples for the restore commands, assuming your MongoDB user and
+database are both called
+     <bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif<ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.
+    <bpt
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       The database name is specified by the
+       <bpt
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>--db<ept
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+       parameter
+and also by the existing backup directory name.
+      <ept
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;&lt;em&gt;</bpt>Windows:<ept
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;&lt;ul&gt;&lt;li&gt;&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;$MONGO_HOME\bin\mongorestore.exe -u effektif -p
+&amp;lt;password&amp;gt; --authenticationDatabase admin --db effektif
+C:\path\to\dumps\effektif&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&lt;li&gt;&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;$MONGO_HOME\bin\mongorestore.exe -u effektif -p
+&amp;lt;password&amp;gt; --authenticationDatabase admin --db effektif-files
+C:\path\to\dumps\effektif-files&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;</ept><bpt
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;&lt;em&gt;</bpt>Debian:<ept
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;&lt;ul&gt;&lt;li&gt;&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;mongorestore -u effektif -p &amp;lt;password&amp;gt;
+--authenticationDatabase admin --db effektif
+/path/to/dumps/effektif&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&lt;li&gt;&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;mongorestore -u effektif -p &amp;lt;password&amp;gt;
+--authenticationDatabase admin --db effektif-files
+/path/to/dumps/effektif-files&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;</ept><ept
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Restore the backup partially to your new MongoDB instance using <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>mongorestore<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Your backup from step 1 should contain multiple folders, one for each database in the MongoDB instance.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">You only need to restore the two that contain Effektif’s data.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">Their default names are <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif-files<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">You might have chosen a different name by defining another value for <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.mongodb.database<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> in your Effektif configuration file.</mrk><mrk
+            mtype="protected"
+            mid="10"> </mrk><mrk
+            mtype="seg"
+            mid="11">The value there represents the name of the first database and the name of the second database is generated by adding <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>-files<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="12"> </mrk><mrk
+            mtype="seg"
+            mid="13">You have to execute the restore command for both of the directories separately.</mrk><mrk
+            mtype="protected"
+            mid="14"> </mrk><mrk
+            mtype="seg"
+            mid="15">The following lines show examples for the restore commands, assuming your MongoDB user and database are both called <bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="16"> </mrk><mrk
+            mtype="seg"
+            mid="17"><bpt
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="18"><bpt
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> The database name is specified by the <bpt
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>--db<ept
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> parameter and also by the existing backup directory name.</mrk><mrk
+            mtype="protected"
+            mid="19"> </mrk><mrk
+            mtype="seg"
+            mid="20"><ept
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="21"><bpt
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;&lt;em&gt;</bpt>Windows:<ept
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;&lt;ul&gt;&lt;li&gt;&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;$MONGO_HOME\bin\mongorestore.exe -u effektif -p
+&amp;lt;password&amp;gt; --authenticationDatabase admin --db effektif
+C:\path\to\dumps\effektif&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&lt;li&gt;&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;$MONGO_HOME\bin\mongorestore.exe -u effektif -p
+&amp;lt;password&amp;gt; --authenticationDatabase admin --db effektif-files
+C:\path\to\dumps\effektif-files&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="22"><bpt
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;&lt;em&gt;</bpt>Debian:<ept
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;&lt;ul&gt;&lt;li&gt;&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;mongorestore -u effektif -p &amp;lt;password&amp;gt;
+--authenticationDatabase admin --db effektif
+/path/to/dumps/effektif&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&lt;li&gt;&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;mongorestore -u effektif -p &amp;lt;password&amp;gt;
+--authenticationDatabase admin --db effektif-files
+/path/to/dumps/effektif-files&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;</ept><ept
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Stellen Sie das Backup in der neuen MongoDB Instanz unter Verwendung von <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>mongorestore<ept
+              id="1">&lt;/kbd&gt;</ept> wieder her.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Ihr Backup aus Schritt 1 sollte mehrere Ordner enthalten, einen für jede Datenbank in der MongoDB Instanz.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sie müssen nur die zwei Datenbanken wiederherstellen, die die Effektif Daten enthalten.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Ihre Standardnamen lauten <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif<ept
+              id="2">&lt;/kbd&gt;</ept> und <bpt
+              id="3">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif-files<ept
+              id="3">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Eventuell haben Sie einen anderen Namen gewählt, indem Sie einen anderen Wert für <bpt
+              id="4">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif.mongodb.database<ept
+              id="4">&lt;/kbd&gt;</ept> in der Effektif Konfigurationsdatei festgelegt haben.</mrk><mrk
+            mtype="protected"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Der Wert repräsentiert den Namen der ersten Datenbank.Der Name der zweiten Datenbank lässt sich daraus ableiten, indem <bpt
+              id="5">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>-files<ept
+              id="5">&lt;/kbd&gt;</ept> ans Ende angefügt wird.</mrk><mrk
+            mtype="protected"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sie müssen die Wiederherstellungsbefehle für beide Ordner separat durchführen.</mrk><mrk
+            mtype="protected"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Die folgenden Zeilen zeigen Beispiele für die Wiederherstellungsbefehle, ausgehend von der Vermutung, dass sowohl Ihr MongoDB Nutzer als auch Ihre Datenbank <bpt
+              id="6">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>effektif<ept
+              id="6">&lt;/kbd&gt;</ept> heißen.</mrk><mrk
+            mtype="protected"
+            mid="16"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="17"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="18"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="8">&lt;li&gt;</bpt>Der Datenbankname wird durch den Parameter <bpt
+              id="9">&lt;kbd&gt;</bpt>--db<ept
+              id="9">&lt;/kbd&gt;</ept>, sowie durch den existierenden Backup Ordnernamen, spezifiziert.</mrk><mrk
+            mtype="protected"
+            mid="19"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="20"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="21"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="10">&lt;li&gt;&lt;em&gt;</bpt>Windows:<ept
+              id="10">&lt;/em&gt;&lt;ul&gt;&lt;li&gt;&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;$MONGO_HOME\bin\mongorestore.exe -u effektif -p
+&amp;lt;password&amp;gt; --authenticationDatabase admin --db effektif
+C:\path\to\dumps\effektif&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&lt;li&gt;&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;$MONGO_HOME\bin\mongorestore.exe -u effektif -p
+&amp;lt;password&amp;gt; --authenticationDatabase admin --db effektif-files
+C:\path\to\dumps\effektif-files&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="22"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="17">&lt;li&gt;&lt;em&gt;</bpt>Debian:<ept
+              id="17">&lt;/em&gt;&lt;ul&gt;&lt;li&gt;&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;mongorestore -u effektif -p &amp;lt;password&amp;gt;
+--authenticationDatabase admin --db effektif
+/path/to/dumps/effektif&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&lt;li&gt;&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;mongorestore -u effektif -p &amp;lt;password&amp;gt;
+--authenticationDatabase admin --db effektif-files
+/path/to/dumps/effektif-files&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;</ept><ept
+              id="7">&lt;/ul&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Restart Effektif and MongoDB - see .</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Restart Effektif and MongoDB - see .</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Starten Sie Effektif und MongoDB neu - siehe  .</mrk></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Your Effektif system has been updated successfully. You can now
+access the Effektif application again via a browser.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Your Effektif system has been updated successfully.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You can now access the Effektif application again via a browser.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Ihr Effektif System wurde erfolgreich aktualisiert.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sie können nun die Effektif Anwendung wieder über einen Browser öffnen.</mrk></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Note: if you use Robomongo to access MongoDB, download the latest
+version in order to be able to connect to MongoDB 3.2.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Note: if you use Robomongo to access MongoDB, download the latest version in order to be able to connect to MongoDB 3.2.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Beachten Sie, Sie müssen die neueste Version von Robomongo verwenden, um sich mit einer MongoDB 3.2 Instanz verbinden zu können.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

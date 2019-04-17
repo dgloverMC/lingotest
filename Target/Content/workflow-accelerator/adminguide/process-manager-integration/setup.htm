@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/TableStyles/Alternate-Row-Color.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1><a name="top"></a>Setup</h1>
+        <ol style="list-style-type: decimal;" xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Make sure both systems are NOT running.
+   </li>
+            <li>
+    Edit the Process Manager configuration file, which can be found in
+the Tomcat that hosts the Process Manager system at the following
+path:
+   </li>
+        </ol>
+        <ul xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+     version 9.3 and earlier:
+<kbd>WEBAPPS/ROOT/WEB-INF/classes/configuration.xml</kbd></li>
+            <li>
+     version 9.7 and later:
+<kbd>CONF/configuration.xml</kbd></li>
+        </ul><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">&lt;effektif&gt;
+
+  &lt;effektifServerUrl&gt;http://your.workflow.domain:port&lt;/effektifServerUrl&gt;
+
+  &lt;effektifUserName&gt;system@signavio.com&lt;/effektifUserName&gt;
+
+  &lt;effektifUserPw&gt;yourpassword&lt;/effektifUserPw&gt;
+
+&lt;/effektif&gt;
+
+
+&lt;sharedJwtSecret&gt;SHARED_SECRET_CHANGE_ME&lt;/sharedJwtSecret&gt;&gt;</code></pre>
+        <table class="TableStyle-Alternate-Row-Color" style="mc-table-style: url('../../../Resources/TableStyles/Alternate-Row-Color.css');" cellspacing="21" xmlns="http://www.w3.org/1999/xhtml">
+            <tbody>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>effektifServerUrl</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      Defines the URL under which your Workflow Accelerator system is
+available.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>effektifUserName</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2">
+      Defines the mail of the system user that will access the Workflow
+Accelerator system. Make sure to use <br /><kbd>system@signavio.com</kbd>
+      to ensure the integration to work properly. The value is already
+preconfigured. You do NOT have to create an account for this user in
+any of the systems.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>effektifUserPw</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      Defines the password of the system user. Remember this password:
+you will need to use the exact same password in the Workflow
+Accelerator configuration file as <br /><kbd>effektif.process.manager.authentication.clientSecret</kbd></td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body2"><kbd>sharedJwtSecret</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyA-Column2-Body2">
+      Defines a shared secret that is used to secure the communication
+between Workflow Accelerator and Process Manager. You will need to set
+the exact same secret in the Workflow Accelerator configuration file as <br /><kbd>effektif.process.manager.<br />authentication.jwt.secret
+</kbd>.
+     </td>
+                </tr>
+            </tbody>
+        </table>
+        <ol start="3" style="list-style-type: decimal;" xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+     Edit the Workflow Accelerator configuration file <br /><kbd>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/effektif-onpremise.properties</kbd>
+     and add / update the following entries:
+    <pre xml:space="preserve" madcap-space-after-export="preserve"><code>effektif.process.manager.serviceBaseUrl=http://your.signavio.domain:port
+
+effektif.process.manager.<br />authentication.clientId=com.effektif.oem
+
+effektif.process.manager.<br />authentication.clientSecret=yourpassword
+
+effektif.process.manager.<br />authentication.jwt.secret=SHARED_SECRET_CHANGE_ME</code></pre></li>
+        </ol>
+        <table class="TableStyle-Alternate-Row-Color" style="mc-table-style: url('../../../Resources/TableStyles/Alternate-Row-Color.css');" cellspacing="21" xmlns="http://www.w3.org/1999/xhtml">
+            <tbody>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>effektif.process.manager.baseUrl</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      Defines the URL under which your Process Manager system is
+available.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>effektif.process.manager.<br />authentication.clientId</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2">Defines the ID the Workflow Accelerator system uses to identify itself to the Process Manager system. Make sure to use <kbd>com.effektif.oem</kbd>
+      to ensure the integration to work
+properly. This value is already preconfigured.
+     </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>effektif.process.manager.<br />authenticationclientSecret</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1">
+      Defines the password the Workflow Accelerator system uses to
+identify itself to the Process Manager system. Reuse the same password
+that you have set in the Process Manager configuration file as<br /><kbd>effektifUserPw</kbd></td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body2"><kbd>effektif.process.manager.<br />authentication.jwt.secret</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyA-Column2-Body2">
+                      
+        Defines a shared secret that is used to secure the communication
+between Workflow Accelerator and Process Manager. Reuse the same secret
+that you have set in the Process Manager configuration file as<br /><kbd>sharedJwtSecret</kbd></td>
+                </tr>
+            </tbody>
+        </table>
+        <ol start="4" style="list-style-type: decimal;" xmlns="http://www.w3.org/1999/xhtml">
+            <li>
+    Start both systems.
+   </li>
+            <li>
+    Activate the approval workflow feature within your Process Manager
+workspace. Your Workflow Accelerator organization will be setup
+automatically. For more information on how to activate the approval
+workflow, refer to Process Manager's user manual.
+   </li>
+        </ol>
+        <div class="note" xmlns="http://www.w3.org/1999/xhtml" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <p>
+    The configuration parameters have been renamed with version 3.56.
+See the following table for the new names. The old names are now
+deprecated, but will still work until further notice.
+   </p>
+        </div>
+        <table class="TableStyle-Alternate-Row-Color" style="mc-table-style: url('../../../Resources/TableStyles/Alternate-Row-Color.css');border-left-style: solid;border-left-width: 0px;border-left-color: #000000;border-right-style: solid;border-right-width: 0px;border-right-color: #000000;border-top-style: solid;border-top-width: 0px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;border-bottom-color: #000000;" cellspacing="21" xmlns="http://www.w3.org/1999/xhtml">
+            <col class="TableStyle-Alternate-Row-Color-Column-Column1" />
+            <col class="TableStyle-Alternate-Row-Color-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-Alternate-Row-Color-Head-Header1">
+                    <th class="TableStyle-Alternate-Row-Color-HeadE-Column1-Header1">
+      deprecated name
+     </th>
+                    <th class="TableStyle-Alternate-Row-Color-HeadD-Column2-Header1">
+      new name
+     </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>effektif.com.effektif.model.<br />service.signavio.<br />SignavioAuthenticationProvider.<br />serviceBaseUrl</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1"><kbd>effektif.process.<br />manager.baseUrl</kbd>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>effektif.com.effektif.model.<br />service.signavio.<br />SignavioAuthenticationProvider.<br />clientId</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2"><kbd>effektif.process.manager.<br />authentication.clientId</kbd>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body1"><kbd>effektif.com.effektif.model.<br />service.signavio.<br />SignavioAuthenticationProvider.<br />clientSecret</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyA-Column2-Body1"><kbd>effektif.process.manager.<br />authenticationclientSecret</kbd>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

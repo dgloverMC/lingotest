@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="installing-signavio-process-manager-on-a-tomcat-cluster-optional" name="installing-signavio-process-manager-on-a-tomcat-cluster-optional">
+   Installing Signavio Process Manager on a Tomcat cluster (optional)
+  </h1>
+        <p>
+   You can deploy Signavio Process Manager on an Apache Tomcat cluster,
+with all nodes using the same database.
+  </p>
+        <p>
+   Using a Tomcat cluster improves the
+   <strong>
+    performance
+   </strong>
+   (scale on high load) and
+   <strong>
+    availability
+   </strong>
+   of your
+system.
+  </p>
+        <p>
+   However, we recommend you to
+   <strong>
+    not
+   </strong>
+   deploy Signavio
+Process Manager in a cluster, to avoid unnecessary administrative
+overhead.
+  </p>
+        <p>
+   A system instance that runs on one Tomcat scales well even with more
+than 1000 modeling users, as long as you increase the memory assigned
+to the Tomcat (for example to 16GB).
+  </p>
+        <p>
+   To increase the availability, install a passive web server or to
+install the web server as a virtual machine on a high-available
+infrastructure. This increases the availability on server level and not
+on application level. Furthermore, you can monitor the Tomcat server so
+that it can quickly be restarted - automatically or manually - if
+performance issues occur.
+  </p>
+        <p>
+   If you want to deploy Signavio Process Manager on a Tomcat cluster,
+please consider the following:
+  </p>
+        <ul>
+            <li>
+    You need an additional Signavio license for each Signavio
+server.
+   </li>
+            <li>
+     Ensure each Tomcat instance uses a unique JVM-Route. Edit the Tomcat
+configuration file
+     <kbd>$TOMCAT_DIR\conf\server.xml</kbd>
+     and add the
+attribute jvmRoute to the XML Element Engine, for example:
+    <p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">&lt;Engine name="Catalina" defaultHost="localhost"
+jvmRoute="UNIQUE_ID"&gt;</code></pre></p></li>
+            <li>
+    Use a tomcat session cluster.
+   </li>
+            <li>
+    Configure the load balancer to forward all requests of the same
+session to the same application server (
+    <em>
+     sticky sessions
+    </em>
+    ).
+   </li>
+            <li>
+    Ensure the mailing server is only deployed on one Tomcat instance
+(see: 3.17 Configure Apache Solr server (optional)). Otherwise, emails
+will be send multiple times (once for each Tomcat instance).
+   </li>
+            <li>
+    Ensure that the Solr server is only deployed on one Tomcat instance
+(see: 3.17 Configure Apache Solr server (optional)).
+   </li>
+            <li>
+    For each Tomcat instance, adjust the file
+    <kbd>configuration.xml
+    </kbd>
+    located at
+    <kbd>&lt;signavio-tomcat&gt;/conf/
+    </kbd>
+    as follows:
+    <ul><li>
+       Add the following line:
+      <pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">`&lt;enableMultiplePlatformInstances&gt;true&lt;/enableMultiplePlatformInstances&gt;`</code></pre></li><li>
+       Set the property
+       <kbd>enableInternalKeyValueCache
+       </kbd>
+       to
+       <kbd>
+        false</kbd>. If the entry doesn't exist, add the following line
+before the closing
+       <kbd>&lt;/configuration&gt;</kbd>
+       tag:
+      <pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">`&lt;enableInternalKeyValueCache&gt;false&lt;/enableInternalKeyValueCache&gt;`</code></pre></li></ul></li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SPM_AG.flmsp');" class="SPM-button" xml:space="preserve">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 id="installing-the-jdbc-driver" name="installing-the-jdbc-driver">砻קยด9ตว融</h1>
+        <p>砻קยด10ตว融</p>
+        <div class="hint" MadCap:autonum="&lt;b&gt;Hint&lt;/b&gt;">
+            <p>砻קยด11ตว融</p>
+            <p>砻קยด12ตว融</p>
+        </div>
+        <h2 id="downloading-the-jdbc-driver-for-mysql" name="downloading-the-jdbc-driver-for-mysql">砻קยด13ตว融</h2>
+        <p>砻קยด14ตว融</p>
+        <p style="font-weight: normal;"><a href="https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.47.tar.gz" title="砻קยด1ตว融" alt="砻קยด2ตว融">砻קยด15ตว融</a></p>
+        <p style="font-weight: normal;"><a href="https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.47.zip" title="砻קยด3ตว融" alt="砻קยด4ตว融">砻קยด16ตว融</a></p>
+        <p>砻קยด17ตว融</p>
+        <p><a href="http://dev.mysql.com/downloads/connector/j/" title="砻קยด5ตว融" alt="砻קยด6ตว融">砻קยด18ตว融</a>
+        </p>
+        <p>砻קยด19ตว融</p>
+        <p>砻קยด20ตว融</p>
+        <h2 id="install_mssql_jdbc" name="install_mssql_jdbc"><a name="Down"></a>砻קยด21ตว融</h2>
+        <p>砻קยด22ตว融</p>
+        <p><a href="https://www.microsoft.com/en-us/download/details.aspx?id=57175" title="砻קยด7ตว融" alt="砻קยด8ตว融">砻קยด23ตว融</a></p>
+        <p>砻קยด24ตว融</p>
+        <h2 id="oracle_driver" name="oracle_driver"><a name="Down2"></a>砻קยด25ตว融</h2>
+        <p>砻קยด26ตว融</p>
+        <p><a href="https://www.oracle.com/technetwork/database/features/jdbc/jdbc-ucp-122-3110062.html">砻קยด27ตว融</a>
+        </p>
+        <p>砻קยด28ตว融</p>
+        <p>砻קยด29ตว融</p>
+        <div class="note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;">
+            <p>砻קยด30ตว融</p><pre xml:space="preserve" madcap-space-after-export="preserve"><code class="language-sh">tomcat.util.scan.StandardJarScanFilter.jarsToSkip=\
+
+orai18n-*,\
+
+gdk_custom.jar,\</code></pre>
+        </div>
+    </body>
+</html>

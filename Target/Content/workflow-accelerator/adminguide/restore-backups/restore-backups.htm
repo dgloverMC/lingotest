@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 id="restore" name="restore">
+   Restoring backups
+  </h1>
+        <p>
+   Backups can be restored using MongoDB’s
+   <kbd>mongorestore</kbd>
+   tool. Like
+   <kbd>mongodump</kbd>
+   you run it on the command line. For
+more detailed information, see the official
+   <kbd>mongorestore</kbd>
+   documentation:
+  </p>
+        <p><a href="https://docs.mongodb.com/manual/reference/program/mongorestore/">
+    https://docs.mongodb.com/manual/reference/program/mongorestore/
+   </a>
+        </p>
+        <p>
+   You will need to use the Signavio Workflow Accelerator MongoDB user
+credentials again to overwrite the contents of the Workflow Accelerator
+databases.
+  </p>
+        <p>
+   We recommend running mongorestore with the parameter --drop which
+will remove every collection (table) from the database before it is
+restored.
+  </p>
+    </body>
+</html>

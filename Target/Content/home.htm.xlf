@@ -1,0 +1,747 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="in-progress">
+  <file
+    xml:space="preserve"
+    original="home.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="home.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">41</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Signavio Documentation</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio Documentation</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Signavio Dokumentation</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Guides</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Guides</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Handbücher</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-div"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Process Manager<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Process Manager<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101"
+            MadCap:diff="New"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Process Manager<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-a"
+        phase-name="pretrans"><source>User guide</source><seg-source><mrk
+            mtype="seg"
+            mid="1">User guide</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Nutzerhandbuch</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-a"
+        phase-name="pretrans"><source>API guide</source><seg-source><mrk
+            mtype="seg"
+            mid="1">API guide</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">API-Handbuch</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-a"
+        phase-name="pretrans"><source>Admin guide<bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="version"&gt;</bpt>On-premises <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="Versions.SPM on-prem" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Admin guide<bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="version"&gt;</bpt>On-premises <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="Versions.SPM on-prem" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="needs-review-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="89"
+            MadCap:diff="ContentChanged">Administratorhandbuch <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="version"&gt;</bpt>On-premises<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="Versions.SPM on-prem" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target><alt-trans
+          match-quality="92"
+          origin="previous-version"><seg-source><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a class="tile-link" href="workflow-accelerator/adminguide/intro/intro.htm"&gt;</bpt>Admin guide<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="version"&gt;</bpt>On-premises <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="Versions.WA" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></seg-source><target
+            MadCap:segmentStatus="Untranslated"><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a class="tile-link" href="workflow-accelerator/adminguide/intro/intro.htm"&gt;</bpt>Administratorhandbuch<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="version"&gt;</bpt>On-premises<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="Versions.WA" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></target></alt-trans><alt-trans
+          match-quality="89"
+          origin="previous-version"><seg-source><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a class="tile-link" href="process-manager/adminguide/welcome.htm"&gt;</bpt> Admin guide<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="version"&gt;</bpt>On-premises <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="Versions.SPM on-prem" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></seg-source><target
+            MadCap:segmentStatus="Untranslated"><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a class="tile-link" href="process-manager/adminguide/welcome.htm"&gt;</bpt>Administratorhandbuch<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="version"&gt;</bpt>On-premises<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="Versions.SPM on-prem" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></target></alt-trans></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-div"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Workflow Accelerator<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Workflow Accelerator<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"
+            MadCap:diff="New"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Workflow Accelerator<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-a"
+        phase-name="pretrans"><source>User guide</source><seg-source><mrk
+            mtype="seg"
+            mid="1">User guide</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Nutzerhandbuch</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-a"
+        phase-name="pretrans"><source>Developer guide</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Developer guide</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Entwicklerhandbuch</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-a"
+        phase-name="pretrans"><source>Admin guide<bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="version"&gt;</bpt>On-premise <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="Versions.WA" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Admin guide<bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="version"&gt;</bpt>On-premise <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="Versions.WA" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="needs-review-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="86"
+            MadCap:diff="ContentChanged">Administratorhandbuch <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="version"&gt;</bpt>On-premises<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="Versions.WA" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target><alt-trans
+          match-quality="89"
+          origin="previous-version"><seg-source><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a class="tile-link" href="workflow-accelerator/adminguide/intro/intro.htm"&gt;</bpt>Admin guide<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="version"&gt;</bpt>On-premises <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="Versions.WA" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></seg-source><target
+            MadCap:segmentStatus="Untranslated"><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a class="tile-link" href="workflow-accelerator/adminguide/intro/intro.htm"&gt;</bpt>Administratorhandbuch<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="version"&gt;</bpt>On-premises<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="Versions.WA" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></target></alt-trans><alt-trans
+          match-quality="86"
+          origin="previous-version"><seg-source><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a class="tile-link" href="process-manager/adminguide/welcome.htm"&gt;</bpt> Admin guide<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="version"&gt;</bpt>On-premises <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="Versions.SPM on-prem" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></seg-source><target
+            MadCap:segmentStatus="Untranslated"><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a class="tile-link" href="process-manager/adminguide/welcome.htm"&gt;</bpt>Administratorhandbuch<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="version"&gt;</bpt>On-premises<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="Versions.SPM on-prem" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></target></alt-trans></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-div"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Process Intelligence<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Process Intelligence<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-a"
+        phase-name="pretrans"><source>User guide</source><seg-source><mrk
+            mtype="seg"
+            mid="1">User guide</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Nutzerhandbuch</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-div"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Collaboration Hub<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Collaboration Hub<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"
+            MadCap:diff="New"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Collaboration Hub<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-a"
+        phase-name="pretrans"><source>User guide</source><seg-source><mrk
+            mtype="seg"
+            mid="1">User guide</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Nutzerhandbuch</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-div"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Modeling Guidelines<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Modeling Guidelines<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="needs-review-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="76"
+            MadCap:diff="ContentChanged"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Modellierungsrichtlinien<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target><alt-trans
+          match-quality="76"
+          origin="previous-version"><seg-source>Modeling Guidelines</seg-source><target
+            MadCap:segmentStatus="Untranslated">Modellierungsrichtlinien</target></alt-trans></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-a"
+        phase-name="pretrans"><source>Modeling guideline overview</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Modeling guideline overview</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Übersicht Modellierungsrichtlinien</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-div"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>PDFs<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>PDFs<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"
+            MadCap:diff="New"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>PDFs<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Download the latest and earlier versions of the guides.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Download the latest and earlier versions of the guides.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101"
+            MadCap:diff="New">Laden Sie hier die aktuelle und frühere Versionen der Handbücher herunter.</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-a"
+        phase-name="pretrans"><source>Process Manager</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Process Manager</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Process Manager</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-a"
+        phase-name="pretrans"><source>Workflow Accelerator</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Workflow Accelerator</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Workflow Accelerator</mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Solutions</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Solutions</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Lösungen</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-div"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Knowledge base<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Knowledge base<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="needs-review-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="55"
+            MadCap:diff="ContentChanged"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Knowledge base<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target><alt-trans
+          match-quality="55"
+          origin="previous-version"><seg-source>Go to Knowledge Base</seg-source><target
+            MadCap:segmentStatus="Untranslated">Zur Knowledge Base</target></alt-trans></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-a"
+        phase-name="pretrans"><source>Go to Knowledge Base</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Go to Knowledge Base</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Zur Knowledge Base</mrk></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The Signavio Knowledge Base collects FAQs and solutions to specific problems.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Signavio Knowledge Base collects FAQs and solutions to specific problems.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">In unserer Signavio Knowledge Base finden Sie FAQs und Lösungen für konkrete Probleme.</mrk></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-div"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Individual Coaching<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Individual Coaching<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="needs-review-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="76"
+            MadCap:diff="ContentChanged"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Individuelle Coachings<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target><alt-trans
+          match-quality="76"
+          origin="previous-version"><seg-source>Individual Coaching</seg-source><target
+            MadCap:segmentStatus="Untranslated">Individuelle Coachings</target></alt-trans></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-a"
+        phase-name="pretrans"><source>Contact our coaching team</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Contact our coaching team</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Kontaktieren Sie unser Coaching-Team.</mrk></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Discuss your specific questions about process, decision, and workflow management.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Discuss your specific questions about process, decision, and workflow management.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Diskutieren Sie Ihre spezifischen Fragestellungen zu Prozess-, Business-Decision- und Workflowmanagement.</mrk></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Videos</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Videos</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Videos</mrk></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-div"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>E-Learning<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>E-Learning<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101"
+            MadCap:diff="New"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>E-Learning<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="30"
+        restype="x-xml-a"
+        phase-name="pretrans"><source>Check out current and upcoming courses</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Check out current and upcoming courses</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Aktuelle und zukünftige Kurse</mrk></target></trans-unit><trans-unit
+        id="31"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Take an e-learning course, and learn more about BPMN and DMN in Signavio products ducks quail chickens.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Take an e-learning course, and learn more about BPMN and DMN in Signavio products ducks quail chickens.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /></target></trans-unit><trans-unit
+        id="32"
+        restype="x-xml-div"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Tutorial videos<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Tutorial videos<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="needs-review-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="71"
+            MadCap:diff="ContentChanged"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Tutorial-Videos<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target><alt-trans
+          match-quality="71"
+          origin="previous-version"><seg-source>Tutorial videos</seg-source><target
+            MadCap:segmentStatus="Untranslated">Video-Tutorials</target></alt-trans></trans-unit><trans-unit
+        id="33"
+        restype="x-xml-a"
+        phase-name="pretrans"><source>Watch a quick tip</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Watch a quick tip</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Alle Tutorials</mrk></target></trans-unit><trans-unit
+        id="34"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Pick up a new skill in just a few minutes with these quick tutorial videos.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Pick up a new skill in just a few minutes with these quick tutorial videos.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Lernen Sie die wichtigsten  Funktionen in wenigen Minuten kennen mit unseren Video-Tutorials.</mrk></target></trans-unit><trans-unit
+        id="35"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Signavio News</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio News</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Neues bei Signavio</mrk></target></trans-unit><trans-unit
+        id="36"
+        restype="x-xml-div"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Release Notes<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Release Notes<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="needs-review-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="57"
+            MadCap:diff="ContentChanged"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Versionshinweise<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target><alt-trans
+          match-quality="68"
+          origin="previous-version"><seg-source>Release Notes</seg-source><target
+            MadCap:segmentStatus="Untranslated">Versionshinweise</target></alt-trans><alt-trans
+          match-quality="57"
+          origin="previous-version"><seg-source>Go to Release Notes</seg-source><target
+            MadCap:segmentStatus="Untranslated">Zu den Versionshinweisen</target></alt-trans></trans-unit><trans-unit
+        id="37"
+        restype="x-xml-a"
+        phase-name="pretrans"><source>Go to Release Notes</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Go to Release Notes</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Zu den Versionshinweisen</mrk></target></trans-unit><trans-unit
+        id="38"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Learn more about product updates and new features in our release notes.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Learn more about product updates and new features in our release notes.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Mehr zu Produktverbesserungen und neuen Features erfahren Sie in unseren Versionshinweisen.</mrk></target></trans-unit><trans-unit
+        id="39"
+        restype="x-xml-div"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Signavio Blog<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Signavio Blog<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="needs-review-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="FuzzyMatch"
+            MadCap:matchPercent="68"
+            MadCap:diff="ContentChanged"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="icon"&gt;</bpt><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="line"&gt;&lt;/span&gt;&lt;span class="spacer"&gt;&lt;/span&gt;</ph><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="product-name"&gt;</bpt>Signavio-Blog<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target><alt-trans
+          match-quality="68"
+          origin="previous-version"><seg-source>Signavio Blog</seg-source><target
+            MadCap:segmentStatus="Untranslated">Signavio-Blog</target></alt-trans></trans-unit><trans-unit
+        id="40"
+        restype="x-xml-a"
+        phase-name="pretrans"><source>Read the Signavio blog</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Read the Signavio blog</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Zum Signavio-Blog</mrk></target></trans-unit><trans-unit
+        id="41"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Find out how others have used Signavio products, discover the latest BPM trends, and get an insight into how Signavio works.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Find out how others have used Signavio products, discover the latest BPM trends, and get an insight into how Signavio works.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Erfahren Sie, wie andere Kunden Signavio-Produkte einsetzen, sehen Sie praxisnahe BPM-Beispiele und lernen Sie Signavio besser kennen.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

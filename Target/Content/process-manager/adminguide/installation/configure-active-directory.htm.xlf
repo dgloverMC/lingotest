@@ -1,0 +1,1321 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="configure-active-directory.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="configure-active-directory.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">96</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Configuring Collaboration Hub &amp; Active Directory (optional)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configuring Collaboration Hub &amp; Active Directory (optional)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Den Collaboration Hub mit Active Directory-Anbindung konfigurieren (optional)</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you have purchased Collaboration Hub and want to use
+single-sign-on, the you need to configure the connection to your Active
+Directory service.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you have purchased Collaboration Hub and want to use single-sign-on, the you need to configure the connection to your Active Directory service.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Wenn Sie den Collaboration Hub mit Single-Sign-On verwenden möchten, müssen Sie die Konfiguration zur Anbindung des Signavio Process Managers an Ihr Active-Directory-System angeben.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>If you use Kerberos-SSO functionality, you need to install the
+Signavio server on a Microsoft Windows 64 bit operating system of a
+machine that is within your Active Directory domain.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you use Kerberos-SSO functionality, you need to install the Signavio server on a Microsoft Windows 64 bit operating system of a machine that is within your Active Directory domain.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Für eine Verwendung von Kerberos muss der Signavio-Server unter Microsoft Windows 64Bit installiert werden und zu der Domäne gehören, auf dessen Active Directory zugegriffen werden soll.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>If you want to test access to your Active Directory, you may use the
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     LDAP Browser
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+    by Softerra. For example, you can check,
+if the user name and password is correct and if the user can access
+relevant parts of the Active Directory. You can download the Softerra
+LDAP Browser free of charge at:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you want to test access to your Active Directory, you may use the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> LDAP Browser <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> by Softerra.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">For example, you can check, if the user name and password is correct and if the user can access relevant parts of the Active Directory.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">You can download the Softerra LDAP Browser free of charge at:</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Um die Verbindung an das Active Directory zu testen, können Sie den <bpt
+              id="1">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> LDAP Browser<ept
+              id="1">&lt;/strong&gt;</ept> der Firma Softerra verwenden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Sie können überprüfen, ob der Nutzername und das Passwort korrekt sind und der Nutzer Zugriff auf die relevanten Bereiche des Active Directory hat.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Den Softerra LDAP Browser können Sie über den folgenden Link herunterladen:</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>
+     http://www.ldapbrowser.com/download.htm
+    </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">http://www.ldapbrowser.com/download.htm</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">http://www.ldapbrowser.com/download.htm</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Before activating or deactivating the SSO-functionality you should
+unpublish all diagrams. Otherwise diagrams may not be correctly
+published for some users.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Before activating or deactivating the SSO-functionality you should unpublish all diagrams.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Otherwise diagrams may not be correctly published for some users.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Vor der Aktivierung bzw. Deaktivierung der SSO-Funktionalität empfiehlt es sich, alle bisherigen Freigaben zu entfernen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Andernfalls werden Diagramme eventuell nicht für den korrekten Personenkreis freigegeben.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The configuration template
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    configuration.xml
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   contains
+an example configuration of an Active Directory connection:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The configuration template <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> configuration.xml <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> contains an example configuration of an Active Directory connection:</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">In der <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+              id="1">&lt;/kbd&gt;</ept>-Vorlage finden Sie eine Beispielkonfiguration für eine Active-Directory-Anbindung:</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>For requests to the Active Directory, LDAP interfaces are used. To
+enable the connection, adjust the
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   file
+as follows:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">For requests to the Active Directory, LDAP interfaces are used.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">To enable the connection, adjust the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> file as follows:</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Für die Anfragen an das Active-Directory werden LDAP-Schnittstellen verwendet.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Passen Sie hierfür die Datei <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+              id="1">&lt;/kbd&gt;</ept> wie folgt an:</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-ul"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong&gt;</bpt>ldapHost
+    <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>: URL for the access to the Active
+Directory using LDAP.
+<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      ldapSearchRoots
+     <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>: Multiple folder objects that will
+be used as root directory for the search. Specify these objects as
+     <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      Distinguished Names<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>. Search roots can be either
+     <bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      Organizational Units
+     <ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+     or
+     <bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      Containers<ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.
+Note user groups are
+     <bpt
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      not
+     <ept
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+     containers for users, but
+references to those. Below you see an example of a structure of an
+Active Directory in the domain
+     <bpt
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>adtest.local<ept
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>:
+    <bpt
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>
+      If the containers
+      <bpt
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt>
+       Users
+      <ept
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+      or user
+      <bpt
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt>
+       UserGroups
+      <ept
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+      are in
+the domain's root node, all folders highlighted in red have to be
+marked as
+      <bpt
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>searchRoots<ept
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>:
+     <ept
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept><ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;figure xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;img src="../_static/_images/en/active_directory1.png" /&gt;&lt;/figure&gt;</ph><bpt
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      Example: user groups on root level in an Active
+Directory
+     <ept
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept><bpt
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>The
+     <bpt
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt>
+      Distinguished Names
+     <ept
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+     in this case are:
+    <ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;CN=Users,DC=adtest,DC=local
+
+OU=UserGroups,DC=adtest,DC=local&lt;/code&gt;&lt;/pre&gt;</ph><bpt
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>If the Active Directory is divided by location or organization
+units, the sub folders containing groups and user have to be marked as<ept
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>searchRoots
+     <ept
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>:
+    <ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;figure&gt;&lt;img src="../_static/_images/en/active_directory2.png" xmlns="http://www.w3.org/1999/xhtml" /&gt;&lt;/figure&gt;</ph><bpt
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt>
+      Example: user groups on organization level in an Active
+Directory
+     <ept
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept><ept
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>The Distinguished Names in this case are:
+    <ept
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;OU=Groups,OU=AAA,OU=Organization,DC=adtest,DC=local
+      Example: user groups on organization level in an Active
+Directory
+     &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;</ept><bpt
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>The Distinguished Names in this case are:
+    <ept
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;OU=Groups,OU=AAA,OU=Organization,DC=adtest,DC=local
+
+
+OU=Users,OU=AAA,OU=Organization,DC=adtest,DC=local
+
+
+OU=Groups,OU=BBB,OU=Organization,DC=adtest,DC=local
+
+
+OU=Users,OU=BBB,OU=Organization,DC=adtest,DC=local
+
+
+OU=Groups,OU=CCC,OU=Organization,DC=adtest,DC=local
+
+
+OU=Users,OU=CCC,OU=Organization,DC=adtest,DC=local&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;</ept><bpt
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      ldapUser<ept
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>:
+
+     <ph
+            id="6"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>User object for the access to the Active Directory. Depending on the
+version and the configuration of the active directory, there are three
+different notations for the user name:
+
+     <ph
+            id="7"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>Please try the different notations in this order. If it does not
+work try the next notation:
+    <bpt
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ol style="list-style-type: lower-alpha;" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       Distinguished Name (e.g.:
+       <bpt
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>CN=LdapUser,CN=Users,DC=company,DC=com<ept
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>)
+      <ept
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       User UPN logon name (e.g.:
+       <bpt
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>LdapUser@company.com<ept
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>)
+      <ept
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       SamAccountName (e.g.:
+       <bpt
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>company\LdapUser<ept
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>)
+      <ept
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ol&gt;</ept><ept
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      ldapPw
+     <ept
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+     :
+    <ph
+            id="8"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>
+   Password of the user object.
+    <ept
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      ldapSsoMode
+     <ept
+            id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>:
+
+     <ph
+            id="9"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>Used mechanism for the user Single-Sign-On. Might be
+     <bpt
+            id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>KERBEROS<ept
+            id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     or
+     <bpt
+            id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>LDAPQUERY<ept
+            id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     (authentication using
+an LDAP user name and password). If you use Kerberos, Signavio Process
+Manager must be installed on a Microsoft Windows 64 bit operating
+system. If you use LDAP-query based authentication, you can also
+specify an
+     <bpt
+            id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>ldapQueryLoginPattern<ept
+            id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.
+    <ept
+            id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      ldapQueryLoginPattern
+     <ept
+            id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+     (optional): <ph
+            id="10"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>Allows you to
+specify a completion pattern for the user name provided to the
+LDAP-query based authentication.
+
+<ph
+            id="11"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>Example: Using the pattern
+     <bpt
+            id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$login$@company\.com<ept
+            id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, you
+can configure that instead of the user input
+     <bpt
+            id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>j.doe<ept
+            id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+     the
+following user name is actually used for authentication:
+     <bpt
+            id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>j.doe@company\.com<ept
+            id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.<ph
+            id="12"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>    <ept
+            id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      ldapModelerSsoSupported
+     <ept
+            id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+     <ph
+            id="13"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>Controls, whether Active-Directory users can login to Signavio
+Process Manager as modeling users without providing a separate Signavio
+password. Possible values are true and false (default).
+
+     <ph
+            id="14"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>To use this SSO for a specific Active-Directory user, a modeling
+user must be registered within Signavio Process Manager that has the
+same email-address as the Active-Directory user.
+    <ept
+            id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+      ldapAdminMail
+     <ept
+            id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept><ph
+            id="15"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph>Email address of the administrator who is responsible for the LDAP
+configuration. This is used for system notifications and thus has to be
+defined.
+<ept
+            id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong&gt;</bpt>ldapHost <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>: URL for the access to the Active Directory using LDAP.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3"><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> ldapSearchRoots <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>: Multiple folder objects that will be used as root directory for the search.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Specify these objects as <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Distinguished Names<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">Search roots can be either <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Organizational Units <ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> or <bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Containers<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">Note user groups are <bpt
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> not <ept
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> containers for users, but references to those.</mrk><mrk
+            mtype="protected"
+            mid="10"> </mrk><mrk
+            mtype="seg"
+            mid="11">Below you see an example of a structure of an Active Directory in the domain <bpt
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>adtest.local<ept
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>: </mrk><mrk
+            mtype="seg"
+            mid="12"><bpt
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt> If the containers <bpt
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt> Users <ept
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> or user <bpt
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt> UserGroups <ept
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> are in the domain's root node, all folders highlighted in red have to be marked as <bpt
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>searchRoots<ept
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>: <ept
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept><ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;figure xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;img src="../_static/_images/en/active_directory1.png" /&gt;&lt;/figure&gt;</ph><bpt
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Example: user groups on root level in an Active Directory <ept
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="13"><bpt
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>The <bpt
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt> Distinguished Names <ept
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> in this case are: <ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;CN=Users,DC=adtest,DC=local
+
+OU=UserGroups,DC=adtest,DC=local&lt;/code&gt;&lt;/pre&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="14"><bpt
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>If the Active Directory is divided by location or organization units, the sub folders containing groups and user have to be marked as<ept
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>searchRoots <ept
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>: <ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;figure&gt;&lt;img src="../_static/_images/en/active_directory2.png" xmlns="http://www.w3.org/1999/xhtml" /&gt;&lt;/figure&gt;</ph><bpt
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt> Example: user groups on organization level in an Active Directory <ept
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept><ept
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="15"><bpt
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>The Distinguished Names in this case are: <ept
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;OU=Groups,OU=AAA,OU=Organization,DC=adtest,DC=local
+      Example: user groups on organization level in an Active
+Directory
+     &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="16"><bpt
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>The Distinguished Names in this case are: <ept
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;OU=Groups,OU=AAA,OU=Organization,DC=adtest,DC=local
+
+
+OU=Users,OU=AAA,OU=Organization,DC=adtest,DC=local
+
+
+OU=Groups,OU=BBB,OU=Organization,DC=adtest,DC=local
+
+
+OU=Users,OU=BBB,OU=Organization,DC=adtest,DC=local
+
+
+OU=Groups,OU=CCC,OU=Organization,DC=adtest,DC=local
+
+
+OU=Users,OU=CCC,OU=Organization,DC=adtest,DC=local&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="17"><bpt
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> ldapUser<ept
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>: <ph
+              id="6"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="18">User object for the access to the Active Directory.</mrk><mrk
+            mtype="protected"
+            mid="19"> </mrk><mrk
+            mtype="seg"
+            mid="20">Depending on the version and the configuration of the active directory, there are three different notations for the user name: <ph
+              id="7"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="21">Please try the different notations in this order.</mrk><mrk
+            mtype="protected"
+            mid="22"> </mrk><mrk
+            mtype="seg"
+            mid="23">If it does not work try the next notation: <bpt
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ol style="list-style-type: lower-alpha;" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="24"><bpt
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Distinguished Name (e.g.: <bpt
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>CN=LdapUser,CN=Users,DC=company,DC=com<ept
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>) <ept
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="25"><bpt
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> User UPN logon name (e.g.: <bpt
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>LdapUser@company.com<ept
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>) <ept
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="26"><bpt
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> SamAccountName (e.g.: <bpt
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>company\LdapUser<ept
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>) <ept
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ol&gt;</ept><ept
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="27"><bpt
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> ldapPw <ept
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> : <ph
+              id="8"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="28"> </mrk><mrk
+            mtype="seg"
+            mid="29">Password of the user object.</mrk><mrk
+            mtype="protected"
+            mid="30"> </mrk><mrk
+            mtype="seg"
+            mid="31"><ept
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="32"><bpt
+              id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+              id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> ldapSsoMode <ept
+              id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>: <ph
+              id="9"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="33">Used mechanism for the user Single-Sign-On.</mrk><mrk
+            mtype="protected"
+            mid="34"> </mrk><mrk
+            mtype="seg"
+            mid="35">Might be <bpt
+              id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>KERBEROS<ept
+              id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> or <bpt
+              id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>LDAPQUERY<ept
+              id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> (authentication using an LDAP user name and password).</mrk><mrk
+            mtype="protected"
+            mid="36"> </mrk><mrk
+            mtype="seg"
+            mid="37">If you use Kerberos, Signavio Process Manager must be installed on a Microsoft Windows 64 bit operating system.</mrk><mrk
+            mtype="protected"
+            mid="38"> </mrk><mrk
+            mtype="seg"
+            mid="39">If you use LDAP-query based authentication, you can also specify an <bpt
+              id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>ldapQueryLoginPattern<ept
+              id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="40"> </mrk><mrk
+            mtype="seg"
+            mid="41"><ept
+              id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="42"><bpt
+              id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+              id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> ldapQueryLoginPattern <ept
+              id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> (optional): <ph
+              id="10"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="43">Allows you to specify a completion pattern for the user name provided to the LDAP-query based authentication.</mrk><mrk
+            mtype="protected"
+            mid="44"> </mrk><mrk
+            mtype="seg"
+            mid="45"><ph
+              id="11"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="46">Example: Using the pattern <bpt
+              id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$login$@company\.com<ept
+              id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, you can configure that instead of the user input <bpt
+              id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>j.doe<ept
+              id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> the following user name is actually used for authentication: <bpt
+              id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>j.doe@company\.com<ept
+              id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.<ph
+              id="12"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="47"> </mrk><mrk
+            mtype="seg"
+            mid="48"><ept
+              id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="49"><bpt
+              id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+              id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> ldapModelerSsoSupported <ept
+              id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> <ph
+              id="13"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="50">Controls, whether Active-Directory users can login to Signavio Process Manager as modeling users without providing a separate Signavio password.</mrk><mrk
+            mtype="protected"
+            mid="51"> </mrk><mrk
+            mtype="seg"
+            mid="52">Possible values are true and false (default).</mrk><mrk
+            mtype="protected"
+            mid="53"> </mrk><mrk
+            mtype="seg"
+            mid="54"><ph
+              id="14"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="55">To use this SSO for a specific Active-Directory user, a modeling user must be registered within Signavio Process Manager that has the same email-address as the Active-Directory user.</mrk><mrk
+            mtype="protected"
+            mid="56"> </mrk><mrk
+            mtype="seg"
+            mid="57"><ept
+              id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="58"><bpt
+              id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+              id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> ldapAdminMail <ept
+              id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept><ph
+              id="15"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="59">Email address of the administrator who is responsible for the LDAP configuration.</mrk><mrk
+            mtype="protected"
+            mid="60"> </mrk><mrk
+            mtype="seg"
+            mid="61">This is used for system notifications and thus has to be defined.</mrk><mrk
+            mtype="protected"
+            mid="62"> </mrk><mrk
+            mtype="seg"
+            mid="63"><ept
+              id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101"><bpt
+              id="1">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+              id="2">&lt;strong&gt;</bpt>ldapHost<ept
+              id="2">&lt;/strong&gt;</ept>: URL für den Zugriff auf das Active Directory mittels LDAP.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101"><ept
+              id="1">&lt;/li&gt;</ept><bpt
+              id="3">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>ldapSearchRoots<ept
+              id="3">&lt;/strong&gt;</ept>: Mehrere Ordnerobjekte, die als Wurzelknoten für die Suche verwendet werden.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die Objekte müssen als <bpt
+              id="4">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Distinguished Names<ept
+              id="4">&lt;/strong&gt;</ept> angegeben werden.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Als Wurzelknoten können <bpt
+              id="5">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Organisationseinheiten<ept
+              id="5">&lt;/strong&gt;</ept> und <bpt
+              id="6">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Container<ept
+              id="6">&lt;/strong&gt;</ept> eingetragen werden.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Beachten Sie zudem, dass Nutzergruppen <bpt
+              id="7">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>nicht <ept
+              id="7">&lt;/strong&gt;</ept> als Container von Nutzern fungieren, sondern diese nur referenzieren.</mrk><mrk
+            mtype="protected"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Nachfolgend sehen Sie ein Beispiel, wie ein Active Directory in der Beispieldomäne <bpt
+              id="8">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>adtest.local<ept
+              id="8">&lt;/kbd&gt;</ept> strukturiert sein könnte:</mrk><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"><bpt
+              id="16">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Die <bpt
+              id="17">&lt;em&gt;</bpt>Distinguished Names <ept
+              id="17">&lt;/em&gt;</ept>sind in diesem Beispiel: <ph
+              id="18">&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;CN=Users,DC=adtest,DC=local
+
+OU=UserGroups,DC=adtest,DC=local&lt;/code&gt;&lt;/pre&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100"><bpt
+              id="23">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Die Distinguished Names sind in diesem Beispiel:<ept
+              id="23">&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;OU=Groups,OU=AAA,OU=Organization,DC=adtest,DC=local
+      Example: user groups on organization level in an Active
+Directory
+     &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="16"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101"><bpt
+              id="25">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Die Distinguished Names sind in diesem Beispiel:<ept
+              id="25">&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;OU=Groups,OU=AAA,OU=Organization,DC=adtest,DC=local
+
+
+OU=Users,OU=AAA,OU=Organization,DC=adtest,DC=local
+
+
+OU=Groups,OU=BBB,OU=Organization,DC=adtest,DC=local
+
+
+OU=Users,OU=BBB,OU=Organization,DC=adtest,DC=local
+
+
+OU=Groups,OU=CCC,OU=Organization,DC=adtest,DC=local
+
+
+OU=Users,OU=CCC,OU=Organization,DC=adtest,DC=local&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="17"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101"><bpt
+              id="27">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+              id="28">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> ldapUser<ept
+              id="28">&lt;/strong&gt;</ept>: <ph
+              id="6"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="18"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Nutzerobjekt für den Zugriff auf das Active Directory.</mrk><mrk
+            mtype="protected"
+            mid="19"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="20"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Je nach Version und Konfiguration des Active Directory gibt es bis zu drei verschiedene Schreibweisen für den Nutzernamen:<ph
+              id="7"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="21"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Testen Sie die Schreibweisen in dieser Reihenfolge aus.</mrk><mrk
+            mtype="protected"
+            mid="22"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="23"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Falls der Zugriff nicht funktioniert, testen Sie die nächste Schreibweise:<bpt
+              id="29">&lt;ol style="list-style-type: lower-alpha;" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="24"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101"><bpt
+              id="30">&lt;li&gt;</bpt> Distinguished Name (z. B.: <bpt
+              id="31">&lt;kbd&gt;</bpt>CN=LdapUser,CN=Users,DC=company,DC=com<ept
+              id="31">&lt;/kbd&gt;</ept>) <ept
+              id="30">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="25"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101"><bpt
+              id="32">&lt;li&gt;</bpt>Nutzer-UPN-Anmeldungsname (z.B.: <bpt
+              id="33">&lt;kbd&gt;</bpt>LdapUser@company.com<ept
+              id="33">&lt;/kbd&gt;</ept>)<ept
+              id="32">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="26"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101"><bpt
+              id="34">&lt;li&gt;</bpt> SamAccountName (z. B.: <bpt
+              id="35">&lt;kbd&gt;</bpt>company\LdapUser<ept
+              id="35">&lt;/kbd&gt;</ept>) <ept
+              id="34">&lt;/li&gt;</ept><ept
+              id="29">&lt;/ol&gt;</ept><ept
+              id="27">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="27"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101"><bpt
+              id="36">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+              id="37">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> ldapPw <ept
+              id="37">&lt;/strong&gt;</ept> : <ph
+              id="8"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="28"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="29"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Passwort des Nutzerobjekts.</mrk><mrk
+            mtype="protected"
+            mid="30"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="31"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="32"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101"><bpt
+              id="38">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+              id="39">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> ldapSsoMode <ept
+              id="39">&lt;/strong&gt;</ept>: <ph
+              id="9"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="33"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Zu verwendender SSO-Mechanismus.</mrk><mrk
+            mtype="protected"
+            mid="34"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="35"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Mögliche Werte sind <bpt
+              id="40">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>KERBEROS<ept
+              id="40">&lt;/kbd&gt;</ept> oder <bpt
+              id="41">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>LDAPQUERY<ept
+              id="41">&lt;/kbd&gt;</ept> (Authentifizierung per LDAP-Nutzer und -Passwort).</mrk><mrk
+            mtype="protected"
+            mid="36"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="37"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Sollten Sie Kerberos verwenden, muss der Signavio Process Manager unter Microsoft Windows 64 Bit installiert werden.</mrk><mrk
+            mtype="protected"
+            mid="38"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="39"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Sollten Sie LDAP-Anfragen verwenden, können Sie zusätzlich ein <bpt
+              id="42">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>ldapQueryLoginPattern<ept
+              id="42">&lt;/kbd&gt;</ept> spezifizieren.</mrk><mrk
+            mtype="protected"
+            mid="40"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="41"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="42"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101"><bpt
+              id="43">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+              id="44">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> ldapQueryLoginPattern <ept
+              id="44">&lt;/strong&gt;</ept> (optional): <ph
+              id="10"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="43"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Ermöglicht eine Vervollständigung eines eingegebenen Nutzernamens bei der LDAP- Anfragen-basierten Authentifizierung.</mrk><mrk
+            mtype="protected"
+            mid="44"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="45"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="46"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Beispiel: Über das Pattern <bpt
+              id="45">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$login$@company.com<ept
+              id="45">&lt;/kbd&gt;</ept> kann eingerichtet werden, dass anstatt der Nutzereingabe <bpt
+              id="46">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>m.mustermann<ept
+              id="46">&lt;/kbd&gt;</ept> der folgende Nutzername zur Authentifizierung verwendet wird: <bpt
+              id="47">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>m.mustermann@company.com<ept
+              id="47">&lt;/kbd&gt;</ept>.<ph
+              id="12"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="protected"
+            mid="47"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="48"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="49"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101"><bpt
+              id="48">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+              id="49">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> ldapModelerSsoSupported <ept
+              id="49">&lt;/strong&gt;</ept> <ph
+              id="13"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="50"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Steuert, ob sich Nutzer aus dem Active-Directory als Modellierer am Signavio Process Manager anmelden können ohne ein eigenes Signavio-Passwort eingeben zu müssen.</mrk><mrk
+            mtype="protected"
+            mid="51"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="52"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Mögliche Werte sind true und false (Standardwert).</mrk><mrk
+            mtype="protected"
+            mid="53"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="54"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="55"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Voraussetzung für die Verwendung ist, dass ein Modellierungsnutzer im Signavio Process Manager mit der im Active-Directory hinterlegten E-Mail-Adresse registriert ist.</mrk><mrk
+            mtype="protected"
+            mid="56"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="57"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="58"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101"><bpt
+              id="50">&lt;li xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+              id="51">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> ldapAdminMail <ept
+              id="51">&lt;/strong&gt;</ept><ph
+              id="15"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="59"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">E-Mail-Adresse des für die LDAP-Konfiguration verantwortlichen Administrators.</mrk><mrk
+            mtype="protected"
+            mid="60"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="61"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Diese wird für wichtige Systemmeldungen verwendet und muss daher gesetzt sein.</mrk><mrk
+            mtype="protected"
+            mid="62"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="63"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Copy the customized
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   into the
+directory
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR/conf/<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   and restart the Tomcat
+server.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Copy the customized <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> into the directory <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR/conf/<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> and restart the Tomcat server.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Kopieren Sie Ihre angepasste <bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+              id="1">&lt;/kbd&gt;</ept> in das Verzeichnis <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>$TOMCAT_DIR/conf/<ept
+              id="2">&lt;/kbd&gt;</ept> und starten den Tomcat-Server neu.</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Now, grant read access to the BPM Collaboration Hub to users and/or
+user groups according to the chapter
+   <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.signavio.com/userguide/editor/en/workspace_admin/manage_users_access/portal_managing_user_access.html" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    Granting Collaboration Hub read access to Active Directory service
+users and user groups
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>
+   of the Signavio user guide.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Now, grant read access to the BPM Collaboration Hub to users and/or user groups according to the chapter <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://docs.signavio.com/userguide/editor/en/workspace_admin/manage_users_access/portal_managing_user_access.html" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Granting Collaboration Hub read access to Active Directory service users and user groups <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> of the Signavio user guide.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Vergeben Sie anschließend gemäß dem Abschnitt <bpt
+              id="1"
+              ctype="link">&lt;a href="https://docs.signavio.com/userguide/editor/en/workspace_admin/manage_users_access/portal_managing_user_access.html" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Zugriffsverwaltung auf das BPM Collaboration Hub in der On-Premise Edition<ept
+              id="1">&lt;/a&gt;</ept> des Signavio Nutzerhandbuchs Leseberechtigungen für das BPM Collaboration Hub an Nutzer und Nutzergruppen.</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>With Collaboration Hub, you purchase a contingent of a specific
+number of Active Directory users who are allowed to get read access to
+models that were published in Signavio Collaboration Hub. When
+calculating the number of active users, the system considers all users
+that have access to any published diagram.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">With Collaboration Hub, you purchase a contingent of a specific number of Active Directory users who are allowed to get read access to models that were published in Signavio Collaboration Hub.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">When calculating the number of active users, the system considers all users that have access to any published diagram.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Mit dem Collaboration Hub erwerben Sie ein Kontingent für eine bestimmte Anzahl von Active-Directory Nutzern, die Leseberechtigungen auf Modelle im Signavio Collaboration Hub besitzen dürfen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Bei der Berechnung der Anzahl der aktiven Nutzer berücksichtigt das System alle Nutzer, die Zugriff auf alle veröffentlichten Diagramme haben.</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If the quantity of Collaboration Hub users reaches 80% of the
+contingent, the system will automatically inform your workspace
+administrator by email.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If the quantity of Collaboration Hub users reaches 80% of the contingent, the system will automatically inform your workspace administrator by email.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Falls die Anzahl 80% des Nutzer-Kontingentes überschreitet, wird automatisch eine Hinweis-E-Mail an den Administrator des Arbeitsbereiches gesendet.</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If the contingent is exceeded, the read access to the Signavio
+process portal is temporarily deactivated. However, licensed users will
+still be able to log in.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If the contingent is exceeded, the read access to the Signavio process portal is temporarily deactivated.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">However, licensed users will still be able to log in.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Bei einer etwaigen Überschreitung des Kontingentes wird der Lesezugriff auf den Signavio Collaboration Hub vorübergehend deaktiviert.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Ein Login der lizensierten Modellierungsnutzer bleibt jedoch zu jedem Zeitpunkt möglich.</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To activate the automatic authentication for the Internet Explorer
+using a Kerberos user, add the host name of the Signavio server to the
+security zone
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Local intranet
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+    and ensure the option
+    <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     user authentication &gt; registration
+    <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+    is set to
+    <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     Automatic logon only in Intranet zone
+    <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To activate the automatic authentication for the Internet Explorer using a Kerberos user, add the host name of the Signavio server to the security zone <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Local intranet <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> and ensure the option <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> user authentication &gt; registration <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> is set to <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> Automatic logon only in Intranet zone <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Um die automatische Authentifizierung über den Kerberos Nutzer im Internet Explorer zu aktivieren, fügen Sie den Hostnamen des Signavio Servers zur Sicherheitszone <bpt
+              id="1">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Lokales Intranet <ept
+              id="1">&lt;/strong&gt;</ept>hinzu und stellen Sie sicher, dass für die Option <bpt
+              id="2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Benutzerauthentifizierung - Anmeldung<ept
+              id="2">&lt;/strong&gt;</ept> dieser Sicherheitszone der Wert <bpt
+              id="3">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Automatisches Anmelden nur in der Intranetzone<ept
+              id="3">&lt;/strong&gt;</ept> ausgewählt ist.</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To activate Kerberos authentication using Mozilla Firefox, go to
+   <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    about:config
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+   via the address bar of the browser.
+There, set the variable
+   <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>network.negotiate-auth.trusted-uris<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   to the Signavio server
+URL as defined in the
+   <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+   file. If the
+variable is already set, extend it as a comma-separated list with the
+server URL.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To activate Kerberos authentication using Mozilla Firefox, go to <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> about:config <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> via the address bar of the browser.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">There, set the variable <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>network.negotiate-auth.trusted-uris<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> to the Signavio server URL as defined in the <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> file.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">If the variable is already set, extend it as a comma-separated list with the server URL.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Zur Aktivierung einer Kerberos-Authentifizierung im Mozilla Firefox müssen Sie <bpt
+              id="1">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>about:config<ept
+              id="1">&lt;/strong&gt;</ept> im Adressfeld des Browsers eingeben und aufrufen.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">In der so geöffneten Ansicht müssen Sie den Wert für <bpt
+              id="2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>network.negotiate-auth.trusted-uris<ept
+              id="2">&lt;/kbd&gt;</ept> auf den in der <bpt
+              id="3">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>configuration.xml<ept
+              id="3">&lt;/kbd&gt;</ept> gesetzten Server des Signavio-Systems setzen.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Wenn die Variable bereits festgelegt ist, erweitern Sie diese mit der Server-URL als durch Kommas getrennte Liste.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

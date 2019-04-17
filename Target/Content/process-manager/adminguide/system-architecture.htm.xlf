@@ -1,0 +1,856 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="system-architecture.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="system-architecture.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">88</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">2</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xhtml-a-title"
+        phase-name="pretrans"><source>currently supported Tomcat
+ version(s)</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="a">currently supported Tomcat version(s)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">derzeit unterstützte Tomcat-Version(en)</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xhtml-a-alt"
+        phase-name="pretrans"><source>currently supported Tomcat
+ version(s)</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="a">currently supported Tomcat version(s)</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">derzeit unterstützte Tomcat-Version(en)</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>System architecture /
+components</source><seg-source><mrk
+            mtype="seg"
+            mid="1">System architecture / components</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Systemlandschaft und Komponenten</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>This section provides an overview over the system architecture and
+briefly describes each software component.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">This section provides an overview over the system architecture and briefly describes each software component.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Dieser Abschnitt erläutert die Systemlandschaft für den Process Manager und beschreibt die Softwarekomponenten.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>System architecture</source><seg-source><mrk
+            mtype="seg"
+            mid="1">System architecture</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Systemlandschaft</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The following diagram describes the typical system architecture the
+Signavio Process Manager is embedded in together with third-party
+software such as web servers, web browsers and databases.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The following diagram describes the typical system architecture the Signavio Process Manager is embedded in together with third-party software such as web servers, web browsers and databases.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Das folgende Diagramm zeigt die typische Systemlandschaft für den Signavio Process Manager und enthält eine Übersicht über alle Softwarekomponenten.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>By default, the On Premise Edition contains the components
+highlighted in red, components or interfaces highlighted in yellow can
+be purchased separately.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">By default, the On Premise Edition contains the components highlighted in red, components or interfaces highlighted in yellow can be purchased separately.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Standardmäßig enthält die On-Premise-Edition die rot hervorgehobenen Komponenten, gelb hervorgehobene Komponenten oder Schnittstellen können separat erworben werden.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>
+    System architecture overview
+   </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">System architecture overview</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Übersicht über die Systemlandschaft</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Software components</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Software components</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Software-Komponenten</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>Signavio Collaboration
+Hub</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio Collaboration Hub</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Signavio Collaboration Hub</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The front end of Collaboration Hub runs a JavaScript engine from a web browser. It provides read-only access to
+published diagrams. Collaboration Hub grants read-only access to every
+user who is able to access the server of Signavio Process Manager.
+Collaboration Hub can be linked to an Active Directory service to
+enable single-sign-on authentication. Moreover, the active directory
+integration allows you to define detailed diagram access rights for
+Collaboration Hub users.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The front end of Collaboration Hub runs a JavaScript engine from a web browser.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">It provides read-only access to published diagrams.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Collaboration Hub grants read-only access to every user who is able to access the server of Signavio Process Manager.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">Collaboration Hub can be linked to an Active Directory service to enable single-sign-on authentication.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">Moreover, the active directory integration allows you to define detailed diagram access rights for Collaboration Hub users.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Das Frontend von Collaboration Hub führt eine JavaScript-Engine über einen Webbrowser aus.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Die Komponente erlaubt Lesezugriff auf freigegebene Prozesse.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Collaboration Hub gewährt jedem Nutzer Lesezugriff, der auf den Server von Signavio Process Manager zugreifen kann.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Collaboration Hub kann mit einem Active Directory-Dienst verknüpft werden, um die Authentifizierung mit Single-Sign-On (SSO) zu ermöglichen.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Darüber hinaus können Sie mit der Active Directory-Integration detaillierte Diagrammzugriffsrechte für Nutzer des Collaboration Hub definieren.</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Signavio Collaboration Hub supports all of the following web browsers: <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.signavio.com/browser-compatibility/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://www.signavio.com/browser-compatibility/<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio Collaboration Hub supports all of the following web browsers: <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.signavio.com/browser-compatibility/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://www.signavio.com/browser-compatibility/<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Signavio Collaboration Hub unterstützt die folgenden Webbrowser: <bpt
+              id="1"
+              ctype="link">&lt;a href="https://www.signavio.com/browser-compatibility/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://www.signavio.com/de/browser-kompatibilitaet/<ept
+              id="1">&lt;/a&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>Signavio Process Manager</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio Process Manager</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Signavio Process Manager</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The front end runs JavaScript and is entirely accessible through the
+web browser.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The front end runs JavaScript and is entirely accessible through the web browser.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Das Frontend wird als JavaScript ausgeführt und kann komplett über einen Browser aufgerufen werden.</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>A user must be registered with a valid email address and a
+self-chosen password to get access to the Signavio Editor, Explorer or
+Dictionary.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">A user must be registered with a valid email address and a self-chosen password to get access to the Signavio Editor, Explorer or Dictionary.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Ein Nutzer muss mit einer gültigen E-Mail-Adresse und einem selbst gewählten Kennwort registriert sein, um Zugriff auf den Editor, den Explorer oder das Glossar zu erhalten.</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>Signavio Process
+Manager</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio Process Manager</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Signavio Process Manager</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The back end logic runs in the Tomcat runtime environment as a Java
+application.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The back end logic runs in the Tomcat runtime environment as a Java application.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Die Backend-Logik läuft als Java-Applikation in der Tomcat-Umgebung.</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>JDBC Connector</source><seg-source><mrk
+            mtype="seg"
+            mid="1">JDBC Connector</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">JDBC-Schnittstelle</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Access to the database system is implemented with JDBC. An adapter
+must be downloaded from the website of the respective vendor (see <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="installation/install-jdbc-driver.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;   Installing the JDBC driver&lt;/MadCap:xref&gt;</ph>).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Access to the database system is implemented with JDBC.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">An adapter must be downloaded from the website of the respective vendor (see <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="installation/install-jdbc-driver.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;   Installing the JDBC driver&lt;/MadCap:xref&gt;</ph>).</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Der Zugriff auf das Datenbanksystem geschieht mittels JDBC.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Ein Adapter muss von der Website des jeweiligen Anbieters heruntergeladen werden (siehe <ph
+              id="1">&lt;MadCap:xref href="installation/install-jdbc-driver.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;   Installing the JDBC driver&lt;/MadCap:xref&gt;</ph>).</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>Web browser</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Web browser</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Browser</mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The Signavio front end can be accessed via a web browser. Find all supported web browsers listed on <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.signavio.com/browser-compatibility/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://www.signavio.com/browser-compatibility/<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Signavio front end can be accessed via a web browser.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Find all supported web browsers listed on <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.signavio.com/browser-compatibility/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://www.signavio.com/browser-compatibility/<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Auf das Signavio-Frontend kann über einen Webbrowser zugegriffen werden.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Finden Sie alle unterstützten Browser unter <bpt
+              id="1"
+              ctype="link">&lt;a href="https://www.signavio.com/browser-compatibility/" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://www.signavio.com/de/browser-kompatibilitaet/<ept
+              id="1">&lt;/a&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>Apache Tomcat</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Apache Tomcat</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Apache Tomcat</mrk></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The application server represents the runtime environment for the
+Java back end. The system requirements mention the <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="installation/system-requirements.htm#Soft" title="<sub
+              ctype="x-xhtml-a-title"
+              datatype="xhtml"
+              xid="1" xmlns="urn:oasis:names:tc:xliff:document:1.2" />" alt="<sub
+              ctype="x-xhtml-a-alt"
+              datatype="xhtml"
+              xid="2" xmlns="urn:oasis:names:tc:xliff:document:1.2" />" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>currently supported Tomcat
+ version(s)<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>. For managing user sessions Signavio Process Manager
+uses the native Tomcat session mechanism. Such sessions are stored in
+the servers file system, so that they are kept even if the Tomcat
+application server is shut down. Therefore, a restart or a temporary
+unavailability of the Tomcat server is invisible to the user.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The application server represents the runtime environment for the Java back end.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The system requirements mention the <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="installation/system-requirements.htm#Soft" title="<sub
+                ctype="x-xhtml-a-title"
+                datatype="xhtml"
+                xid="1" xmlns="urn:oasis:names:tc:xliff:document:1.2" />" alt="<sub
+                ctype="x-xhtml-a-alt"
+                datatype="xhtml"
+                xid="2" xmlns="urn:oasis:names:tc:xliff:document:1.2" />" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>currently supported Tomcat version(s)<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">For managing user sessions Signavio Process Manager uses the native Tomcat session mechanism.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">Such sessions are stored in the servers file system, so that they are kept even if the Tomcat application server is shut down.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">Therefore, a restart or a temporary unavailability of the Tomcat server is invisible to the user.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Der Anwendungsserver stellt die Laufzeitumgebung für das Java-Backend dar.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">In den Systemanforderungen werden die <bpt
+              id="1"
+              ctype="link">&lt;a href="installation/system-requirements.htm#Soft" title="<sub
+                ctype="x-xhtml-a-title"
+                datatype="xhtml"
+                xid="1" />" alt="<sub
+                ctype="x-xhtml-a-alt"
+                datatype="xhtml"
+                xid="2" />" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>akuell unterstützten Tomcat-Versionen<ept
+              id="1">&lt;/a&gt;</ept> benannt.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Zur Verwaltung von Nutzersitzungen verwendet Signavio Process Manager den systemeigenen Session-Mechanismus von Tomcat.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Solche Sitzungen werden im Dateisystem des Servers gespeichert, sodass sie auch dann erhalten bleiben, wenn der Tomcat-Anwendungsserver heruntergefahren wird.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Daher ist ein Neustart oder eine vorübergehende Nichtverfügbarkeit des Tomcat-Servers für den Nutzer nicht sichtbar.</mrk></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Furthermore, no constant connection to the back end is required for
+modeling in the front end (except for saving, loading or dictionary
+lookups). This basically implies that the back end can be shut down
+while users are still modeling. If the Tomcat server is available again
+in time, no user will recognize it. Signavio Collaboration Hub is not accessible
+during a shut down.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Furthermore, no constant connection to the back end is required for modeling in the front end (except for saving, loading or dictionary lookups).</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">This basically implies that the back end can be shut down while users are still modeling.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">If the Tomcat server is available again in time, no user will recognize it.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">Signavio Collaboration Hub is not accessible during a shut down.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Außerdem ist für die Modellierung im Frontend keine ständige Verbindung zum Backend erforderlich (außer zum Speichern, Laden oder Nachschlagen von Glossar-Einträgen).</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Das Backend kann also prinzipiell heruntergefahren werden während Anwender modellieren.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Wird für die Phase des heruntergefahrenen Tomcat Servers nicht versucht, das Diagramm abzuspeichern und ist der Tomcat zeitnah wieder erreichbar, merkt der modellierende Endanwender nichts.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Der Collaboration Hub ist während eines Herunterfahrens nicht erreichbar.</mrk></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>HTTP or HTTPS (SSL) can be chosen for the connection between a web
+browser and the Tomcat server.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">HTTP or HTTPS (SSL) can be chosen for the connection between a web browser and the Tomcat server.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Für die Verbindung zwischen Browser und Tomcat kommt wahlweise HTTP oder HTTPS (SSL) zum Einsatz.</mrk></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>Mail server</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Mail server</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Mail-Server</mrk></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The mail server can be any server that is accessible via SMTP.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The mail server can be any server that is accessible via SMTP.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Als Mail-Server können Sie einen beliebigen SMTP-fähigen E-Mail-Server verwenden.</mrk></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>Database system</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Database system</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Datenbanksystem</mrk></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The database contains Signavio Process Manager’s user data. The data
+is stored using a UTF-8 character set. The system requirements contain
+a list of all supported database systems.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The database contains Signavio Process Manager’s user data.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The data is stored using a UTF-8 character set.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The system requirements contain a list of all supported database systems.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die Datenbank enthält Nutzerdaten des Signavio Process Managers.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die Daten werden im UTF-8 Zeichensatz abgelegt.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Unterstützte Datenbanken entnehmen Sie bitte den Systemvoraussetzungen.</mrk></target></trans-unit><trans-unit
+        id="30"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>Active Directory</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Active Directory</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Active Directory</mrk></target></trans-unit><trans-unit
+        id="31"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Signavio Collaboration Hub can be integrated with your Active
+Directory service. User and user group information stored in the Active
+Directory are used only to control read-only access to Collaboration
+Hub. Again, modeling access rights are decoupled from the Active
+Directory as they are managed from within Signavio Process Manager.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio Collaboration Hub can be integrated with your Active Directory service.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">User and user group information stored in the Active Directory are used only to control read-only access to Collaboration Hub.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Again, modeling access rights are decoupled from the Active Directory as they are managed from within Signavio Process Manager.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Für die Verwendung des Collaboration Hub wird ein Active Directory (AD) angekoppelt.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Die im AD hinterlegten Nutzer/Nutzergruppen sind ausschließlich für die Steuerung des lesenden Zugriffs im Collaboration Hub verwendbar.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Die Modellierungsnutzer sind nach wie vor vom AD entkoppelt und werden innerhalb des Signavio Process Managers verwaltet.</mrk></target></trans-unit><trans-unit
+        id="32"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>When linking to an Active Directory using <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Kerberos<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept>
+    as the authentication protocol, the Signavio server has to be installed
+on Windows 64 bit and must belong to the domain whose Active Directory
+needs to be accessed.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">When linking to an Active Directory using <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Kerberos<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/strong&gt;</ept> as the authentication protocol, the Signavio server has to be installed on Windows 64 bit and must belong to the domain whose Active Directory needs to be accessed.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Falls Sie <bpt
+              id="1">&lt;strong xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Kerberos<ept
+              id="1">&lt;/strong&gt;</ept> als Authentifizierungsprotokoll verwenden, muss der Server des Signavio Process Managers zur Kopplung an das AD unter Microsoft Windows 64 Bit installiert werden und zu der Domäne gehören, auf dessen Active Directory zugegriffen werden soll.</mrk></target></trans-unit><trans-unit
+        id="33"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>SharePoint portal</source><seg-source><mrk
+            mtype="seg"
+            mid="1">SharePoint portal</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">SharePoint Portal</mrk></target></trans-unit><trans-unit
+        id="34"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Optionally, Signavio offers a SharePoint Web Part as a WSP package.
+The package provides seamless front end integration for the read-only
+access to the SharePoint portal. The look and feel of Signavio
+Collaboration Hub can be customized easily via the Web Part.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Optionally, Signavio offers a SharePoint Web Part as a WSP package.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The package provides seamless front end integration for the read-only access to the SharePoint portal.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The look and feel of Signavio Collaboration Hub can be customized easily via the Web Part.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Signavio bietet optional ein SharePoint-Webpart in Form eines WSP-Packages an.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Dieses bietet eine nahtlose Frontend-Integration für den Lesezugriff in das SharePoint-Portal.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Das Look-and-Feel des Signavio Collaboration Hubs lässt sich direkt im Webpart komfortabel anpassen.</mrk></target></trans-unit><trans-unit
+        id="35"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>Third-party system</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Third-party system</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Drittsystem</mrk></target></trans-unit><trans-unit
+        id="36"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Third-party systems (e.g. a ticket tracking system), can be
+connected with a separately licensed API.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Third-party systems (e.g. a ticket tracking system), can be connected with a separately licensed API.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Beliebige Drittsysteme (wie zum Beispiel ein Ticket-Tracking System) können über eine REST-API eingebunden werden. API-Lizenzen müssen zusätzlich bezogen werden.</mrk></target></trans-unit><trans-unit
+        id="37"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>Signavio Workflow
+Accelerator</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio Workflow Accelerator</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Signavio Workflow Accelerator</mrk></target></trans-unit><trans-unit
+        id="38"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Signavio Workflow Accelerator is a workflow automation system that
+is required for using the “approval workflow” feature. Signavio
+provides the software to customers who purchased a corresponding
+subscription. The back end is a Java web application that has to be
+installed on a separate server. Signavio Workflow Accelerator requires
+Oracle Java 8, Apache Tomcat 7 or 8 and MongoDB 3.4 or 3.6. Refer to the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../../workflow-accelerator/adminguide/intro/intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Signavio Workflow Accelerator administrator guide
+  &lt;/MadCap:xref&gt;</ph>for more information.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio Workflow Accelerator is a workflow automation system that is required for using the “approval workflow” feature.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Signavio provides the software to customers who purchased a corresponding subscription.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The back end is a Java web application that has to be installed on a separate server.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">Signavio Workflow Accelerator requires Oracle Java 8, Apache Tomcat 7 or 8 and MongoDB 3.4 or 3.6.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">Refer to the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="../../workflow-accelerator/adminguide/intro/intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Signavio Workflow Accelerator administrator guide
+  &lt;/MadCap:xref&gt;</ph>for more information.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Signavio Workflow Accelerator ist ein Workflow-Ausführungssystem, das für die Verwendung der Funktion „Freigabe Workflow" vorausgesetzt wird.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Signavio Workflow Accelerator wird für Kunden mit einer zusätzlich kostenpflichtigen Lizenz zur Verfügung gestellt.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Das Backend ist eine Java-Webanwendung, die auf einem separaten Server installiert werden muss.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Signavio Workflow Accelerator verwendet Oracle Java 8, Apache Tomcat 7 oder 8 und als Datenbank MongoDB 3.4 oder 3.6.</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Weitere Informationen finden Sie im <ph
+              id="1">&lt;MadCap:xref href="../../workflow-accelerator/adminguide/intro/intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;
+   Signavio Workflow Accelerator administrator guide
+  &lt;/MadCap:xref&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="39"
+        restype="x-xml-h3"
+        phase-name="pretrans"><source>Signavio Workflow Accelerator
+UI</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Signavio Workflow Accelerator UI</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Signavio Workflow Accelerator UI</mrk></target></trans-unit><trans-unit
+        id="40"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The user interface of Signavio Workflow Accelerator is accessed
+through a web browser.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The user interface of Signavio Workflow Accelerator is accessed through a web browser.</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ContextMatch"
+            MadCap:matchPercent="101">Mit einem Browser wird auf die Benutzerschnittstelle von Signavio Workflow Accelerator zugegriffen.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

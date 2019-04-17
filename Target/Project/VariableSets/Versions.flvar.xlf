@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="in-progress">
+  <file
+    xml:space="preserve"
+    original="Versions.flvar"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="x-flvar"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="Versions.flvar.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">4</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>3.85</source><seg-source><mrk
+            mtype="seg"
+            mid="1">3.85</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"
+            MadCap:diff="New">3.85</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>12.13.0</source><seg-source><mrk
+            mtype="seg"
+            mid="1">12.13.0</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>12.12.0</source><seg-source><mrk
+            mtype="seg"
+            mid="1">12.12.0</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">12.12.0</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>3.85</source><seg-source><mrk
+            mtype="seg"
+            mid="1">3.85</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"
+            MadCap:diff="New">3.85</mrk></target></trans-unit></body>
+  </file>
+</xliff>

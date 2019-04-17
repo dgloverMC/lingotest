@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:onlyLocalStylesheets="True" style="mc-master-page: url('..\..\..\Resources\MasterPages\Other_Topics_SWA_AG.flmsp');" class="SWA_AG_Button" xml:space="preserve">
+    <head>
+        <link href="../../../Resources/TableStyles/Alternate-Row-Color.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../Resources/Stylesheets/Styles_HTML5.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Updating to Signavio Workflow Accelerator 3.56
+			</h1>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you use Workflow Accelerator in combination with Signavio Process
+Manager, you must update Process Manager to version 11.14. Furthermore,
+you must update the Workflow Accelerator configuration file to support
+new integration scenarios. See the following section for more
+information.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Workflow Accelerator 3.56 now supports MongoDB version 3.6.x which
+comes with improved performance and functionality. Workflow Accelerator
+still supports MongoDB 3.4.x. Therefore, an upgrade to MongoDB 3.6.x is
+not yet required.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   If you use Workflow Accelerator Script Engine to execute custom
+JavaScript tasks in your workflows you are required to update Node.js
+to version 8 LTS (Long Term Support). In November 2017, Node.js 8
+replaced Node.js 6 as the Long Term Support version. Workflow
+Accelerator 3.56 still supports Node.js 6. However, future versions
+will assume you are using Node.js 8. See the following section for more
+information.
+  </p>
+        <h2 name="updating-the-configuration-file" xmlns="http://www.w3.org/1999/xhtml">
+   Updating the configuration
+file
+  </h2>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   You only need to update the configuration file if your Workflow
+Accelerator system is integrated with Signavio Process Manager. To
+update the configuration open
+   <kbd>$TOMCAT_HOME/webapps/ROOT/WEB-INF/classes/effektif-onpremise.properties</kbd>.
+You can either update your existing configuration file or use the new
+version provided with the release and fill in your settings.
+  </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The following three entries have been renamed. You only need to
+change the part left of the
+   <kbd> = </kbd>sign.
+  </p>
+        <table class="TableStyle-Alternate-Row-Color" style="mc-table-style: url('../../../Resources/TableStyles/Alternate-Row-Color.css');" cellspacing="21" xmlns="http://www.w3.org/1999/xhtml">
+            <thead>
+                <tr class="TableStyle-Alternate-Row-Color-Head-Header1">
+                    <th class="TableStyle-Alternate-Row-Color-HeadE-Column1-Header1">
+      old name
+     </th>
+                    <th class="TableStyle-Alternate-Row-Color-HeadD-Column2-Header1">
+      new name
+     </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1"><kbd>effektif.com.<br></br>effektif.model.<br></br>service.signavio.<br></br>SignavioAuthenticationProvider<br></br>.serviceBaseUrl</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body1"><kbd>effektif.process.<br></br>manager.baseUrl</kbd>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
+                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2"><kbd>effektif.com.<br></br>effektif.model.<br></br>service.signavio.<br></br>SignavioAuthenticationProvider.<br></br>clientId</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column2-Body2"><kbd>effektif.<br></br>process.manager.<br></br>authentication.<br></br>clientId</kbd>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
+                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body1"><kbd>effektif.com.<br></br>effektif.model.<br></br>service.signavio.<br></br>SignavioAuthenticationProvider.<br></br>clientSecret.effektif</kbd>
+                    </td>
+                    <td class="TableStyle-Alternate-Row-Color-BodyA-Column2-Body1"><kbd>effektif.<br></br>process.manager.<br></br>authentication.<br></br>clientSecret</kbd>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   Furthermore, add the following new entry:</p><pre xml:space="preserve" xmlns="http://www.w3.org/1999/xhtml" madcap-space-after-export="preserve"><code class="language-sh">effektif.process.manager.authentication.jwt.secret = SHARED_SECRET_CHANGE_ME</code></pre>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+   The new value represents a secret that is used for the communication
+with Process Manager. Its value has to match the value you configured
+in Process Managers <kbd>configuration.xml</kbd>
+   for the entry <kbd>sharedJwtSecret</kbd>.
+  </p>
+        <h2 name="updating-node.js" xmlns="http://www.w3.org/1999/xhtml">
+   Updating Node.js
+</h2>
+        <p>For this version of Workflow Accelerator, update to Node.js 8.x LTS</p>
+        <MadCap:snippetBlock src="../_snippets/Updating Node.js.flsnp" />
+    </body>
+</html>

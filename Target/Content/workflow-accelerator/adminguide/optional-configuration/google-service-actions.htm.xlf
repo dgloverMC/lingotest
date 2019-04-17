@@ -1,0 +1,771 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="google-service-actions.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="de">
+    <header>
+      <skl><external-file
+          href="google-service-actions.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">56</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 10.2"
+        tool-name="Lingo"
+        tool-version="10.2.6786.30644"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Configure Google service
+actions</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configure Google service actions</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Google Aktionen konfigurieren</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To use Google actions within Workflow Accelerator you need to create
+your own OAuth 2.0 client credentials with Google to access the Google
+APIs.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To use Google actions within Workflow Accelerator you need to create your own OAuth 2.0 client credentials with Google to access the Google APIs.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Um die Google Aktionen in Workflow Accelerator zu benutzen, müssen Sie Ihre eigenen OAuth 2.0-Zungangsdaten erstellen, um Zugriff auf die Google APIs zu erhalten.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Your Workflow Accelerator system must be available on the public
+internet and the URL must end with a public top level domain.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Your Workflow Accelerator system must be available on the public internet and the URL must end with a public top level domain.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Ihr Workflow Accelerator-System muss im öffentlichen Internet verfügbar sein und die URL muss mit einer öffentlichen Top-Level-Domain enden.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Create
+OAuth 2.0 client credentials for Google services</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create OAuth 2.0 client credentials for Google services</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">OAuth 2.0-Zugangsdaten für Google Dienste erstellen</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The following Google article explains how to create OAuth 2.0 client
+credentials:
+   <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://support.google.com/googleapi/answer/6158849?hl=en&amp;amp;ref_topic=7013279" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+    https://support.google.com/googleapi/answer/6158849?hl=en&amp;ref_topic=7013279
+   <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">The following Google article explains how to create OAuth 2.0 client credentials: <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://support.google.com/googleapi/answer/6158849?hl=en&amp;amp;ref_topic=7013279" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> https://support.google.com/googleapi/answer/6158849?hl=en&amp;ref_topic=7013279 <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Der folgende Google Artikel erklärt, wie Sie OAuth 2.0-Zugangsdaten anlegen: <bpt
+              id="1"
+              ctype="link">&lt;a href="https://support.google.com/googleapi/answer/6158849?hl=en&amp;amp;ref_topic=7013279" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://support.google.com/googleapi/answer/6158849?hl=en&amp;ref_topic=7013279<ept
+              id="1">&lt;/a&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Setup a new project in
+    <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://console.developers.google.com" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>
+     https://console.developers.google.com
+    <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Setup a new project in <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://console.developers.google.com" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt> https://console.developers.google.com <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Sie müssen ein neues Projekt in <bpt
+              id="1"
+              ctype="link">&lt;a href="https://console.developers.google.com" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://console.developers.google.com<ept
+              id="1">&lt;/a&gt;</ept> anlegen</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Create OAuth client credentials
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       When asked for the application type, choose
+       <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt>web application
+       <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept><ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       For <bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt>Authorised redirect URIs<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept>
+       use the base URL you
+configured in your Workflow Accelerator configuration file and add the
+following path <ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph><bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>/api/v1/oauth_callback<ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, e.g. <bpt
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>https://workfow.example.com/api/v1/oauth_callback<ept
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. The
+redirect URI is required to successfully add new Google accounts to a
+user’s Workflow Accelerator account.
+      <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create OAuth client credentials </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> When asked for the application type, choose <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt>web application <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> For <bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em&gt;</bpt>Authorised redirect URIs<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept> use the base URL you configured in your Workflow Accelerator configuration file and add the following path <ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph><bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>/api/v1/oauth_callback<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>, e.g. <bpt
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>https://workfow.example.com/api/v1/oauth_callback<ept
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="5"> </mrk><mrk
+            mtype="seg"
+            mid="6">The redirect URI is required to successfully add new Google accounts to a user’s Workflow Accelerator account.</mrk><mrk
+            mtype="protected"
+            mid="7"> </mrk><mrk
+            mtype="seg"
+            mid="8"><ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Erstellen Sie die OAuth 2.0-Zugangsdaten</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="2">&lt;li&gt;</bpt>Wenn Sie nach dem Anwendungstyp gefragt, wählen Sie <bpt
+              id="3">&lt;em&gt;</bpt>Webanwendung<ept
+              id="3">&lt;/em&gt;</ept> aus<ept
+              id="2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="4">&lt;li&gt;</bpt>Die URL für das Feld <bpt
+              id="5">&lt;em&gt;</bpt>Autorisierte Weiterleitungs-URLs<ept
+              id="5">&lt;/em&gt;</ept> ergibt sich wie folgt: Fügen Sie zu der in Workflow Accelerator festgelegten URL den Pfad <ph
+              id="1"
+              ctype="lb">&lt;br /&gt;</ph><bpt
+              id="6">&lt;kbd&gt;</bpt>/api/v1/oauth_callback<ept
+              id="6">&lt;/kbd&gt;</ept> hinzu (z. B. <bpt
+              id="7">&lt;kbd&gt;</bpt>https://workfow.example.com/api/v1/oauth_callback<ept
+              id="7">&lt;/kbd&gt;</ept>). </mrk><mrk
+            mtype="protected"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Weiterleitungs-URL wird benötigt um einen neues Google-Konto erfolgreich zu Workflow Accelerator hinzuzufügen.</mrk><mrk
+            mtype="protected"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Activate the APIs required by Workflow Accelerator (see the
+following section for more information)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Activate the APIs required by Workflow Accelerator (see the following section for more information)</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Aktivieren Sie die APIs, die von Workflow Accelerator genutzt werden (im nächste Abschnitt finden Sie weitere Informationen)</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Update the user consent screen
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>
+       Whenever your users add their Google accounts to get access to the
+Google services in Workflow Accelerator they will see this consent
+screen
+      <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Update the user consent screen </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt> Whenever your users add their Google accounts to get access to the Google services in Workflow Accelerator they will see this consent screen <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Aktualisieren Sie den Zustimmungsbildschirm</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="1">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>Dieser Zustimmungsbildschirm wird immer angezeigt, wenn Nutzer ihr Google-Konto zu Workflow Accelerator hinzufügen wollen, um Zugriff auf die Google-APIs zu bekommen<ept
+              id="1">&lt;/li&gt;&lt;/ul&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Activate required Google
+APIs</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Activate required Google APIs</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Benötigte Google-APIs aktivieren</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Once you created the Google APIs project and setup the client
+credentials, you need to activate the Google APIs for your project
+which are used by Workflow Accelerator.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Once you created the Google APIs project and setup the client credentials, you need to activate the Google APIs for your project which are used by Workflow Accelerator.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sobald Sie das Google-API-Projekt angelegt und die Zugangsdaten erstellt haben, müssen Sie die Google-APIs für Ihr Projekt aktivieren, die Workflow Accelerator nutzt.</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Open
+    <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://console.developers.google.com/apis/dashboard" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://console.developers.google.com/apis/dashboard<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>
+    - your project’s dashboard and click
+    <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Activate APIs and services<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Open <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://console.developers.google.com/apis/dashboard" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://console.developers.google.com/apis/dashboard<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> - your project’s dashboard and click <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Activate APIs and services<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Öffnen Sie <bpt
+              id="1"
+              ctype="link">&lt;a href="https://console.developers.google.com/apis/dashboard" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://console.developers.google.com/apis/credentials<ept
+              id="1">&lt;/a&gt;</ept> - die Seite mit den Zugangsdaten für Ihr Google-API-Projekt und klicken Sie <bpt
+              id="2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Activate APIs and services<ept
+              id="2">&lt;/em&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Search for the following three APIs and activate them
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       Google Drive API
+      <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       Google Sheets API
+      <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       Google Calendar API
+      <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Search for the following three APIs and activate them </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Google Drive API <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Google Sheets API <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="5"><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Google Calendar API <ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Suchen und aktivieren Sie die folgenden drei APIs:</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="2">&lt;li&gt;</bpt> Google Drive API <ept
+              id="2">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="3">&lt;li&gt;</bpt> Google Sheets API <ept
+              id="3">&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="4">&lt;li&gt;</bpt> Google Calendar API <ept
+              id="4">&lt;/li&gt;</ept><ept
+              id="1">&lt;/ul&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Once you are finished you should see them listed on your project
+dashboard</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Once you are finished you should see them listed on your project dashboard</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sobald Sie dies getan haben, werden die aktivierten APIs auf dem Dashboard Ihres Projekts gelistet</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Download and
+install the client credentials</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Download and install the client credentials</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Herunterladen und installieren der Zugangsdaten</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Workflow Accelerator needs to be configured to use your Google
+client credentials.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Workflow Accelerator needs to be configured to use your Google client credentials.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Workflow Accelerator muss konfiguriert werden, um Ihre Google-Zugangsdaten zu verwenden.</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Open
+<bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://console.developers.google.com/apis/credentials" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://console.developers.google.com/apis/credentials<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>
+    - your Google APIs project’s credentials page</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Open <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://console.developers.google.com/apis/credentials" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://console.developers.google.com/apis/credentials<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> - your Google APIs project’s credentials page</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Öffnen Sie <bpt
+              id="1"
+              ctype="link">&lt;a href="https://console.developers.google.com/apis/credentials" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://console.developers.google.com/apis/credentials<ept
+              id="1">&lt;/a&gt;</ept> - die Seite mit den Zugangsdaten für Ihr Google-API-Projekt</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>You should see your previously created OAuth 2.0 credentials for
+Workflow Accelerator listed there</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You should see your previously created OAuth 2.0 credentials for Workflow Accelerator listed there</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Dort sollten Sie die bereits zuvor erstellen OAuth-2.0-Zugangsdaten für Workflow Accelerator sehen</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Next to the entry click
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Download JSON<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Next to the entry click <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>Download JSON<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/em&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Klicken Sie auf der rechten Seite des Eintrags auf <bpt
+              id="1">&lt;em xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>JSON herunterladen<ept
+              id="1">&lt;/em&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>The downloaded file has a long name which includes a dynamic part.
+If you like you can rename it to something shorter, e.g.<ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>google_client_credentials.json<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>
+       For the rest of this guide we will assume the file is called
+<bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>google_client_credentials.json<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>. Please adjust any
+following examples to your chosen filename.
+      <ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">The downloaded file has a long name which includes a dynamic part.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If you like you can rename it to something shorter, e.g.<ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>google_client_credentials.json<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt> For the rest of this guide we will assume the file is called <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>google_client_credentials.json<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="5"> </mrk><mrk
+            mtype="seg"
+            mid="6">Please adjust any following examples to your chosen filename.</mrk><mrk
+            mtype="protected"
+            mid="7"> </mrk><mrk
+            mtype="seg"
+            mid="8"><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die heruntergeladene Datei hat einen langen Namen, der dynamische Teile enthält.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Sie können die Datei gerne umbenennen und einen kürzeren Namen verwenden, z. B. <ph
+              id="1"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="1">&lt;kbd xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>google_client_credentials.json<ept
+              id="1">&lt;/kbd&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>Die weiteren Instruktionen dieser Anleitung werden den Namen <bpt
+              id="4">&lt;kbd&gt;</bpt>google_client_credentials.json<ept
+              id="4">&lt;/kbd&gt;</ept> verwenden.</mrk><mrk
+            mtype="protected"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Passen Sie bitte alle folgenden Beispiel entsprechend des von Ihnen gewählten Dateinamens an.</mrk><mrk
+            mtype="protected"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Upload the JSON file to the Workflow Accelerator server</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Upload the JSON file to the Workflow Accelerator server</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Laden Sie die JSON-Datei auf Ihren Workflow Accelerator-Server hoch</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>The file must be accessible by the Tomcat server as it will be
+loaded on startup of the application
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>
+       You can use for instance the Tomcat
+<bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>conf<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+       directory
+      <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">The file must be accessible by the Tomcat server as it will be loaded on startup of the application </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt> You can use for instance the Tomcat <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>conf<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> directory <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Der Tomcat-Server muss Zugriff auf die Datei haben, da diese beim Start des Servers geladen wird</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="1">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;li&gt;</bpt>Sie können z. B. das Tomcat <bpt
+              id="3">&lt;kbd&gt;</bpt>conf<ept
+              id="3">&lt;/kbd&gt;</ept>-Verzeichnis benutzen<ept
+              id="1">&lt;/li&gt;&lt;/ul&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Add the absolute path of the JSON file to the Workflow Accelerator
+configuration file
+    <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       In
+<bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>effektif-onpremise.properties<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept>
+       add the entry
+<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;effektif.google.secrets.location = /path/to/google_client_credentials.json&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;</ept><bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt>
+       Replace the value with the absolute path to your JSON file
+      <ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Add the absolute path of the JSON file to the Workflow Accelerator configuration file </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;ul xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="3"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> In <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;kbd&gt;</bpt>effektif-onpremise.properties<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/kbd&gt;</ept> add the entry <ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;effektif.google.secrets.location = /path/to/google_client_credentials.json&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"><bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;li&gt;</bpt> Replace the value with the absolute path to your JSON file <ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/li&gt;</ept><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/ul&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Fügen Sie den absoluten Pfad zu der JSON-Datei zu Ihrer Workflow Accelerator Konfigurationsdatei hinzu</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="2">&lt;li&gt;</bpt>Fügen Sie in der Konfigurationsdatei <bpt
+              id="3">&lt;kbd&gt;</bpt>effektif-onpremise.properties<ept
+              id="3">&lt;/kbd&gt;</ept> den folgenden  Eintrag hinzu:<ept
+              id="2">&lt;pre xml:space="preserve" madcap-space-after-export="preserve"&gt;&lt;code class="language-sh"&gt;effektif.google.secrets.location = /path/to/google_client_credentials.json&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;</ept></mrk><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="5">&lt;li&gt;</bpt>Ersetzen Sie den Wert des Eintrags mit dem absoluten Pfad zu Ihrer JSON-Datei<ept
+              id="5">&lt;/li&gt;</ept><ept
+              id="1">&lt;/ul&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-li"
+        phase-name="pretrans"><source>Restart Tomcat</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Restart Tomcat</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Starten Sie Tomcat neu</mrk></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>When you open the workflow editor, you should now be able to add
+Google actions to your workflows and your Google accounts in the
+actions configuration.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">When you open the workflow editor, you should now be able to add Google actions to your workflows and your Google accounts in the actions configuration.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Wenn Sie den Workflow Editor öffnen, sollten Sie nun in der Lage sein Google Aktionen zu Ihren Workflows hinzuzufügen und Ihre Google-Konten in der Aktionskonfiguration zu nutzen.</mrk></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Apply for application
+verification</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Apply for application verification</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Die Anwendung verifizieren lassen</mrk></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The Google integration accesses sensitive data like files in Google
+Drive and calendars. Google introduced a verification mechanism for
+applications that use OAuth to access sensitive data. Unverified apps
+will have stricter quota limits for API calls and users will be warned
+when granting access to an unverified application.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Google integration accesses sensitive data like files in Google Drive and calendars.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Google introduced a verification mechanism for applications that use OAuth to access sensitive data.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Unverified apps will have stricter quota limits for API calls and users will be warned when granting access to an unverified application.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Die Google-Integration greift auf sensible Nutzerdaten zu wie z. B. Dateien in Google Drive und Google Calendars.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Google hat einen Verifizierungsmechanismus für Anwedungen eingeführt, die OAuth benutzen um Zugriff auf sensible Nutzerdaten zu erlangen.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Nicht verifizierte Anwendungen unterliegen strikteren Quoten bei den Zugriffen auf die Google API und Nutzer werden zusätzlich darüber informiert, dass sie einer nicht verifizierten Anwendung Zugriff auf ihre Daten gewähren.</mrk></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The following article gives more information about applications that
+need verification and the verification process itself:<ph
+            id="1"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://support.google.com/cloud/answer/7454865?hl=en" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://support.google.com/cloud/answer/7454865?hl=en<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">The following article gives more information about applications that need verification and the verification process itself:<ph
+              id="1"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://support.google.com/cloud/answer/7454865?hl=en" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://support.google.com/cloud/answer/7454865?hl=en<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Der folgende Artikel enthält mehr Informationen über Anwendungen für die eine Verfizierung benötigt wird, sowie den Verifizierungsprozess: <ph
+              id="1"
+              ctype="lb">&lt;br xmlns="http://www.w3.org/1999/xhtml" /&gt;</ph><bpt
+              id="1"
+              ctype="link">&lt;a href="https://support.google.com/cloud/answer/7454865?hl=en" xmlns="http://www.w3.org/1999/xhtml"&gt;</bpt>https://support.google.com/cloud/answer/7454865?hl=en<ept
+              id="1">&lt;/a&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Please read the article and check whether your Google APIs project
+(application) needs to be verified.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Please read the article and check whether your Google APIs project (application) needs to be verified.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Lesen Sie den Artikel und prüfen Sie ob für Ihre Google-Anwendung (Projekt) eine Verifizierung notwendig ist.</mrk></target></trans-unit></body>
+  </file>
+</xliff>
